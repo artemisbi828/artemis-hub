@@ -1,0 +1,8 @@
+- add element
+	- add mode (eg multi-select)
+	- add filtering (by location on tablet)
+	- add dictionary ("i" button)
+- set default (bookmark)
+- add button
+- change visibility
+- bug fix
