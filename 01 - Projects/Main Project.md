@@ -1,13 +1,16 @@
+1. decide precise requirements to call tax-client
+	- meet pre-reqs to confidently call
+2. optimize note flow -- too much junk again --> [[01 - Projects/readme|readme]]
+	- more skilled w obsidian -- keeping notes atomic; linked
 
-- simplify thinking; smaller; more outputs; 
-- simplify notetaking
 - use obsidian as my crm for moving projects atomically
 - keep is mobile but → to `obsidian.hub` or `obsidian.project`
 
+### New Tools
+- #powershell "a" -ceq "b"
 
 #quick-paste-merge-later 
 ```
-
   problem statement
   problem type; subtype; bi request types. 
      areas of business. problem areas. 

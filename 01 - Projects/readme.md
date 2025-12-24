@@ -1,3 +1,15 @@
+- AI Responses to Digest --> obsidian-repo :: p-codebase --> after digestion ...
+	- Artemis-Hub (here)
+	- OneNote (quickref) 
+- Keep --> Artemis-Hub
+- OneNote --> Artemis-Hub (if simple and fast)
+
+| TOOL     | PURPOSE                                  |
+| -------- | ---------------------------------------- |
+| Obsidian | Hub := Main → Structured Notes (Library) |
+| Keep     | Mobile Thinking; Notes → Obsidian        |
+| OneNote  | Fast Screenshots; QuickRef; Journals     |
+
 Artemis-Hub: global fast work; keep notes small and linked
 1. this `vault` is for global thinking and common mature structures; scripts; templates; etc
 	- slowly scrub p_codebase → into here (but only core value no fluff)

@@ -1,0 +1,18 @@
+---
+syntax: sql
+fxn:
+  - extract-string
+---
+get string in between
+
+```sql
+
+declare @string sysname = 'vw_dbo_F_CONTRACT';
+select
+    @string,
+    substring(@string, 
+    -- start
+    charindex('_', @string) + 1, 
+    -- end
+    charindex('_', @string, charindex('_', @string) + 1) - charindex('_', @string) - 1);
+```

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b41ad56316387372",
+        "id": "4308d282e978477c",
         "type": "tabs",
         "children": [
           {
-            "id": "9894e826b13aeb29",
+            "id": "f67f5aaf900cb0e7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "04 - Tools/Tech Stack.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Tech Stack"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "flask",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 232.5
   },
   "right": {
     "id": "97a1c5e6364d74b8",
@@ -137,20 +141,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "followCursor": false,
+                "file": "04 - Tools/Tech Stack.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Tech Stack"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 334.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,34 +168,36 @@
       "bases:Create new base": false
     }
   },
-  "active": "5d25722477473757",
+  "active": "f67f5aaf900cb0e7",
   "lastOpenFiles": [
-    "New folder",
+    "05 - Dictionary/Flask.md",
+    "04 - Tools/Tech Stack.md",
+    "04 - Tools/WIN Alt Codes.md",
+    "04 - Tools/Terminal Linux.md",
+    "04 - Tools/🔌 Ports.md",
     "01 - Projects/readme.md",
-    "99 - Doc Lake/Person Name Clean Logic.md",
-    "98 - Scripts/PS.SqlServerModule.md",
-    "98 - Scripts/PS.Move Markdown Files.md",
-    "98 - Scripts/OFX - Scan 1 Range.md",
-    "98 - Scripts/OFX - Scan All Tables.md",
-    "02 - Reference/Project Planing.md",
-    "02 - Reference/Prompt Engineering (AI).md",
-    "02 - Reference/readme.md",
     "01 - Projects/Main Project.md",
-    "04 - Tools/💠Obsidian.md",
-    "03 - Templates/readme.md",
-    "01 - Projects/Main Projects.md",
-    "03 - Templates/slideSMS.md",
-    "03 - Templates/dashboards.md",
     "01 - Projects/Social Flowchart.md",
-    "01 - Projects/Zouk.md",
-    "02 - Reference/Business Function Tree.md",
-    "02 - Reference/Business Type.md",
-    "02 - Reference/Features List.md",
-    "02 - Reference/Pain-Point → Solutions.md",
-    "02 - Reference/Offboard.md",
-    "slideSMS samples.md",
-    "99 - Doc Lake/I need better visibility -or- compliance.md",
-    "02 - Reference/Engagement Type.md",
+    "01 - Projects/Tax-Firm-Support.md",
+    "04 - Tools/Cron.md",
+    "04 - Tools/💠Obsidian.md",
+    "04 - Tools/Sublime.md",
+    "04 - Tools/🚀 Git.md",
+    "02 - Reference/Testing Harness.md",
+    "02 - Reference/Solid + Dry Principls.md",
+    "05 - Dictionary/Team Member.md",
+    "02 - Reference/BI Request Types.md",
+    "2025-12-24 0959AM.md",
+    "98 - Scripts/PS - Directory Map Json.md",
+    "98 - Scripts/PS - Clean Filenames.md",
+    "98 - Scripts/Proc-Track-Back or Forward.md",
+    "98 - Scripts/PS - Directory Tree.md",
+    "98 - Scripts/PS - Find Files Contains.md",
+    "98 - Scripts/PS - Get File Counts.md",
+    "98 - Scripts/PS - Move Markdown Files.md",
+    "98 - Scripts/OFX - Scan 1 Range.md",
+    "05 - Dictionary",
+    "New folder",
     "06 - Contacts",
     "05 - Vendors",
     "98 - Scripts",
@@ -198,8 +205,6 @@
     "01 - Projects",
     "99 - Doc Lake",
     "03 - Templates",
-    "lexicon",
-    "02 - Reference",
-    "solutions-custom"
+    "lexicon"
   ]
 }
