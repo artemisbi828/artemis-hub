@@ -1,5 +1,8 @@
 ---
 syntax: powershell
+aliases:
+  - Powershell
+  - PS
 ---
 # Current
 
@@ -14,6 +17,21 @@ syntax: powershell
 # Basics
 ## Folders
 
+### Get Folders & Files
+```powershell
+#filter to find only the files we need
+Get-ChildItem -Recurse -File -Filter "*SD*" # -- can alias Get-ChildItem → dir
+
+# goes through every thing inside, then passes through to select-object to just give the path
+Get-ChildItem -Recurse -File | Select-String -Pattern "tree" | Select-Object -Unique Path
+```
+
+### Create Blank File
+```dos
+# creates a blank file
+type nul > Context.sublime-menu
+
+```
 
 ```powershell
 

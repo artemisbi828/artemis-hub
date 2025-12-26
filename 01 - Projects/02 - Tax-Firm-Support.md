@@ -1,3 +1,25 @@
+1. decide precise requirements to call tax-client
+	- meet pre-reqs to confidently call
+
+# Schedule
+- **Tue**-**Thur**-Sat-Sun: 2hrs night (05PM-07PM)
+- Mon-**Tue**-Wed-**Thur**: 2hrs day (10AM-11AM, 01PM-02PM)
+- No Work Friday
+- 4 days, 4 hrs
+
+
+```
+day job is dashboards for finance. 
+i also do consulting + full stack developer but client passed away. 
+
+built a custom call work queue. call log app and dashboards. cost $6K when done w his custom logic. but I have an out-of-the-box solution for $2K. 
+
+he also has an apptms dashboard. see his trends and optimize his schedule. 
+
+$20K total bc the data and business logic had to be built from scratch. but if your team can fill data in the template. you can have a dash to see yoy performance. sms text to you / leaders. bi-alarms. $200 setup. 
+```
+
+
 ## 📞 Call Prep: Tax Firm Pain Points & Your Value Props
 
 | **Pain Point**                                                             | **Business Impact / Hidden Cost**                                                                                                                                       | **Your Value Proposition (What you fix)**                                                                                                                                                                |

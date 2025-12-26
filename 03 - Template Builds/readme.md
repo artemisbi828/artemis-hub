@@ -12,7 +12,7 @@ Forms
 	- [[call-work-queue]] -- user works list, logs as CRM
 	- logger-form
 
-[[Dashboards]]
+[[dashboards]]
 
 Data Bots
 * robust error-logging to notify immediate issues or use of my tools

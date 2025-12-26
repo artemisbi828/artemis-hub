@@ -33,5 +33,5 @@ Ctrl + drag-drop into doc: create a link instantly
 |                        | `![](image.png)`             | Embed an image                                                                                                                                                                    |
 |                        |                              |                                                                                                                                                                                   |
 
-https://www.youtube.com/watch?v=d8fXEhWy_rY (From Sergio) #todo 
+https://www.youtube.com/watch?v=d8fXEhWy_rY (From Sergio) #status/todo 
 

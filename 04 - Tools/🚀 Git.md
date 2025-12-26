@@ -23,6 +23,25 @@ git pull origin main
 git fetch -p #prune deleted remote branches (keeps local list clean)
 ```
 
+## Sync Local to Remote
+Renamed master to main
+```bash
+#rename from master → main
+git branch -m master main
+
+# Refresh your local list of remote branches
+git fetch origin
+
+# Link your local 'main' to the remote 'origin/main'
+git branch -u origin/main main
+
+git pull
+
+# if you get this error from running git fetch origin
+# git: 'credential-manager-core' is not a git command. See 'git --help'.
+# run this
+git config --global credential.helper manager
+```
 
 ## Oops Commands
 ```shell

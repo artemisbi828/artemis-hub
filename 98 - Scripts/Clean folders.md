@@ -1,4 +1,4 @@
-#todo 
+#status/todo 
 
 ```
 -- starting point to write a ps script to conform obsidian folders

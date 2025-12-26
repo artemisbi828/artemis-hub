@@ -1,5 +1,7 @@
 {
   "interfaceFontFamily": "",
   "textFontFamily": "Consolas",
-  "baseFontSize": 11
+  "baseFontSize": 11,
+  "cssTheme": "",
+  "theme": "obsidian"
 }
