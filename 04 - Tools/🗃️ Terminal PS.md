@@ -23,7 +23,21 @@ aliases:
 Get-ChildItem -Recurse -File -Filter "*SD*" # -- can alias Get-ChildItem → dir
 
 # goes through every thing inside, then passes through to select-object to just give the path
+Get-ChildItem -Recurse -File -Filter "*tree*" | Select-Object -Unique FullName
 Get-ChildItem -Recurse -File | Select-String -Pattern "tree" | Select-Object -Unique Path
+
+# case insensitive 
+Get-ChildItem -Recurse -File |
+    Where-Object { $_.Name -like "*tree*" } |
+    Select-Object -Unique FullName
+
+# case sensitive
+Get-ChildItem -Recurse -File |
+    Where-Object { $_.Name -clike "*tree*" } |
+    Select-Object -Unique FullName
+    
+# move object
+Copy-Item "c:\vsWorkspace_SD\sql_scans\input.txt" "c:\vsWorkspace_SD\sql_scans\sql-scraper-v2\input.txt"
 ```
 
 ### Create Blank File
@@ -31,6 +45,13 @@ Get-ChildItem -Recurse -File | Select-String -Pattern "tree" | Select-Object -Un
 # creates a blank file
 type nul > Context.sublime-menu
 
+```
+
+
+# Output and Read
+```shell
+python sql_normalizer.py --input input.txt --output 20251231-1620-QRY2.md 2>&1 | Out-Null ; 
+Select-String -Path 20251231-1620-QRY2.md -Pattern "^\| 9a " | Select-Object -First 5
 ```
 
 ```powershell
@@ -168,4 +189,12 @@ if (-not (Test-Path $d)) { New-Item -Path $d -ItemType Directory | Out-Null }
 
 $sub = Join-Path $PWD 'SlideSMS'; if (-not (Test-Path $sub)) { New-Item $sub -ItemType Directory | Out-Null; "Created $sub" } else { "Already exists: $sub" }
 
+```
+
+
+# VENV
+```shell
+
+# to exit
+deactivate
 ```

@@ -1,8 +1,18 @@
 # Projects
-1. SD: Maintain MVP + Reduce 4HR --> 30MIN; 2HR --> 5MIN
-	1. Reports List; Measures List
-	2. DL from Documents.Work `movetosd_work.xlsx`
-2. $2K/M
+1. SD: Maintain MVP 
+	1. Praveen
+		1. 
+2. Reduce 4HR --> 30MIN; 2HR --> 5MIN
+	1. Treat SD as client
+		1. we need a logger (Obsidian)
+		2. we need to be able to have AI crawl and answer questions for me
+			1. Reports List
+			2. Measures List
+		3. create my dashboard and data files cleaned up
+		4. faster object trackback
+		5. save atomic source queries
+
+3. $2K/M
 	1. Tax-Firm-Support
 		1. Pitch
 		2. Resume Cleanup
@@ -10,7 +20,7 @@
 	2. Create WeWork; UpWork
 		1. [Toptal](https://www.toptal.com/screening_wizard)
 		2. [WeWorkRemote](https://weworkremotely.com/categories/remote-devops-sysadmin-jobs#)
-3. Zouk -- Recorded KPI
+4. Zouk -- Recorded KPI
 	1. Cleaner Understanding
 
 # KPI

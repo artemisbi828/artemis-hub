@@ -1,7 +1,7 @@
 ---
 domain: Pain Points
 ---
-asdf
+Explicits vs Implicits -- don't mask implicit as an explicit
 
 | **Pain Point**                 | **Orthodontics Opportunity**                                       | **Tax Accounting Opportunity**                                                |
 | ------------------------------ | ------------------------------------------------------------------ | ----------------------------------------------------------------------------- |

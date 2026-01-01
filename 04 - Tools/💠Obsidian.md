@@ -1,16 +1,21 @@
-1. use aliases + [[🧱 YAML Formatter]] more
+1. use aliases + [[🧱 YAML Formatter]] more --> (Ctrl + ;)
 2. use `code` feature
 3. crm → `06 - Contacts`
 4. use outline view and track-back, track-forward
+
+
+- [log :: 2025-12-26 04:15PM] -- digest this [[2025-12-26 0416PM]]
+
 
 link parent to child → (M) parents
 link child to parent → (1) parent
 have both links? → M:M
 
 ## Keybinding 
-
-`Alt+Up, Alt+Down` -- line up; line down
-`Ctrl + Shift + [` -- Cold Folding
+- `Alt+Up, Alt+Down` -- line up; line down
+- `Ctrl + Shift + [` -- Cold Folding
+- Alt 3 / 4 -- Navigate back / forward
+- Replace -- `Ctrl + T` (New Tab) → Insert Table
 
 | Ctrl + D        | Delete                                             |
 | --------------- | -------------------------------------------------- |
