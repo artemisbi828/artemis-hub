@@ -1,3 +1,5 @@
+#stages
+
 Prospect → Consult → Contract → Fulfillment → [[Offboard]]
 
 S^0 → S^1 

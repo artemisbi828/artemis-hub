@@ -1,3 +1,5 @@
+TARGET: +$2K/month from multiple firms
+
 1. decide precise requirements to call tax-client
 	- meet pre-reqs to confidently call
 
@@ -19,6 +21,8 @@ he also has an apptms dashboard. see his trends and optimize his schedule.
 $20K total bc the data and business logic had to be built from scratch. but if your team can fill data in the template. you can have a dash to see yoy performance. sms text to you / leaders. bi-alarms. $200 setup. 
 ```
 
+SOLUTION
+$25-$35/month. 250 docs.
 
 ## 📞 Call Prep: Tax Firm Pain Points & Your Value Props
 

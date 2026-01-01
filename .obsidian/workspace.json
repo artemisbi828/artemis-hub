@@ -4,35 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "4308d282e978477c",
+        "id": "6f3ec02a782026c0",
         "type": "tabs",
         "children": [
           {
-            "id": "f67f5aaf900cb0e7",
+            "id": "23b44861fdf6b661",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Projects/Zouk-Arc.md",
+                "file": "2025-12-26 0416PM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zouk-Arc"
+              "title": "2025-12-26 0416PM"
             }
           },
           {
-            "id": "ac1f171b87efbe48",
+            "id": "a3ad756ecf4c79e7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 - Reference/BI Request Types.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "BI Request Types"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -68,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#powershell",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,12 +123,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "reference/service cycles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from service cycles"
+              "title": "Outgoing links"
             }
           },
           {
@@ -156,7 +151,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "98 - Scripts/PS.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -166,7 +160,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -184,24 +178,32 @@
       "bases:Create new base": false
     }
   },
-  "active": "ac1f171b87efbe48",
+  "active": "f67f5aaf900cb0e7",
   "lastOpenFiles": [
-    "98 - Scripts/PS.md",
-    "Untitled.md",
-    "04 - Tools/🗃️ Terminal PS.md",
-    "01 - Projects/Zouk-Arc.md",
-    "01 - Projects/02 - Tax-Firm-Support.md",
     "01 - Projects/Job Search.md",
     "2025-12-24.md",
     "slideSMS samples.md",
     "MSFT Entra ID Authentication.md",
     "Directory.md",
     "intake-form.md",
-    "Test.md",
+    "04 - Tools/REGEX.md",
+    "RedGate.md",
+    "04 - Tools/Docker vs VENV.md",
+    "04 - Tools/🧱 YAML Formatter.md",
+    "02 - Reference/PMO Methodologies.md",
+    "98 - Scripts/PS - SqlServerModule.md",
+    "05 - Dictionary/Scaffold.md",
+    "02 - Reference/Data Roles.md",
+    "02 - Reference/BI Request Types.md",
+    "01 - Projects/00 - Ideas.md",
     "SUBSTRING.md",
-    "01 - Projects/00 - Over-Arc.md",
-    "01 - Projects/01 - Accelerate.md",
+    "Speed Test.md",
+    "MSFT Entra ID Authentication.md",
+    "2025-12-24.md",
+    "01 - Projects/Social-Arc.md",
     "01 - Projects/Move to SD Work.md",
+    "01 - Projects/02 - Tax-Firm-Support.md",
+    "01 - Projects/Zouk-Arc.md",
     "01 - Projects/Social-Arc.md",
     "97 - Templates/Project Template.md",
     "97 - Templates/Daily Note Template.md",
@@ -210,8 +212,11 @@
     "99 - Doc Lake/I need more clients.md",
     "02 - Reference/BI Request Types.md",
     "99 - Doc Lake/I need to make more from each client.md",
+    "04 - Tools/🗃️ Terminal PS.md",
     "99 - Doc Lake/poor-data-entry.md",
     "04 - Tools/SqlAlchemy.md",
+    "04 - Tools/M365 Identity.md",
+    "97 - Templates/readme.md",
     "97 - Templates",
     "05 - Dictionary",
     "New folder",
