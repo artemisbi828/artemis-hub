@@ -15,6 +15,8 @@ aliases:
 ```
 
 # Basics
+- Blue is 5 (Native); Black is 7 (Current)
+- Terminal > Tab > Settings > Default Open
 ## Folders
 
 ### Get Folders & Files
@@ -37,8 +39,13 @@ type nul > Context.sublime-menu
 
 # get folders
 dir # alias: dir → Get-ChildItem
+dir | Select-String "imm"
+
 cd filename # alias: cd → Get-Item (ps defined)
 cd ..
+
+Remove-Item .env
+
 
 Get-ChildItem -Path C:\path -File     # files only
 Get-ChildItem -Path . -Directory      # folders only
