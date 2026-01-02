@@ -13,26 +13,170 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-12-26 0416PM.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-26 0416PM"
+              "title": "Untitled"
             }
           },
           {
-            "id": "a3ad756ecf4c79e7",
+            "id": "5ad85f7725a25a6f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "SQL - Extract String (Middle).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL - Extract String (Middle)"
+            }
+          },
+          {
+            "id": "66e3ada79c2911ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL - Get Mode (Math).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL - Get Mode (Math)"
+            }
+          },
+          {
+            "id": "99f2ba22fce79ed3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL - Extract String (Middle).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL - Extract String (Middle)"
+            }
+          },
+          {
+            "id": "6376a72c5a718a97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "slideSMS samples.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "slideSMS samples"
+            }
+          },
+          {
+            "id": "fe23b5e3e0956802",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL - Get Beginning of Week.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL - Get Beginning of Week"
+            }
+          },
+          {
+            "id": "ab4f4fffe73a74b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL - Add Brackets to Objects.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL - Add Brackets to Objects"
+            }
+          },
+          {
+            "id": "dedb7d991683dd69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL - Add Brackets to Objects.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL - Add Brackets to Objects"
+            }
+          },
+          {
+            "id": "07c030efc3dbe769",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XLS - Shortcuts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "XLS - Shortcuts"
+            }
+          },
+          {
+            "id": "93b06358624e4e05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MSFT Entra ID Authentication.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MSFT Entra ID Authentication"
+            }
+          },
+          {
+            "id": "a54bbaa91eaad348",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Directory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Directory"
+            }
+          },
+          {
+            "id": "6c4ff654afc539b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian Notetaking.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Obsidian Notetaking"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -64,7 +208,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#powershell",
+                "query": "tag:#tags",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -151,12 +295,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "followCursor": true,
-                "showSearch": false,
+                "file": "XLS - Shortcuts.md",
+                "followCursor": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PS"
+              "title": "Outline of XLS - Shortcuts"
             }
           }
         ],
@@ -164,8 +309,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 388.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,45 +322,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "f67f5aaf900cb0e7",
+  "active": "07c030efc3dbe769",
   "lastOpenFiles": [
-    "01 - Projects/Job Search.md",
-    "2025-12-24.md",
+    "SQL - Add Brackets to Objects.md",
+    "XLS - Shortcuts.md",
     "slideSMS samples.md",
-    "MSFT Entra ID Authentication.md",
+    "SQL - Extract String (Middle).md",
+    "SQL - .MOC.md",
+    "SQL - Resort.md",
+    "SQL - Get Beginning of Week.md",
+    "SSMS -.md",
+    "SQL - Get Mode (Math).md",
+    "Untitled.md",
+    "Obsidian Notetaking.md",
     "Directory.md",
-    "intake-form.md",
-    "04 - Tools/REGEX.md",
-    "RedGate.md",
-    "04 - Tools/Docker vs VENV.md",
-    "04 - Tools/🧱 YAML Formatter.md",
-    "02 - Reference/PMO Methodologies.md",
-    "98 - Scripts/PS - SqlServerModule.md",
-    "05 - Dictionary/Scaffold.md",
-    "02 - Reference/Data Roles.md",
-    "02 - Reference/BI Request Types.md",
-    "01 - Projects/00 - Ideas.md",
-    "SUBSTRING.md",
-    "Speed Test.md",
+    "04 - Tools/Speed Test.md",
+    "PS Learning.md",
+    "04 - Tools/RedGate.md",
+    "Obsidian vs OneNote - Clipboard Paste Image.md",
     "MSFT Entra ID Authentication.md",
-    "2025-12-24.md",
-    "01 - Projects/Social-Arc.md",
-    "01 - Projects/Move to SD Work.md",
-    "01 - Projects/02 - Tax-Firm-Support.md",
-    "01 - Projects/Zouk-Arc.md",
-    "01 - Projects/Social-Arc.md",
+    "97 - Templates/Daily Notes.md",
+    "intake-form.md",
+    "Good vs Bad Examples.md",
+    "2026-01-01.md",
+    "changelog.txt.md",
     "97 - Templates/Project Template.md",
-    "97 - Templates/Daily Note Template.md",
-    "04 - Tools/💠Obsidian.md",
-    "98 - Scripts/Clean folders.md",
-    "99 - Doc Lake/I need more clients.md",
-    "02 - Reference/BI Request Types.md",
-    "99 - Doc Lake/I need to make more from each client.md",
-    "04 - Tools/🗃️ Terminal PS.md",
-    "99 - Doc Lake/poor-data-entry.md",
-    "04 - Tools/SqlAlchemy.md",
-    "04 - Tools/M365 Identity.md",
-    "97 - Templates/readme.md",
+    "97 - Templates/Project Complete.md",
+    "01 - Projects/00 - Ideas.md",
+    "01 - Projects/00 - Over-Arc.md",
     "97 - Templates",
     "05 - Dictionary",
     "New folder",

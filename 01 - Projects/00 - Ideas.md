@@ -1,2 +1,7 @@
-Local script on reset or periodic where I sync my obsidian to git? 
-Consolidate obsidian so -- `personal :: work` are in sync
+Valence Enhancements
+- OneNote -- quickRef? 
+- use Obsidian
+
+Closing Protocol
+- Local script when closing that syncs my obsidian to git? 
+
