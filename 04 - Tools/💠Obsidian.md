@@ -2,9 +2,12 @@
 2. use `code` feature
 3. crm → `06 - Contacts`
 4. use outline view and track-back, track-forward
+5. `> [!TIP]`
+6. `[[Ref|Custom`
+7. `Alt + 24, Alt + 25, Alt + 27` --> `↑ ↓ ←`
 
 
-- [log :: 2025-12-26 04:15PM] -- digest this [[2025-12-26 0416PM]]
+- [log :: 2025-12-26 04:15PM] -- digest this [2025-12-26 0416PM]
 
 
 link parent to child → (M) parents
@@ -13,15 +16,18 @@ have both links? → M:M
 
 ## Keybinding 
 - `Alt+Up, Alt+Down` -- line up; line down
-- `Ctrl + Shift + [` -- Cold Folding
+- `Alt + Shift {Up, Down}` → Add Cursor {Up, Down}
+- `Ctrl + Shift + [` -- Toggle {On, Off} Cold Folding
 - Alt 3 / 4 -- Navigate back / forward
 - Replace -- `Ctrl + T` (New Tab) → Insert Table
 
+
 | Ctrl + D        | Delete                                             |
 | --------------- | -------------------------------------------------- |
-| Alt + LeftClick | Multi-Select (cant' Ctrl+Alt+Up b/c of Autohotkey) |
 | Ctrl + H        | Find and replace, \n\n+ --> \n                     |
 | Ctrl + ?; + B   | Comment Line; Bold                                 |
+| Alt + LeftClick | Multi-Select (cant' Ctrl+Alt+Up b/c of Autohotkey) |
+
 Ctrl + drag-drop into doc: create a link instantly
 
 | **Feature**            | **Syntax**                   | **Explanation**                                                                                                                                                                   |

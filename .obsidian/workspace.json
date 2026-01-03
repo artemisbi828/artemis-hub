@@ -4,179 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "6f3ec02a782026c0",
+        "id": "7a170decb2ba8ee5",
         "type": "tabs",
         "children": [
           {
-            "id": "23b44861fdf6b661",
+            "id": "ed842c652daee0f6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "5ad85f7725a25a6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL - Extract String (Middle).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SQL - Extract String (Middle)"
-            }
-          },
-          {
-            "id": "66e3ada79c2911ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL - Get Mode (Math).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SQL - Get Mode (Math)"
-            }
-          },
-          {
-            "id": "99f2ba22fce79ed3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL - Extract String (Middle).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SQL - Extract String (Middle)"
-            }
-          },
-          {
-            "id": "6376a72c5a718a97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "slideSMS samples.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "slideSMS samples"
-            }
-          },
-          {
-            "id": "fe23b5e3e0956802",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL - Get Beginning of Week.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SQL - Get Beginning of Week"
-            }
-          },
-          {
-            "id": "ab4f4fffe73a74b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL - Add Brackets to Objects.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SQL - Add Brackets to Objects"
-            }
-          },
-          {
-            "id": "dedb7d991683dd69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL - Add Brackets to Objects.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SQL - Add Brackets to Objects"
-            }
-          },
-          {
-            "id": "07c030efc3dbe769",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XLS - Shortcuts.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "XLS - Shortcuts"
-            }
-          },
-          {
-            "id": "93b06358624e4e05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MSFT Entra ID Authentication.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MSFT Entra ID Authentication"
-            }
-          },
-          {
-            "id": "a54bbaa91eaad348",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Directory.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Directory"
-            }
-          },
-          {
-            "id": "6c4ff654afc539b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian Notetaking.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Obsidian Notetaking"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#tags",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -322,34 +163,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "07c030efc3dbe769",
+  "active": "ed842c652daee0f6",
   "lastOpenFiles": [
-    "SQL - Add Brackets to Objects.md",
-    "XLS - Shortcuts.md",
-    "slideSMS samples.md",
-    "SQL - Extract String (Middle).md",
     "SQL - .MOC.md",
-    "SQL - Resort.md",
-    "SQL - Get Beginning of Week.md",
-    "SSMS -.md",
-    "SQL - Get Mode (Math).md",
-    "Untitled.md",
-    "Obsidian Notetaking.md",
-    "Directory.md",
-    "04 - Tools/Speed Test.md",
-    "PS Learning.md",
-    "04 - Tools/RedGate.md",
-    "Obsidian vs OneNote - Clipboard Paste Image.md",
-    "MSFT Entra ID Authentication.md",
-    "97 - Templates/Daily Notes.md",
-    "intake-form.md",
-    "Good vs Bad Examples.md",
-    "2026-01-01.md",
-    "changelog.txt.md",
-    "97 - Templates/Project Template.md",
-    "97 - Templates/Project Complete.md",
-    "01 - Projects/00 - Ideas.md",
-    "01 - Projects/00 - Over-Arc.md",
+    "SQL - Identity.md",
+    "SQL - Select Every 1000 Rows.md",
+    "XLS - Insert 1000 Limit GO for SQL.md",
+    "SQL - Rank, DenseRank, Tile.md",
+    "SQL - Get Totals Per Group.md",
+    "SQL - Generate a List.md",
+    "SQL - Recursion.md",
+    "SQL - from(values)x(a,b).md",
+    "slideSMS samples.md",
+    "SQL - Union vs Union All.md",
+    "Concept - Modulo.md",
+    "Modulo.md",
+    "SQL - Format Numbers → 1,000.md",
+    "SQL - Get Session Context.md",
+    "SQL - Get Databases.md",
+    "SQL - Drop Schema.md",
+    "SQL - Dates Table.md",
+    "SQL - Get Tables.md",
+    "SQL - Remove Pattern from String.md",
+    "SQL - Remove All Caps.md",
+    "SQL - Get Tables and Columns.md",
+    "SQL - Rename Object (sp_rename).md",
+    "04 - Tools/💠Obsidian.md",
+    "SQL - Add Foreign Key.md",
+    "SQL - ExtProp - Get Description.md",
     "97 - Templates",
     "05 - Dictionary",
     "New folder",
