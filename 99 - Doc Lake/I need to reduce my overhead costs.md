@@ -1,3 +1,0 @@
----
-domain: Pain Points
----

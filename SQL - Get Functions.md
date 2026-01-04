@@ -1,3 +1,6 @@
+- use as part of select
+- functions can be a "table" to join to
+
 ```sql
 select
     sm.object_id,
@@ -18,3 +21,4 @@ where [o].[type] = 'FN'
 --and OBJECT_NAME(sm.object_id) like '%obs%'
 order by o.type;
 ```
+

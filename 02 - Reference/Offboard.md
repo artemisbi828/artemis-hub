@@ -1,3 +1,0 @@
-- offboard/legacy -- document delivery and storage (tax); final records and graduation ceremony (ortho)
-- advocacy/referral -- systematizing the "word of mouth" engine
-- expansion/upsell -- moving a tax client into wealth management or a braces patient into teeth whitening

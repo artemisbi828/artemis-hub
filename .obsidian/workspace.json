@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7a170decb2ba8ee5",
+        "id": "3e6b248771d5cabc",
         "type": "tabs",
         "children": [
           {
-            "id": "ed842c652daee0f6",
+            "id": "d5caf39dc3886fe5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02 - Daily/Daily Snapshot - 2026-01-04.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Daily Snapshot - 2026-01-04"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#status/todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 343.5
   },
   "right": {
     "id": "97a1c5e6364d74b8",
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "02 - Daily/Daily Snapshot - 2026-01-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Daily Snapshot - 2026-01-04"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SQL - Get Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from SQL - Get Functions"
             }
           },
           {
@@ -136,17 +142,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XLS - Shortcuts.md",
+                "file": "02 - Daily/Daily Snapshot - 2026-01-04.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of XLS - Shortcuts"
+              "title": "Outline of Daily Snapshot - 2026-01-04"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -163,43 +168,45 @@
       "bases:Create new base": false
     }
   },
-  "active": "ed842c652daee0f6",
+  "active": "d5caf39dc3886fe5",
   "lastOpenFiles": [
-    "SQL - .MOC.md",
-    "SQL - Identity.md",
-    "SQL - Select Every 1000 Rows.md",
-    "XLS - Insert 1000 Limit GO for SQL.md",
-    "SQL - Rank, DenseRank, Tile.md",
-    "SQL - Get Totals Per Group.md",
-    "SQL - Generate a List.md",
-    "SQL - Recursion.md",
-    "SQL - from(values)x(a,b).md",
-    "slideSMS samples.md",
-    "SQL - Union vs Union All.md",
-    "Concept - Modulo.md",
-    "Modulo.md",
-    "SQL - Format Numbers → 1,000.md",
-    "SQL - Get Session Context.md",
-    "SQL - Get Databases.md",
-    "SQL - Drop Schema.md",
-    "SQL - Dates Table.md",
-    "SQL - Get Tables.md",
-    "SQL - Remove Pattern from String.md",
-    "SQL - Remove All Caps.md",
-    "SQL - Get Tables and Columns.md",
-    "SQL - Rename Object (sp_rename).md",
-    "04 - Tools/💠Obsidian.md",
-    "SQL - Add Foreign Key.md",
-    "SQL - ExtProp - Get Description.md",
-    "97 - Templates",
-    "05 - Dictionary",
+    "02 - Daily/Daily Snapshot - 2026-01-01.md",
+    "02 - Daily/Daily Snapshot - 2026-01-04.md",
+    "02 - Daily",
+    "00 - Templates/Daily Notes.md",
+    "01 - Projects/Job Search.md",
+    "01 - Projects/00 - Projects.md",
+    "01 - Projects/Tax-Firm-Support.md",
+    "01 - Projects/Social-Arc.md",
+    "01 - Projects/Umbrella.md",
+    "01 - Projects/Zouk-Arc.md",
+    "00 - Templates/readme.md",
+    "99 - Digest Later/slideSMS samples.md",
+    "99 - Digest Later/PS Learning.md",
+    "01 - Projects/01 - Accelerate.md",
+    "00 - Templates/Project Complete.md",
+    "SQL - Extract String (Middle).md",
+    "SQL.md",
+    "03 - Dictionary/Pip.md",
+    "PS.md",
+    "Concepts.md",
+    "SQL - Sanitize Addresses.md",
+    "SQL - Export JSON.md",
+    "SQL - Order by Case Sensitive.md",
+    "SQL - Has or Contains.md",
+    "SQL - StringAgg.md",
+    "SQL - Concat, Concat_WS.md",
+    "SQL - Swap Out Character (Stuff).md",
+    "99 - Digest Later",
+    "02 - Reference/Untitled",
+    "99 - Attachments/Pasted image 20260103220356.png",
+    "attachments/Pasted image 20260103215822.png",
+    "99 - Attachments",
+    "00 - Templates",
+    "03 - Dictionary",
     "New folder",
     "06 - Contacts",
     "05 - Vendors",
-    "98 - Scripts",
-    "04 - Tools",
-    "01 - Projects",
-    "99 - Doc Lake",
-    "03 - Template Builds"
+    "98 - Scripts"
   ]
 }
