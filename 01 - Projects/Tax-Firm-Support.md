@@ -1,5 +1,7 @@
 TARGET: +$2K/month from multiple firms
 
+[[slideSMS samples]]
+
 1. decide precise requirements to call tax-client
 	- meet pre-reqs to confidently call
 

@@ -27,9 +27,10 @@
 [[SQL - Seconds → HHMMSS]]
 [[SQL - DateTime Format]]
 
-# Math
+# Math & Other
 [[SQL - Get Mode (Math)]]
-
+[[SQL - Resort Table]]
+[[SQL - Case When]]
 # Techniques
 [[SQL - Select Every 1000 Rows]]
 [[SQL - Generate a List]]
@@ -46,9 +47,11 @@
 [[SQL - Get Tables (Temp)]]
 [[SQL - Get Views]]
 [[SQL - Get Procs]]
+[[SQL - Get Proc Definitions]]
 [[SQL - Get Functions]]
 [[SQL - Get Triggers]]
 [[SQL - Get Foreign Keys]]
+[[SQL - Get Constraints]]
 [[SQL - Drop Schema]]
 [[SQL - Get Databases]]
 [[SQL - Get Session Context]]
@@ -61,8 +64,10 @@
 [[SQL - Add Primary Key]]
 [[SQL - Add Foreign Key]]
 [[SQL - Validate Views]]
+[[SQL - Get SQL Agent Jobs]]
 [[SQL - Backup]]
 [[SQL - RedGate]]
+[[SQL - SSMS - Maintenance]]
 # Concepts
 [[SQL - Data Types]]
 [[SQL - Join Types]]

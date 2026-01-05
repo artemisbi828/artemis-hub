@@ -1,7 +1,7 @@
 #status/todo -- 2026-01-04 04:21PM -- what is the diff from 
-- Dictionary
-- Concepts
-- Tools
+- Dictionary -- Term, Alias | Abbreviation, Definition
+- Concepts -- Background, Learning (No Action; Quickstart)
+- Tools -- Concepts + {Action, Quickstart}
 
 Valence Enhancements
 - OneNote -- quickRef? 
@@ -18,11 +18,6 @@ Closing Protocol
 [[Zouk-Arc]]
 [[Social-Arc]]
 
-
-
-# Pivots
-1. think small, atomic
-2. use #tags more
 ---
 
 
@@ -57,9 +52,6 @@ clear-strong note flow
 # Tags
 #status/active:  status in progress
 #status/todo: have to init; setup in queue
-#status/complete: complete
 
 
-#quick-paste-merge-later: low anima paste while merging notes, it's also a to-do
-#read-later-merge: have to digest, reduce, merge with an existing note for my current mental model
-#read-later-inspire: spark new ideas and possibilities
+#quick-paste-merge-later: low anima paste  → to-do → have to digest → reduce → merge

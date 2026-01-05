@@ -1,7 +1,6 @@
 ---
 syntax: powershell
 aliases:
-  - Powershell
   - PS
 ---
 
@@ -174,8 +173,6 @@ Powershell 7 (Core) → 7.x.x
 ----
 
 # Get Processes, Kill Processes
-
-#powershell
 
 | command                                              | comment                                                                           |
 | ---------------------------------------------------- | --------------------------------------------------------------------------------- |

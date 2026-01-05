@@ -10,3 +10,7 @@
 [[Types - Service Solution]]
 [[Types - Pain-Point → Solutions]]
 [[Types - Invoices]]
+
+# Stages
+[[Types - Service Stages (5)]]
+[[Types - Sales & Marketing Stages]]

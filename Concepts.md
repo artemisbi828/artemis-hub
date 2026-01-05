@@ -1,14 +1,11 @@
 [[Concepts - Project Planning]]
 [[Concepts - Prompt Engineering (AI)]]
 
-
 # Methodology
 [[Concepts - Solid + Dry]]
 [[Concepts - Modulo]]
 [[Concepts - Naming]]
 [[Concepts - Sanitize Name Logic]]
-
-[[Concepts - Datetime UTC Shift]]
 [[Concepts - Business Function Tree]]
 [[Concepts - Testing Harness]]
 [[Concepts - Scaffold]]
@@ -27,3 +24,5 @@
 [[Concepts - Software Distro vs SAAS]]
 [[Concepts - Markdown]]
 [[Concepts - NoSQL]]
+## Dates
+[[Concepts - Datetime UTC Shift]]

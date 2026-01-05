@@ -1,7 +1,6 @@
 ---
 domain:
 ---
-#deferred
 
 ## Powershell Learning
 

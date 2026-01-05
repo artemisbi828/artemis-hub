@@ -1,8 +1,5 @@
 ---
 tags:
-  - data
-  - sqlserver
-  - powershell
 syntax: powershell
 ---
 SQLPS

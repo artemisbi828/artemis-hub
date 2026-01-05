@@ -1,5 +1,6 @@
 # Setup
 [[Tools - 🗃️ Terminal PS]]
+[[Tools - Terminal Linux]]
 [[Tools - Chrome]]
 [[Tools - 💠 Obsidian]]
 - [[Tools - 🧱 YAML Formatter]]
@@ -9,11 +10,11 @@
 [[Tools - AutoHotKey]]
 
 
-
 # Basics
 [[Tools - WIN Alt Codes]]
 [[Tools - 🌟 Emojis]]
 [[Tools - REGEX]]
+[[Tools - TOML]]
 [[Tools - 🧜‍♀️Mermaid]]
 [[Tools - AI LLM Models]]
 
@@ -28,3 +29,25 @@
 [[Tools - Postman]]
 [[Tools - Docker]]
 [[Tools - Immich Photo]]
+## Front-End
+[[Flask]]
+[[Clipboard API (Uppy)]]
+
+## Back-End
+[[Azure Blob Storage with SAS]]
+[[Azure DevOps REST API]]
+[[Defender for Storage – Malware Scanning]]
+[[FastAPI with SQLite]]
+[[IIS reverse proxy]]
+[[M365 Identity]]
+[[Microsoft Graph (People Picker)]]
+[[Ngrok]]
+[[PATH]]
+[[SqlAlchemy]]
+	[[Alembic]]
+[[SingalR]]
+[[Nginx]]
+[[Cron]]
+[[MSFT Entra ID Authentication]]
+	[[Entra ID (OIDC) via MSAL]]
+[[Redit]]
