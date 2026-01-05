@@ -1,16 +1,20 @@
+# Business
 [[Concepts - Project Planning]]
 [[Concepts - Prompt Engineering (AI)]]
+[[Concepts - Vision, Mission]]
+[[Concepts - Business Function Tree]]
+[[Concepts - BI Frameworks]]
 
 # Methodology
 [[Concepts - Solid + Dry]]
 [[Concepts - Modulo]]
 [[Concepts - Naming]]
 [[Concepts - Sanitize Name Logic]]
-[[Concepts - Business Function Tree]]
+
 [[Concepts - Testing Harness]]
 [[Concepts - Scaffold]]
 [[Concepts - Casing]]
-
+[[Concepts - Features Documentation]]
 # How It Works
 [[Concepts - 💻 Shells vs Runtimes]]
 [[Concepts - Node vs C]]
@@ -26,3 +30,4 @@
 [[Concepts - NoSQL]]
 ## Dates
 [[Concepts - Datetime UTC Shift]]
+

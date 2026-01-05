@@ -67,7 +67,20 @@ increase marginal revenue per client
 			documents → office-scripts
 
 # I need to manage my cash better
+Cash / AR Management -- "strong collections with AR holding flat"; offsetting downside / upside
+• AutoPay Enlistment / AutoPay Candidate
+
+Expense / AP Management
+Dispersion of Payables -- spreading out payables over time, negotiating terms;
+FPA & Budgeting
+- Favorable vs Unfavorable Timing by Period (Recognition of Sale)
+- Qualifying Financial Events
+- Speculative Timing of Sale
+Merges & Acquisition
+- High Growth? Hold flat & maintain?
+- Value mining / Opportunity mining -- stimulus checks, cash allotment of float into financial vehicles
 # I need to reduce my overhead costs
+Inventory
 
 ---
 # I need to reduce Operational Friction

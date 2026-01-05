@@ -1,5 +1,11 @@
 [[Package Manager]] is [[Pip]]
 
+#quick-paste-merge-later 
+```
+sqlpolyglot
+sql-parse
+```
+
 That's a great question about a crucial part of managing Python projects!
 
 The `-r` in the command `pip install -r requirements.txt` stands for **requirements file**.

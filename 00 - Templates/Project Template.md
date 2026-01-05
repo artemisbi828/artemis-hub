@@ -1,11 +1,11 @@
 # Project: {{title}}
 
-| Problem Statement |                                     |
-| ----------------- | ----------------------------------- |
-| Business User(s)  | [Renee Mendoza] <-- [Shelli McNabb] |
-| BI Request Type   |                                     |
-| Deadline          |                                     |
-| Status            | #status/active                      |
+| Problem Statement |                                 |
+| ----------------- | ------------------------------- |
+| Business User(s)  | [Shelli McNabb].[Renee Mendoza] |
+| BI Request Type   |                                 |
+| Deadline          |                                 |
+| Status            | #status/active                  |
 Atomic Examples
 Acceptance Requirement
 
@@ -21,3 +21,5 @@ Assets
 
 ## 📅 Timeline
 - [ ] Phase 1:
+
+

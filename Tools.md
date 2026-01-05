@@ -8,7 +8,7 @@
 - [[Tools - Obsidian Notetaking]]
 [[Tools - Sublime]]
 [[Tools - AutoHotKey]]
-
+[[Tools - Windows]]
 
 # Basics
 [[Tools - WIN Alt Codes]]
@@ -51,3 +51,13 @@
 [[MSFT Entra ID Authentication]]
 	[[Entra ID (OIDC) via MSAL]]
 [[Redit]]
+
+
+# People-Ware
+[[Tools - Gap Analysis Quadrant]]
+[[Tools - Production XLS Template]]
+[[Tools - Data Talk]]
+[[Tools - Team Work Talk]]
+[[Tools - Finance Talk]]
+[[Tools - Email]]
+[[Tools - Marketing Assessment]]

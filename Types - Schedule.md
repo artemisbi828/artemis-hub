@@ -1,0 +1,3 @@
+- Daily (2AM)
+- Real-Time
+- On-Demand

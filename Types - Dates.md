@@ -1,0 +1,3 @@
+- Date Types -- Day/Season Highs; Lows;
+- Blockers / Latency
+- Accelerators

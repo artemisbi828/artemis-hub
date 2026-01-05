@@ -26,3 +26,17 @@ privacy -- agg or anonymize. letters. w random numcode? computer to generate a n
 - capacity limit point for staff. why? hard vs soft. 
 - fill in rest w ai
 ```
+
+# Facing Types
+#quick-paste-merge-later → merge with top and create a table
+1. Leadership Facing  -- looking to future; trendlines + long term strategy
+2. Operational Facing -- short term goals; KPIs (hindsight, foresight, action)
+
+- curbing (-) -- decreased waste, less setup costs, less overhead, less errors (neg outputs)
+- lifting (+) -- increased outputs, better quality
+- accelerating (+) -- faster throughput
+
+4. Customer Facing -- enhance the customer experience
+
+- increased visibility and trust
+- decreased cost (self-serving) reducing load on inbound call queue / triage

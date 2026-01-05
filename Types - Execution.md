@@ -1,0 +1,3 @@
+- Scheduled
+- Triggered
+- Manual

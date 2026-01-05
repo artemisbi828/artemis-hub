@@ -15,6 +15,32 @@ Community&Socials --> L3S.Happy
 ```
 
 
+# Homeostasis
+**Morning** 
+0730 AM EST wakeup
+  load dishwasher, clean table, water plants
+  work out
+  unload dishwasher; reload refrigerator (water, redbull)
+  generate shopping list
+
+**Morning 2 - SD  Prep**
+  Prepare deliverables + summary
+0930 AM EST → standup
+  Post-standup calls and sync
+
+**Afternoon** -- SD: 4 → 30
+Availability for Calls
+Maintain MVP
+- scrub notes
+Custom BI for SD
+- recreate HB → Interview
+- Template for Dashboards
+
+
+**Zouk** or Commit Time
+0700 PM 
+
+---
 ## sideGig: +$2K/m → $2K/m 
 ```
 prepare website. 
@@ -40,7 +66,7 @@ assess the level of mapping. recm concrete steps for cleaninf any maps. develop 
 
 
 
-### Financial Control
+# Financial Control
 - How much do I have currently? 
 - How much surplus (or deficit)? 
 - first need to know minimum / budget? 

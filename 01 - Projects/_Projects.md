@@ -1,7 +1,3 @@
-#status/todo -- 2026-01-04 04:21PM -- what is the diff from 
-- Dictionary -- Term, Alias | Abbreviation, Definition
-- Concepts -- Background, Learning (No Action; Quickstart)
-- Tools -- Concepts + {Action, Quickstart}
 
 Valence Enhancements
 - OneNote -- quickRef? 
@@ -11,15 +7,13 @@ Closing Protocol
 - Local script when closing that syncs my obsidian to git? 
 
 # Projects
-[[Umbrella]]
+[[_Umbrella]]
 - [[Tax-Firm-Support]]
 	- [[Tax Doc-Scraper]]
 	[[Job Search]]
 [[Zouk-Arc]]
 [[Social-Arc]]
-[[Accelerators]]
-
-
+[[Types - Accelerators]]
 
 ---
 
