@@ -5,7 +5,6 @@
 [[Tools - 💠 Obsidian]]
 - [[Tools - 🧱 YAML Formatter]]
 - [[Tools - Obsidian vs OneNote - Clipboard Paste Image]]
-- [[Tools - Obsidian Notetaking]]
 [[Tools - Sublime]]
 [[Tools - AutoHotKey]]
 [[Tools - Windows]]

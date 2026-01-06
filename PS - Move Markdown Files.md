@@ -1,6 +1,4 @@
----
-domain: "[[Powershell, DOS]]"
----
+
 ```powershell
 
 # Define the name of the new folder

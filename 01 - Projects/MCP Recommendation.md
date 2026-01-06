@@ -1,3 +1,5 @@
+
+
 # Model Context Protocol (MCP) Optimization Guide
 
 **Created**: 2026-01-05  
@@ -5,7 +7,6 @@
 **Status**: Recommendation
 
 ---
-
 ## VISION
 
 Create a robust Model Context Protocol that enables LLMs to:
@@ -25,6 +26,119 @@ Create a robust Model Context Protocol that enables LLMs to:
 - Find data sources → [[EDW.sd.Contracts]]
 - Apply filters → Smile Express segment
 - Generate query or dashboard spec
+
+---
+## ENHANCED FOLDER STRUCTURE
+
+```
+├── 00 - MOC/                          # Master Maps of Content
+│   ├── _Master Index.md
+│   ├── Concepts Map.md
+│   ├── Types Map.md
+│   ├── Measures Map.md
+│   └── Data Architecture Map.md
+│
+├── 01 - Projects/                     # (existing)
+│
+├── 02 - Dictionary/                   # (existing) Business terminology
+│   ├── __Map - Business Concepts.md
+│   ├── _Abbreviations.md              # don't bother with this
+│   ├── _Tables.md
+│   └── [term definitions]
+│
+├── 03 - Measures/                     # (existing) KPIs & Metrics
+│   ├── _MOC Measures.md
+│   └── [measure definitions]
+│
+├── 04 - Database Objects/             # Enhanced structure
+│   ├── _MOC Tables.md
+│   ├── _MOC Views.md
+│   ├── Tables/
+│   │   ├── by Database/
+│   │   │   ├── CentralC9/
+│   │   │   ├── EDW/
+│   │   │   └── Lake/
+│   │   └── by Domain/
+│   │       ├── Patients/
+│   │       ├── Contracts/
+│   │       ├── Appointments/
+│   │       └── Financials/
+│   ├── Views/
+│   └── Columns/                       # NEW: Column-level docs
+│       └── [Table].Columns.md
+│
+├── 05 - Procedures/                   # NEW: Stored procedure docs
+│   ├── _MOC Procedures.md
+│   ├── _Execution Schedule.md
+│   ├── by Database/
+│   │   ├── CentralC9/
+│   │   ├── EDW/
+│   │   └── Lake/
+│   └── by Function/
+│       ├── ETL-Sync/
+│       ├── Aggregation/
+│       └── Reporting/
+│
+├── 06 - Lineage/                      # NEW: Data flow documentation
+│   ├── _Master Lineage Map.md
+│   ├── Patient Flow.md
+│   ├── Contract Flow.md
+│   ├── Financial Flow.md
+│   └── Dependencies/
+│       ├── Forward-Dependencies.md    # What this affects
+│       └── Backward-Dependencies.md   # What affects this
+│
+├── 07 - Business Questions/           # NEW: Common analytical patterns
+│   ├── _MOC Common Questions.md
+│   ├── Starts Analysis/
+│   ├── Conversion Analysis/
+│   └── Templates/
+│       └── Question-Answer-Template.md
+│
+├── 08 - Concepts/                     # Reorganize existing Concepts
+│   ├── Concepts.md (MOC)
+│   ├── Concepts - Patients.md
+│   ├── Concepts - Contracts.md
+│   └── [other concepts]
+│
+├── 09 - Types/                        # Reorganize existing Types
+│   ├── Types.md (MOC)
+│   ├── Types - Contracts.md
+│   └── [other types]
+│
+└── 10 - Reference/                    # (existing as 04 - Reference)
+    ├── Servers/
+    ├── Teams/
+    └── Vendors/
+```
+
+---
+
+## YAML FRONTMATTER STANDARD
+
+Every file should have:
+
+```yaml
+---
+aliases: [Alternate Name 1, Abbrev, Common Term]
+tags: 
+  - category/subcategory
+  - domain/area
+  - object-type
+related_concepts: [Concept1, Concept2]
+related_types: [Type1, Type2]
+data_objects: [Table1, Table2]
+measures: [Measure1, Measure2]
+last_updated: YYYY-MM-DD
+owner: Team or Person
+---
+```
+
+This enables:
+- Fuzzy matching on aliases
+- Tag-based semantic search
+- Relationship graph traversal
+- Automatic cross-referencing
 
 ---
 
@@ -91,45 +205,10 @@ FROM [Database].[Schema].[ObjectName] t
   INNER JOIN [[RelatedTable]] r ON ...
 ```
 
-## Data Lineage
-
-### Source Systems
-- **CentralC9** (Cloud9 PMS)
-- **OrthoFi** (Financial system)
-- **Legacy Systems**
-
-### Populated By
-- [[Procedure.Name1]] - Daily at 2am
-- [[Procedure.Name2]] - Real-time sync
-
-### Feeds Into
-- [[DownstreamTable1]]
-- [[DownstreamView1]]
-- [[Dashboard - Name]]
-
-## Known Issues & Gotchas
-- [[Types - Known Issues#Specific Issue]]
-- Data quality: Watch for nulls in ColumnX before DateY
-- Performance: Always filter on PartitionKey
-
-## Examples & Use Cases
-
-### Use Case 1: [Business Question]
-```sql
--- Answer to common business question
+# 2. Stored Procedure Documentation Template
 ```
 
-**Related Measures**: [[Measure - Name]]
-**Related Dashboards**: [[Dashboard - Name]]
 
-## Metadata
-**Sort Order**: X.XX (for MOC organization)
-**Table Type**: core | dimension | fact | bridge | config
-**Loaded By**: ETL job name or person
-**Load Source**: Source system identifier
-```
-
-### 2. Stored Procedure Documentation Template
 
 ```markdown
 ---
@@ -231,6 +310,46 @@ EXEC [Database].[Schema].[ProcedureName]
 ## Change History
 - YYYY-MM-DD: Added logic for X
 - YYYY-MM-DD: Fixed issue with Y
+
+---
+## Data Lineage
+
+### Source Systems
+- **CentralC9** (Cloud9 PMS)
+- **OrthoFi** (Financial system)
+- **Legacy Systems**
+
+### Populated By
+- [[Procedure.Name1]] - Daily at 2am
+- [[Procedure.Name2]] - Real-time sync
+
+### Feeds Into
+- [[DownstreamTable1]]
+- [[DownstreamView1]]
+- [[Dashboard - Name]]
+
+## Known Issues & Gotchas
+- [[Types - Known Issues#Specific Issue]]
+- Data quality: Watch for nulls in ColumnX before DateY
+- Performance: Always filter on PartitionKey
+
+## Examples & Use Cases
+
+### Use Case 1: [Business Question]
+```sql
+-- Answer to common business question
+```
+
+**Related Measures**: [[Measure - Name]]
+**Related Dashboards**: [[Dashboard - Name]]
+
+## Metadata
+**Sort Order**: X.XX (for MOC organization)
+**Table Type**: core | dimension | fact | bridge | config
+**Loaded By**: ETL job name or person
+**Load Source**: Source system identifier
+
+
 ```
 
 ### 3. Measure/Metric Documentation Template
@@ -448,92 +567,6 @@ Structured file showing execution order:
 
 ---
 
-## ENHANCED FOLDER STRUCTURE
-
-```
-├── 00 - MOC/                          # Master Maps of Content
-│   ├── _Master Index.md
-│   ├── Concepts Map.md
-│   ├── Types Map.md
-│   ├── Measures Map.md
-│   └── Data Architecture Map.md
-│
-├── 01 - Projects/                     # (existing)
-│
-├── 02 - Dictionary/                   # (existing) Business terminology
-│   ├── __Map - Business Concepts.md
-│   ├── _Abbreviations.md
-│   ├── _Tables.md
-│   └── [term definitions]
-│
-├── 03 - Measures/                     # (existing) KPIs & Metrics
-│   ├── _MOC Measures.md
-│   └── [measure definitions]
-│
-├── 04 - Database Objects/             # Enhanced structure
-│   ├── _MOC Tables.md
-│   ├── _MOC Views.md
-│   ├── Tables/
-│   │   ├── by Database/
-│   │   │   ├── CentralC9/
-│   │   │   ├── EDW/
-│   │   │   └── Lake/
-│   │   └── by Domain/
-│   │       ├── Patients/
-│   │       ├── Contracts/
-│   │       ├── Appointments/
-│   │       └── Financials/
-│   ├── Views/
-│   └── Columns/                       # NEW: Column-level docs
-│       └── [Table].Columns.md
-│
-├── 05 - Procedures/                   # NEW: Stored procedure docs
-│   ├── _MOC Procedures.md
-│   ├── _Execution Schedule.md
-│   ├── by Database/
-│   │   ├── CentralC9/
-│   │   ├── EDW/
-│   │   └── Lake/
-│   └── by Function/
-│       ├── ETL-Sync/
-│       ├── Aggregation/
-│       └── Reporting/
-│
-├── 06 - Lineage/                      # NEW: Data flow documentation
-│   ├── _Master Lineage Map.md
-│   ├── Patient Flow.md
-│   ├── Contract Flow.md
-│   ├── Financial Flow.md
-│   └── Dependencies/
-│       ├── Forward-Dependencies.md    # What this affects
-│       └── Backward-Dependencies.md   # What affects this
-│
-├── 07 - Business Questions/           # NEW: Common analytical patterns
-│   ├── _MOC Common Questions.md
-│   ├── Starts Analysis/
-│   ├── Conversion Analysis/
-│   └── Templates/
-│       └── Question-Answer-Template.md
-│
-├── 08 - Concepts/                     # Reorganize existing Concepts
-│   ├── Concepts.md (MOC)
-│   ├── Concepts - Patients.md
-│   ├── Concepts - Contracts.md
-│   └── [other concepts]
-│
-├── 09 - Types/                        # Reorganize existing Types
-│   ├── Types.md (MOC)
-│   ├── Types - Contracts.md
-│   └── [other types]
-│
-└── 10 - Reference/                    # (existing as 04 - Reference)
-    ├── Servers/
-    ├── Teams/
-    └── Vendors/
-```
-
----
-
 ## MCP QUERY RESOLUTION FLOW
 
 ### Example: Resolving Business Question
@@ -614,34 +647,6 @@ ORDER BY Year, Segment;
     - "Do you want Same Store offices only?"
     - "Should we exclude Phase 1?"
     - "Any specific regions/divisions?"
-
----
-
-## YAML FRONTMATTER STANDARD
-
-Every file should have:
-
-```yaml
----
-aliases: [Alternate Name 1, Abbrev, Common Term]
-tags: 
-  - category/subcategory
-  - domain/area
-  - object-type
-related_concepts: [Concept1, Concept2]
-related_types: [Type1, Type2]
-data_objects: [Table1, Table2]
-measures: [Measure1, Measure2]
-last_updated: YYYY-MM-DD
-owner: Team or Person
----
-```
-
-This enables:
-- Fuzzy matching on aliases
-- Tag-based semantic search
-- Relationship graph traversal
-- Automatic cross-referencing
 
 ---
 

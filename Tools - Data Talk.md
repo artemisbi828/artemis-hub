@@ -2,6 +2,7 @@
 `includes stats talk`
 
 # Drill In
+- cognitive dissonance
 • implement both scripts with comprehensive functionality
 • Uncontrolled Historical Data; Mutable
 	• Mutable data; Dynamic History (static (locked) history); 

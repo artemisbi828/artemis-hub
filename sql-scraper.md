@@ -10,7 +10,7 @@ identify objects and aliases
   from objects --> aliases, "as" separator
   add spaces around "()" -- consistent for REGEX
 identify stages in sequence: repeat above
-  ignore #tmp inserts
+  ignore `#tmp` inserts
 
 validation
 normalize queries for nulls. {0, unknown}

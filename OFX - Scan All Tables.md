@@ -1,7 +1,3 @@
----
-domain: "[[Office Scripts]]"
----
-
 /**
  * SCAN_ALLTABLES_GET_METADATA
  * 

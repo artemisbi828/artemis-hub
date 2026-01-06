@@ -1,7 +1,16 @@
+[[Obsidian - YAML vs MOC vs Tags]]
+[[Obsidian - Tags vs YAML Tags]]
+[[Obsidian - Tags + YAML Reserved Properties]]
+
+
+[[Tools - Obsidian vs OneNote - Clipboard Paste Image]]
 ## Keybinding 
 
-| /\bData Output\b/        | Search "Data Output" → Word-Boundary               |
+| Command                  | Action                                             |
 | ------------------------ | -------------------------------------------------- |
+| `Ctrl + ,`               | Settings                                           |
+| `Ctrl + /`               | Source Mode                                        |
+| /\bData Output\b/        | Search "Data Output" → Word-Boundary (vs code -1)  |
 | Search Filename          | file:"Dashboard -"                                 |
 | Ctrl + Del               | Delete Tab                                         |
 | `Alt + Shift {Up, Down}` | Add Cursor {Up, Down}                              |

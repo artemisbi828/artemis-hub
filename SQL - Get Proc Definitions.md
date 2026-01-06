@@ -1,3 +1,18 @@
+2026-01-06 09:55 AM -- latest recommendation from copilot
+```sql
+select
+    s.name,
+    o.name,
+    sm.definition
+from sys.objects o
+    join sys.sql_modules sm
+        on sm.object_id = o.object_id
+    join sys.schemas as s
+        on s.schema_id = o.schema_id
+where o.type = 'P' -- stored procs only
+order by 1;
+```
+
 ```sql
 -- view procedure text
 select

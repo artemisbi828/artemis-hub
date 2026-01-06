@@ -1,7 +1,3 @@
----
-domain: "[[Office Scripts]]"
----
-
 /**
  * SCAN_RANGEА1_GET_METADATA
  * 

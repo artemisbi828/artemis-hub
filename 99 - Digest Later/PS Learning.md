@@ -1,7 +1,3 @@
----
-domain:
----
-
 ## Powershell Learning
 
 | $_           | automatic variable "current object in the pipeline"                                                       |

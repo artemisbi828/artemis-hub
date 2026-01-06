@@ -19,3 +19,4 @@
 | Sort Order (99.99) | decimal(4,2)   |
 | Procedure Size     | nvarchar(4000) |
 | Comment            | nvarchar(MAX)  |
+| Proc Definitions   | nvarchar(MAX)  |
