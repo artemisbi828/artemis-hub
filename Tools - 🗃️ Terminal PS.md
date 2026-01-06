@@ -3,10 +3,18 @@ syntax: powershell
 aliases:
   - PS
 ---
+[[PS - Get Files and SubFiles]]
+[[PS - Delete Item]]
+[[PS - Get File Counts]]
+[[PS - Copy Item for Backup]]
+[[PS - Get Content - First 10 Lines]]
+[[PS - Edit and Overwrite - Research]]
 
-# Current
 
 ```
+# 2 lines in 1
+cd c:\vsWorkspace\jpascua313\site ; npm start
+
 `                 # new line
 ;                 # separates as if new line
 #                 # comment
@@ -14,41 +22,10 @@ aliases:
 @()               # array
 ```
 
+
 # Versions
 - Blue is 5 (Native); Black is 7 (Current)
 - Terminal > Tab > Settings > Default Open
-## Folders
-
-### Get Folders & Files
-```powershell
-#filter to find only the files we need
-Get-ChildItem -Recurse -File -Filter "*SD*" # -- can alias Get-ChildItem → dir
-
-# goes through every thing inside, then passes through to select-object to just give the path
-Get-ChildItem -Recurse -File -Filter "*tree*" | Select-Object -Unique FullName
-Get-ChildItem -Recurse -File | Select-String -Pattern "tree" | Select-Object -Unique Path
-
-# case insensitive 
-Get-ChildItem -Recurse -File |
-    Where-Object { $_.Name -like "*tree*" } |
-    Select-Object -Unique FullName
-
-# case sensitive
-Get-ChildItem -Recurse -File |
-    Where-Object { $_.Name -clike "*tree*" } |
-    Select-Object -Unique FullName
-    
-# move object
-Copy-Item "c:\vsWorkspace_SD\sql_scans\input.txt" "c:\vsWorkspace_SD\sql_scans\sql-scraper-v2\input.txt"
-```
-
-### Create Blank File
-```dos
-# creates a blank file
-type nul > Context.sublime-menu
-
-```
-
 
 # Output and Read
 ```shell
@@ -58,30 +35,17 @@ Select-String -Path 20251231-1620-QRY2.md -Pattern "^\| 9a " | Select-Object -Fi
 
 ```powershell
 
-# get folders
-dir # alias: dir → Get-ChildItem
-dir | Select-String "imm"
-
-cd filename # alias: cd → Get-Item (ps defined)
-cd ..
-
-Remove-Item .env
 
 
-Get-ChildItem -Path C:\path -File     # files only
-Get-ChildItem -Path . -Directory      # folders only
-Get-Item C:\path\file.txt             # specific item
-(Get-ChildItem -Path . -File).Count   # count files
 
-# read, 
-cat C:\Users\jpasc\.ssh\id_ed25519.pub # alias: cat → get-content (ps defined)
+
 
 # copy / move / rename / delete
 Copy-Item -Path .\src -Destination 'C:\dest' -Recurse -Force
 Copy-Item -Path .\filename.py -Destination .\filename.py.bak  # create backup
 Move-Item -Path .\file.txt -Destination 'C:\archive' -Force
 Rename-Item -Path .\old.txt -NewName 'new.txt'
-Remove-Item -Path .\temp -Recurse -Force
+
 
 # Preview destructive actions
 Remove-Item -Path .\temp -Recurse -WhatIf

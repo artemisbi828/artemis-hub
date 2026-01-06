@@ -1,5 +1,6 @@
 {
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "99 - Attachments"
+  "attachmentFolderPath": "99 - Attachments",
+  "showLineNumber": true
 }

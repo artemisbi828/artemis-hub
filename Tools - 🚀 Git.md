@@ -1,3 +1,23 @@
+[[Git - Check Config Globals]]
+[[Git - Init]]
+[[Git - Rename master → main]]
+
+
+
+Up to date but 1 branch ahead means ...
+```
+Your Local:     A -- B -- C -- D (your new commit)
+GitHub Remote:  A -- B -- C
+```
+
+You need to stage commit (if haven't already) then 
+
+```git
+git push origin main
+git push -u origin main               # if getting an error about upstream
+```
+
+
 
 # Basics
 
@@ -7,13 +27,7 @@
 # go to path
 cd path/to/your/repo
 
-# initialize current folder as git
-git init                                                                   
-git checkout main # (optional) -- switch to main
 
-# bind current folder to remote
-git remote -v  ## what is remote?
-git remote add origin https://github.com/artemisBI/shared-utils     
 
 # optional to remove local changes
 git clean -fd
@@ -79,19 +93,6 @@ git stash drop
 
 
 ## Normal 
-Up to date but 1 branch ahead means ...
-```
-Your Local:     A -- B -- C -- D (your new commit)
-GitHub Remote:  A -- B -- C
-```
-
-You need to stage commit (if haven't already) then 
-
-```git
-git push origin main
-git push -u origin main               # if getting an error about upstream
-```
-
 
 ```git
 

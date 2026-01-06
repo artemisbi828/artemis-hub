@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "25944e9ba68819c6",
+        "id": "e3677dd3ab65dd60",
         "type": "tabs",
         "children": [
           {
-            "id": "487439e20f87572e",
+            "id": "2a784bc54e09ea67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Templates/_Master.md",
+                "file": "Tools - 💠 Obsidian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_Master"
-            }
-          },
-          {
-            "id": "38b8730a35a49cac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 - Daily/📅 2026-01-05 (Mon).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "📅 2026-01-05 (Mon)"
+              "title": "Tools - 💠 Obsidian"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - Daily/📅 2026-01-05 (Mon).md",
+                "file": "Tools - 💠 Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 📅 2026-01-05 (Mon)"
+              "title": "Backlinks for Tools - 💠 Obsidian"
             }
           },
           {
@@ -128,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - Daily/📅 2026-01-01 (Fri).md",
+                "file": "Tools - 💠 Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 📅 2026-01-01 (Fri)"
+              "title": "Outgoing links from Tools - 💠 Obsidian"
             }
           },
           {
@@ -157,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - Daily/📅 2026-01-01 (Fri).md",
+                "file": "Tools - 💠 Obsidian.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 📅 2026-01-01 (Fri)"
+              "title": "Outline of Tools - 💠 Obsidian"
             }
           }
         ]
@@ -183,34 +168,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "38b8730a35a49cac",
+  "active": "2a784bc54e09ea67",
   "lastOpenFiles": [
-    "Types.md",
-    "01 - Projects/_Umbrella.md",
     "02 - Daily/📅 2026-01-05 (Mon).md",
-    "02 - Daily/📅 2026-01-04 (Sun).md",
-    "00 - Templates/Daily Notes.md",
-    "00 - Templates/_Master.md",
-    "Types - Transformations.md",
-    "01 - Projects/ModelContextProtocolRecommendation.md",
-    "Types - Schedule.md",
-    "Types - Execution.md",
-    "Types - Tables.md",
-    "Types - Data Quality.md",
-    "Concepts.md",
-    "Concepts - BI Frameworks.md",
     "Tools - 💠 Obsidian.md",
     "Tools - Obsidian Notetaking.md",
+    "MSFT.md",
+    "PBI - Embed Report.md",
+    "Docusaurus.md",
+    "DAX - Last Year Modeling (LY).md",
     "SQL.md",
-    "SQL - Get Last Stable Month.md",
+    "SQL - Extract String (End).md",
+    "Tools - 🗃️ Terminal PS.md",
+    "01 - Projects/ModelContextProtocolRecommendation.md",
+    "PS - Delete Item.md",
+    "03 - Dictionary/Alembic.md",
+    "PS - Edit and Overwrite - Research.md",
+    "PS - Get Content - First 10 Lines.md",
+    "PS - Get Files and SubFiles.md",
+    "PS - Copy Item for Backup.md",
+    "DOS - Create Blank File.md",
+    "Tools - 🚀 Git.md",
+    "Git - Check Config Globals.md",
+    "Git - Init.md",
+    "Git - Rename master → main.md",
+    "Tools - Windows.md",
+    "Resume BI.md",
     "01 - Projects/_Projects.md",
-    "sql-scraper.md",
-    "Tools.md",
-    "SQL - MSSQL to Snowflake Syntax.md",
-    "SQL - Remove Pattern from String.md",
-    "Tools - Python.md",
-    "00 - Templates/Templates.md",
-    "00 - Templates/Project Template.md",
+    "01 - Projects/_Umbrella.md",
     "99 - Attachments/Pasted image 20260105102644.png",
     "99 - Attachments/Pasted image 20260105102120.png",
     "99 - Attachments/Pasted image 20260105102115.png",
@@ -219,12 +204,12 @@
     "99 - Attachments/Pasted image 20260105101430.png",
     "99 - Attachments/Pasted image 20260105101114.png",
     "99 - Attachments/Pasted image 20260105095249.png",
-    "99 - Attachments/Pasted image 20260105093928.bak.png",
-    "99 - Attachments/Pasted image 20260105093928 (Medium).png",
+    "99 - Attachments/Pasted image 20260105093928.png",
     "02 - Daily/Archive",
     "02 - Daily",
     "99 - Digest Later",
     "02 - Reference/Untitled",
+    "99 - Attachments/Pasted image 20260103220356.png",
     "99 - Attachments",
     "00 - Templates",
     "03 - Dictionary",
