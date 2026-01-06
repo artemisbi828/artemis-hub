@@ -1,7 +1,10 @@
-[[Git - Check Config Globals]]
-[[Git - Init]]
-[[Git - Rename master → main]]
+[[GIT - Check Config Globals]]
+[[GIT - Init]]
+[[GIT - Rename master → main]]
 
+# Error Handling
+[[GIT - Error Handling - Stuck in VS Termainl]]
+[[GIT - Error Handling - Remote Not Found]]
 
 
 Up to date but 1 branch ahead means ...

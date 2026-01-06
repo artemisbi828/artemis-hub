@@ -4,21 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "e3677dd3ab65dd60",
+        "id": "7788209e6c6f3ee9",
         "type": "tabs",
         "children": [
           {
-            "id": "2a784bc54e09ea67",
+            "id": "6ed9e67ea95b369f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Tools - 💠 Obsidian.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled 1.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "Tools - 💠 Obsidian"
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled 1"
             }
           }
         ]
@@ -94,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools - 💠 Obsidian.md",
+                "file": "Untitled 1.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +107,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Tools - 💠 Obsidian"
+              "title": "Backlinks for Untitled 1"
             }
           },
           {
@@ -113,12 +116,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools - 💠 Obsidian.md",
+                "file": "Untitled 1.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Tools - 💠 Obsidian"
+              "title": "Outgoing links from Untitled 1"
             }
           },
           {
@@ -142,13 +145,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools - 💠 Obsidian.md",
+                "file": "Untitled 1.canvas",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tools - 💠 Obsidian"
+              "title": "Outline of Untitled 1"
             }
           }
         ]
@@ -168,10 +171,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "2a784bc54e09ea67",
+  "active": "6ed9e67ea95b369f",
   "lastOpenFiles": [
-    "02 - Daily/📅 2026-01-05 (Mon).md",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "Tools - 🚀 Git.md",
+    "GIT - Check Config Globals.md",
+    "GIT - Init.md",
+    "GIT - Rename master → main.md",
+    "GIT - Error Handling - Stuck in VS Termainl.md",
+    "GIT - Error Handling - Remote Not Found.md",
     "Tools - 💠 Obsidian.md",
+    "02 - Daily/📅 2026-01-05 (Mon).md",
     "Tools - Obsidian Notetaking.md",
     "MSFT.md",
     "PBI - Embed Report.md",
@@ -188,14 +199,7 @@
     "PS - Get Files and SubFiles.md",
     "PS - Copy Item for Backup.md",
     "DOS - Create Blank File.md",
-    "Tools - 🚀 Git.md",
-    "Git - Check Config Globals.md",
-    "Git - Init.md",
-    "Git - Rename master → main.md",
     "Tools - Windows.md",
-    "Resume BI.md",
-    "01 - Projects/_Projects.md",
-    "01 - Projects/_Umbrella.md",
     "99 - Attachments/Pasted image 20260105102644.png",
     "99 - Attachments/Pasted image 20260105102120.png",
     "99 - Attachments/Pasted image 20260105102115.png",
