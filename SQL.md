@@ -10,6 +10,7 @@
 [[SQL - Sanitize Phone Number]]
 [[SQL - Sanitize Addresses]]
 [[SQL - Format Numbers → 1,000]]
+[[SQL - Format % → 21.2%]]
 [[SQL - Export JSON]]
 [[SQL - PatIndex vs CharIndex]]
 [[SQL - Pad String]]
@@ -29,6 +30,7 @@
 [[SQL - DateTime Format]]
 
 # Math & Other
+[[SQL - Normalize Precision 0.67 → 0.667]]
 [[SQL - Get Mode (Math)]]
 [[SQL - Resort Table]]
 [[SQL - Case When]]

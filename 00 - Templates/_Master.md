@@ -3,7 +3,7 @@ Continue to experiment with embedded dataviews;
 knowledge_type
 	[[domains]] -- Umbrella business area → Business Area / Department
 	people -- 
-	vendor
+	vendor -- 
 	[[entities]] -- Tables
 	concepts -- Columns
 	- types -- Dropdown Values in Column, Flag

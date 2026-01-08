@@ -161,3 +161,147 @@ If you're writing in VS Code, install **"Emoji"** extension:
 
      → 🔌)
 - Autocomplete suggestions appear
+
+
+
+#quick-paste-merge-later 
+Yes — **AutoHotkey is the best overall solution** if you want a **fast, global shortcut** for 💯 and you can’t rely on Alt codes. That said, there are **three solid options**, and the best one depends on how often you type it and _where_ (SQL Server, Excel, Teams, Power BI, etc.).
+
+Below is a **clear, opinionated breakdown** so you can choose confidently.
+
+---
+
+## ✅ Best Overall: **AutoHotkey (AHK)**
+
+### Why AutoHotkey wins
+
+- ✅ Works **system‑wide** (any app)
+- ✅ Extremely fast (muscle‑memory friendly)
+- ✅ Doesn’t depend on emoji pickers
+- ✅ Stable and widely used by power users
+
+### Example: type `;100` → it becomes 💯
+
+::;100::💯
+
+Or something more explicit:
+
+::100p::💯
+
+::100pct::💯
+
+### How this works
+
+- `::trigger::replacement`
+- As soon as you finish typing the trigger, it auto‑expands
+
+### Install steps (2 minutes)
+
+1. Download AutoHotkey: [https://www.autohotkey.com](https://www.autohotkey.com/)
+2. Install (default options are fine)
+3. Create a file called `Shortcuts.ahk`
+4. Paste your shortcuts
+5. Double‑click the file (or add to Startup)
+
+> 💡 Many BI devs use AHK daily for **SQL snippets, emojis, date stamps, and boilerplate code**.
+
+---
+
+## ✅ Best No‑Install Option: **Windows Emoji Picker**
+
+If you don’t want to install anything:
+
+### Shortcut
+
+```
+Win + .
+```
+
+Then type:
+
+```
+100
+```
+
+Select:
+
+```
+💯
+```
+
+### Pros / Cons
+
+✅ Built‑in\ ✅ Works everywhere\ ❌ Slower (menu + mouse or arrows)\ ❌ Breaks flow while typing
+
+Best for **occasional** use.
+
+---
+
+## ✅ Best for Office / Power BI / Excel: **Text Replacement**
+
+### Option A: Microsoft Word / Outlook AutoCorrect
+
+1. Word → Options → Proofing → AutoCorrect
+2. Replace: 100pct → 💯
+
+✅ Works in Word, Outlook\ ❌ Doesn’t work in SSMS, VS Code, Power BI Desktop
+
+---
+
+### Option B: Power BI / Excel specific
+
+If this is for **labels or measures**, you often don’t need a shortcut at all:
+
+"💯 " & FORMAT([Completion %], "0%")
+
+or
+
+SELECT N'💯 100%' AS Status;
+
+(Unicode‑safe as long as the column is `NVARCHAR`.)
+
+---
+
+## ✅ Recommendation Summary (honest + practical)
+
+|Scenario|Best Choice|
+|---|---|
+|You type 💯 often across apps|**AutoHotkey**|
+|No installs allowed|Win + `.` emoji picker|
+|Office only|AutoCorrect|
+|Dashboards / reports|Hard‑code Unicode|
+
+### My clear recommendation for you
+
+👉 **Use AutoHotkey**\ It’s the fastest, most flexible, and aligns perfectly with how BI/dev folks work.
+
+Most people start with emojis… then realize AHK also replaces:
+
+- `dt` → today’s date
+- `sqlsel` → `SELECT * FROM`
+- `;shrug` → ¯\_(ツ)_/¯
+
+…and never look back.
+
+---
+
+## 🔥 Bonus: Suggested AHK snippet pack (BI‑friendly)
+
+::;100::💯
+
+::;ok::✅
+
+::;fire::🔥
+
+::;shrug::¯_(ツ)_/¯_
+
+_::;date::%A_YYYY%-%A_MM%-%A_DD%
+
+---
+
+If you want, tell me:
+
+- Where you’ll use 💯 the most (SSMS, Power BI, Teams, Excel)
+- Whether you want **text‑only safe fallbacks** (for legacy systems)
+
+I can tune the shortcuts exactly to your workflow.

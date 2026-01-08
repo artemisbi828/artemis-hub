@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Templates/_Master.md",
+                "file": "SQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_Master"
-            }
-          },
-          {
-            "id": "250bf65f4d850841",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 - Daily/📅 2026-01-05 (Mon).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "📅 2026-01-05 (Mon)"
+              "title": "SQL"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - Daily/📅 2026-01-05 (Mon).md",
+                "file": "SQL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 📅 2026-01-05 (Mon)"
+              "title": "Backlinks for SQL"
             }
           },
           {
@@ -165,9 +150,22 @@
               "icon": "lucide-list",
               "title": "Outline of 📅 2026-01-05 (Mon)"
             }
+          },
+          {
+            "id": "e1915894b0d64532",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -184,36 +182,37 @@
       "bases:Create new base": false
     }
   },
-  "active": "250bf65f4d850841",
+  "active": "021aca1d8c380150",
   "lastOpenFiles": [
-    "Employees.md",
+    "SQL - Normalize Precision 0.67 → 0.667.md",
+    "SQL.md",
+    "Tools - 🌟 Emojis.md",
+    "02 - Daily/📅 2026-01-08 (Thur).md",
+    "Types - Case Starts.md",
+    "00 - Templates/_Master.md",
     "02 - Daily/📅 2026-01-05 (Mon).md",
     "Obsidian - Dataview.md",
+    "Unicode.md",
+    "SQL - Format % → 21.2%.md",
+    "Tools - REGEX.md",
+    "SQL - Swap Out Character (Stuff).md",
+    "SQL - Format Numbers → 1,000.md",
+    "01 - Projects/MCP Recommendation.md",
+    "03 - Measures/Start Needed %.md",
+    "03 - Measures",
+    "Start Needed %.md",
+    "Tools.md",
+    "SQL - PostGRESql + Supabase.md",
+    "Data Access Object.md",
+    "Untitled.canvas",
+    "Types - Transformations.md",
+    "01 - Projects/_Projects.md",
+    "Employees.md",
     "Personal.md",
-    "00 - Templates/_Master.md",
     "00 - Templates/YAML - Metadata.md",
     "Tools - 💠 Obsidian.md",
     "00 - Templates/Daily Notes.md",
-    "00 - Templates/Project Complete.md",
-    "00 - Templates/Project Template.md",
-    "Tools - Data Talk.md",
-    "Domains.md",
-    "01 - Projects/_Projects.md",
-    "Concepts.md",
-    "00 - Templates/YAML - Basic.md",
-    "Obsidian - Tags + YAML Reserved Properties.md",
-    "00 - Templates/Templates.md",
-    "03 - Dictionary/Team Member.md",
-    "Tools.md",
     "Untitled 1.canvas",
-    "01 - Projects/Obsidian - YAML vs MOC vs Tags.md",
-    "sql-scraper.md",
-    "Obsidian - Tags vs YAML Tags.md",
-    "Tools - Obsidian Notetaking.md",
-    "01 - Projects/MCP Recommendation.md",
-    "Types - Tables.md",
-    "Types.md",
-    "Untitled.canvas",
     "99 - Attachments/Pasted image 20260105102644.png",
     "99 - Attachments/Pasted image 20260105102120.png",
     "99 - Attachments/Pasted image 20260105102115.png",
@@ -232,7 +231,6 @@
     "00 - Templates",
     "03 - Dictionary",
     "New folder",
-    "06 - Contacts",
-    "05 - Vendors"
+    "06 - Contacts"
   ]
 }

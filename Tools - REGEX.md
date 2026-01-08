@@ -1,7 +1,15 @@
 ```
 [^A-Za-z]       # select all numeric chars
-^[0-9]+$        # select all numeric (non-alphab), [0-9]+ → one or more digits; $ → end of line 
+^[0-9]+$        # get numeric, one or more digits `[0-9]+` $ → end of line 
 ```
+
+| ^           | beginning of line      |
+| ----------- | ---------------------- |
+| $           | end of line            |
+| +           | more than one instance |
+| [A-Za-z]    | alphaB                 |
+| `[^A-Za-z]` | non-alphaB             |
+
 
 #quick-paste-merge-later 
 

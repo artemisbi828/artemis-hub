@@ -53,6 +53,5 @@ clear-strong note flow
 # Tags
 #status/active:  status in progress
 #status/todo: have to init; setup in queue
-
-
-#quick-paste-merge-later: low anima paste  → to-do → have to digest → reduce → merge
+#stats/todo-deprecate: clean these notes up usually related to
+- #quick-paste-merge-later: low anima paste  → to-do → have to digest → reduce → merge

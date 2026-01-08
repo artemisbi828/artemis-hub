@@ -583,7 +583,7 @@ Structured file showing execution order:
 
 2. **Alias Resolution** → Check `02 - Dictionary/_Abbreviations.md`:
    - "Starts" → Case Starts
-   - "Start Needed" → [[Start Needed %]]
+   - "Start Needed" → [Start Needed %]
    - "Smile Express" → Adult treatment program
 
 3. **Navigate to Measure** → [[03 - Measures/Start Needed %.md]]:
