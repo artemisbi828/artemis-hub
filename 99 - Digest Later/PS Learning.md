@@ -1,3 +1,8 @@
+2026-01-09 11:56 AM learned this today for TitleCasing
+    # Title case the filename
+    $textInfo = (Get-Culture).TextInfo
+    $cleaned = $textInfo.ToTitleCase($cleaned.ToLower())
+
 ## Powershell Learning
 
 | $_           | automatic variable "current object in the pipeline"                                                       |

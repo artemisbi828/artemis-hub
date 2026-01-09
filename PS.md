@@ -21,6 +21,7 @@ End
 [[PS - Find Image Dupes]]
 [[PS - Get File Counts]]
 [[PS - Clean Filenames]]
+[[PS - Batch Create Markdown Files from Txt]]
 
 # Transforms
 [[PS - Directory Map Json]]

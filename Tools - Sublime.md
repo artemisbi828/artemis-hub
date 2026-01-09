@@ -11,6 +11,12 @@ SETUP
 | F3                | Next                            |
 | Alt + F3          | Find All                        |
 | F9                | Sort                            |
+2026-01-09 03:17 PM
+```
+FormatToSqlValuesCommand → format_to_sql_values   # drop command, convert to pascal case
+```
+
+
 
 # Change KeyBindings
 Preferences → Key Bindings
@@ -214,3 +220,27 @@ If you want Sublime to stop "guessing" and just do what you tell it to do, you c
     
 
 **Would you like me to show you the keyboard shortcut to quickly convert those spaces back into tabs if you’ve already pasted them?**
+
+
+# Logs
+2026-01-09 03:20 PM 
+```
+Write a Python Plugin Script for Sublime to take BEFORE → AFTER
+1. wrap between tabs ''
+2. add (), to each line
+3. on the last line remove the last ","
+4. Any word boundaries that are numeric, remove '' wrap
+
+
+BEFORE
+ContractKey	DateKey	patID	ptstatCode
+953915	2025-11-12	MED017876	StartNeeded
+959009	2025-11-20	MEE101487	StartNeeded
+950851	2025-11-06	MWE063532	StartNeeded
+
+AFTER
+(953915, '2025-11-12', 'MED017876', 'StartNeeded'),
+(959009, '2025-11-20', 'MEE101487', 'StartNeeded'),
+(950851, '2025-11-06', 'MWE063532', 'StartNeeded')
+
+```

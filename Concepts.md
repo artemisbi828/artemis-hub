@@ -7,6 +7,7 @@
 
 # Methodology
 [[Concepts - Solid + Dry]]
+[[Concepts - Normalizing Enterprise Data w WDE and SSS]]
 [[Concepts - Modulo]]
 [[Concepts - Naming]]
 [[Concepts - Sanitize Name Logic]]
@@ -28,6 +29,7 @@
 [[Concepts - Software Distro vs SAAS]]
 [[Concepts - Markdown]]
 [[Concepts - NoSQL]]
+[[Concepts - DAX vs Power Query]]
 ## Dates
 [[Concepts - Datetime UTC Shift]]
 

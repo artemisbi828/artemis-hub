@@ -1,6 +1,6 @@
 ---
+concept_type:
 aliases:
 definition:
-related_people:
+related_object:
 ---
-Alternate Name 1, Abbrev, Common Term
