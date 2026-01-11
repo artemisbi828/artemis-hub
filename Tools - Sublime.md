@@ -1,17 +1,13 @@
+[[Tools - Key Bindings]]
+
 SETUP
 - `Ctrl + Shift + P` -- install Package Control
 - `Ctrl + Shift + P` -- Remove Package --> 
 
 
-| Ctrl + Shift + [] | # folding                       |
-| ----------------- | ------------------------------- |
-| Ctrl + Shift + L  | # multi-line                    |
-| Alt + Shift + 2/1 | # window split                  |
-| Shift + F3        | Find Prev; Shift Enter in Panel |
-| F3                | Next                            |
-| Alt + F3          | Find All                        |
-| F9                | Sort                            |
+
 2026-01-09 03:17 PM
+
 ```
 FormatToSqlValuesCommand → format_to_sql_values   # drop command, convert to pascal case
 ```
@@ -19,15 +15,15 @@ FormatToSqlValuesCommand → format_to_sql_values   # drop command, convert to p
 
 
 # Change KeyBindings
-Preferences → Key Bindings
+Preferences → Key Bindings → Default (Windows).sublime-keymap
 
 ```json
-[
 // changes so it's like VS Code vs ctrl+shift+(up/down)
-
-    { "keys": ["alt+up"], "command": "swap_line_up" },
-    { "keys": ["alt+down"], "command": "swap_line_down" }
-
+[
+	{ "keys": ["ctrl+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{ "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+	{ "keys": ["alt+shift+8"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["alt+shift+2"], "command": "select_lines", "args": {"forward": true} },
 ]
 ```
 

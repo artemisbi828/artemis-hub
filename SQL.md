@@ -1,6 +1,5 @@
 #status/todo -- 2026-01-04 04:21PM -- process OneNote\STRING\string_split and on ... 
 
-
 ## String
 [[SQL - Extract String (Middle)]]
 [[SQL - Extract String (End)]]
@@ -26,16 +25,19 @@
 [[SQL - DateInt to Date]]
 [[SQL - Get Beginning of Week]]
 [[SQL - Create Dates Table]]
-[[SQL - Create Holidays + WDE EXT to dbo.Dates]]
+[[SQL - Add Holidays + WDE to D_Dates]]
 [[SQL - Time Zones]]
 [[SQL - Seconds → HHMMSS]]
 [[SQL - DateTime Format]]
 [[SQL - Date Explosion for Facts]]
 # Math & Other
+[[SQL - Rolling Total]]
+[[SQL - Round Down (Floor)]]
 [[SQL - Normalize Precision 0.67 → 0.667]]
 [[SQL - Get Mode (Math)]]
 [[SQL - Resort Table]]
 [[SQL - Case When]]
+[[SQL - Pick MIN or MAX of 2+ Values]]
 # Techniques
 [[SQL - If TMP Exists GOTO SKIP]]
 [[SQL - Select Every 1000 Rows]]
@@ -58,6 +60,7 @@
 [[SQL - Get Triggers]]
 [[SQL - Get Foreign Keys]]
 [[SQL - Get Constraints]]
+[[SQL - Alter Schema]]
 [[SQL - Drop Schema]]
 [[SQL - Get Databases]]
 [[SQL - Get Session Context]]

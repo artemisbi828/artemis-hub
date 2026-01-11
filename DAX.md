@@ -1,3 +1,28 @@
+Related to: [[DAXM]], [[PBI]]
+
+[[DAX - SQL → DAX Cheat Sheet]]
+[[DAX - UDF (Research)]]
+
+# Date and Number Formatting
+[[DAX - Create Measure between 2 Dates]]
+[[DAX - DateDiff]]
+[[DAX - Formatting Numbers]]
+[[DAX - KEEPFILTERS, CROSSFILTER]]
+[[DAX - Add WDE and Holiday Columns]]
+[[DAX - Count Rows]]
+# DAX Query View
+[[DAXQ - Query View - A,B,RN]]
+[[DAXQ - Query View - Discount Count]]
+[[DAXQ - Select, Distinct, Where, Sum, Top10]]
+[[DAXQ - Select Not Blank]]
+
+
+
+[[DAX - Create Obsidian CodeBlock Formatter]]
+
+```
+```
+
 Choosing between DAX and Power Query is rarely about which one is "better" and more about **where** the logic should live in the data pipeline.
 
 For your normalization project, you actually need **both**, but for very different reasons.

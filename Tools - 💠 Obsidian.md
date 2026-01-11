@@ -1,29 +1,27 @@
+[[Tools - Key Bindings]]
+
+| /\bData Output\b/        | Search "Data Output" → Word-Boundary (vs code -1)  |
+| ------------------------ | -------------------------------------------------- |
+
 [[Obsidian - YAML vs MOC vs Tags]]
 [[Obsidian - Tags vs YAML Tags]]
 [[Obsidian - Tags + YAML Reserved Properties]]
+[[Tools - Obsidian - Clipboard Paste Image]]
+
+# Currently Mastering Callouts + Dataview
+[[Obsidian - Dataview]]
+[[Obsidian - Callouts]]
+### Code Folding
+```
+> [!code]+
+> ```python
+> print("This code is foldable!")
+> ```
+```
 
 
-[[Tools - Obsidian vs OneNote - Clipboard Paste Image]]
-## Keybinding 
 
-| Command                  | Action                                             |
-| ------------------------ | -------------------------------------------------- |
-| `Ctrl + ,`               | Settings                                           |
-| `Ctrl + /`               | Source Mode                                        |
-| /\bData Output\b/        | Search "Data Output" → Word-Boundary (vs code -1)  |
-| Search Filename          | file:"Dashboard -"                                 |
-| Ctrl + Del               | Delete Tab                                         |
-| `Alt + Shift {Up, Down}` | Add Cursor {Up, Down}                              |
-| Ctrl + Shift + [         | Toggle -- Cold Folding                             |
-| Alt + LeftClick          | Multi-Select (cant' Ctrl+Alt+Up b/c of Autohotkey) |
-| Alt {3, 4}               | Navigate Back & Forward                            |
-| Ctrl + D                 | Delete                                             |
-| Ctrl + H                 | Find and replace, \n\n+ --> \n                     |
-| Ctrl + ?; + B            | Comment Line; Bold                                 |
-| Ctrl + Shift {Up, Down}  | Row Up, Row Down                                   |
-| `Alt+Up, Alt+Down`       | Line up; Line Down                                 |
 
----
 1. emphasize Dictionary and use DataView + YAML formatter more
 	- use a template to create DICT items
 2. use a template w YAML for Contacts
@@ -177,3 +175,5 @@ This keeps all your SQL notes grouped together alphabetically in your file tree,
     
 
 **Would you like me to show you a Dataview query that could automatically build these Tables of Contents for you based on tags or properties?**
+
+

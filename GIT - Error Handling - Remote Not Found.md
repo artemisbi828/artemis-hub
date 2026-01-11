@@ -2,7 +2,7 @@ If you've switched from work → personal and back, most likely -- Windows Crede
 
 STEP 1
 Press Win + R
-Type control /name Microsoft.CredentialManager
+Type `control /name Microsoft.CredentialManager`
 Go to Windows Credentials
 Find git:https://github.com or similar
 Click it and select Remove

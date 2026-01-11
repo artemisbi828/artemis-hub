@@ -2,7 +2,10 @@
 -- defines Holidays
 -- defines WDE for all dates
 
-with DateBase
+--create TABLE dbo.Dates_Holidays_WDE ( [DateKey] date primary key, [HolidayName] varchar(22), [WDE_DayWeight] decimal(10,3) 
+--)
+
+;with DateBase
 as (
    -- Assuming you have a standard Calendar table. 
    -- If not, this CTE represents your source dates.
@@ -12,8 +15,8 @@ as (
        [DayOfWeek] as [DoW], -- 1=Sun, 2=Mon, etc. in default SQL
        [DayOfMonth]
    from dbo.Dates),
-     HolidayLogic
-as ( -- 
+      HolidayLogic
+as (  -- 
    select
        *,
        case when inr.HolidayName is not null then 1 else 0 end as IsHoliday
@@ -56,7 +59,7 @@ as ( --
                 else null end as HolidayName
        from DateBase
    ) inr ),
-     ProximityLogic
+      ProximityLogic
 as (select
         *,
         -- Look ahead 1 day to see if tomorrow is a holiday
@@ -64,6 +67,9 @@ as (select
         -- Look back 1 day to see if yesterday was a holiday
         lag(IsHoliday, 1) over (order by DateKey) as IsPostHoliday
     from HolidayLogic)
+-- ===========================================
+--insert into dbo.Dates_Holidays_WDE (DateKey, HolidayName, WDE_DayWeight)
+--
 select
     DateKey,
     case when [IsPreHoliday] = 1 then 'PreHoliday'

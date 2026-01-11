@@ -1,7 +1,7 @@
 [[GIT - Check Config Globals]]
 [[GIT - Init]]
 [[GIT - Rename master → main]]
-
+[[GIT - Squash]]
 # Error Handling
 [[GIT - Error Handling - Stuck in VS Termainl]]
 [[GIT - Error Handling - Remote Not Found]]

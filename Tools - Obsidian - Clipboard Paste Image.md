@@ -1,7 +1,5 @@
 ### 1. The "OneNote Feel" (Automatic Attachments)
 
-In OneNote, you don't care where the image lives. In Obsidian, if you don't configure it, your sidebar gets cluttered with `Pasted image 123.png` files.
-
 **The Fix:** Create a dedicated "Junk Drawer" for your images so they don't clutter your notes list.
 
 1. Create a folder named `Attachments` (or `Files`).

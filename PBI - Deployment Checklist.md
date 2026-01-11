@@ -1,0 +1,1 @@
+Check that filters are set to ideal DefaultOpen 

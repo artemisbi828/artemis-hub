@@ -1,13 +1,15 @@
+[[Tools - Key Bindings]]
+[[Tools - Sublime]]
+[[Tools - AutoHotKey]]
+[[Tools - Windows]]
+[[Tools - 💠 Obsidian]]
+[[Tools - VS Code]]
 # Setup
 [[Tools - 🗃️ Terminal PS]]
 [[Tools - Terminal Linux]]
 [[Tools - Chrome]]
-[[Tools - 💠 Obsidian]]
-- [[Tools - 🧱 YAML Formatter]]
-- [[Tools - Obsidian vs OneNote - Clipboard Paste Image]]
-[[Tools - Sublime]]
-[[Tools - AutoHotKey]]
-[[Tools - Windows]]
+- [[Tools - Obsidian - Clipboard Paste Image]]
+
 
 # Basics
 [[Tools - WIN Alt Codes]]

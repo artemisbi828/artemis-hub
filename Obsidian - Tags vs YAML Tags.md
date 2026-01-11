@@ -1,4 +1,4 @@
-**YAML Taggs:** **Use YAML tags for permanent classification.** 
+**YAML Tags:** **Use YAML tags for permanent classification.** 
 **Inline Tags:** Temporary states (`#quick-paste-merge-later`, `#status/todo`).
 
 ---
