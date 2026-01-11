@@ -1,6 +1,13 @@
+---
+aliases:
+  - "0xa0"
+  - NBSP
+---
+often written as `\xa0` in string literals)
+
 #quick-paste-merge-later 
 
-`0xa0` (often written as `\xa0` in string literals) represents the **Non-Breaking Space (NBSP)**.
+
 
 ```
 0x09
@@ -45,11 +52,8 @@ The intended purpose of `0xa0` is strictly formatting. It tells the word process
 You use it when you want to keep two elements together on the same line for readability.
 
 - **Units:** `10 kg` (You don't want "10" on one line and "kg" on the next).
-    
 - **Dates:** `May 5`
-    
 - **Titles:** `Mr. Smith`
-    
 
 ### 3. Why is it "Invisible Trouble"?
 

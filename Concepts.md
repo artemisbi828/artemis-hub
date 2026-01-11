@@ -16,6 +16,8 @@
 [[Concepts - Scaffold]]
 [[Concepts - Casing]]
 [[Concepts - Features Documentation]]
+[[Concepts - OAuth Authentication]]
+
 # How It Works
 [[Concepts - 💻 Shells vs Runtimes]]
 [[Concepts - Node vs C]]
@@ -25,7 +27,7 @@
 - [[Concepts - 📟 ipConfig]]
 - [[Concepts - Network Security]]
 [[Concepts - HTTP vs HTTPS]]
-[[Concepts - 0xa0]]
+[[Concepts - Non-Breaking Space (NBSP)]]
 [[Concepts - Software Distro vs SAAS]]
 [[Concepts - Markdown]]
 [[Concepts - NoSQL]]

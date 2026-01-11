@@ -20,6 +20,7 @@
 [[Tools - AI LLM Models]]
 
 # Builds
+[[Tools - AI Prompt Engineering]]
 [[Tools - Front vs BackEnd]]
 [[Tools - 🚀 Git]]
 [[Tools - Python]]

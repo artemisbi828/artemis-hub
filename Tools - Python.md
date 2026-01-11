@@ -1,5 +1,11 @@
 [[Package Manager]] is [[Pip]]
 
+[[PYT - Data Types]]
+[[PYT - Arrays]]
+
+
+
+
 #quick-paste-merge-later 
 ```
 sqlpolyglot

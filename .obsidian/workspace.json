@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "696a17d856523300",
+        "id": "0b2b365f912321b1",
         "type": "tabs",
         "children": [
           {
-            "id": "8ad9b801d2e1d21d",
+            "id": "3df2d805428d716a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DAX.md",
+                "file": "GIT - Squash.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DAX"
-            }
-          },
-          {
-            "id": "e51f3720acbd2851",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools - Key Bindings.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tools - Key Bindings"
+              "title": "GIT - Squash"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "preceding",
+                "query": "squash",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -109,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools - Key Bindings.md",
+                "file": "GIT - Squash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +105,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Tools - Key Bindings"
+              "title": "Backlinks for GIT - Squash"
             }
           },
           {
@@ -128,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools - Key Bindings.md",
+                "file": "PRJ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Tools - Key Bindings"
+              "title": "Outgoing links from PRJ"
             }
           },
           {
@@ -157,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools - Key Bindings.md",
+                "file": "PRJ.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tools - Key Bindings"
+              "title": "Outline of PRJ"
             }
           },
           {
@@ -180,8 +166,7 @@
               "title": "All properties"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -198,34 +183,36 @@
       "bases:Create new base": false
     }
   },
-  "active": "d1530d7ab57888de",
+  "active": "3df2d805428d716a",
   "lastOpenFiles": [
+    "PRJ.md",
+    "PRJ - Build Accelerates (eg GEM).md",
+    "Tools - AI Prompt Engineering.md",
+    "Concepts - OAuth Authentication.md",
+    "Tools.md",
+    "99 - Attachments/Pasted image 20260111150950.png",
+    "Concepts.md",
+    "03 - Dictionary/MSFT Entra ID Authentication.md",
+    "Tools - REGEX.md",
+    "Concepts - Non-Breaking Space (NBSP).md",
+    "Concepts - Features Documentation.md",
+    "Obsidian - Dataview.md",
+    "Unicode.md",
+    "Practice - Dataview.md",
+    "Concepts - 💻 Shells vs Runtimes.md",
+    "DAX.md",
+    "Tools - Python.md",
+    "PYT - Arrays.md",
+    "Concepts - Datetime UTC Shift.md",
+    "Tools - Key Bindings.md",
     "02 - Daily/📅 2026-01-10 (Sat).md",
     "Untitled.base",
     "DAXM.md",
-    "DAX.md",
     "Obsidian - Callouts.md",
     "Tools - 💠 Obsidian.md",
-    "Obsidian - Dataview.md",
-    "Tools.md",
     "Tools - 🚀 Git.md",
     "GIT - Squash.md",
     "Tools - AutoHotKey.md",
-    "Tools - Key Bindings.md",
-    "DAX - Count Rows.md",
-    "Tools - VS Code.md",
-    "Tools - 🌟 Emojis.md",
-    "Tools - Obsidian - Clipboard Paste Image.md",
-    "Obsidian - Tags vs YAML Tags.md",
-    "00 - Templates/YAML - Basic.md",
-    "Tools - 🧱 YAML Formatter.md",
-    "Tools - Sublime.md",
-    "SQL - Rolling Total.md",
-    "DAX - Add WDE and Holiday Columns.md",
-    "DAXM - Add WDE and Holiday Columns.md",
-    "Concepts.md",
-    "Concepts - 364 Date Shift.md",
-    "DAX - Formatting Numbers.md",
     "99 - Attachments/Pasted image 20260111110125.png",
     "99 - Attachments/Pasted image 20260110195401.png",
     "PBI - C",
@@ -243,7 +230,6 @@
     "99 - Attachments/Pasted image 20260105101434.png",
     "99 - Attachments/Pasted image 20260105101430.png",
     "99 - Attachments/Pasted image 20260105101114.png",
-    "99 - Attachments/Pasted image 20260105095249.png",
     "02 - Daily/Archive",
     "02 - Daily",
     "99 - Digest Later"
