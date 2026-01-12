@@ -12,6 +12,7 @@
 [[PBI - Same Store Sales (SSS)]]
 [[PBI - Work Day Equivalent]]
 [[PBI - Dates Last Year]]
+[[PBI - Sankey Diagram (Waterfall Chart)]]
 
 # UX Techniques
 [[PBI - Checkbox]]

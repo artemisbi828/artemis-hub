@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Templates/_Master.md",
+                "file": "PBI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_Master"
+              "title": "PBI"
+            }
+          },
+          {
+            "id": "e3972095bbdda7ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PBI - Sankey Diagram (Waterfall Chart).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PBI - Sankey Diagram (Waterfall Chart)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - Templates/_Master.md",
+                "file": "PBI - Sankey Diagram (Waterfall Chart).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for _Master"
+              "title": "Backlinks for PBI - Sankey Diagram (Waterfall Chart)"
             }
           },
           {
@@ -182,8 +197,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "c489afbdb271274c",
+  "active": "e3972095bbdda7ce",
   "lastOpenFiles": [
+    "PBI - Sankey Diagram (Waterfall Chart).md",
+    "PBI.md",
+    "Tools.md",
+    "00 - Templates/_Master.md",
     "10 - Business Plan and Website Assets/production_copy.md",
     "10 - Business Plan and Website Assets/quickstart.md",
     "10 - Business Plan and Website Assets/wireframes.md",
@@ -207,10 +226,6 @@
     "Types - Business.md",
     "Types - Expenses.md",
     "Types - Invoices.md",
-    "Types - Execution.md",
-    "Types - Schedule.md",
-    "Types - Dashboards.md",
-    "05 - Dictionary/Automator.md",
     "03 People",
     "99 - Attachments/Pasted image 20260111150950.png",
     "Untitled.base",
