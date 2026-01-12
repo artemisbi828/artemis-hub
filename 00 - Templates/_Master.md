@@ -1,5 +1,15 @@
+[[PRJ]] -- Projects
+[[Concepts]] -- Background, Learning (No Action; Quickstart)
+[[Tools]] -- Concepts | + {Action, Quickstart}
+[[Types]] -- Something in drop down? Something that drills down? 
+[[SQL]]
+
+
+
+
 Continue to experiment with embedded dataviews; 
 
+# Knowledge Type
 knowledge_type
 	[[domains]] -- Umbrella business area → Business Area / Department
 	people -- 
@@ -27,29 +37,20 @@ Dictionary
 - If combo definition → CONCEPT
 - If explanation + links out → CONCEPT
 
-[[Concepts]] -- Background, Learning (No Action; Quickstart)
-[[Tools]] -- Concepts | + {Action, Quickstart}
-[[Types]] -- Something in drop down? Something that drills down? 
-[[SQL]]
+
 
 AI 
 - infer and fill empty domains
 
-# Billable Hours.md
-
----
-
-concept_category: metric
-
-domain: financial
-
-calculated_from: [TimeEntry, Employee, Engagement]
-
----
-
-
-Retrain 
-
-| Natural                        | Refined                                   |
-| ------------------------------ | ----------------------------------------- |
-| Key == SourcesystemId, patGUID | Composite Key: `SourcesystemId + PatGUID` |
+# Tags
+#status/active:  status in progress
+#status/todo: have to init; setup in queue
+#status/todo-deprecate: clean these notes up usually related to
+- #quick-paste-merge-later: low anima paste  → to-do → have to digest → reduce → merge
+#open-loop/refine
+#open-loop/merge-deprecate
+#open-loop/to-schedule
+#bigrock/1
+#bigrock/2
+#bigrock/3
+insert_to_sql

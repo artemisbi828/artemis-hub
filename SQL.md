@@ -38,7 +38,9 @@
 [[SQL - Resort Table]]
 [[SQL - Case When]]
 [[SQL - Pick MIN or MAX of 2+ Values]]
+
 # Techniques
+[[SQL - Lag vs Lead - Rearview vs Windshield]]
 [[SQL - If TMP Exists GOTO SKIP]]
 [[SQL - Select Every 1000 Rows]]
 [[SQL - Generate a List]]
@@ -82,6 +84,7 @@
 [[SQL - Join Types]]
 [[SQL - Cardinalities]]
 [[SQL - Null Handling]]
+[[SQL - Dup Handling]]
 [[SQL - Facts & Dimensions]]
 [[SQL - Merge Updates]]
 [[SQL - Union vs Union All]]

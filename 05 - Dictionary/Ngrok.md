@@ -1,3 +1,5 @@
+Definition: Opens up my local to the internet
+
 
 Main ngrok commands:
 	ngrok http [port] - Create HTTP tunnel (what you'll use most)

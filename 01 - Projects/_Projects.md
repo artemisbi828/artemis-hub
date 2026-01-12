@@ -1,14 +1,5 @@
-Obsidian
-- continued Scrub and consolidation
-- review MCP and linkingg; 
-Financials: On Monday → I want to see spending for last week and compare it from last week and YOY same week
 
-Valence Enhancements
-- OneNote -- quickRef? 
-- use Obsidian
 
-Closing Protocol
-- Local script when closing that syncs my obsidian to git? 
 
 # Projects
 [[_Umbrella]]
@@ -50,8 +41,3 @@ clear-strong note flow
 `Obsidian.p-codebase` -- AI responses; stuff to learn later
 
 ---
-# Tags
-#status/active:  status in progress
-#status/todo: have to init; setup in queue
-#stats/todo-deprecate: clean these notes up usually related to
-- #quick-paste-merge-later: low anima paste  → to-do → have to digest → reduce → merge

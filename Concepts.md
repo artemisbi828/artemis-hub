@@ -10,6 +10,7 @@
 [[Concepts - Modulo]]
 [[Concepts - Naming]]
 [[Concepts - Sanitize Name Logic]]
+[[Concepts - Data Quality Management]]
 [[Concepts - 364 Date Shift]]
 
 [[Concepts - Testing Harness]]
@@ -19,6 +20,7 @@
 [[Concepts - OAuth Authentication]]
 
 # How It Works
+[[Concepts - Environment vs Kernel]]
 [[Concepts - 💻 Shells vs Runtimes]]
 [[Concepts - Node vs C]]
 [[Concepts - 🔑 API Keys]]

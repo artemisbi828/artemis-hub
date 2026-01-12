@@ -4,7 +4,7 @@ aliases:
 ---
 --> D_Office 
 SSS = Offices that have a dashboardstartdate < CutOffDate (bomonth(selected(max(DateKey)))
-[[PRJ - Resume Website PBI]] → SSS is hardcoded bc data is static
+[[PRJ - Website - artemis-bi.com]] → SSS is hardcoded bc data is static
 
 
 Normally

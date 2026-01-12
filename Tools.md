@@ -1,3 +1,4 @@
+[[Tools - Short Typing]]
 [[Tools - Key Bindings]]
 [[Tools - Sublime]]
 [[Tools - AutoHotKey]]
@@ -9,21 +10,22 @@
 [[Tools - Terminal Linux]]
 [[Tools - Chrome]]
 - [[Tools - Obsidian - Clipboard Paste Image]]
-
+[[Tools - 🚀 Git]]
+[[Tools - Python]]
 
 # Basics
 [[Tools - WIN Alt Codes]]
 [[Tools - 🌟 Emojis]]
+[[Tools - Arr]]
 [[Tools - REGEX]]
 [[Tools - TOML]]
 [[Tools - 🧜‍♀️Mermaid]]
 [[Tools - AI LLM Models]]
 
 # Builds
+
 [[Tools - AI Prompt Engineering]]
 [[Tools - Front vs BackEnd]]
-[[Tools - 🚀 Git]]
-[[Tools - Python]]
 [[Tools - NodeJS]]
 [[Tools - Google Cloud SDK]]
 [[Tools - Google Drive]]
@@ -53,7 +55,7 @@
 [[MSFT Entra ID Authentication]]
 	[[Entra ID (OIDC) via MSAL]]
 [[Redit]]
-
+[[Twilio]]
 
 # People-Ware
 [[Tools - Gap Analysis Quadrant]]
@@ -61,5 +63,9 @@
 [[Tools - Data Talk]]
 [[Tools - Team Work Talk]]
 [[Tools - Finance Talk]]
+[[Tools - Statistics Talk]]
 [[Tools - Email]]
 [[Tools - Marketing Assessment]]
+[[Tools - Resume Words]]
+[[Tools - Dictation]]
+[[Tools - Interview Questions to Ask]]

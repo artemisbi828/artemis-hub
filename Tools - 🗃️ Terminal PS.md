@@ -3,6 +3,14 @@ syntax: powershell
 aliases:
   - PS
 ---
+# Basic Commands
+[[PS - Get Help]]
+[[PS - Clear Host]]
+[[PS - Clear Variables, Set Variables]]
+
+# Basic Tools
+[[PS - Get PnP for Sharepoint]]
+# Basic Scripts
 [[PS - Get Files and SubFiles]]
 [[PS - Delete Item]]
 [[PS - Get File Counts]]
@@ -59,12 +67,8 @@ Move-Item `
 # bool for exists
 Test-Path C:\vsWorkspace\shared-utils\utils\clean_sql_joins.py 
 
-# get help
-$PSVersionTable # check version; # alias: $PSVersionTable → $PSVersionTable.PSVersion (ps defined)
-
 Get-Alias cat #define Get-Content
-Get-Help Get-Content #tell me what Get-Content does
-Get-Help Get-Content -Examples
+
 ```
 
 ## Arrays
@@ -167,3 +171,5 @@ $sub = Join-Path $PWD 'SlideSMS'; if (-not (Test-Path $sub)) { New-Item $sub -It
 # to exit
 deactivate
 ```
+
+

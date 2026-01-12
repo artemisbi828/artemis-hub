@@ -2,7 +2,7 @@
 
 [[PYT - Data Types]]
 [[PYT - Arrays]]
-
+[[PYT - Try, If, Except]]
 
 
 

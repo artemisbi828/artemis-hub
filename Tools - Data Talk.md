@@ -1,3 +1,5 @@
+Research Artemis-BI notes and synthesize MVP plan inputs
+
 #quick-paste-merge-later 
 `includes stats talk`
 
@@ -129,30 +131,6 @@ DATASPECIFIC
 	Live query -- cached or replicated
 	One-time load
 
-STATISTICS
-	Dispersion -- spread
-	Precision vs Accuracy
-		Deltas
-		Variance
-		Standard Deviation -- able to compare variances from standardized center
-		Dispersion -- Spread
-		Observations | Observations of Error | Snapshots
-	Trendlines; Sparklines
-	BANDS -- min, max, avg, qty, time
-	AGGS -- sum, total
 
 
-Gather -- and analyze measures for benchmarking across A and against industry standards
-Provides -- assistance, guidance, support for team (financial)
-Establish -- key elements for operational plans for analysis (financial) 
-Implements -- financial processes & reports to maximize quality of financial reporting, Variance analysis, budgeting and forecasting
-Supports -- continuous improvement of financial models for "what if" scenarios to help future business planning decisions
-Prepares -- operational projections
-Analyzes -- compare to projections
-Compares -- projections to existing business
-Performs -- historical analysis of actual vs projected
-Completes -- special Projects
-
-Partners with
-Assists with
 

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0b2b365f912321b1",
+        "id": "20e1081b904ab8b1",
         "type": "tabs",
         "children": [
           {
-            "id": "3df2d805428d716a",
+            "id": "c489afbdb271274c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GIT - Squash.md",
+                "file": "00 - Templates/_Master.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GIT - Squash"
+              "title": "_Master"
             }
           }
         ]
@@ -53,12 +53,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "squash",
+                "query": "iowa",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GIT - Squash.md",
+                "file": "00 - Templates/_Master.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for GIT - Squash"
+              "title": "Backlinks for _Master"
             }
           },
           {
@@ -143,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PRJ.md",
+                "file": "00 - Templates/_Master.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PRJ"
+              "title": "Outline of _Master"
             }
           },
           {
@@ -183,36 +182,38 @@
       "bases:Create new base": false
     }
   },
-  "active": "3df2d805428d716a",
+  "active": "c489afbdb271274c",
   "lastOpenFiles": [
+    "10 - Business Plan and Website Assets/production_copy.md",
+    "10 - Business Plan and Website Assets/quickstart.md",
+    "10 - Business Plan and Website Assets/wireframes.md",
+    "10 - Business Plan and Website Assets/content_blocks.md",
+    "10 - Business Plan and Website Assets/website_plan.md",
+    "10 - Business Plan and Website Assets/business_plan.md",
+    "10 - Business Plan and Website Assets",
+    "Tools - Data Talk.md",
+    "Types.md",
     "PRJ.md",
-    "PRJ - Build Accelerates (eg GEM).md",
+    "PRJ - Asheville Leads Ideas.md",
+    "PRJ - Website - Text Scrape of Elements from HiHello.com.md",
     "Tools - AI Prompt Engineering.md",
-    "Concepts - OAuth Authentication.md",
-    "Tools.md",
+    "Types - Service Solution.md",
+    "Types - Incentives.md",
+    "Types - Sales & Marketing Stages.md",
+    "Types - Service Stages (5).md",
+    "Types - Pain-Point → Solutions.md",
+    "Types - Data Roles.md",
+    "Types - Engagement.md",
+    "Types - Business.md",
+    "Types - Expenses.md",
+    "Types - Invoices.md",
+    "Types - Execution.md",
+    "Types - Schedule.md",
+    "Types - Dashboards.md",
+    "05 - Dictionary/Automator.md",
+    "03 People",
     "99 - Attachments/Pasted image 20260111150950.png",
-    "Concepts.md",
-    "03 - Dictionary/MSFT Entra ID Authentication.md",
-    "Tools - REGEX.md",
-    "Concepts - Non-Breaking Space (NBSP).md",
-    "Concepts - Features Documentation.md",
-    "Obsidian - Dataview.md",
-    "Unicode.md",
-    "Practice - Dataview.md",
-    "Concepts - 💻 Shells vs Runtimes.md",
-    "DAX.md",
-    "Tools - Python.md",
-    "PYT - Arrays.md",
-    "Concepts - Datetime UTC Shift.md",
-    "Tools - Key Bindings.md",
-    "02 - Daily/📅 2026-01-10 (Sat).md",
     "Untitled.base",
-    "DAXM.md",
-    "Obsidian - Callouts.md",
-    "Tools - 💠 Obsidian.md",
-    "Tools - 🚀 Git.md",
-    "GIT - Squash.md",
-    "Tools - AutoHotKey.md",
     "99 - Attachments/Pasted image 20260111110125.png",
     "99 - Attachments/Pasted image 20260110195401.png",
     "PBI - C",
@@ -230,8 +231,6 @@
     "99 - Attachments/Pasted image 20260105101434.png",
     "99 - Attachments/Pasted image 20260105101430.png",
     "99 - Attachments/Pasted image 20260105101114.png",
-    "02 - Daily/Archive",
-    "02 - Daily",
-    "99 - Digest Later"
+    "02 - Daily/Archive"
   ]
 }
