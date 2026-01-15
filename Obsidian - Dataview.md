@@ -1,3 +1,9 @@
+```
+
+```dataview
+list
+from #quick-paste-merge-later 
+```
 
 # Show all files in the same folder
 ```markdown
@@ -18,10 +24,26 @@ WHERE startswith(file.folder, this.file.folder)
 
 ```
 
-# Show all files where YAML tag is null
+# Missing YAML tag w specific tag
+2026-01-15 09:27 AM
+Search bar: ["concept_type"]
+
+```
+```dataview
+
+TABLE file.link, concept_type
+WHERE contains(file.tags, "source/heartbeat-infobox")
+AND (
+  !concept_type
+  OR concept_type = null
+  OR concept_type = ""
+)
+SORT file.name ASC
 
 ```
 
+
+# Show all files where YAML tag is null
 ```markdown
 
 LIST

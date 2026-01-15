@@ -4,6 +4,7 @@ aliases:
   - PS
 ---
 # Basic Commands
+[[PS - Trigger PS Script]]
 [[PS - Get Help]]
 [[PS - Clear Host]]
 [[PS - Clear Variables, Set Variables]]

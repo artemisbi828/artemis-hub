@@ -1,6 +1,7 @@
 # Batch Create Markdown Files from Text File
 # Prompts for a filepath, parses lines starting with "#" as filenames,
 # and creates individual markdown files with content between headers
+# USAGE --> .\batch_create_markdown_files.ps1 -inputFilePath "C:\vsWorkspace_SD\column_output.txt"
 
 param(
     [Parameter(Mandatory=$true)]
