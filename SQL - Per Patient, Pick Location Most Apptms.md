@@ -1,0 +1,2 @@
+- I was originally tryingg to do 
+- LEARNING → you can RN over partition `order by count(*)`

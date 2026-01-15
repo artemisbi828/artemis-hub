@@ -13,6 +13,9 @@ aliases:
 # Basic Scripts
 [[PS - Get Files and SubFiles]]
 [[PS - Delete Item]]
+[[PS - Delete all files that string_pattern]]
+[[PS - Move all files into subdir that start_with]]
+[[PS - Get filenames in dir → output.txt]]
 [[PS - Get File Counts]]
 [[PS - Copy Item for Backup]]
 [[PS - Get Content - First 10 Lines]]

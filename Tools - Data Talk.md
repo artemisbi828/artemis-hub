@@ -2,7 +2,7 @@ Research Artemis-BI notes and synthesize MVP plan inputs
 
 #quick-paste-merge-later 
 `includes stats talk`
-
+intercalation. inserting interlayer
 # Drill In
 - cognitive dissonance
 • implement both scripts with comprehensive functionality

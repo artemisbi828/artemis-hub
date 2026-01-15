@@ -1,4 +1,4 @@
-[[Tools - AI Prompt Engineering]]]
+[[Tools - AI Prompt - Markdown File Generation]]]
 
 Creating a Gem is a brilliant way to automate the specific formatting "friction" of moving from OneNote to Obsidian. Since you are a SQL/Power BI developer moving toward full-stack, we can treat the Gem's instructions like a **System Stored Procedure**—it should be a deterministic, high-utility script that processes "raw data" (your notes) into "clean output" (Obsidian Markdown).
 

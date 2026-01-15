@@ -2,8 +2,14 @@
 # Prompts for a filepath, parses lines starting with "#" as filenames,
 # and creates individual markdown files with content between headers
 
+param(
+    [Parameter(Mandatory=$true)]
+    [string]$inputFilePath
+)
+
+
 # Prompt for the input file path
-$inputFilePath = Read-Host "Enter the path to the input file"
+#$inputFilePath = Read-Host "Enter the path to the input file"
 
 # Validate the file exists
 if (-not (Test-Path $inputFilePath)) {

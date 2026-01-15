@@ -22,9 +22,10 @@
 [[Tools - 🧜‍♀️Mermaid]]
 [[Tools - AI LLM Models]]
 
+# Prompt Engineering
+[[Tools - AI Prompt - Markdown File Generation]]
+[[Tools - AI Prompt - Business Logic Definition]]
 # Builds
-
-[[Tools - AI Prompt Engineering]]
 [[Tools - Front vs BackEnd]]
 [[Tools - NodeJS]]
 [[Tools - Google Cloud SDK]]

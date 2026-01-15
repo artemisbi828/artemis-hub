@@ -1,0 +1,8 @@
+```sql
+(a IS DISTINCT FROM b)
+
+AND (a IS DISTINCT FROM c)
+
+AND (b IS DISTINCT FROM c)
+``
+```

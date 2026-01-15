@@ -1,5 +1,10 @@
 #status/todo -- 2026-01-04 04:21PM -- process OneNote\STRING\string_split and on ... 
 
+## Learning
+- Instead of "case when" → 1) target w "where" and "group by", 2) row_number
+- Practice if(exists)
+
+
 ## String
 [[SQL - Extract String (Middle)]]
 [[SQL - Extract String (End)]]
@@ -39,8 +44,17 @@
 [[SQL - Case When]]
 [[SQL - Pick MIN or MAX of 2+ Values]]
 
+# Standards
+[[SQL - Create Table]]
+
 # Techniques
+[[SQL - Logic Pathway Concepts]]
+[[SQL - If Exists]]
+[[SQL - Get Samples]]
+[[SQL - Compare 3 Nullable Bools]]
+[[SQL - Per Patient, Pick Location Most Apptms]]
 [[SQL - Lag vs Lead - Rearview vs Windshield]]
+- [[SQL - Has Apptm Prev 30 Days]]
 [[SQL - If TMP Exists GOTO SKIP]]
 [[SQL - Select Every 1000 Rows]]
 [[SQL - Generate a List]]
@@ -91,3 +105,6 @@
 [[SQL - PostGres vs SqlServer]]
 [[SQL - PostGRESql + Supabase]]
 [[SQL - MSSQL to Snowflake Syntax]]
+
+# Debug
+[[SQL - Results to Text Truncated Issue]]

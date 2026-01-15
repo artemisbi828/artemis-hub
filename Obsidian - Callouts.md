@@ -13,10 +13,10 @@ Here is a complete list of the default supported callout types. You can use any 
 
 ### 2. Positive & Success
 
-|**Type**|**Icon Description**|**Usage**|
-|---|---|---|
-|`[!tip]`|Green lightbulb|Helpful hints, shortcuts, or advice. (Aliases: `hint`, `important`)|
-|`[!success]`|Green checkmark|Completed goals, positive results. (Aliases: `check`, `done`)|
+| **Type**     | **Icon Description** | **Usage**                                                           |
+| ------------ | -------------------- | ------------------------------------------------------------------- |
+| `[!tip]`     | Green lightbulb      | Helpful hints, shortcuts, or advice. (Aliases: `hint`, `important`) |
+| `[!success]` | Green checkmark      | Completed goals, positive results. (Aliases: `check`, `done`)       |
 
 ### 3. Warnings & Errors
 
