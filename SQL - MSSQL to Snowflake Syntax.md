@@ -1,6 +1,8 @@
 - Remove brackets
 - Top 5 → Limit 5
 - TO_DATE(TO_VARCHAR(), 'YYYYMMDD')
+- ISNULL() → NVL()
+
 # MSSQL
 ```sql
 set tran isolation level read uncommitted;

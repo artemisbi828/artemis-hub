@@ -5,6 +5,7 @@
 [[Tools - Windows]]
 [[Tools - 💠 Obsidian]]
 [[Tools - VS Code]]
+[[Tools - PC Assignments]]
 # Setup
 [[Tools - 🗃️ Terminal PS]]
 [[Tools - Terminal Linux]]
@@ -16,7 +17,6 @@
 # Basics
 [[Tools - WIN Alt Codes]]
 [[Tools - 🌟 Emojis]]
-[[Tools - Arr]]
 [[Tools - REGEX]]
 [[Tools - TOML]]
 [[Tools - 🧜‍♀️Mermaid]]
@@ -25,6 +25,7 @@
 # Prompt Engineering
 [[Tools - AI Prompt - Markdown File Generation]]
 [[Tools - AI Prompt - Business Logic Definition]]
+[[Tools - AI Prompt - SQL Refactor]]
 # Builds
 [[Tools - Front vs BackEnd]]
 [[Tools - NodeJS]]
@@ -70,3 +71,6 @@
 [[Tools - Resume Words]]
 [[Tools - Dictation]]
 [[Tools - Interview Questions to Ask]]
+
+# Facebook, IG DLs
+[[Tools - Facebook Reels]]

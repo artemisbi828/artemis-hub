@@ -1,7 +1,9 @@
-```xls
-=IF(ISNUMBER(SEARCH("name",B1)),1,0)
-=IF(TRIM(D25)="","nvarchar(75)",D25)
-=CONCAT("[", Table1[@Name], "]  ", Table1[@Column1], ",")
-```
+
+| Pivot Shortcut    | Effect          |
+| ----------------- | --------------- |
+| Alt + A + H       | collapse all    |
+| Alt + A + J       | expand all      |
+| Alt + Shift + {-} | collapse select |
+| Alt + Shift + {+} | expand selected |
 
 ![[Pasted image 20260103220356.png]]

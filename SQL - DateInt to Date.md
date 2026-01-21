@@ -1,3 +1,9 @@
+```sql
+       try_cast(concat_ws('-', convert(nvarchar(32), c.D_START_DATE_KEY) / 10000,
+       convert(nvarchar(16), c.D_START_DATE_KEY) % 10000 / 100,
+       convert(nvarchar(16), c.D_START_DATE_KEY) % 100) as date) as DateKey,
+```
+
 #quick-paste-merge-later 
 ```sql
 create function help.ConvertDateInt_To_Date (@dateint int)
