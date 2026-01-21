@@ -16,7 +16,7 @@
 [[Concepts - Testing Harness]]
 [[Concepts - Scaffold]]
 [[Concepts - Casing]]
-[[Concepts - Features Documentation]]
+[[Concepts - Features - What's New]]
 [[Concepts - OAuth Authentication]]
 
 # How It Works

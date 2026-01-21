@@ -11,7 +11,9 @@ Attributes or facet -- separate slice used to classify an item
 - NPE could be a combination of 2 facets -- Appointment Type Group (parent rollup) 
 
 #quick-paste-merge-later 
-
+I've learned 2 ways of creating log tables
+  D2 Tables -- SCDType2 -- Slowly Changing Dimension. IsCurrent = endDate is not null (fast to index/partition)
+  CDC stream -- append-only log table 
 
 
 `includes stats talk`

@@ -5,6 +5,7 @@
 [[Tools - Windows]]
 [[Tools - 💠 Obsidian]]
 [[Tools - VS Code]]
+[[Tools - PC Assignments]]
 # Setup
 [[Tools - 🗃️ Terminal PS]]
 [[Tools - Terminal Linux]]
@@ -70,3 +71,6 @@
 [[Tools - Resume Words]]
 [[Tools - Dictation]]
 [[Tools - Interview Questions to Ask]]
+
+# Facebook, IG DLs
+[[Tools - Facebook Reels]]

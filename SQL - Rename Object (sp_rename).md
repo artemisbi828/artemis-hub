@@ -7,6 +7,10 @@ exec sp_rename 'bi.Appointments_Collections2', 'Appointments_Collections'
 > - must declare DB
 > - cannot use 3 objects in rename
 
+2026-01-21 04:46 PM -- added these 2 to the logic
+- - any views using that object
+- any documentation tables that need to be updated
+
 - check if it is a fk constraint
 - any procs using that column -- rename
 - any procs writing to that column
