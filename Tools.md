@@ -16,7 +16,6 @@
 # Basics
 [[Tools - WIN Alt Codes]]
 [[Tools - 🌟 Emojis]]
-[[Tools - Arr]]
 [[Tools - REGEX]]
 [[Tools - TOML]]
 [[Tools - 🧜‍♀️Mermaid]]
@@ -25,6 +24,7 @@
 # Prompt Engineering
 [[Tools - AI Prompt - Markdown File Generation]]
 [[Tools - AI Prompt - Business Logic Definition]]
+[[Tools - AI Prompt - SQL Refactor]]
 # Builds
 [[Tools - Front vs BackEnd]]
 [[Tools - NodeJS]]

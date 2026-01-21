@@ -4,7 +4,6 @@
 - Instead of "case when" → 1) target w "where" and "group by", 2) row_number
 - Practice if(exists)
 
-
 ## String
 [[SQL - Extract String (Middle)]]
 [[SQL - Extract String (End)]]
@@ -25,6 +24,8 @@
 [[SQL - Order by Case Sensitive]]
 [[SQL - StringAgg]]
 [[SQL - Has or Contains]]
+[[SQL - String Split]]
+[[SQL - ParseName]]
 ## Dates
 [[SQL - Get Last Stable Month]]
 [[SQL - DateInt to Date]]
@@ -46,6 +47,7 @@
 
 # Standards
 [[SQL - Create Table]]
+[[SQL - Personal Improvements]]
 
 # Techniques
 [[SQL - Logic Pathway Concepts]]
@@ -55,6 +57,7 @@
 [[SQL - Per Patient, Pick Location Most Apptms]]
 [[SQL - Lag vs Lead - Rearview vs Windshield]]
 - [[SQL - Has Apptm Prev 30 Days]]
+- [[SQL - Net New - Has Same Apptm Prev 30 Days]]
 [[SQL - If TMP Exists GOTO SKIP]]
 [[SQL - Select Every 1000 Rows]]
 [[SQL - Generate a List]]
@@ -105,6 +108,8 @@
 [[SQL - PostGres vs SqlServer]]
 [[SQL - PostGRESql + Supabase]]
 [[SQL - MSSQL to Snowflake Syntax]]
+[[SQL - Buffer Pool]]
 
 # Debug
 [[SQL - Results to Text Truncated Issue]]
+[[SQL - Fabric Collation Error]]

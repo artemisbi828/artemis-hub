@@ -5,6 +5,7 @@ aliases:
 ---
 # Basic Commands
 [[PS - Trigger PS Script]]
+[[PS - Trigger PY Script]]
 [[PS - Get Help]]
 [[PS - Clear Host]]
 [[PS - Clear Variables, Set Variables]]

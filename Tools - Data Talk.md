@@ -1,6 +1,19 @@
 Research Artemis-BI notes and synthesize MVP plan inputs
 
+# Orthogonal / Facets
+People can just use tags. Later formalized w integrity checks for hierarchal or orthogonal relationships. Cross cutting is to use (M) facets
+
+Orthogonal Category -- Different dimensions, not parent-child subsets. 
+- Orthoggonal is opposite of hierarchal.
+- eg: exams is a groupingg dimension, consults is an attribute, NPE is a sub-attribute of Consults.
+
+Attributes or facet -- separate slice used to classify an item
+- NPE could be a combination of 2 facets -- Appointment Type Group (parent rollup) 
+
 #quick-paste-merge-later 
+
+
+
 `includes stats talk`
 intercalation. inserting interlayer
 # Drill In
