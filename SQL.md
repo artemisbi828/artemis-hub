@@ -79,6 +79,7 @@
 [[SQL - Get Triggers]]
 [[SQL - Get Foreign Keys]]
 [[SQL - Get Constraints]]
+[[SQL - Get Schemas]]
 [[SQL - Alter Schema]]
 [[SQL - Drop Schema]]
 [[SQL - Get Databases]]
