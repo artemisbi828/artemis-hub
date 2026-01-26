@@ -16,7 +16,10 @@ Dashboards should be aggregated at lowest grain being
 Maximum of 5 or 6 text cards
 Trendlines
 
-
+### Pipeline Debugging
+Broken connections
+Overflow -- distinct, group by, triggers
+Incomplete Data
 ## SQL Basics
 
 ### Semantic Queries vs Database-Optimized Queries

@@ -1,5 +1,11 @@
 [[Package Manager]] is [[Pip]]
 
+```
+"""
+This is a multi-line block
+"""
+```
+
 [[PYT - Data Types]]
 [[PYT - Arrays]]
 [[PYT - Try, If, Except]]

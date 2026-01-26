@@ -3,6 +3,7 @@
 SETUP
 - `Ctrl + Shift + P` -- install Package Control
 - `Ctrl + Shift + P` -- Remove Package --> 
+- `Ctrl + ``  
 
 
 

@@ -1,5 +1,5 @@
 Research Artemis-BI notes and synthesize MVP plan inputs
-yes - wire them to use centralized values
+REVOPSyes - wire them to use centralized values
 
 # Orthogonal / Facets
 People can just use tags. Later formalized w integrity checks for hierarchal or orthogonal relationships. Cross cutting is to use (M) facets
