@@ -1,37 +1,12 @@
-### 1. Single-Line Comments
-
-To comment out a single line or add a note to the end of a line of code, use the **semicolon** (`;`).1
-
-AutoHotkey
-
-```
-; This is a full-line comment
-Run "notepad.exe"  ; This is an end-of-line comment
+```bash
+shell:startup --> %AppData%\Microsoft\Windows\Start Menu\Programs\Startup
 ```
 
-- **Rule:** There must be at least **one space** (or tab) before the semicolon if it follows a command.2
-    
 
----
-
-### 2. Multi-Line (Block) Comments
-
-If you want to comment out a large section of code, use `/*` to start the block and `*/` to end it.3
-
-AutoHotkey
-
-```
-/*
-This is a multi-line comment.
-Everything inside these symbols
-will be ignored by the script.
-*/
-```
-
-- **Rule:** The `/*` and `*/` must appear at the **very start** of the line. They cannot have any code or spaces before them.
-    
-
----
+|       |                     |                                                                                                                   |
+| ----- | ------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| ;     | single-line comment | just like "--"                                                                                                    |
+| /* */ | multi-line comment  | The `/*` and `*/` must appear at the **very start** of the line. They cannot have any code or spaces before them. |
 
 ### Pro-Tip for Sublime Text Users
 

@@ -1,4 +1,10 @@
-Package manager
+Package manager → Use PMPM instead? 
+```
+- **Analogy:** If `npm` is like every student in a class buying their own copy of a textbook, `pnpm` is like a library where everyone shares one copy but has their own notebook.
+    
+- **Why?** It saves massive amounts of disk space and is significantly faster at installing the "Robust" tools you want (Tailwind, Framer Motion, etc.).
+```
+
 reads package.json
 
 ```
