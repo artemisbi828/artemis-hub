@@ -6,6 +6,7 @@
 [[Tools - 💠 Obsidian]]
 [[Tools - VS Code]]
 [[Tools - PC Assignments]]
+
 # Setup
 [[Tools - 🗃️ Terminal PS]]
 [[Tools - Terminal Linux]]
@@ -31,7 +32,6 @@
 [[Tools - NodeJS]]
 [[Tools - Google Cloud SDK]]
 [[Tools - Google Drive]]
-[[Tools - Data Grip]]
 [[Tools - Postman]]
 [[Tools - Docker]]
 [[Tools - Immich Photo]]
@@ -40,6 +40,7 @@
 [[Clipboard API (Uppy)]]
 
 ## Back-End
+[[Tools - Data Grip]]
 [[Azure Blob Storage with SAS]]
 [[Azure DevOps REST API]]
 [[Defender for Storage – Malware Scanning]]
