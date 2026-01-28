@@ -1,7 +1,5 @@
 Related to [[Pandas]]
 
-
-
 **Quick Answer:** Parquet is a **columnar, compressed, schema-aware format** designed for big data analytics, while CSV is a **row-based, plain text format** that’s human-readable and universally compatible. Parquet is faster and more efficient for large datasets, whereas CSV is simpler and more portable.
 
 ---

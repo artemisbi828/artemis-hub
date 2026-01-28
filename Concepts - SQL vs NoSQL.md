@@ -1,18 +1,4 @@
-Rigid, relational schema (SQL) to the flexible, document-based world of Firestore.
-
----
-## 1. Firebase vs. Firestore: The Platform vs. The Database
-
-You can map these to your existing understanding of operating systems and applications:
-
-| Component     | Analogous To...                                      | What it is                                                                                                                                           |
-| :------------ | :--------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Firebase**  | **Google Cloud Platform (GCP)** / **Docker Desktop** | A full Backend-as-a-Service (BaaS) platform that simplifies building and scaling apps. It provides Authentication, Hosting, Storage, and Databases.  |
-| **Firestore** | **Postgres / MySQL**                                 | A serverless, high-performance NoSQL database (a product of Firebase/GCP). It is optimized for real-time synchronization and sophisticated querying. |
-
----
-
-## 2. Bridging the Knowledge Gap: SQL vs. NoSQL
+## Bridging the Knowledge Gap: SQL vs. NoSQL
 
 The key difference lies in how data is structured and accessed. SQL prioritizes reducing redundancy (**Normalization**), while Firestore prioritizes read speed and flexibility (**Denormalization**).
 

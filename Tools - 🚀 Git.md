@@ -2,6 +2,8 @@
 [[GIT - Init]]
 [[GIT - Rename master → main]]
 [[GIT - Squash]]
+[[GIT - Fix Local Branch A vs Prod]]
+[[GIT - Head]]
 # Error Handling
 [[GIT - Error Handling - Stuck in VS Termainl]]
 [[GIT - Error Handling - Remote Not Found]]

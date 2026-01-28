@@ -6,10 +6,15 @@
 [[Tools - 💠 Obsidian]]
 [[Tools - VS Code]]
 [[Tools - PC Assignments]]
+<<<<<<< HEAD
 
+=======
+[[Tools - File Naming]]
+>>>>>>> 7d937943498056274c459ebb6db16b4e2b7be1d9
 # Setup
 [[Tools - 🗃️ Terminal PS]]
 [[Tools - Terminal Linux]]
+[[Tools - Parquet Files vs CSV]]
 [[Tools - Chrome]]
 - [[Tools - Obsidian - Clipboard Paste Image]]
 [[Tools - 🚀 Git]]
@@ -18,15 +23,17 @@
 # Basics
 [[Tools - WIN Alt Codes]]
 [[Tools - 🌟 Emojis]]
-[[Tools - REGEX]]
+[[REGEX]]
 [[Tools - TOML]]
+[[Tools - INI]]
 [[Tools - 🧜‍♀️Mermaid]]
-[[Tools - AI LLM Models]]
 
-# Prompt Engineering
+# AI Prompt Engineering
+[[Tools - General AI Prompt]]
 [[Tools - AI Prompt - Markdown File Generation]]
 [[Tools - AI Prompt - Business Logic Definition]]
 [[Tools - AI Prompt - SQL Refactor]]
+[[Tools - AI LLM Models]]
 # Builds
 [[Tools - Front vs BackEnd]]
 [[Tools - NodeJS]]
@@ -35,12 +42,17 @@
 [[Tools - Postman]]
 [[Tools - Docker]]
 [[Tools - Immich Photo]]
+[[Tools - Signal R]]
+[[Tools - Redis]]
 ## Front-End
 [[Flask]]
 [[Clipboard API (Uppy)]]
-
+[[Tools - NGROK]]
+[[Tools - Particle System]]
 ## Back-End
 [[Tools - Data Grip]]
+
+[[Tools - Primary Keys (uuid vs int)]]
 [[Azure Blob Storage with SAS]]
 [[Azure DevOps REST API]]
 [[Defender for Storage – Malware Scanning]]
@@ -59,6 +71,8 @@
 	[[Entra ID (OIDC) via MSAL]]
 [[Redit]]
 [[Twilio]]
+[[Firebase]]
+[[Firestore]]
 
 # People-Ware
 [[Tools - Gap Analysis Quadrant]]

@@ -9,9 +9,11 @@ aliases:
 [[PS - Get Help]]
 [[PS - Clear Host]]
 [[PS - Clear Variables, Set Variables]]
+[[PS - Pipes]]
 
 # Basic Tools
 [[PS - Get PnP for Sharepoint]]
+
 # Basic Scripts
 [[PS - Get Files and SubFiles]]
 [[PS - Delete Item]]
@@ -23,6 +25,8 @@ aliases:
 [[PS - Get Content - First 10 Lines]]
 [[PS - Edit and Overwrite - Research]]
 
+# Advanced Tools
+[[PS - SQL BCP Header Query]]
 
 ```
 # 2 lines in 1

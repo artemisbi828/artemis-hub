@@ -1,70 +1,41 @@
 {
   "main": {
-    "id": "d0b77393b3a9e6c4",
+    "id": "0d5e21ee6002e1cc",
     "type": "split",
     "children": [
       {
-        "id": "cf924d4fcdc6dd66",
+        "id": "29880fd120387031",
         "type": "tabs",
         "children": [
           {
-            "id": "14132b8e8a9bb767",
+            "id": "d41c431f5fb820a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PRJ.md",
+                "file": "Tools - General AI Prompt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PRJ"
-            }
-          },
-          {
-            "id": "b0ee804a21c2806d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PRJ - Idle Computers.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PRJ - Idle Computers"
-            }
-          },
-          {
-            "id": "e0ac05ad4180fe3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools - Data Grip.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tools - Data Grip"
+              "title": "Tools - General AI Prompt"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "cf8abc6251484392",
+    "id": "a07230d30080e905",
     "type": "split",
     "children": [
       {
-        "id": "4128d9942febb7ab",
+        "id": "679593026128e507",
         "type": "tabs",
         "children": [
           {
-            "id": "5d25722477473757",
+            "id": "612e1b50b43c71ac",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -77,24 +48,24 @@
             }
           },
           {
-            "id": "0570665ce481f0f3",
+            "id": "12ac682d3a8c6f7f",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "gregg",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
               "title": "Search"
             }
           },
           {
-            "id": "8c1a3b5cf53fd97b",
+            "id": "d9269d8eb4022c05",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -107,57 +78,57 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 300
   },
   "right": {
-    "id": "97a1c5e6364d74b8",
+    "id": "752cbe1a70dfac5d",
     "type": "split",
     "children": [
       {
-        "id": "20d3022bb28262f7",
+        "id": "271423b1ba225d2f",
         "type": "tabs",
         "children": [
           {
-            "id": "2d56c3a3996c7f17",
+            "id": "76e1bec7080ac34b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PRJ - Idle Computers.md",
+                "file": "Tools - General AI Prompt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for PRJ - Idle Computers"
+              "title": "Backlinks for Tools - General AI Prompt"
             }
           },
           {
-            "id": "9cdf114b9454f608",
+            "id": "383c26572728cec0",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PRJ.md",
+                "file": "Tools - General AI Prompt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from PRJ"
+              "title": "Outgoing links from Tools - General AI Prompt"
             }
           },
           {
-            "id": "2d372e9086620a93",
+            "id": "2eb251579405349c",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false,
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -166,22 +137,7 @@
             }
           },
           {
-            "id": "d1530d7ab57888de",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "00 - Templates/_Master.md",
-                "followCursor": false,
-                "showSearch": true,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of _Master"
-            }
-          },
-          {
-            "id": "aabd7e23828b8500",
+            "id": "f0cc7a2b47d7dd4e",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -195,22 +151,26 @@
             }
           },
           {
-            "id": "f618b2913fe8fa4c",
+            "id": "c977d77f7e55460c",
             "type": "leaf",
             "state": {
-              "type": "file-properties",
+              "type": "outline",
               "state": {
-                "file": "SQL.md"
+                "file": "Tools - General AI Prompt.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
-              "icon": "lucide-info",
-              "title": "File properties for SQL"
+              "icon": "lucide-list",
+              "title": "Outline of Tools - General AI Prompt"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,55 +183,6 @@
       "bases:Create new base": false
     }
   },
-  "active": "b0ee804a21c2806d",
-  "lastOpenFiles": [
-    "PRJ - Idle Computers.md",
-    "PRJ.md",
-    "Tools.md",
-    "Tools - Data Grip.md",
-    "Tools - Docker.md",
-    "02 - Daily/📅 2026-01-21 (Wed).md",
-    "02 - Daily/📅 2026-01-22 (Thu).md",
-    "02 - Daily/📅 2026-01-25 (Sun).md",
-    "99 - Scripts/README_agent.md",
-    "2026-01-11.md",
-    "Tools - Data Talk.md",
-    "SQL - Get Schemas.md",
-    "README_agent_draft.md",
-    "99 - Scripts/copy_item_over.ps1",
-    "99 - Scripts/readme_agent_sql.md",
-    "slideSMS.md",
-    "10 - Business Plan and Website Assets/original_prompt.md",
-    "10 - Business Plan and Website Assets/quickstart.md",
-    "00 - Templates/Daily Notes.md",
-    "React.md",
-    "Tools - AutoHotKey.md",
-    "Transmission Control Protocol or Internet Protocol.md",
-    "10 - Business Plan and Website Assets/business_plan.md",
-    "10 - Business Plan and Website Assets/wireframes.md",
-    "10 - Business Plan and Website Assets/tech_stack.md",
-    "10 - Business Plan and Website Assets/website_plan.md",
-    "05 - Dictionary/Npm.md",
-    "99 - Scripts/proc_column_trackforward.sql",
-    "99 - Scripts/json_to_excel.py",
-    "99 - Scripts/get_procedures.sql",
-    "99 - Scripts/fill_objects.sql",
-    "99 - Scripts/create_objects.sql",
-    "99 - Scripts/rename_edw_to_EDW.ps1",
-    "99 - Scripts/move_empty_content_files.ps1",
-    "99 - Scripts/move_empty_content_files.ps1.ps1",
-    "10 - Business Plan and Website Assets",
-    "99 - Attachments/Pasted image 20260111150950.png",
-    "99 - Attachments/Pasted image 20260111110125.png",
-    "99 - Attachments/Pasted image 20260110195401.png",
-    "Untitled 1.canvas",
-    "Untitled.canvas",
-    "99 - Attachments/Pasted image 20260105102644.png",
-    "99 - Attachments/Pasted image 20260105102120.png",
-    "99 - Attachments/Pasted image 20260105102115.png",
-    "99 - Attachments/Pasted image 20260105102112.png",
-    "99 - Attachments/Pasted image 20260105101434.png",
-    "99 - Attachments/Pasted image 20260105101430.png",
-    "99 - Attachments/Pasted image 20260105101114.png"
-  ]
+  "active": "d41c431f5fb820a0",
+  "lastOpenFiles": []
 }

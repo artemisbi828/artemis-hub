@@ -1,3 +1,5 @@
+
+# Version 1
 ```sql
 select
     'alter table [' + [s].[name] + '].[' + [o].[name] + '] drop constraint [' + [t].[name] + ']' as [execsql], *
@@ -14,6 +16,37 @@ order by case when [t].[type_desc] = 'user_table' -- object type
               else 2 end,
          [t].[modify_date] desc;
 return
+
+```
+
+# Ver 2.0.0
+```sql
+SELECT 
+    tc.CONSTRAINT_NAME,
+    tc.CONSTRAINT_TYPE,
+    kcu.COLUMN_NAME
+FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS tc
+LEFT JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE kcu
+    ON tc.CONSTRAINT_NAME = kcu.CONSTRAINT_NAME
+    AND tc.TABLE_SCHEMA = kcu.TABLE_SCHEMA
+    AND tc.TABLE_NAME = kcu.TABLE_NAME
+WHERE tc.TABLE_SCHEMA = 'docm'
+  AND tc.TABLE_NAME = 'tables'
+ORDER BY tc.CONSTRAINT_TYPE, tc.CONSTRAINT_NAME;
+```
+
+# Find Constraint Referencing Table
+```sql
+SELECT
+    fk.name AS ForeignKeyName,
+    OBJECT_SCHEMA_NAME(fk.parent_object_id) AS ReferencingSchema,
+    OBJECT_NAME(fk.parent_object_id) AS ReferencingTable,
+    COL_NAME(fkc.parent_object_id, fkc.parent_column_id) AS ReferencingColumn
+FROM sys.foreign_keys fk
+JOIN sys.foreign_key_columns fkc 
+  ON fk.object_id = fkc.constraint_object_id
+WHERE fk.referenced_object_id = OBJECT_ID('YourSchema.YourTable')
+ORDER BY ReferencingSchema, ReferencingTable, ForeignKeyName, ReferencingColumn;
 ```
 
 # Drop Column from Constraint

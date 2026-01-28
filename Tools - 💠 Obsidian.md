@@ -1,7 +1,11 @@
 [[Tools - Key Bindings]]
 
-| /\bData Output\b/        | Search "Data Output" → Word-Boundary (vs code -1)  |
-| ------------------------ | -------------------------------------------------- |
+| /\bData Output\b/ | Search "Data Output" → Word-Boundary (vs code -1) |
+| ----------------- | ------------------------------------------------- |
+
+| **Split Window**     | _Custom_           | _Custom_       | Map this in settings! I recommend `Ctrl + \`. essential for viewing 2 notes at once. |
+| -------------------- | ------------------ | -------------- | ------------------------------------------------------------------------------------ |
+| **Checklist**        | `Ctrl + Enter`     | `Cmd + Enter`  | Cycles a bullet point `-` into a checkbox `- [ ]`.                                   |
 
 [[Obsidian - YAML vs MOC vs Tags]]
 [[Obsidian - Tags vs YAML Tags]]
@@ -177,3 +181,14 @@ This keeps all your SQL notes grouped together alphabetically in your file tree,
 **Would you like me to show you a Dataview query that could automatically build these Tables of Contents for you based on tags or properties?**
 
 
+
+# Bases
+If you are using the **Core "Bases" Plugin** (v1.9+):
+
+- **Concept:** A "Base" is a live view of a folder's notes, displayed as a Table, List, or Kanban board. It relies on **Properties** (YAML Frontmatter) at the top of your notes.
+- **How it works:**
+    
+    1. **Define Properties:** Add metadata to your notes (e.g., `status: active`, `due_date: 2025-04-01`, `tags: [sql, postgres]`).
+    2. **Create a Base:** Create a new Base file. Point it to a folder or a tag.
+    3. **Columns:** You add columns to the table corresponding to your Properties.
+    4. **Editing:** Editing a cell in the Base updates the actual text/YAML in the source `.md` file.

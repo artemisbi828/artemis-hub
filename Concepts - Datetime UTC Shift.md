@@ -1,3 +1,9 @@
+Coordinated Universal Time (CUT = English)
+French = TUC → as compromise → **UTC**
+global time standard. Iceland
+
+
+
 LOCAL TO UTC CONVERSION
 
 11/24/2025 5:00 AM  UTC = 11/24/2025 12:00 AM EST (+5 HRS DST or +4 HRS)
