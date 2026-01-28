@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "0d5e21ee6002e1cc",
+    "id": "d0b77393b3a9e6c4",
     "type": "split",
     "children": [
       {
-        "id": "29880fd120387031",
+        "id": "b34da46af60350e7",
         "type": "tabs",
         "children": [
           {
-            "id": "d41c431f5fb820a0",
+            "id": "2526122003544324",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools - General AI Prompt.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Tools - General AI Prompt"
+              "title": "New tab"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a07230d30080e905",
+    "id": "cf8abc6251484392",
     "type": "split",
     "children": [
       {
-        "id": "679593026128e507",
+        "id": "4128d9942febb7ab",
         "type": "tabs",
         "children": [
           {
-            "id": "612e1b50b43c71ac",
+            "id": "5d25722477473757",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,24 +44,24 @@
             }
           },
           {
-            "id": "12ac682d3a8c6f7f",
+            "id": "0570665ce481f0f3",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "gregg",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               },
               "icon": "lucide-search",
               "title": "Search"
             }
           },
           {
-            "id": "d9269d8eb4022c05",
+            "id": "8c1a3b5cf53fd97b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,57 +74,56 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 269.5
   },
   "right": {
-    "id": "752cbe1a70dfac5d",
+    "id": "97a1c5e6364d74b8",
     "type": "split",
     "children": [
       {
-        "id": "271423b1ba225d2f",
+        "id": "20d3022bb28262f7",
         "type": "tabs",
         "children": [
           {
-            "id": "76e1bec7080ac34b",
+            "id": "2d56c3a3996c7f17",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools - General AI Prompt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Tools - General AI Prompt"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "383c26572728cec0",
+            "id": "9cdf114b9454f608",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools - General AI Prompt.md",
+                "file": "Concepts - Features Documentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Tools - General AI Prompt"
+              "title": "Outgoing links from Concepts - Features Documentation"
             }
           },
           {
-            "id": "2eb251579405349c",
+            "id": "2d372e9086620a93",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -137,7 +132,22 @@
             }
           },
           {
-            "id": "f0cc7a2b47d7dd4e",
+            "id": "d1530d7ab57888de",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Enverus (formerly Drillinginfo).md",
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Enverus (formerly Drillinginfo)"
+            }
+          },
+          {
+            "id": "aabd7e23828b8500",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -151,26 +161,22 @@
             }
           },
           {
-            "id": "c977d77f7e55460c",
+            "id": "f618b2913fe8fa4c",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "file-properties",
               "state": {
-                "file": "Tools - General AI Prompt.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "file": "Concepts - Features Documentation.md"
               },
-              "icon": "lucide-list",
-              "title": "Outline of Tools - General AI Prompt"
+              "icon": "lucide-info",
+              "title": "File properties for Concepts - Features Documentation"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 416.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,6 +189,55 @@
       "bases:Create new base": false
     }
   },
-  "active": "d41c431f5fb820a0",
-  "lastOpenFiles": []
+  "active": "2d56c3a3996c7f17",
+  "lastOpenFiles": [
+    "Tools - Data Grip.md",
+    "Service Level Agreement.md",
+    "PRJ - Idle Computers.md",
+    "02 - Daily/📅 2026-01-25 (Sun).md",
+    "PRJ - Headless DEV Agent.md",
+    "PRJ.md",
+    "PRJ - Headless DEV.md",
+    "Concepts - Node vs C.md",
+    "Concepts - OIDC Token.md",
+    "Concepts.md",
+    "Concepts - OAuth Authentication.md",
+    "05 - Dictionary/Npm.md",
+    "05 - Dictionary/Pip.md",
+    "05 - Dictionary/Pandas.md",
+    "SQL - PostGres vs SqlServer.md",
+    "PS - Pipes.md",
+    "Tools - 🗃️ Terminal PS.md",
+    "05 - Dictionary/PATH.md",
+    "Tools - Primary Keys (uuid vs int).md",
+    "Tools.md",
+    "Tools - 🚀 Git.md",
+    "Tools - Python.md",
+    "Concepts - Website Print or Website Snapshots.md",
+    "LNX - systemd.md",
+    "SQL - Add Primary Key.md",
+    "Tools - Parquet Files vs CSV.md",
+    "99 - Attachments/Pasted image 20260105093928.png",
+    "99 - Attachments/Pasted image 20260103220356.png",
+    "99 - Scripts/get_procedures.sql",
+    "99 - Scripts/fill_objects.sql",
+    "99 - Scripts/create_objects.sql",
+    "99 - Scripts/proc_column_trackforward.sql",
+    "99 - Scripts/rename_edw_to_EDW.ps1",
+    "99 - Scripts/move_empty_content_files.ps1",
+    "99 - Scripts/move_empty_content_files.ps1.ps1",
+    "10 - Business Plan and Website Assets",
+    "03 People",
+    "99 - Attachments/Pasted image 20260111150950.png",
+    "Untitled.base",
+    "99 - Attachments/Pasted image 20260111110125.png",
+    "99 - Attachments/Pasted image 20260110195401.png",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "99 - Attachments/Pasted image 20260105102644.png",
+    "99 - Attachments/Pasted image 20260105102120.png",
+    "99 - Attachments/Pasted image 20260105102115.png",
+    "99 - Attachments/Pasted image 20260105102112.png",
+    "99 - Attachments/Pasted image 20260105101434.png"
+  ]
 }
