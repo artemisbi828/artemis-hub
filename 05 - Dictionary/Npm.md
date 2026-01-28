@@ -1,4 +1,5 @@
-Package manager → Use PMPM instead? 
+[[Package Manager]] → Use PMPM instead? 
+
 ```
 - **Analogy:** If `npm` is like every student in a class buying their own copy of a textbook, `pnpm` is like a library where everyone shares one copy but has their own notebook.
     

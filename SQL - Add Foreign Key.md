@@ -1,7 +1,6 @@
 ```sql
-alter table [stg].[S_Customers]
-add
-    constraint [fk_S_Customers]
-    foreign key ([hk_H_Customer])
-    references [stg].[H_Customers] ([hk_H_Customer]);
+alter table MySchema.MyTable
+add constraint [fk__MySchema_MyTable_MyColumn]
+foreign key (MyColumn)
+references ParentSchema.ParentColumn (ParentColumn)
 ```

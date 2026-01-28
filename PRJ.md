@@ -1,5 +1,7 @@
 [[PRJ - Build Accelerants 1 (eg GEM)]]
 [[PRJ - Build Accelerant 2 - SQL Scraper]]
+[[PRJ - Enverus LOA POC]]
+[[PRJ - Headless DEV]]
 # Big Rock
 [[PRJ - Website - artemis-bi.com]]
 [[PRJ - Website - Text Scrape of Elements from HiHello.com]]
@@ -10,7 +12,7 @@
 [[PRJ - Logging Tool]]
 [[PRJ - SlideSMS]]
 [[PRJ - Bitly App]]
-
+[[PRJ - Headless DEV Agent]]
 # Cash Projects
 [[PRJ - Asheville Leads Ideas]]
 [[PRJ - Job Search]]

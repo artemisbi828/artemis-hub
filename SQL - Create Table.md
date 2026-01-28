@@ -1,6 +1,6 @@
 ```sql
 declare @loaddatetimeutc datetime2 = sysutcdatetime();
-declare @loadsource nvarchar(128) = N'';
+declare @loadsource nvarchar(128) = suser_name();
 declare @loadedby nvarchar(128) = suser_name();
 
 use Playground
