@@ -23,8 +23,9 @@ Preferences → Key Bindings → Default (Windows).sublime-keymap
 [
 	{ "keys": ["ctrl+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
 	{ "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
-	{ "keys": ["alt+shift+8"], "command": "select_lines", "args": {"forward": false} },
-	{ "keys": ["alt+shift+2"], "command": "select_lines", "args": {"forward": true} },
+	{ "keys": ["ctrl+shift+i"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["ctrl+shift+m"], "command": "select_lines", "args": {"forward": true} },
+	{ "keys": ["f10"], "command": "permute_lines", "args": {"operation": "unique"} }
 ]
 ```
 

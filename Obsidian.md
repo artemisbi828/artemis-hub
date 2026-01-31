@@ -1,3 +1,11 @@
+---
+concept_type: Tools
+---
+
+
+> [!Tip]
+> Alt + Shift + R.Click → multi-cursor
+
 [[Tools - Key Bindings]]
 
 | /\bData Output\b/ | Search "Data Output" → Word-Boundary (vs code -1) |
@@ -23,15 +31,6 @@
 > ```
 ```
 
-
-
-
-1. emphasize Dictionary and use DataView + YAML formatter more
-	- use a template to create DICT items
-2. use a template w YAML for Contacts
-3. use TQNs more
-	- `> [!TIP]`
-	- `[[Ref|CustomName`
 
 - [log :: 2025-12-26 04:15PM] -- digest this [2025-12-26 0416PM]
 

@@ -1,6 +1,8 @@
 #status/todo → still cleaning the oneNote\`Add Identity; Reseed`
 
 ```sql
+-- check identity
+dbcc checkident(@tablename);
 
 -- to transfer a table with identity, you must CREATE A NEW TABLE
 set identity_insert docm.Keywords on -- default off; tur it on 

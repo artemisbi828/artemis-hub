@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b34da46af60350e7",
+        "id": "baa36f416535ebb1",
         "type": "tabs",
         "children": [
           {
-            "id": "2526122003544324",
+            "id": "66ef714472752a76",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian - Dataview.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Obsidian - Dataview"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gregg",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Obsidian - Dataview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Obsidian - Dataview"
             }
           },
           {
@@ -108,12 +113,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Concepts - Features Documentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Concepts - Features Documentation"
+              "title": "Outgoing links"
             }
           },
           {
@@ -189,34 +193,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "2d56c3a3996c7f17",
+  "active": "66ef714472752a76",
   "lastOpenFiles": [
-    "Tools - Data Grip.md",
-    "Service Level Agreement.md",
-    "PRJ - Idle Computers.md",
-    "02 - Daily/📅 2026-01-25 (Sun).md",
-    "PRJ - Headless DEV Agent.md",
-    "PRJ.md",
-    "PRJ - Headless DEV.md",
-    "Concepts - Node vs C.md",
-    "Concepts - OIDC Token.md",
-    "Concepts.md",
-    "Concepts - OAuth Authentication.md",
-    "05 - Dictionary/Npm.md",
-    "05 - Dictionary/Pip.md",
-    "05 - Dictionary/Pandas.md",
-    "SQL - PostGres vs SqlServer.md",
-    "PS - Pipes.md",
-    "Tools - 🗃️ Terminal PS.md",
-    "05 - Dictionary/PATH.md",
-    "Tools - Primary Keys (uuid vs int).md",
+    "XLS - MACROS.md",
+    "Obsidian.md",
+    "Obsidian - Dataview.md",
+    "Obsidian - Callouts.md",
+    "01 - Projects/Zouk-Sesh.md",
+    "XLS.md",
     "Tools.md",
-    "Tools - 🚀 Git.md",
-    "Tools - Python.md",
-    "Concepts - Website Print or Website Snapshots.md",
-    "LNX - systemd.md",
-    "SQL - Add Primary Key.md",
-    "Tools - Parquet Files vs CSV.md",
+    "SQL.md",
+    "DAXM.md",
+    "Concepts - Modulo.md",
+    "SQL - DOB Calculation.md",
+    "PRJ - Build Accelerant 2 - SQL Scraper.md",
+    "SQL - Get Proc Definitions.md",
+    "PBI - Deployment Checklist.md",
+    "SQL - Create DOCMX Tables.md",
+    "PRJ.md",
+    "Intake-Form.md",
+    "SQL - Create Table.md",
+    "SQL - Identity.md",
+    "Tools - AI Prompt - SQL Refactor.md",
+    "99 - Scripts/proc_column_trackforward_DIAGNOSTICS.sql",
+    "99 - Scripts/3ppt5w2c.s4q~",
+    "99 - Scripts/jkuzfbv3.hhg~",
+    "DAXM - Remove Repeating Words.md",
+    "99 - Scripts/ekgambxb.hlq~",
+    "DAXM - Split Cell into 2 separate Rows.md",
+    "DAXM - Replace Value.md",
+    "PRJ - SlideSMS.md",
+    "slideSMS.md",
+    "99 - Digest Later/slideSMS samples.md",
+    "99 - Attachments/Pasted image 20260128135039.png",
+    "99 - Attachments/Pasted image 20260128135022.png",
     "99 - Attachments/Pasted image 20260105093928.png",
     "99 - Attachments/Pasted image 20260103220356.png",
     "99 - Scripts/get_procedures.sql",
@@ -225,19 +235,13 @@
     "99 - Scripts/proc_column_trackforward.sql",
     "99 - Scripts/rename_edw_to_EDW.ps1",
     "99 - Scripts/move_empty_content_files.ps1",
-    "99 - Scripts/move_empty_content_files.ps1.ps1",
-    "10 - Business Plan and Website Assets",
-    "03 People",
     "99 - Attachments/Pasted image 20260111150950.png",
-    "Untitled.base",
     "99 - Attachments/Pasted image 20260111110125.png",
     "99 - Attachments/Pasted image 20260110195401.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "99 - Attachments/Pasted image 20260105102644.png",
     "99 - Attachments/Pasted image 20260105102120.png",
-    "99 - Attachments/Pasted image 20260105102115.png",
-    "99 - Attachments/Pasted image 20260105102112.png",
-    "99 - Attachments/Pasted image 20260105101434.png"
+    "99 - Attachments/Pasted image 20260105102115.png"
   ]
 }

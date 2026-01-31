@@ -27,6 +27,7 @@
 [[SQL - String Split]]
 [[SQL - ParseName]]
 ## Dates
+[[SQL - DOB Calculation]]
 [[SQL - Get Last Stable Month]]
 [[SQL - DateInt to Date]]
 [[SQL - Get Beginning of Week]]
@@ -47,6 +48,7 @@
 
 # Standards
 [[SQL - Create Table]]
+[[SQL - Create DOCMX Tables]]
 [[SQL - Personal Improvements]]
 
 # Techniques
