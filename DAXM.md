@@ -1,13 +1,26 @@
 Related To: [[DAX]], [[PBI]]
 
+
 [[DAXM - Date Conversions]]
 [[DAXM - Create Table Variable]]
 [[DAXM - String Split]]
+[[DAXM - Split Cell into 2 separate Rows]]
 [[DAXM - Create D_Dates_Dynamic]]
+[[DAXM - Create RN like TSQL]]
+
 # Modeling
 [[DAXM - Create D_Dates]]
 [[DAXM - Create F_LY_DateKeyLY]]
 [[DAXM - Add Custom Case When Column From Another Column]]
+
+
+# Dax Sanitization
+[[DAXM - Replace Value]]
+[[DAXM - Remove Repeating Words]]
+[[DAXM - ISNULL() Columns]]
+[[DAXM - Data Sanitization]]
+# What?
+[[DAXM - PromoteHeaders]]
 
 
 ---

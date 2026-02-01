@@ -1,3 +1,6 @@
+declare @debugmode bit = 1;
+declare @prkey int = 101;
+
 -- =============================================
 -- MERGE Procedure Column Dependencies Generator v4
 -- Enhanced with Batch Processing
@@ -51,7 +54,7 @@ create table #MergeNormalized (
 );
 
 -- Table to store final results (accumulated across all procedures)
-create table #FinalResults (prKey int, tvcKey int, FullyQualifiedName nvarchar(500), StatementType nvarchar(50));
+create table #FinalResults (prKey int, cKey int, FullyQualifiedName nvarchar(500), StatementType nvarchar(50));
 
 -- =============================================
 -- HELPER: SQL Normalization Function (inline to avoid GO/variable scope issues)
@@ -66,8 +69,14 @@ create table #ProceduresToProcess (prKey int, DatabaseName nvarchar(128), Schema
 
 -- Load all procedures (or filter by adding WHERE clause, e.g., WHERE prKey = 26)
 insert into #ProceduresToProcess (prKey, DatabaseName, SchemaName, ProcedureName)
-select prKey, database_name, schema_name, procedure_name from Playground.docm.procedures 
--- WHERE prKey = 26  -- Uncomment and set prKey to filter to specific procedure
+select
+    prKey,
+    database_name,
+    schema_name,
+    procedure_name
+from Playground.docm.procedures
+where 1 = 1
+  and (prKey = @prkey and @debugmode = 1) -- Uncomment and set prKey to filter to specific procedure
 order by prKey;
 
 -- =============================================
@@ -133,7 +142,7 @@ declare @CurrentProcNum int = 0;
 while @@FETCH_STATUS = 0 begin
     begin try
         set @CurrentProcNum = @CurrentProcNum + 1;
-        
+
         -- Display progress
         set @msg = N'[' + cast(@CurrentProcNum as nvarchar(10)) + N'/' + cast(@TotalProcs as nvarchar(10)) + N'] Processing: ' + @DatabaseName + N'.' + @SchemaName + N'.' + @ProcedureNameOnly;
         raiserror(@msg, 10, 1) with nowait;
@@ -646,22 +655,22 @@ while @@FETCH_STATUS = 0 begin
         insert into #FullyQualifiedColumns (prKey, FullyQualifiedName, StatementType)
         select @CurrentPrKey, tc.SourceTable + '.' + tc.ColumnName, tc.StatementType from #TargetColumns tc;
 
-        -- Join to get tvcKey and insert into #FinalResults (accumulating)
-        insert into #FinalResults (prKey, tvcKey, FullyQualifiedName, StatementType)
+        -- Join to get cKey and insert into #FinalResults (accumulating)
+        insert into #FinalResults (prKey, cKey, FullyQualifiedName, StatementType)
         select
             fqc.prKey,
-            otvc.tvcKey,
+            otvc.cKey,
             fqc.FullyQualifiedName,
             fqc.StatementType
         from #FullyQualifiedColumns fqc
-            inner join Playground.docm.objects_tables_views as otv
-                on otv.DatabaseName = parsename(fqc.FullyQualifiedName, 4)
-               and otv.SchemaName = isnull(parsename(fqc.FullyQualifiedName, 3), 'dbo')
-               and otv.TableViewName = parsename(fqc.FullyQualifiedName, 2)
-            inner join Playground.docm.objects_tables_views_columns as otvc
-                on otvc.tvKey = otv.tvKey
-               and otvc.ColumnName = parsename(fqc.FullyQualifiedName, 1)
-        where concat_ws('.', otv.DatabaseName, otv.SchemaName, otv.TableViewName, otvc.ColumnName) = fqc.FullyQualifiedName;
+            inner join Playground.docm.vw_tables as otv
+                on upper(otv.DatabaseName) = upper(parsename(fqc.FullyQualifiedName, 4))
+               and upper(otv.SchemaName) = upper(isnull(parsename(fqc.FullyQualifiedName, 3), 'dbo'))
+               and upper(otv.TableName) = upper(parsename(fqc.FullyQualifiedName, 2))
+            inner join Playground.docm.vw_columns as otvc
+                on otvc.tKey = otv.tKey
+               and upper(otvc.ColumnName) = upper(parsename(fqc.FullyQualifiedName, 1));
+
 
         set @ProcessingStatus = N'Completed';
 
@@ -716,7 +725,7 @@ print 'Total Column Dependencies Found: ' + cast(@TotalResults as nvarchar(10));
 print '';
 print '---------------------------------------------';
 print 'Query #FinalResults for detailed results:';
-print 'SELECT * FROM #FinalResults ORDER BY prKey, tvcKey;';
+print 'SELECT * FROM #FinalResults ORDER BY prKey, cKey;';
 print '';
 print 'Query #MergeNormalized for processing details:';
 print 'SELECT * FROM #MergeNormalized;';
@@ -734,27 +743,27 @@ if object_id('tempdb..#ProceduresToProcess') is not null drop table #ProceduresT
 -- =============================================
 select
     fr.prKey,
-    fr.tvcKey,
+    fr.cKey,
     p.procedure_name as ProcedureName,
     otvc.ObjectQualifiedName,
     string_agg(fr.StatementType, ', ') StatementType
 from #FinalResults as fr
     left join Playground.docm.procedures as p
         on p.prKey = fr.prKey
-    left join Playground.docm.vw_TablesViewsColumns as otvc
-        on otvc.tvcKey = fr.tvcKey
+    left join Playground.docm.vw_columns as otvc
+        on otvc.cKey = fr.cKey
     -- anti join 
-    left join Playground.docm.proc_trackforward as tgt
-        on tgt.tvcKey = otvc.tvcKey
+    left join Playground.docm.column_proc_trackback as tgt
+        on tgt.cKey = otvc.cKey
        and tgt.prKey = p.prKey
 where 1 = 1
-  and tgt.tvcKey is null
+  and tgt.cKey is null
 group by fr.prKey,
-         fr.tvcKey,
+         fr.cKey,
          p.procedure_name,
          otvc.ObjectQualifiedName
 order by fr.prKey,
-         fr.tvcKey;
+         fr.cKey;
 
 return;
 go

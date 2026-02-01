@@ -4,6 +4,7 @@
 [[GIT - Squash]]
 [[GIT - Fix Local Branch A vs Prod]]
 [[GIT - Head]]
+[[GIT - Targeted Sync]]
 # Error Handling
 [[GIT - Error Handling - Stuck in VS Termainl]]
 [[GIT - Error Handling - Remote Not Found]]
@@ -223,3 +224,125 @@ Main -- actual main w latest committed code
     git log --oneline --graph --all --decorate
 
 ```
+
+
+# 🧠 **Mental Model: Git as a Database of Snapshots**
+
+Think of Git as a **content‑addressed database** that stores:
+
+- **Commits** → pointers to trees
+- **Trees** → folder structures
+- **Blobs** → file contents
+
+Every branch is just a pointer to a commit.  
+Every commit is a snapshot of your entire repo.
+
+So Git doesn’t store “diffs” — it stores **full directory trees**.
+
+---
+
+# 🌳 **Visual Model: A Commit Is a Tree**
+
+Imagine your repo like this:
+
+```
+Commit (hash)
+│
+└── Tree (root)
+    ├── Tree: RFR.Report
+    │     ├── Blob: file1.cs
+    │     ├── Blob: file2.cs
+    │     └── Blob: config.json
+    ├── Tree: src
+    ├── Tree: scripts
+    └── Blob: README.md
+```
+
+Each folder is a **tree object**.  
+Each file is a **blob object**.
+
+Git stores these objects in `.git/objects/`.
+
+---
+
+# 🔍 **What happens when you run:**
+
+```bash
+git checkout origin/UAT004 -- RFR.Report
+```
+
+Break it down:
+
+### 1. `origin/UAT004`
+
+Git resolves this to a **commit hash**.
+
+### 2. That commit hash points to a **tree** (the root directory snapshot).
+
+### 3. Git walks that tree to find the **subtree** named `RFR.Report`.
+
+### 4. Git copies the blobs and subtrees from that commit into your working directory.
+
+### 5. Git stages them.
+
+At no point does Git look at your Windows filesystem path.  
+It only looks inside the **tree object** for that commit.
+
+---
+
+# 🧩 **Why absolute paths don’t work**
+
+When you typed:
+
+```
+git checkout origin/UAT004 -- C:\Users\jonas-adam.pascua\Source\Repos\Pulse\RFR.Report
+```
+
+Git tried to interpret:
+
+- `C:\Users\...` as a **repo-relative path**
+- But no commit tree contains a folder named `C:\Users\...`
+- So Git says “invalid reference”
+
+Git only understands paths **inside the repo tree**, not OS paths.
+
+---
+
+# 🧠 **Mental Model Summary**
+
+Here’s the model that makes everything click:
+
+### ✔ Git stores _snapshots_, not diffs
+
+Each branch is a pointer to a full directory tree.
+
+### ✔ `git checkout <branch> -- <path>`
+
+means:  
+**“Take the version of `<path>` from `<branch>`’s tree and write it into my working directory.”**
+
+### ✔ The path is always repo-relative
+
+Git never uses OS paths to locate files in commits.
+
+### ✔ Git already has the full snapshot locally
+
+Because `git fetch` downloaded all the tree objects.
+
+---
+
+# 🎯 Why this model is powerful
+
+Once you internalize this, you can do things like:
+
+- Pull a single file from any commit
+- Restore a folder from yesterday
+- Compare trees between branches
+- Cherry-pick only specific paths
+- Build partial merges safely
+
+All without ever doing a full merge.
+
+---
+
+If you want, I can draw the same model but showing **two branches side-by-side** so you can visualize exactly how Git copies only the subtree you request.

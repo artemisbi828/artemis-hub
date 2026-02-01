@@ -3,7 +3,7 @@
 [[Tools - Sublime]]
 [[Tools - AutoHotKey]]
 [[Tools - Windows]]
-[[Tools - 💠 Obsidian]]
+[[Obsidian]]
 [[Tools - VS Code]]
 [[Tools - PC Assignments]]
 <<<<<<< HEAD

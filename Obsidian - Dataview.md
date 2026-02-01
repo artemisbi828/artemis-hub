@@ -5,6 +5,16 @@ list
 from #quick-paste-merge-later 
 ```
 
+
+# Show backlinks referencing this note
+```dataview
+LIST
+FROM [[#]]
+WHERE file.name != this.file.name
+
+```
+
+
 # Show all files in the same folder
 ```markdown
 
