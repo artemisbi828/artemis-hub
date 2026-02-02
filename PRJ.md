@@ -2,6 +2,7 @@
 
 
 # Big Rocks
+[[PRJ - Umbrella Arc]]
 [[PRJ - Big Rock ARC]]
 [[PRJ - Enverus LOA POC]]
 [[PRJ - Headless DEV]]
@@ -21,7 +22,8 @@
 Probably should merge this into Big Rocks
 [[PRJ - Asheville Leads Ideas]]
 [[PRJ - Job Search]]
-
+[[PRJ - Tax Firm Support]]
+[[PRJ - Tax Doc-Scraper]]
 # Rewards
 [[PRJ - Shopping List]]
 # Constant Improvement
@@ -34,3 +36,9 @@ Probably should merge this into Big Rocks
 
 # Friend Projects
 [[Mary Townsend - Publicis - Web Scraper]]
+[[Angela Richter]]
+[[Family - Iceland Pictures]]
+
+# Dance Projects
+[[PRJ - Zouk Sesh]]
+[[PRJ - Social Arc]]

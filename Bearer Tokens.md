@@ -1,3 +1,6 @@
+---
+definition: a security token that grants access to whoever "bears" (holds) it
+---
 > [!info] Analogy: The Valet Key
 > 
 > A bearer token is like a valet key. The car (Resource) doesn't care who you are; it only cares that you possess the key.
@@ -20,3 +23,4 @@ Authentication Flow
 > [!tip] SQL Developer Pivot
 > 
 > Think of a Bearer Token as a Temporary View with strict WHERE clauses (Scopes) and an EXPIRE trigger. It prevents the need to run an EXISTS check on the Users table for every single API request.
+
