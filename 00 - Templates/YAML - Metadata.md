@@ -7,6 +7,8 @@ aliases:
   - e
 entity_parents: "[[Employees]]"
 ---
+{{date:YYYY-MM-DD}}
+
 # Joins
 [[Lake.sd.WorkAssignments]] via 'EmployeeCode = EmployeeCode'
 
@@ -30,6 +32,7 @@ entity_name: <% tp.file.title.split('.').pop() %>
 table_name: <% tp.file.title.split('.').pop() %>
 qualified_name: <% tp.file.title %>
 database: <% tp.file.title.split('.')[0] %>
+
 schema: <% tp.file.title.split('.')[1] %>
 ---
 

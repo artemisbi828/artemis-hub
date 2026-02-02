@@ -4,11 +4,6 @@
 [[Types]] -- Something in drop down? Something that drills down? 
 [[SQL]]
 
-
-
-
-Continue to experiment with embedded dataviews; 
-
 # Knowledge Type
 
 Knowledge

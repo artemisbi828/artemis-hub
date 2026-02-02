@@ -1,4 +1,11 @@
-We have (M) versions running around we need to consolidate and review. Speed up Refactoring Queries
+We have (M) versions running around we need to consolidate and review. 
+Speed up Refactoring Queries and working w SQL
+- normalize
+	- remove all brackets
+	- lines start w `from` and `join` 
+- find the objects
+
+
 
 ```
 #1 create a python script that takes an input file path and creates an dir called "output_sqlscraper" in the same dir of the input

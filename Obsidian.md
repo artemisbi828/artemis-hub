@@ -11,14 +11,16 @@ concept_type: Tools
 | /\bData Output\b/ | Search "Data Output" → Word-Boundary (vs code -1) |
 | ----------------- | ------------------------------------------------- |
 
-| **Split Window**     | _Custom_           | _Custom_       | Map this in settings! I recommend `Ctrl + \`. essential for viewing 2 notes at once. |
-| -------------------- | ------------------ | -------------- | ------------------------------------------------------------------------------------ |
-| **Checklist**        | `Ctrl + Enter`     | `Cmd + Enter`  | Cycles a bullet point `-` into a checkbox `- [ ]`.                                   |
+| **Split Window** | _Custom_       | _Custom_      | Map this in settings! I recommend `Ctrl + \`. essential for viewing 2 notes at once. |
+| ---------------- | -------------- | ------------- | ------------------------------------------------------------------------------------ |
+| **Checklist**    | `Ctrl + Enter` | `Cmd + Enter` | Cycles a bullet point `-` into a checkbox `- [ ]`.                                   |
 
 [[Obsidian - YAML vs MOC vs Tags]]
 [[Obsidian - Tags vs YAML Tags]]
 [[Obsidian - Tags + YAML Reserved Properties]]
 [[Tools - Obsidian - Clipboard Paste Image]]
+[[Obsidian - Working w Templates]]
+[[Obsidian - Styling]]
 
 # Currently Mastering Callouts + Dataview
 [[Obsidian - Dataview]]

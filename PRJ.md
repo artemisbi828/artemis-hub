@@ -1,9 +1,11 @@
-[[PRJ - Build Accelerants 1 (eg GEM)]]
-[[PRJ - Build Accelerant 2 - SQL Scraper]]
+[[PRJ - Internal Accelerant - SQL Scraper]]
+
+
+# Big Rocks
+[[PRJ - Big Rock ARC]]
 [[PRJ - Enverus LOA POC]]
 [[PRJ - Headless DEV]]
 [[PRJ - Idle Computers]]
-# Big Rock
 [[PRJ - Website - artemis-bi.com]]
 [[PRJ - Website - Text Scrape of Elements from HiHello.com]]
 [[PRJ - Website - Data Talking Points]]
@@ -14,10 +16,14 @@
 [[PRJ - SlideSMS]]
 [[PRJ - Bitly App]]
 [[PRJ - Headless DEV Agent]]
+
 # Cash Projects
+Probably should merge this into Big Rocks
 [[PRJ - Asheville Leads Ideas]]
 [[PRJ - Job Search]]
 
+# Rewards
+[[PRJ - Shopping List]]
 # Constant Improvement
 [[PRJ - Idle Tasks Ideas → Convert to Scripts]]
 

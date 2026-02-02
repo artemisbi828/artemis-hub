@@ -1,6 +1,3 @@
-
-
-
 # Projects
 [[_Umbrella]]
 - [[Tax-Firm-Support]]
