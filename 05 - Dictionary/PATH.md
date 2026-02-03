@@ -1,5 +1,5 @@
 ---
-concept_type:
+knowledge_type:
 aliases:
 definition: speed dial to programs for commands (eg code or python)
 related_object:

@@ -6,11 +6,7 @@
 [[Obsidian]]
 [[Tools - VS Code]]
 [[Tools - PC Assignments]]
-<<<<<<< HEAD
-
-=======
 [[Tools - File Naming]]
->>>>>>> 7d937943498056274c459ebb6db16b4e2b7be1d9
 # Setup
 [[Tools - 🗃️ Terminal PS]]
 [[Tools - Terminal Linux]]
@@ -29,11 +25,15 @@
 [[Tools - 🧜‍♀️Mermaid]]
 
 # AI Prompt Engineering
-[[Tools - General AI Prompt]]
-[[Tools - AI Prompt - Markdown File Generation]]
-[[Tools - AI Prompt - Business Logic Definition]]
+[[Tools - AI Prompt - General]]
+[[Tools - AI Prompt - Scripts]]
+[[Tools - AI Prompt - UX]]
 [[Tools - AI Prompt - SQL Refactor]]
-[[Tools - AI LLM Models]]
+[[Tools - AI Prompt - Documentation]]
+[[Tools - Transform Text to Tables]]
+
+# Data Modeling
+[[Tools - Causal Attribution Models]]
 # Builds
 [[Tools - Front vs BackEnd]]
 [[Tools - NodeJS]]

@@ -1,5 +1,5 @@
 ---
-concept_type:
+knowledge_type:
 aliases:
   - RN
 definition:

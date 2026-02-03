@@ -9,3 +9,6 @@ Use the named range in your data validation
 
 ### Bonus: Exclude blanks or sort alphabetically, define named range:
 =SORT(FILTER(Accounts[AccountName], Accounts[AccountName] <> ""))
+
+
+![[Pasted image 20260203114555.png]]

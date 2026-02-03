@@ -1,5 +1,5 @@
 ---
-concept_type: Tools
+knowledge_type: Tools
 ---
 
 
@@ -21,6 +21,7 @@ concept_type: Tools
 [[Tools - Obsidian - Clipboard Paste Image]]
 [[Obsidian - Working w Templates]]
 [[Obsidian - Styling]]
+[[Obsidian - Searching]]
 
 # Currently Mastering Callouts + Dataview
 [[Obsidian - Dataview]]

@@ -6,6 +6,7 @@ Pain Point: 1) Latency from employees initiating claim 2) processing and verifyi
 1800 employees, 7 countries. USA & CAN focus for initial scope; 
 Unique Pain Point: Flex PTO being leveraged, not saving enough money;
 
+https://www.vertex42.com/
 
 ## 1.0 Optimization Phase: Refined Prompt
 

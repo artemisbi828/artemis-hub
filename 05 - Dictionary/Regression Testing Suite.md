@@ -1,5 +1,5 @@
 ---
-concept_type:
+knowledge_type:
 aliases:
 definition: '"Does this change break anything we already rely on"'
 related_object:

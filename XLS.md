@@ -6,7 +6,9 @@ related_to:
 [[XLS - Shortcuts]]
 [[XLS - Insert 1000 Limit GO for SQL]]
 [[XLS - XLOOKUP]]
+
 [[XLS - Date Diff Minutes or Days]]
+[[XLS - EOMONTH + 1]]
 [[XLS - Contains Text]]
 [[XLS - Trim & Concat]]
 [[XLS - Datetime Standard Format]]
