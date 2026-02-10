@@ -1,5 +1,5 @@
 ---
-domain: concepts
+knowledge_type: concepts
 ---
 - remove trailing and leading spaces
 - "Dr. María-Jose de la Cruz y Benavides-Smith "The Hammer" III, Esq."

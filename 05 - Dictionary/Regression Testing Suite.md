@@ -2,7 +2,6 @@
 knowledge_type:
 aliases:
 definition: '"Does this change break anything we already rely on"'
-related_object:
 ---
 1. Define Selected Dataset (time slice + locations)
 

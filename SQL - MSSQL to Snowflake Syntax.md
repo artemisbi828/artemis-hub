@@ -3,6 +3,15 @@
 - TO_DATE(TO_VARCHAR(), 'YYYYMMDD')
 - ISNULL() → NVL()
 
+# Snowflake SQL 
+```sql
+-- 
+DATE_TRUNC('MONTH', TRY_TO_DATE(D_DATE_KEY::VARCHAR, 'YYYYMMDD')) AS month_star
+
+-- # reverse for WHERE statement
+TO_NUMBER(TO_CHAR(CURRENT_DATE(), 'YYYYMMDD')
+```
+
 # MSSQL
 ```sql
 set tran isolation level read uncommitted;

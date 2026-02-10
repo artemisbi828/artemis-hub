@@ -9,6 +9,13 @@ est_employees: "700"
 overview: PatientPoint is a leading **point-of-care (POC) engagement platform** that integrates digital media into the patient-physician journey. It operates a massive network of digital screens and mobile touchpoints within provider offices, providing educational content and advertising at the exact moment medical decisions are made.
 bottom_line: PatientPoint acts as a **critical bridge between Life Sciences brands and patients**, monetizing the high-intent environment of the doctor's office. It generates the majority of its revenue through pharmaceutical and OTC advertising (Brand Media) while providing software-as-a-service and digital infrastructure to healthcare providers to improve patient adherence and practice efficiency.
 ---
+# TODO
+1. Rosa XLOOKUP via PIVOT
+2. Move Files to GGooglge Drive
+3. Client_Assets
+4. PARDOT WEb Scraper
+5. APP ←→ TFN (no save)↨↨
+
 # Domains
 
 **Point-of-Care (POC) Media:** The primary domain, focusing on digital out-of-home (DOOH) advertising specifically tailored for clinical environments.

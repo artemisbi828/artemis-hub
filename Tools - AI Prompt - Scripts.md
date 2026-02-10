@@ -1,5 +1,6 @@
 #status/todo 
 - update prompt so that we include change log + when new imports detected, update the project map
+- DAX = minimal footprint
 
 ## Philosophy
 - abide by SOLID/DRY, FAST (don't repeat yourself, eliminate duplicate info)

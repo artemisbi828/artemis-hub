@@ -7,6 +7,7 @@
 ## String
 [[SQL - Extract String (Middle)]]
 [[SQL - Extract String (End)]]
+[[SQL - Get Division and Region Sort]]
 [[SQL - Concat, Concat_WS]]
 [[SQL - Extract LastName]]
 [[SQL - Swap Out Character (Stuff)]]
@@ -30,6 +31,7 @@
 [[SQL - DOB Calculation]]
 [[SQL - Get Last Stable Month]]
 [[SQL - DateInt to Date]]
+[[SQL - Date to FirstDayOfMonth]]
 [[SQL - Get Beginning of Week]]
 [[SQL - Create Dates Table]]
 [[SQL - Add Holidays + WDE to D_Dates]]

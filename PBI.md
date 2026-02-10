@@ -3,6 +3,7 @@
 [[DAXM]]
 # Setup + Presentation
 [[PBI - Embed Report]]
+[[PBI - New Builds]]
 [[PBI - Standard Formatting]]
 [[PBI - Deployment Checklist]]
 # Dimensional Modeling
@@ -13,6 +14,7 @@
 [[PBI - Work Day Equivalent]]
 [[PBI - Dates Last Year]]
 [[PBI - Sankey Diagram (Waterfall Chart)]]
+[[PBI - Connection Strings]]
 
 # UX Techniques
 [[PBI - Checkbox]]

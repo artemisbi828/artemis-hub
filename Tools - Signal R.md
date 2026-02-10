@@ -3,8 +3,7 @@ tags:
   - lexicon
   - term
 definition: library for **ASP.NET developers** that makes it incredibly simple to add real-time web functionality to applications.
-related_terms: "[[HTML]], [[Web Development]]"
-domain: Web Development
+parent: "[[HTML]], [[Web Development]]"
 ---
 - **The Problem it Solves:** traditionally, web pages only update when you refresh them (HTTP requests). If you want a live chat, you don't want to hit "refresh" every second to see new messages.
     

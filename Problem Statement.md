@@ -2,7 +2,6 @@
 knowledge_type:
 aliases:
 definition:
-related_object:
 ---
 “Our e-commerce platform has experienced a 20% drop in customer retention over the past six months. Despite increasing our marketing efforts, customer feedback indicates dissatisfaction with our website’s navigation and the checkout process. This decline in retention is leading to a significant reduction in repeat sales, which impacts overall revenue growth and customer lifetime value. We need to identify and address the underlying issues within the user experience to improve customer satisfaction and boost retention rates.”
 

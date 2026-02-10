@@ -1,5 +1,4 @@
 ---
-syntax: powershell
 aliases:
   - PS
 ---

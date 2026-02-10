@@ -1,7 +1,7 @@
 ```sql
-       try_cast(concat_ws('-', convert(nvarchar(32), c.D_START_DATE_KEY) / 10000,
-       convert(nvarchar(16), c.D_START_DATE_KEY) % 10000 / 100,
-       convert(nvarchar(16), c.D_START_DATE_KEY) % 100) as date) as DateKey,
+try_cast(concat_ws('-', convert(nvarchar(32), D_DATE_KEY) / 10000,
+convert(nvarchar(16), D_DATE_KEY) % 10000 / 100,
+convert(nvarchar(16), D_DATE_KEY) % 100) as date) as DateKey,
 ```
 
 #quick-paste-merge-later 
@@ -39,3 +39,11 @@ select @date % 100;
 select cast(concat(@date / 10000, '-', @date % 10000 / 100, '-', @date % 100) as date);
 ```
 
+# Snowflake SQL 
+```sql
+-- 
+DATE_TRUNC('MONTH', TRY_TO_DATE(D_DATE_KEY::VARCHAR, 'YYYYMMDD')) AS month_star
+
+-- # reverse
+TO_NUMBER(TO_CHAR(CURRENT_DATE(), 'YYYYMMDD')
+```

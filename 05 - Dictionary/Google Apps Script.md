@@ -3,7 +3,6 @@ knowledge_type:
 aliases:
   - GAS
 definition: " Google's low-code environment"
-related_object:
 ---
 
 

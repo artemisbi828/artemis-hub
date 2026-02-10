@@ -1,6 +1,3 @@
----
-domain: Vendor
----
 Basics
 - SQL Search (free)
 - SQL Prompt (paid)

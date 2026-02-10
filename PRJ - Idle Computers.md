@@ -1,8 +1,7 @@
 Work VM: Export data in transactions? 
 Artemis-Tower: Processing media files
 Artemis-Laptop: Processing diffs in Obsidian? 
-
-Build: orchestrators and listeners
+Batch Work: Start Up; Close Down; {Orchestrators, Listeners}
 Create loop limits
 
 

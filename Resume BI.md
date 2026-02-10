@@ -1,9 +1,3 @@
----
-title: Jonas Pascua - Resume
-sidebar_label: Resume
-pagination_next: projects/fabric-pipeline
----
-
 # JONAS PASCUA
 **BI Developer & Data Engineer**
 (248) 457-5312 | [jpascua@gmail.com](mailto:jpascua@gmail.com) | Asheville, NC

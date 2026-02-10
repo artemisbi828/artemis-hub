@@ -1,7 +1,3 @@
----
-syntax: powershell
----
-
 
 ```powershell
 

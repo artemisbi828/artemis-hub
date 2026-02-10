@@ -1,6 +1,4 @@
----
-purpose: nexus storefront for all pathways socially
----
+
 | **Tool**          | **Formal Definition**                                                               | **The Analogy**                                                                                                                                                                    | **Why for this build?**                                                                                                 |
 | ----------------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | **Vite**          | A modern build tool that serves code via native browser modules during development. | **The Formula 1 Pit Crew.** Instead of rebuilding the entire car every time you change a tire (like older tools), they swap just the tire while the car is moving.                 | It provides near-instant feedback when you tweak your UX copy or layout.                                                |

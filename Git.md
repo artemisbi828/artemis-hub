@@ -1,3 +1,9 @@
+---
+related_to:
+  - "[[Continuous Integration Continuous Delivery or Deployment|CI/CD]]"
+---
+
+
 [[GIT - Check Config Globals]]
 [[GIT - Init]]
 [[GIT - Rename master → main]]

@@ -1,12 +1,4 @@
----
-object_type: table
-database: CentralC9
-schema: dbo
-fully_qualified_name: "{{title}}"
-aliases:
-  - e
-entity_parents: "[[Employees]]"
----
+
 {{date:YYYY-MM-DD}}
 
 # Joins

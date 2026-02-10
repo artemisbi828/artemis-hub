@@ -1,8 +1,3 @@
----
-syntax: sql
-fxn:
-  - extract-string
----
 get string in between
 
 ```sql

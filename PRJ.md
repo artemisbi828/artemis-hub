@@ -1,10 +1,6 @@
 [[PRJ - Internal Accelerant - SQL Scraper]]
-
-
 # Big Rocks
 [[PRJ - Umbrella Arc]]
-[[PRJ - Big Rock ARC]]
-[[PRJ - Enverus LOA POC]]
 [[PRJ - Headless DEV]]
 [[PRJ - Idle Computers]]
 [[PRJ - Website - artemis-bi.com]]
@@ -20,9 +16,10 @@
 
 # Cash Projects
 Probably should merge this into Big Rocks
+[[PRJ - Enverus LOA POC]]
+[[PRJ - Tax Firm Support]]
 [[PRJ - Asheville Leads Ideas]]
 [[PRJ - Job Search]]
-[[PRJ - Tax Firm Support]]
 [[PRJ - Tax Doc-Scraper]]
 # Rewards
 [[PRJ - Shopping List]]

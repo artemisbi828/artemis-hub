@@ -1,8 +1,6 @@
 ---
 aliases:
   - non-ASCII characters
-definition:
-related_people:
 ---
 #quick-paste-merge-later 
 

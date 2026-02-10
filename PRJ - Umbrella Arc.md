@@ -1,3 +1,18 @@
+2KpM: Website
+- phone call / networking → website
+- DEMO Descrip
+- Success Flag
+- Deploy to GGC.VM
+
+Ctrl + Shift + {K I L M}
+- replace that K → D for delete
+
+Goal: Get $2K in lift no excuses per month. 
+- offsets
+- don't die poor (even though loved)
+
+1. Deploy website 
+
 ```mermaid
 graph TD
 

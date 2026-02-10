@@ -8,7 +8,7 @@ related_to:
 [[XLS - XLOOKUP]]
 
 [[XLS - Date Diff Minutes or Days]]
-[[XLS - EOMONTH + 1]]
+[[XLS - EOMONTH, BOMONTH + 1]]
 [[XLS - Contains Text]]
 [[XLS - Trim & Concat]]
 [[XLS - Datetime Standard Format]]
@@ -20,4 +20,4 @@ related_to:
 [[XLS - Comments vs Notes]]
 
 # Automations
-[[XLS - MACROS]] -- used for local
+[[XLS - MACROS VBA]] -- used for local

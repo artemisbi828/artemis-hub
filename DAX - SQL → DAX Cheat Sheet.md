@@ -1,6 +1,10 @@
-Since you are coming from SQL, the biggest shift in mindset is that **DAX is a functional language**, not a declarative one. In SQL, you tell the engine *what* you want; in a DAX Query, you nest functions to "shape" a table.
 
-To run these, open **DAX Query View** in Power BI (the icon with the `table` and `grid`). Every query must start with `EVALUATE`.
+```
+NPS Score = IFERROR(DIVIDE(
+	SUM(F_OfficeMonthStats[NPSscoreNumerator]), SUM(F_OfficeMonthStats[NPSscoreDenominator]))
+	, BLANK()
+	)
+```
 
 ---
 

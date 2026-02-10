@@ -1,7 +1,4 @@
----
-tags:
-syntax: powershell
----
+
 SQLPS
 
 Assuming "it" refers to the **SQL Server PowerShell module** (required for the script I gave you in the previous step), here is how to check.

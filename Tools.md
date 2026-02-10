@@ -13,7 +13,7 @@
 [[Tools - Parquet Files vs CSV]]
 [[Tools - Chrome]]
 - [[Tools - Obsidian - Clipboard Paste Image]]
-[[Tools - 🚀 Git]]
+[[Git]]
 [[Tools - Python]]
 
 # Basics
@@ -34,6 +34,7 @@
 
 # Data Modeling
 [[Tools - Causal Attribution Models]]
+
 # Builds
 [[Tools - Front vs BackEnd]]
 [[Tools - NodeJS]]
@@ -49,8 +50,11 @@
 [[Clipboard API (Uppy)]]
 [[Tools - NGROK]]
 [[Tools - Particle System]]
+[[Tools - Ticketing System]]
 ## Back-End
 [[Tools - Data Grip]]
+
+[[Tools - Drivers]]
 
 [[Tools - Primary Keys (uuid vs int)]]
 [[Azure Blob Storage with SAS]]

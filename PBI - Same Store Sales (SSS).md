@@ -2,7 +2,45 @@
 aliases:
   - SSS
 ---
---> D_Office 
+- belongs in D_Offices
+- SSS are the offices that qualify
+	- maxDate visible on dashboard
+	- minus 1 year = `CutoffDate`
+	- if location has < 1 year full of data, exclude
+		- DashboardStartDate > CutOffDate = EXCLUDE
+		- DashboardStartDate >= CutOffDate = INCLUDE
+
+
+1. enter data → as toggle table → View All vs Same Store
+2. create 2 measures
+3. add to **EACH VISUAL** as a filter → IS NOT BLANK
+4. dynamic with minimal footprint
+5. 
+
+## Measure 1
+```dax
+Same Store CutOff = 
+VAR MaxMonthDate =
+    CALCULATE ( MAX ( D_Dates[MonthKey] ), ALLSELECTED ( D_Dates ) )  -- already a Date
+VAR IsSSS =
+    SELECTEDVALUE ( SSS_Toggle[SSS_Toggle], "View All") = "Same Store"
+RETURN
+IF ( IsSSS, EDATE ( MaxMonthDate, -12 ), BLANK() )
+
+```
+
+## Measure 2
+```dax
+SSS Filter = 
+Var Cutoff = [Same Store CutOff]
+Var StartDate = SELECTEDVALUE(D_Offices[DashboardStartDate])
+RETURN
+IF(
+    ISBLANK(Cutoff) || (NOT ISBLANK (StartDate) && StartDate <= Cutoff), 
+    1, BLANK()
+    )
+```
+
 SSS = Offices that have a dashboardstartdate < CutOffDate (bomonth(selected(max(DateKey)))
 [[PRJ - Website - artemis-bi.com]] → SSS is hardcoded bc data is static
 
