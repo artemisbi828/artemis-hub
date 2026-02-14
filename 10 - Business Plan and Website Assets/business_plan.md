@@ -1,7 +1,8 @@
-> [!abstract] TLDR
-Mid‑market data engineering + FP&A services: Dashboards, Doc‑Scrapers, and App/Web builds; Azure OpenAI + Cosmos DB for AI/RAG; tiered packages priced ~−20% vs boutique competitors.
+> [!abstract] Summary
+**Artemis-BI turns your data chaos into executive clarity—fast.** Custom intake forms. Legacy system automation. Dashboards and apps built for _your_ workflow. We eliminate the manual grind so you can focus on what actually scales your business. The companies that break through from 6 to 7 figures don't work harder—they work smarter with data that tells them where to double down and where to cut loose. **Ready to steer your brand like a 7-figure operation? Let's build the systems that get you there.**
 
 # Artemis‑BI Business Plan (Template)
+Mid‑market data engineering + FP&A services: Dashboards, Doc‑Scrapers, and App/Web builds; Azure OpenAI + Cosmos DB for AI/RAG; tiered packages priced ~−20% vs boutique competitors.
 
 ## Vision → Positioning
 - Data should uplift, not stress → pipelines that keep data fresh → dashboards that explain why → automations that remove drudgery → advisory insights that drive outcomes.

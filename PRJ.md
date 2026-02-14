@@ -23,8 +23,6 @@ Probably should merge this into Big Rocks
 [[PRJ - Tax Doc-Scraper]]
 # Rewards
 [[PRJ - Shopping List]]
-# Constant Improvement
-[[PRJ - Idle Tasks Ideas → Convert to Scripts]]
 
 # PBI Projects
 [[PRJ - Enhance PBI.PSNL w Spending Week2Week]][[PRJ - Enhance PBI.PSNL w Spending Week2Week]]
@@ -37,5 +35,5 @@ Probably should merge this into Big Rocks
 [[Family - Iceland Pictures]]
 
 # Dance Projects
-[[PRJ - Zouk Sesh]]
+[[Zouk]]
 [[PRJ - Social Arc]]

@@ -2,7 +2,18 @@
 aliases:
   - SSS
 ---
-- belongs in D_Offices
+1. create the measure: dynamic date
+2. create the measure: {1,0}
+3. create the calculation group
+	1. calculation group _ calculation item
+
+```
+Last Year = CALCULATE( SELECTEDMEASURE(), SAMEPERIODLASTYEAR('D_Dates'[DateKey]))
+SSS = CALCULATE(SELECTEDMEASURE(), KEEPFILTERS(FILTER(D_Locations, [SSS Filter] = 1)))
+```
+
+_
+
 - SSS are the offices that qualify
 	- maxDate visible on dashboard
 	- minus 1 year = `CutoffDate`

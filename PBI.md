@@ -1,26 +1,27 @@
 # Tools
 [[DAX]]
 [[DAXM]]
+[[TMDL]]
 # Setup + Presentation
 [[PBI - Embed Report]]
 [[PBI - New Builds]]
 [[PBI - Standard Formatting]]
+[[PBI - Standard Behaviors]]
 [[PBI - Deployment Checklist]]
 # Dimensional Modeling
 [[PBI - Table Templates]]
+[[PBI - Cleaning Dimensions]]
 [[PBI - Planning the Grain]]
 [[PBI - Dynamic Date Filter]]
 [[PBI - Same Store Sales (SSS)]]
 [[PBI - Work Day Equivalent]]
-[[PBI - Dates Last Year]]
+[[PBI - Dates Previous Year (PY or LY)]]
 [[PBI - Sankey Diagram (Waterfall Chart)]]
-[[PBI - Connection Strings]]
 
 # UX Techniques
 [[PBI - Checkbox]]
 [[PBI - Refresh Box]]
 [[PBI - Colors]]
-[[PBI - Format Currency]]
 [[PBI - Add Sort By Column]]
 
 # Debug

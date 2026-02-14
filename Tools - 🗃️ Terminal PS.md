@@ -14,6 +14,7 @@ aliases:
 [[PS - Get PnP for Sharepoint]]
 
 # Basic Scripts
+[[PS - Generate New GUID]]
 [[PS - Get Files and SubFiles]]
 [[PS - Delete Item]]
 [[PS - Delete all files that string_pattern]]

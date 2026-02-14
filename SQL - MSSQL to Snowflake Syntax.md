@@ -5,6 +5,9 @@
 
 # Snowflake SQL 
 ```sql
+-- DateKey
+TO_VARCHAR(TO_DATE(TO_VARCHAR(D_DATE_KEY), 'YYYYMMDD'), 'YYYY-MM-DD')
+
 -- 
 DATE_TRUNC('MONTH', TRY_TO_DATE(D_DATE_KEY::VARCHAR, 'YYYYMMDD')) AS month_star
 

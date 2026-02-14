@@ -1,0 +1,5 @@
+Rating (5, 1 decimal) := ROUND( [Rating (Out of 5)], 1 )
+Rating (5, nearest 0.5) := MROUND( [Rating (Out of 5)], 0.5 )
+Rating (5, whole stars) := ROUND( [Rating (Out of 5)], 0 )
+Rating (5, floor)       := ROUNDDOWN( [Rating (Out of 5)], 0 )
+Rating (5, ceiling)     := ROUNDUP( [Rating (Out of 5)], 0 )

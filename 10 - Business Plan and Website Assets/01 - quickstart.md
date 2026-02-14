@@ -3,6 +3,7 @@ Follow this checklist to prep assets, finalize copy, and wire tracking/CTA for t
 
 # Artemis‑BI Quickstart
 
+
 ## Day 1 — Content & Assets
 - Review and edit:
   - business plan → [business_plan.md](business_plan.md)

@@ -8,6 +8,7 @@
 [[Tools - PC Assignments]]
 [[Tools - File Naming]]
 # Setup
+
 [[Tools - 🗃️ Terminal PS]]
 [[Tools - Terminal Linux]]
 [[Tools - Parquet Files vs CSV]]
