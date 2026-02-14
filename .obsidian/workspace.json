@@ -1,70 +1,56 @@
 {
   "main": {
-    "id": "d0b77393b3a9e6c4",
+    "id": "0d5e21ee6002e1cc",
     "type": "split",
     "children": [
       {
-        "id": "6fbfd8c882fa1612",
+        "id": "29880fd120387031",
         "type": "tabs",
         "children": [
           {
-            "id": "92d87e34cf9f732e",
+            "id": "d41c431f5fb820a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PBI.md",
+                "file": "PRJ.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "PBI"
+              "title": "PRJ"
             }
           },
           {
-            "id": "e9ea2ef1aa3e68f9",
+            "id": "9e36362c00643617",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10 - Business Plan and Website Assets/Vendors.md",
+                "file": "04 - Cookbook/Adobo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vendors"
-            }
-          },
-          {
-            "id": "a0c24b01e4bf8e01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stripe.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Stripe"
+              "title": "Adobo"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "cf8abc6251484392",
+    "id": "a07230d30080e905",
     "type": "split",
     "children": [
       {
-        "id": "4128d9942febb7ab",
+        "id": "679593026128e507",
         "type": "tabs",
         "children": [
           {
-            "id": "5d25722477473757",
+            "id": "612e1b50b43c71ac",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -77,7 +63,7 @@
             }
           },
           {
-            "id": "0570665ce481f0f3",
+            "id": "12ac682d3a8c6f7f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -87,14 +73,14 @@
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
               "title": "Search"
             }
           },
           {
-            "id": "8c1a3b5cf53fd97b",
+            "id": "d9269d8eb4022c05",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -107,56 +93,57 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 300
   },
   "right": {
-    "id": "97a1c5e6364d74b8",
+    "id": "752cbe1a70dfac5d",
     "type": "split",
     "children": [
       {
-        "id": "20d3022bb28262f7",
+        "id": "271423b1ba225d2f",
         "type": "tabs",
         "children": [
           {
-            "id": "2d56c3a3996c7f17",
+            "id": "76e1bec7080ac34b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stripe.md",
+                "file": "04 - Cookbook/Adobo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Stripe"
+              "title": "Backlinks for Adobo"
             }
           },
           {
-            "id": "9cdf114b9454f608",
+            "id": "383c26572728cec0",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Tools - General AI Prompt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Tools - General AI Prompt"
             }
           },
           {
-            "id": "2d372e9086620a93",
+            "id": "2eb251579405349c",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false,
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -165,22 +152,7 @@
             }
           },
           {
-            "id": "d1530d7ab57888de",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "PRJ - Enverus LOA POC.md",
-                "followCursor": false,
-                "showSearch": true,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of PRJ - Enverus LOA POC"
-            }
-          },
-          {
-            "id": "aabd7e23828b8500",
+            "id": "f0cc7a2b47d7dd4e",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -194,22 +166,25 @@
             }
           },
           {
-            "id": "f618b2913fe8fa4c",
+            "id": "c977d77f7e55460c",
             "type": "leaf",
             "state": {
-              "type": "file-properties",
+              "type": "outline",
               "state": {
-                "file": "Concepts - Features Documentation.md"
+                "file": "Tools - General AI Prompt.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
-              "icon": "lucide-info",
-              "title": "File properties for Concepts - Features Documentation"
+              "icon": "lucide-list",
+              "title": "Outline of Tools - General AI Prompt"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,35 +197,35 @@
       "bases:Create new base": false
     }
   },
-  "active": "a0c24b01e4bf8e01",
+  "active": "9e36362c00643617",
   "lastOpenFiles": [
-    "Stripe.md",
-    "10 - Business Plan and Website Assets/Vendors.md",
-    "10 - Business Plan and Website Assets/01 - quickstart.md",
-    "10 - Business Plan and Website Assets/business_plan.md",
-    "05 - Dictionary/Google Cloud Scheduler.md",
-    "PBI.md",
-    "99 - Attachments/Pasted image 20260214113719.png",
-    "PRJ.md",
-    "PRJ - Shopping List.md",
-    "PRJ - Idle Computers.md",
-    "PRJ - Idle Tasks Ideas → Convert to Scripts.md",
-    "PRJ - Umbrella Arc.md",
-    "PRJ - Job Search.md",
     "Zouk.md",
-    "Zouk - Asheville Family.md",
-    "Zouk - Introduction.md",
-    "Zouk - My Training.md",
     "Zouk - Teaching.md",
     "Zouk - Teaching - Sayings.md",
-    "PBI - Same Store Sales (SSS).md",
-    "DAX.md",
+    "Zouk - My Training.md",
+    "Zouk - Introduction.md",
+    "Zouk - Asheville Family.md",
+    "XLS - MACROS VBA.md",
+    "XLS - EOMONTH, BOMONTH + 1.md",
+    "Tools - Transform Text to Tables.md",
+    "Tools - Ticketing System.md",
+    "Tools - Google Drive.md",
+    "Tools - Drivers.md",
+    "Tools - Causal Attribution Models.md",
+    "Tools - AI Prompt - UX.md",
+    "Tools - AI Prompt - Scripts.md",
+    "Tools - AI Prompt - General.md",
+    "Tools - AI Prompt - Documentation.md",
     "TMDL.md",
-    "DAX - KEEPFILTERS, CROSSFILTER.md",
-    "DAX - Add WDE and Holiday Columns.md",
-    "DAX - Count Rows.md",
-    "DAX Convert YEAR to TEXT.md",
-    "DAX - Convert 2025-02-01 to 202502.md",
+    "Stripe.md",
+    "SQL - Get Division and Region Sort.md",
+    "SQL - Date to FirstDayOfMonth.md",
+    "PS - Generate New GUID.md",
+    "PRJ - PatientPoint.md",
+    "PBI - Standard Behaviors.md",
+    "PBI - New Builds.md",
+    "PBI - Dates Previous Year (PY or LY).md",
+    "99 - Attachments/Pasted image 20260214113719.png",
     "99 - Attachments/Pasted image 20260212133141.png",
     "99 - Attachments/Pasted image 20260212133130.png",
     "99 - Attachments/Pasted image 20260212133121.png",
@@ -258,19 +233,9 @@
     "99 - Attachments/Pasted image 20260212132820.png",
     "99 - Attachments/Pasted image 20260212132707.png",
     "99 - Attachments/Pasted image 20260212132624.png",
-    "Untitled.base",
-    "99 - Scripts/sql_create_table.py",
     "99 - Attachments/Pasted image 20260203114555.png",
     "04 - Cookbook",
     "99 - Scripts/proc_column_trackforward_DIAGNOSTICS.sql",
-    "99 - Scripts/3ppt5w2c.s4q~",
-    "99 - Scripts/jkuzfbv3.hhg~",
-    "99 - Scripts/ekgambxb.hlq~",
-    "99 - Attachments/Pasted image 20260128135039.png",
-    "99 - Scripts/get_procedures.sql",
-    "99 - Scripts/fill_objects.sql",
-    "99 - Scripts/create_objects.sql",
-    "Untitled 1.canvas",
-    "Untitled.canvas"
+    "99 - Attachments/Pasted image 20260128135039.png"
   ]
 }
