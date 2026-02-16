@@ -13,12 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PRJ.md",
+                "file": "Tools - AI Prompt - General.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "PRJ"
+              "title": "Tools - AI Prompt - General"
+            }
+          },
+          {
+            "id": "f4d09f89641784af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vendor.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vendor"
+            }
+          },
+          {
+            "id": "d56fee9d1b4903a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05 - Dictionary/Tools - Terminal Linux.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tools - Terminal Linux"
             }
           },
           {
@@ -34,9 +62,23 @@
               "icon": "lucide-file",
               "title": "Adobo"
             }
+          },
+          {
+            "id": "89596f50b244328f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 - Cookbook/Top Brewer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Top Brewer"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -199,6 +241,18 @@
   },
   "active": "9e36362c00643617",
   "lastOpenFiles": [
+    "LNX - Exit Terminal - Ctrl-C.md",
+    "05 - Dictionary/Tools - Terminal Linux.md",
+    "Cloudflare.md",
+    "99 - Attachments/Pasted image 20260215123312.png",
+    "04 - Cookbook/Adobo.md",
+    "LNX - systemd.md",
+    "Vendor.md",
+    "Tools - AI Prompt - General.md",
+    "10 - Business Plan and Website Assets/business_plan.md",
+    "10 - Business Plan and Website Assets/01 - quickstart.md",
+    "PRJ.md",
+    "04 - Cookbook/Top Brewer.md",
     "Zouk.md",
     "Zouk - Teaching.md",
     "Zouk - Teaching - Sayings.md",
@@ -214,17 +268,6 @@
     "Tools - Causal Attribution Models.md",
     "Tools - AI Prompt - UX.md",
     "Tools - AI Prompt - Scripts.md",
-    "Tools - AI Prompt - General.md",
-    "Tools - AI Prompt - Documentation.md",
-    "TMDL.md",
-    "Stripe.md",
-    "SQL - Get Division and Region Sort.md",
-    "SQL - Date to FirstDayOfMonth.md",
-    "PS - Generate New GUID.md",
-    "PRJ - PatientPoint.md",
-    "PBI - Standard Behaviors.md",
-    "PBI - New Builds.md",
-    "PBI - Dates Previous Year (PY or LY).md",
     "99 - Attachments/Pasted image 20260214113719.png",
     "99 - Attachments/Pasted image 20260212133141.png",
     "99 - Attachments/Pasted image 20260212133130.png",
@@ -235,7 +278,6 @@
     "99 - Attachments/Pasted image 20260212132624.png",
     "99 - Attachments/Pasted image 20260203114555.png",
     "04 - Cookbook",
-    "99 - Scripts/proc_column_trackforward_DIAGNOSTICS.sql",
-    "99 - Attachments/Pasted image 20260128135039.png"
+    "99 - Scripts/proc_column_trackforward_DIAGNOSTICS.sql"
   ]
 }

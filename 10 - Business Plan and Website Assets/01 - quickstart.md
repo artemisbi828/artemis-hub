@@ -1,5 +1,5 @@
 > [!abstract] TLDR
-Follow this checklist to prep assets, finalize copy, and wire tracking/CTA for the MVP site.
+**Artemis-BI turns your data into executive decisions — fast.** Custom intake forms. Legacy process automation. Apps and dashboards built for _your_ unique workflow. We eliminate the manual so your business can scale. Companies that break through from 6 to 7 figures don't work harder—they work smarter. **Ready to steer your brand to then next level? Let's build the systems that get you there.**
 
 # Artemis‑BI Quickstart
 
