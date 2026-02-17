@@ -32,25 +32,3 @@ flying, meeting someone and say hi! what do you get into?
 I'm always looking for different ideas of what inspires people or what they like to do? 
 I personally love dancing -- private IG of my dances; travels; family; 
 
-
-|     | Rosa; Jezelle; Lorraine; Perry; Mom; Dad; Mark |
-| --- | ---------------------------------------------- |
-|     | Ale; Peter                                     |
-|     | Imad; Monica; Gabrielle                        |
-|     | Katy; Mark;                                    |
-|     | Kalissa; Kassy; Dominic                        |
-
-# Asheville
-|     | Danielle; Kamran             |
-| --- | ---------------------------- |
-|     | Whitney; Liz; Ashley; Alllie |
-|     |                              |
-
-# Fab 5 Project
-
-| Doctor    |     |
-| --------- | --- |
-| Lawyer    |     |
-| Handyman  |     |
-| Carpenter |     |
-| Mechanic  |     |

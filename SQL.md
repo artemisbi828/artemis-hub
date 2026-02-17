@@ -31,6 +31,7 @@
 [[SQL - DOB Calculation]]
 [[SQL - Get Last Stable Month]]
 [[SQL - DateInt to Date]]
+[[SQL - Business Weekday]]
 [[SQL - Date to FirstDayOfMonth]]
 [[SQL - Get Beginning of Week]]
 [[SQL - Create Dates Table]]

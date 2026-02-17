@@ -1,4 +1,5 @@
 [
   "obsidian-linter",
-  "dataview"
+  "dataview",
+  "obsidian-plugin-toc"
 ]
