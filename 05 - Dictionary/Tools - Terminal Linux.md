@@ -1,5 +1,5 @@
 [[LNX - systemd]]
-
+[[LNX - Exit Terminal - Ctrl-C]]
 
 ```linux
 hostname                                         # verify where I am

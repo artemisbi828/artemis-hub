@@ -1,6 +1,22 @@
 > [!abstract] Summary
-**Artemis-BI turns your data chaos into executive clarity—fast.** Custom intake forms. Legacy system automation. Dashboards and apps built for _your_ workflow. We eliminate the manual grind so you can focus on what actually scales your business. The companies that break through from 6 to 7 figures don't work harder—they work smarter with data that tells them where to double down and where to cut loose. **Ready to steer your brand like a 7-figure operation? Let's build the systems that get you there.**
+**Artemis-BI engineers solutions that transform your data into executive decisions.** Custom intake forms. Legacy system automation. Dashboards and apps built for your workflow. We eliminate the manual grind so you can focus on what actually scales your business. The companies that break through from 6 to 7 figures don't work harder. **Ready to steer your brand like a 7-figure operation? Let's build the systems that get you there.**
 
+
+```
+    // What is a Data Engineer
+    dataEngineer: {
+        title: 'What is a Data Engineer?',
+        content: `Think of your data as the narrative of your growth. When that story is scattered across spreadsheets, the plot gets lost. A data engineer gathers those fragments and weaves them into a single, reliable source of truth. It’s the invisible fabric that ensures your insights are always fresh, your privacy is protected, and your vision is never clouded by manual "file wrangling." A well-engineered data environment brings your business strategy to life by ensuring your information is:`,
+        points: [
+            'Connected: Seamlessly syncing your systems so your team stays in perfect rhythm.',
+            'Refined: Transforming raw noise into elegant, consistent definitions you can trust.',
+            'Resilient: Automated workflows that handle the heavy lifting, even when things get complex.',
+            'Secure: Protecting your most valuable assets with sophisticated access and audit trails.',
+            'Visible: Continuous monitoring that ensures your data is as fast as your ambitions.',
+        ],
+        closing: 'I partner with you to build the infrastructure that keeps your business nimble. Instead of fighting with files, you’re free to focus on what matters most: steering your brand forward with total confidence.',
+    },
+```
 # Artemis‑BI Business Plan (Template)
 Mid‑market data engineering + FP&A services: Dashboards, Doc‑Scrapers, and App/Web builds; Azure OpenAI + Cosmos DB for AI/RAG; tiered packages priced ~−20% vs boutique competitors.
 
