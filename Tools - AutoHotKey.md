@@ -7,6 +7,23 @@ shell:startup --> %AppData%\Microsoft\Windows\Start Menu\Programs\Startup
 | ----- | ------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | ;     | single-line comment | just like "--"                                                                                                    |
 | /* */ | multi-line comment  | The `/*` and `*/` must appear at the **very start** of the line. They cannot have any code or spaces before them. |
+| #     | single comment      | this is my guess                                                                                                  |
+# Insert Delta
+```bash
+
+#Requires AutoHotkey v1.1
+#SingleInstance Force
+
+; Set the hotkey: Ctrl + Alt + D
+^!d::
+    ; SendRaw ensures that special characters like # and = are sent literally,
+    ; and that the line breaks (\n) are preserved exactly as written.
+    SendRaw,
+    (
+Δ
+    )
+return
+```
 
 ### Pro-Tip for Sublime Text Users
 
@@ -89,3 +106,4 @@ These are used to control how the script behaves:
 > Key Case Matters: In AHK v2, keys inside the Send() command are usually wrapped in curly braces and quotes, like Send("{Enter}").
 
 Would you like me to write a **"Master Reload"** hotkey for you? It's a single line that lets you refresh your script instantly every time you make a change.
+

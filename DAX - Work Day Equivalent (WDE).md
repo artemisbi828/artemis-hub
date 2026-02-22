@@ -3,6 +3,11 @@ aliases:
   - WDE
 ---
 
+> [!info] Summary
+WDE takes the 1-day-equivalent of all the production-days for the month
+> 	-- any quotients (Δ) should be shielded from WDE (no expected change)
+
+
 
 Best to do this in TSQL layer → ODS has [[SQL - Rolling Total]] of WDE and MonthKey has Sum() of WDE
 In a given month, what is sum(workingdays)

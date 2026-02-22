@@ -1,1 +1,0 @@
-Leads YoY% = IF(ISBLANK([Leads PY]), BLANK(), DIVIDE([Leads], [Leads PY], BLANK()) - 1)

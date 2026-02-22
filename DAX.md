@@ -1,34 +1,36 @@
-Related to: [[DAXM]], [[PBI]]
+Related to: [[DAXM]], [[PBI]], [[DAXQ]], [[TMDL]]
 
-[[DAX - SQL → DAX Cheat Sheet]]
-[[DAX - UDF (Research)]]
+# FREQ
+[[DAX - Ratios -- DIVIDE, YOY%]]
+[[DAX - Dates Previous Year (PY or LY)]]
+[[DAX - FORMAT()]]
+[[DAX - Rounding]]
 
-# Date and Number Formatting
-[[DAX - YOY%]]
-[[DAX - Calculation Groups]]
+# DATES
 [[DAX - Create Measure between 2 Dates]]
 [[DAX - DateDiff]]
-[[DAX - FORMAT()]]
-[[DAX - KEEPFILTERS, CROSSFILTER]]
 [[DAX - Add WDE and Holiday Columns]]
 [[DAX - Count Rows]]
 [[DAX - Convert 2025-02-01 to 202502]]
-[[DAX Convert YEAR to TEXT]]
+[[DAX - Convert YEAR to TEXT]]
+[[DAX - Dynamic Date Filter]]
 
-# Number Formatting
-[[DAX -- Rounding]]
-# DAX Query View
-[[DAXQ - Query View - A,B,RN]]
-[[DAXQ - Query View - Discount Count]]
-[[DAXQ - Select, Distinct, Where, Sum, Top10]]
-[[DAXQ - Select Not Blank]]
+# NEW Techniques
+[[DAX - ISINSCOPE, SELECTEDVALUE - Exclude Category or Dim]]
+[[DAX - Calculation Groups]]
+[[DAX - Calculation Groups - Shield]]
+[[DAX - KEEPFILTERS, CROSSFILTER]]
+[[DAX - Create DAX Format for Obsidian]]
 
+# Research
+[[DAX - SQL → DAX Cheat Sheet]]
+[[DAX - UDF (Research)]]
+[[PBI - Sankey Diagram (Waterfall Chart)]]
 
+# DEBUG
+[[DAX - Debug Sort Column Issue]]
+[[DAX - Debug - CopyPaste but Object.Chart has Diff-X-Axis]]
 
-[[DAX - Create Obsidian CodeBlock Formatter]]
-
-```
-```
 
 Choosing between DAX and Power Query is rarely about which one is "better" and more about **where** the logic should live in the data pipeline.
 

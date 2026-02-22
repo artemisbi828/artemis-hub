@@ -1,0 +1,1 @@
+`Line` + CHAR(13)+CHAR(10) + `Line2`

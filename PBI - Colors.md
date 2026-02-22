@@ -1,12 +1,11 @@
+ Conditional Formatting
 
-# Conditional Formatting
-
-| Color       | HexCode   | Symbol |
-| ----------- | --------- | ------ |
-| Light Green | `#7CCD7C` | ▲      |
-| Light Red   | `#E68F96` | ▼      |
-| Dark Green  | `#63AB62` | ☑      |
-| Dark Red    | `#A1343C` | ☒      |
+| Color       | HexCode   | Icon |
+| ----------- | --------- | ---- |
+| Light Green | `#7CCD7C` | ▲ Δ  |
+| Light Red   | `#E68F96` | ▼    |
+| Dark Green  | `#63AB62` | ☑    |
+| Dark Red    | `#A1343C` | ☒    |
 ![[Pasted image 20260212132707.png|50]]
 
 ![[Pasted image 20260212132820.png]]

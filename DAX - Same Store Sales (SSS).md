@@ -2,6 +2,31 @@
 aliases:
   - SSS
 ---
+> [!info] Summary
+> SSS -- YoY or PoP Analysis. Make sure all DimLOC have same MinMaxRange of Data. If partial --> Exclude
+> 	-- eg: at 2026-JAN+FEB analysis YoY. 
+> 	-- If 1 location started in 2025+FEB (11 months of data, instead of 12) 
+> 	-- exclude from dataset b/c unfair comparison
+
+```
+SSS Filter = 
+VAR MaxMonthDate =
+    CALCULATE ( MAX ( D_Dates[DateKey] ), ALLSELECTED ( D_Dates ) )  -- already a Date
+VAR IsSSS =
+    SELECTEDVALUE ( SSS_Toggle[SSS_Toggle], "View All") = "Same Store"
+VAR SameStoreCutoff =
+    IF ( IsSSS, EDATE ( MaxMonthDate, -12 ), BLANK() )
+VAR DashboardStartDate = SELECTEDVALUE ( D_Locations[DashboardStartDate] )
+RETURN
+IF (
+    ISBLANK ( SameStoreCutoff )                              -- View All: let everything through
+        || ( NOT ISBLANK ( DashboardStartDate ) && DashboardStartDate <= SameStoreCutoff ),
+    1,
+    0
+)
+```
+
+
 1. create the measure: dynamic date
 2. create the measure: {1,0}
 3. create the calculation group

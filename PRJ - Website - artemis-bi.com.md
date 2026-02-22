@@ -70,8 +70,8 @@ my-portfolio/
 	- Information Box
 - Normalization Buttons → Enterprise Executives
 	- Drill Downs
-	- [[PBI - Same Store Sales (SSS)|SSS]] --- D_Offices
-	- [[PBI - Work Day Equivalent|WDE]] -- D_Dates 
+	- [[DAX - Same Store Sales (SSS)|SSS]] --- D_Offices
+	- [[DAX - Work Day Equivalent (WDE)|WDE]] -- D_Dates 
 - Fast Loads
 	- Dashboards vs Reports -- spotlight, focus, fresh
 		- Fact Tables are Aggregates

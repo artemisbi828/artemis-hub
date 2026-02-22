@@ -1,8 +1,7 @@
-[[Zouk - Introduction]]
+[[Zouk - Intro New People]]
 [[Zouk - Teaching]]
 [[Zouk - My Training]]
 [[Zouk - Teaching - Sayings]]
-[[2 - Asheville]]
 
 
 # Contacts

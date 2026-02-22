@@ -1,5 +1,7 @@
 #quick-paste-merge-later 
 
+Codeblock Formatter
+
 Obsidian does not have a dedicated, native "DAX Formatter" plugin (like the Prettier plugin for JavaScript) that runs automatically inside a code block. This is largely because the DAX language is niche compared to web development languages.
 
 However, you can achieve a professional formatting workflow using a combination of existing tools or by building a custom "Formating Bridge."

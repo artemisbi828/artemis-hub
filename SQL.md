@@ -5,6 +5,7 @@
 - Practice if(exists)
 
 ## String
+[[SQL - New Line for Data Definitions]]
 [[SQL - Extract String (Middle)]]
 [[SQL - Extract String (End)]]
 [[SQL - Get Division and Region Sort]]
@@ -28,11 +29,11 @@
 [[SQL - String Split]]
 [[SQL - ParseName]]
 ## Dates
+[[SQL - ISODate to Month (FirstOfMonth)]]
+[[SQL - DateKey to Date]]
 [[SQL - DOB Calculation]]
 [[SQL - Get Last Stable Month]]
-[[SQL - DateInt to Date]]
 [[SQL - Business Weekday]]
-[[SQL - Date to FirstDayOfMonth]]
 [[SQL - Get Beginning of Week]]
 [[SQL - Create Dates Table]]
 [[SQL - Add Holidays + WDE to D_Dates]]

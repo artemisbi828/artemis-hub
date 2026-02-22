@@ -1,3 +1,18 @@
+Standards
+> [!info]
+> Percentage
+> - %
+> - 1 decimal
+> 
+> Quantities
+> - Int
+> - Thousands separator -- ","
+> 
+> Currency
+> - $, 
+> - 1 Decimal
+> - Thousands separator -- "," 
+
 
 | DAX                                         | result       | note                          |
 | ------------------------------------------- | ------------ | ----------------------------- |
@@ -9,6 +24,7 @@
 | FORMAT([Net Production], "$0,000.0") & " K" | `$1,250 K`   | currency (K)                  |
 | FORMAT(@, "#,##0,,.0M")                     |              | currency (M)                  |
 | FORMAT(@, "yyyy-MM-dd")                     | `2026-01-10` | ISO Date format               |
+
 
 
 # EXAMPLES

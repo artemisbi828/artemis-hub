@@ -1,5 +1,8 @@
 • Consensus; 
 
+**How heroes when they're the problem?** 
+"Don't give an arsonist a medal for picking up a fire house."
+
 
 A polished PMO (Project Management Office) phrase for "spread too thin" could be:
 "Overextended across multiple initiatives"
@@ -34,3 +37,9 @@ Role Plays. Disarms. Question behind the question.
 	5. Overkill -- action plan, exceed expectation
 		
 Saying no without saying no. Non acknowledge.
+
+
+# Departure
+```
+It has been amazing to work with you all and I will miss working with you amazing people on the daily.  Thanks for making my experience here one I will always remember...in a good way!  Wish you all the best and for the bright future of Smile Doctors.  Life is a traveling adventure and it is not the final destination that makes the trip great its where you stop along the way.  Not saying goodbye but see you later...Keep on Chopping!
+```
