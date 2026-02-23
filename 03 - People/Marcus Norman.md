@@ -1,0 +1,1 @@
+Service-Disabled Veteran-Owned Small Businesses (SDVOSBs) - is a strategic move, as the federal government has a statutory goal of awarding 3% of all contracting dollars to this group.
