@@ -7,6 +7,8 @@ Related to: [[DAXM]], [[PBI]], [[DAXQ]], [[TMDL]]
 [[DAX - Rounding]]
 
 # DATES
+[[DAX - AsOfDate]]
+[[DAX - DateValue]]
 [[DAX - Create Measure between 2 Dates]]
 [[DAX - DateDiff]]
 [[DAX - Add WDE and Holiday Columns]]
@@ -15,7 +17,10 @@ Related to: [[DAXM]], [[PBI]], [[DAXQ]], [[TMDL]]
 [[DAX - Convert YEAR to TEXT]]
 [[DAX - Dynamic Date Filter]]
 
+# CREATE TABLES
+[[DAX - Create Tables]]
 # NEW Techniques
+[[DAX - TREATAS]]
 [[DAX - ISINSCOPE, SELECTEDVALUE - Exclude Category or Dim]]
 [[DAX - Calculation Groups]]
 [[DAX - Calculation Groups - Shield]]

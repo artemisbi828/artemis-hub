@@ -15,6 +15,7 @@ related_to:
 # Error Handling
 [[GIT - Error Handling - Stuck in VS Termainl]]
 [[GIT - Error Handling - Remote Not Found]]
+[[GIT - Error Handling - Table Compatibility Issue]]
 
 
 Up to date but 1 branch ahead means ...

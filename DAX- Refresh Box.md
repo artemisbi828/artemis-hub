@@ -1,4 +1,9 @@
-Accounts for Refresh
+---
+aliases:
+  - Refresh Box
+---
+
+Accounts for Svc UTC Time Refresh
 
 ```DAX
 Refresh Check = 
