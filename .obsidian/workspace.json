@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zouk - My Training.md",
+                "file": "10 - Business Plan and Website Assets/01 - quickstart.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zouk - My Training"
+              "title": "01 - quickstart"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zouk - My Training.md",
+                "file": "10 - Business Plan and Website Assets/01 - quickstart.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Zouk - My Training"
+              "title": "Backlinks for 01 - quickstart"
             }
           },
           {
@@ -184,10 +184,13 @@
   },
   "active": "aba6b1711c4208ed",
   "lastOpenFiles": [
+    "05 - Dictionary/Tools - Terminal Linux.md",
+    "02 - Daily/Archive/📅 2026-02-19 (Thu).md",
+    "02 - Daily/📅 2026-02-26 (Thu).md",
+    "Zouk - My Training.md",
     "03 - People/Marcus Norman.md",
     "Zouk.md",
     "04 - Cookbook/Adobo.md",
-    "Zouk - My Training.md",
     "06 - People & Places/1 - Family.md",
     "06 - People & Places/2 - Asheville.md",
     "Zouk - Intro New People.md",
@@ -207,9 +210,6 @@
     "Languages - Japanese.md",
     "Languages - Albanian.md",
     "Household - Movies.md",
-    "Household - Books.md",
-    "DAXQ.md",
-    "DAX- Refresh Box.md",
     "99 - Attachments/Pasted image 20260216123247.png",
     "06 - People & Places",
     "99 - Attachments/Pasted image 20260215123312.png",

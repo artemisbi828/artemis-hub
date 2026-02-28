@@ -1,8 +1,14 @@
 > [!abstract] TLDR
 **Artemis-BI turns your data into executive decisions — fast.** Custom intake forms. Legacy process automation. Apps and dashboards built for _your_ unique workflow. We eliminate the manual so your business can scale. Companies that break through from 6 to 7 figures don't work harder—they work smarter. **Ready to steer your brand to then next level? Let's build the systems that get you there.**
 
+```
+Custom intake forms. Legacy process automation. Apps and dashboards built for your unique workflow. Companies that break through from 6 to 7 figures don't work harder - they work smarter. We build the tech and final infrastructure systems that get you there.
+```
 # Artemis‑BI Quickstart
-
+jonas.pascua@artemis-bi.com, +12484575312
+5443 1751 7870 9881; 02/2031; Jonas Pascua; 621
+128 Florence St Unit 401
+Asheville, NC 28801
 
 ## Day 1 — Content & Assets
 - Review and edit:

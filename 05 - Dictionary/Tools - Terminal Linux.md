@@ -5,6 +5,8 @@
 hostname                                         # verify where I am
 
 ls -l                                            list long (vs all)
+ls -la                                           see all
+
 cd ~                                             "see" directory
 mkdir -p ~/client-bridge/.streamlit              # create folder
 mv ~/secrets.toml ~/client-bridge/.streamlit/    # move file
