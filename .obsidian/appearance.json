@@ -3,5 +3,6 @@
   "textFontFamily": "Consolas",
   "baseFontSize": 11,
   "cssTheme": "",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "monospaceFontFamily": "Consolas"
 }

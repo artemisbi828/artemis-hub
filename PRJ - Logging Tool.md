@@ -2,6 +2,24 @@ create a lightweight logging solution
         • copy and paste
 
 
+# Log Verbs (Use in Daily)
+completed
+added
+removed
+answered
+repushed
+routed
+met-with
+noted
+recorded
+budgeted
+planned
+would-adjust
+would-refactor
+would-validate-earlier
+would-standardize
+
+
 description of request with ask or note
 autotimestamp
 projectName (must exist) -- if not pop-up and add

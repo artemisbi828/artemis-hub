@@ -10,6 +10,7 @@
 [[SQL - Extract String (End)]]
 [[SQL - Get Division and Region Sort]]
 [[SQL - Concat, Concat_WS]]
+[[SQL - ParseName - FirstName LastName]]
 [[SQL - Extract LastName]]
 [[SQL - Swap Out Character (Stuff)]]
 [[SQL - Remove Pattern from String]]
@@ -27,7 +28,6 @@
 [[SQL - StringAgg]]
 [[SQL - Has or Contains]]
 [[SQL - String Split]]
-[[SQL - ParseName]]
 ## Dates
 [[SQL - ISODate to Month (FirstOfMonth)]]
 [[SQL - DateKey to Date]]
@@ -56,6 +56,9 @@
 [[SQL - Personal Improvements]]
 
 # Techniques
+[[SQL - Data Dictionary w Power BI Formatting Preserved]]
+[[SQL - RowNumber() - See Top 3 Changes in AuditHistory]]
+[[SQL - Team to Office Allocation - Split Remainder Method]]
 [[SQL - Logic Pathway Concepts]]
 [[SQL - If Exists]]
 [[SQL - Get Samples]]
@@ -93,6 +96,8 @@
 [[SQL - Identity]]
 
 # Maintenance
+[[SQL - Change Management]]
+[[SQL - Add Unique Constraint]]
 [[SQL - Rename Object (sp_rename)]]
 [[SQL - ExtProp - Get Description]]
 [[SQL - ExtProp - Column Description]]

@@ -1,42 +1,22 @@
-Research Artemis-BI notes and synthesize MVP plan inputs
-REVOPSyes - wire them to use centralized values
+Lookup: [[Concepts#Words]]
 
-# Orthogonal / Facets
-People can just use tags. Later formalized w integrity checks for hierarchal or orthogonal relationships. Cross cutting is to use (M) facets
+"Sniff Test" --> "Sanity Check" {Validation Check, }
 
-Orthogonal Category -- Different dimensions, not parent-child subsets. 
-- Orthoggonal is opposite of hierarchal.
-- eg: exams is a groupingg dimension, consults is an attribute, NPE is a sub-attribute of Consults.
+Idempotent: run the same thing, get the same thing every time 
+- or different due to changes in mapping 
+- **get the same expected logic outputs every time**
 
-Attributes or facet -- separate slice used to classify an item
-- NPE could be a combination of 2 facets -- Appointment Type Group (parent rollup) 
+
+REVOPS: 
+
+Quantum Leap
+Retro-Disruptive. 
+DataVisualizing
+Sublimation. 
 
 #quick-paste-merge-later 
-I've learned 2 ways of creating log tables
-  D2 Tables -- SCDType2 -- Slowly Changing Dimension. IsCurrent = endDate is not null (fast to index/partition)
-  CDC stream -- append-only log table 
-
-
-`includes stats talk`
-intercalation. inserting interlayer
 # Drill In
-- cognitive dissonance
 • implement both scripts with comprehensive functionality
-• Uncontrolled Historical Data; Mutable
-	• Mutable data; Dynamic History (static (locked) history); 
-		○ Retroactively updatable; editable history
-	• Non-finalized data; open-ended data; editable
-	• soft-closed data (vs hard-closed)
-• umbrella term
-• sequential-file-versioning
-	This is called "auto-incrementing filename collision resolution" or "sequential file versioning". Terms you can use:
-	"Increment if exists"
-	"Auto-versioning"
-	"Collision-free naming"
-	"Sequential suffix pattern"
-• semantic logic (true meaning/essence of logic; non-technical)
-• what is ML integration
-
 
 Points of Error
 Dispersion Error -- being consistent at being off is sometimes valuable, esp for big companies; per Jenni -- predictability of error is manageable, they can hire more to cover error, but unexpectedness 
@@ -47,12 +27,8 @@ Dispersion Error -- being consistent at being off is sometimes valuable, esp for
 • standard naming conventions
 • Production Formulae | Equation
 • I have a tangential understanding
-• 
 • solid and dry principles
 
-
-single responsibility principle
-singularity of purpose
 traceability
 data mitosis; de-lineator
 retro disruptive
@@ -60,12 +36,6 @@ retro disruptive
 Bridge
 Upsert
 Upside. Downside. 
-
-Quantum Leap
-
-Retro-Disruptive. 
-DataVisualizing
-Sublimation. 
 
 Deciding Judiciously Tie Break
 Data Dictionary Assessment -- Free of imprecision

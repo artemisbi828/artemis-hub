@@ -13,6 +13,13 @@
 #4: commit them
 ```
 
+# From UAT
+
+```shell
+git checkout origin/PROD004 -- C:\Users\jonas-adam.pascua\Source\Repos\Pulse\SMEX.Report; 
+git checkout origin/PROD004 -- C:\Users\jonas-adam.pascua\Source\Repos\Pulse\SMEX.SemanticModel; 
+git checkout origin/PROD004 -- C:\Users\jonas-adam.pascua\Source\Repos\Pulse\SMEX.pbip
+```
 ---
 **“How can Git take a _local_ path and pull the _remote_ version of that file, even though the path I typed is local?”**
 

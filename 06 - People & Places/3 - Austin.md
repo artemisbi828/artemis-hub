@@ -142,21 +142,8 @@ Demola, Sam, Abby, Olivia, Linda, Allison, Isabella (big)
 | 4079552838 | ~Renee~     |
 
 # Old Address Info
-```
-Eastside Station
-  1700 E 4TH ST APT 1321, AUSTIN TX 78702
-  1700 E 4TH ST APT 1332, AUSTIN TX 78702
+[[Vendors - Eastside Station]]
 
-Conservice Account# -- 31054201 
-
-Fetch Address
-  3101 Longhorn BLVD STE 106 
-  ESS1321-3
-  AUSTIN, TX 78758
-
-```
-
-![[Pasted image 20260216123247.png]]
 
 Jonas's Apartment
 	○ Couch

@@ -6,6 +6,7 @@ aliases:
 > [!info] Summary
 WDE takes the 1-day-equivalent of all the production-days for the month
 > 	-- any quotients (Δ) should be shielded from WDE (no expected change)
+> 	-- for current month -- should shield b/c it's misleading
 
 
 

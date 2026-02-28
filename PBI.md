@@ -1,8 +1,10 @@
 Related To: [[DAX]], [[DAXM]], [[DAXQ]], [[TMDL]]
 # Setup + Presentation
+[[PBI - Standards]]
 [[PBI - Colors]]
 [[PBI - Deployment Checklist]]
-
+[[PBI - GIT - AZD to AZP Promotion]]
+[[PBI - GIT Troubleshooting]]
 # Data Modeling + Sql Views
 [[DAX - Planning the Grain]]
 [[DAX - Data Modeling]]

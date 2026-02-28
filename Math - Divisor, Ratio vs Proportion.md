@@ -1,5 +1,7 @@
 ```
 Numerator / Denominator = Quotient
+  5 / 3 = 1.666 --> Real (Decimal) Quotient
+  5 / 3 = 1 --> Integer Quotient
 Minuend - Subtrahend = Difference
 Addend + Addend = Sum
 Factor * Factor = Product

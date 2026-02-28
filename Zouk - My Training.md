@@ -17,4 +17,3 @@ lat engagement 2-4-8 (relaxed skeleton | | coming out of pool)
 Super man cape → to my heels
 Kundilini, Open hips, offer to world
 Beyonce stomp
-

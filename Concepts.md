@@ -5,6 +5,13 @@
 [[Concepts - Business Function Tree]]
 [[Concepts - BI Frameworks]]
 
+# Words
+[[Concepts - Source-Driven Deterministic Semantic Definition]]
+[[Concepts - Snowflaking]]
+[[Concepts - Orthogonal vs Hierarchal]]
+[[Concepts - Historical Change]]
+[[Concepts - Atomicity]]
+[[Concepts - Understanding]]
 # Methodology
 [[Concepts - Solid + Dry + Fast]]
 [[Concepts - Modulo]]

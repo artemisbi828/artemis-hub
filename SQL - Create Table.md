@@ -1,3 +1,36 @@
+# Simple
+```sql
+use Playground;
+
+create table docm.jobtitles (
+    jKey int primary key identity(1, 1),
+    JobTitle sysname,
+    JobTitleType nvarchar(64),
+    ----
+    sort_order decimal(4, 2),
+    comment nvarchar(250),
+    loaddatetimeutc datetime2(3)
+        default sysutcdatetime(),
+    loadsource nvarchar(128)
+        default suser_sname(),
+    loadedby nvarchar(128)
+        default suser_sname()
+        ----        
+        unique (JobTitle)
+);
+go
+
+declare @loaddatetimeutc datetime2 = sysutcdatetime();
+declare @loadsource nvarchar(128) = suser_name();
+declare @loadedby nvarchar(128) = suser_name();
+
+insert into docm.jobtitles (JobTitle, JobTitleType, sort_order_by_db)
+values
+-- insert values here
+);
+```
+
+# Expanded
 ```sql
 declare @loaddatetimeutc datetime2 = sysutcdatetime();
 declare @loadsource nvarchar(128) = suser_name();
