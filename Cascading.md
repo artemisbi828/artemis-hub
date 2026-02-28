@@ -1,0 +1,1 @@
+Hierarchy propagation (Manager → Team → Location)

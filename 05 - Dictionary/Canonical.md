@@ -1,3 +1,5 @@
+> [!info] Single Source of Truth
+
 > “We used heuristics to map source fields, then aligned them to the canonical model.”> 
 
 Related to [[Heuristics]]

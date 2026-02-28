@@ -56,6 +56,7 @@
 [[SQL - Personal Improvements]]
 
 # Techniques
+[[SQL - Data Dictionary w Power BI Formatting Preserved]]
 [[SQL - RowNumber() - See Top 3 Changes in AuditHistory]]
 [[SQL - Team to Office Allocation - Split Remainder Method]]
 [[SQL - Logic Pathway Concepts]]
