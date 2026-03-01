@@ -1,9 +1,31 @@
+- [[#Teaching|Teaching]]
+	- [[#Teaching#Proximity Levels|Proximity Levels]]
+	- [[#Teaching#Weight Shifts|Weight Shifts]]
+	- [[#Teaching#Vectors|Vectors]]
+- [[#Dynamics|Dynamics]]
+
+I teach dance sense -- not Zouk or Bachata. Common sense between both.
+- balanced
+- controlled
+- omni directional
+
+Not a choreo dance 
+- no paternos, no pasos
+
 how do you know which role. 
   ahead. invite, nudge, push, shove. 
-  vs wait. 
 yeah manhandle me! 
 in zouk we use our hips. body is a tree. 
 traffic light. signalling. 
+
+# Roles
+Follow: A good follow **waits**, pays attention to axis
+Lead: A good lead pulses and **waits** (intentional about axis)
+- telegraph
+- posture (void: negative space)
+Anxiety vs Intention
+
+# 
 
 
 # Teaching
@@ -31,6 +53,9 @@ Aventura → Cuddle
 
 ## Weight Shifts
 A | B -- Flamingo
+Bounce Test -- 2 axis 
+
+
 
 C ↑ D
 A | B
@@ -44,5 +69,15 @@ Pillow: ← ← | → →
 Elastic: ← → | → ←
 Rainbow | Smiley Face; 
 
+# Suspension 
+Opposition
+- Grounding - Bounce Test
+- {Lift / Shelf} - Breathing
+- Both = Opposition
+
 # Dynamics
 Accelerando, Crescendo
+
+# Axis 2
+Metatarsals -- 2 axis vs 4 axis
+
