@@ -1,17 +1,64 @@
-2KpM: Website
-- phone call / networking → website
-- DEMO Descrip
-- Success Flag
-- Deploy to GGC.VM
+Updated: 2026-03-01 07:33 PM
 
-Ctrl + Shift + {K I L M}
+
+
+From $5K → $7K/month (+$2K)
+- [[PRJ - Umbrella Arc#Networking Fields|networking]] → artemis-bi.com (storefront, portfolio) → project starts
+	- solutions: forms, websites, apps, scrapers
+	- not on call! sprints, warranty, then off --> secretary triage
+	- friends: $10/$20 month subscription -- keep-me-honest app? 
+- cold calls (tax doc scraper) → 
+- taste → design, ideas, shortest time to value (STTV)
+
+Don't die poor (even if loved) → independent
+
+Freedom of Travel + Experiences in Leftover Prime
+
+Premium Benefits
+- hair
+- health
+- available for elixir
+
+# Ikigai
+- Data Catalyzation / Acceleration
+- Rebel of Entropy & Friction
+	- monotonous, frustrating, cumbersome -- data flow related -- call me
+
+# Table of Contents
+[[PRJ - Umbrella Arc#KPIs|KPIs]]
+[[PRJ - Umbrella Arc#Umbrella Flow|Umbrella Flow]]
+[[PRJ - Umbrella Arc#Ideal Computers|Idle Computers]]
+
+# KPIs
+
+| Cadence | KPIs                                                                         |
+| ------- | ---------------------------------------------------------------------------- |
+| Weekly  | 1 interview a week -- senior BI<br>3 entrepreneur calls a week <br>1 workout |
+| Table   |                                                                              |
+
+
+
+# Tools
+
+```
+Multi Cursor
+- shift + r-click (sublime)
+- shift + l-click (others)
+
+Ctrl + Shift + {K I M L (or [)}
 - replace that K → D for delete
+```
 
-Goal: Get $2K in lift no excuses per month. 
-- offsets
-- don't die poor (even though loved)
+## Networking Fields
+NYC - meet, sketch a plan for fun, spin up POC, refine, test, next phase.
+	- map initial concepts → expand by importing from existing or template 
+	- 
+Could be in Brazil
+- what are the legal barriers? logistic barriers? drivers of cost? 
 
-1. Deploy website 
+## Solutions
+Equity - 20% of Net; They front all cost. No non-compete.
+# Umbrella Flow
 
 ```mermaid
 graph TD
@@ -30,75 +77,52 @@ Community&Socials --> L3S.Happy
 ```
 
 
-# Homeostasis
-**Morning** 
-0730 AM EST wakeup
-  load dishwasher, clean table, water plants
-  work out
-  unload dishwasher; reload refrigerator (water, redbull)
-  generate shopping list
-
-**Morning 2 - SD  Prep**
-  Prepare deliverables + summary
-0930 AM EST → standup
-  Post-standup calls and sync
-
-**Afternoon** -- SD: 4 → 30
-Availability for Calls
-Maintain MVP
-- scrub notes
-Custom BI for SD
-- recreate HB → Interview
-- Template for Dashboards
+# Idle Computers
+Work VM: Export data in transactions? 
+Artemis-Tower: Processing media files
+Artemis-Laptop: Processing diffs in Obsidian? 
+Batch Work: Start Up; Close Down; {Orchestrators, Listeners}
+Create loop limits
 
 
-**Zouk** or Commit Time
-0700 PM 
+# Modes
+SD-Work
+- Documentation optimization
+	- SQL Scraper
+	- Lineage-Tracer (dependents)
+- Python work and 
+- Pull ideas from DEVOPS team
 
----
-## sideGig: +$2K/m → $2K/m 
-```
-prepare website. 
-im a data ace. 
-something frustrating, monotonous, cumbersome -- preventing you from billing more? call me.
-```
-
-I want to support businesses that are already making money but could make more money if they work smarter
-arbitrage --> my strength = their weakness (data, organization, experience) 
-their growth --> my paycheck
-NOT ON CALL -- schedule consults; video messages; tutorials; 
-I'm persistent due to 1) scarcity; 2) extra-capacity
-
-STORY
-meet clients in NYC.
-sketch plan for fun. xchk w models. 
-import tools and libraries; 
-
-AI.xchk -- if it has any recommendations? things i missed? modify and update. 
-map and build definitions based on client-specific notes and assets uploaded. 
-assess the level of mapping. recm concrete steps for cleaninf any maps. develop proposals. price strategy.
+Artemis-Laptop
+- website deployment & custom builds
+- data grips, small databases, 
+- phone calls, sales, networking → refine website 
 
 
+APPROACH ONE: 
+- Tax Prep Companies
+- Random from 
+- Business Consulting
 
 
-# Financial Control
-- How much do I have currently? 
-- How much surplus (or deficit)? 
-- first need to know minimum / budget? 
-- How much flowed into savings? 
-- 
-House.Kitchen
-- clean at night non-disruptive morning
-	- dishwasher before dance
-	- open at night to dry
-	- restock (oils)
-	- towel tied
-- eat more fish
+Interview Maria Haddon 
+- if your company had a 
+	- DB problem w sql server
+		- need to build dashboards or KPIs
+		- need dashboards; 
+	- DB migration or data migration
+- what would you search on google for keywords? 
+- where / how would you search? 
 
-House.Plants
-- reduce fussing → automate to travel 
-	- every 3 days
-	- weekly; 
-	- biweekly -- succulents
-	- auto-sprinklers
+# On Close
+Sync obsidian to git
 
+# Standby
+Loop through files I've created that are old (maybe 6 months) so that I can review them and decide if I want to delete or merge.
+
+If I want to merge → have a logic or framework to convert them
+
+# Timeline + Rewards / Shopping
+
+- New Phone: Pixel 9+
+- New Laptop: 2-in-1, snapdragon for fast load; pretty, easy to type and work in airport. Big enough to develop locally but heavy lifting and large datasets go to cloud compute. `Shadow PC` for Win11 @ $30/%50/month. 

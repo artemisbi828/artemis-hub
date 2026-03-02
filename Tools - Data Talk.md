@@ -14,7 +14,7 @@ Retro-Disruptive.
 DataVisualizing
 Sublimation. 
 
-#quick-paste-merge-later 
+#open-loop/quick-paste-merge-later 
 # Drill In
 • implement both scripts with comprehensive functionality
 

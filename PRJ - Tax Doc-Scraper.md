@@ -9,8 +9,16 @@ child of [[Doc-scraper]]
 | **1099-R**    | Med          | Med            | Correctly reading the "Distribution Code" (often alphanumeric).      |
 | **K-1**       | Low          | High           | Dynamic rows in Part III; text descriptions often accompany numbers. |
 
+# Other Forms
+| **Form Type** | **Priority** | **Complexity** | **Key Challenge**                                 |
+| ------------- | ------------ | -------------- | ------------------------------------------------- |
+| **720**       | Low          |                | Excise Tax: air transportation, tires, gas        |
+
+Source: Excise Tax for Form 720: Stripe Atlas attempt.
+
+
 ---
-#quick-paste-merge-later 
+#open-loop/quick-paste-merge-later 
 As a tax preparer, I can tell you that building a doc-scraper is a high-ROI project. The bottleneck in tax prep is rarely the math; it is the **data entry** and the **transcription errors** that occur when moving numbers from a messy scan to the tax software.
 
 To build a robust scraper, you need to target the high-volume "source documents" that feed into the Form 1040 (Individual) and 1120/1065 (Business).

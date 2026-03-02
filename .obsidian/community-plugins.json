@@ -1,5 +1,6 @@
 [
   "obsidian-linter",
   "dataview",
-  "obsidian-plugin-toc"
+  "obsidian-plugin-toc",
+  "tag-wrangler"
 ]

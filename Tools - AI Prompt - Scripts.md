@@ -1,4 +1,4 @@
-#status/todo 
+SAVEPOINT
 - update prompt so that we include change log + when new imports detected, update the project map
 - DAX = minimal footprint
 
@@ -75,7 +75,7 @@ USAGE:
 
 
 ### 2. Terminal Diagnostics
-Create a change log prompt-- #status/todo -- 
+Create a change log prompt
 **Log Output Example:**
 ```
 2025-12-06 14:23:45 | INFO | Starting validation for csv_mapper_cleaner.py
@@ -87,7 +87,7 @@ Create a change log prompt-- #status/todo --
 2025-12-06 14:23:45 | INFO | Validation complete in 45.2ms
 ```
 
-#quick-paste-merge-later 
+#open-loop/quick-paste-merge-later 
 ### 📊 Validation Mode Comparison Table
 
 | Feature | Development | CI/CD | Production | Disabled |

@@ -1,5 +1,5 @@
 An **origin** = protocol + domain + port
-#quick-paste-merge-later 
+#open-loop/refine-later
 
 Examples:
 - ```

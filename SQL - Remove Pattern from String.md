@@ -26,7 +26,7 @@ GO
 
 ```
 
-#quick-paste-merge-later 
+#open-loop/quick-paste-merge-later 
 ```sql
 SET QUOTED_IDENTIFIER ON
 SET ANSI_NULLS ON

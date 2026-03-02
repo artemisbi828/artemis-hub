@@ -1,9 +1,3 @@
-#status/todo -- 2026-01-04 04:21PM -- process OneNote\STRING\string_split and on ... 
-
-## Learning
-- Instead of "case when" → 1) target w "where" and "group by", 2) row_number
-- Practice if(exists)
-
 ## String
 [[SQL - New Line for Data Definitions]]
 [[SQL - Extract String (Middle)]]

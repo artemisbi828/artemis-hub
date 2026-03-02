@@ -1,4 +1,4 @@
-#status/todo → still cleaning the oneNote\`Add Identity; Reseed`
+SavePoint: still cleaning the oneNote\`Add Identity; Reseed`
 
 ```sql
 -- check identity
@@ -41,7 +41,7 @@ exec std.usp_ResetTableIdentity
 
 
 
-#quick-paste-merge-later 
+#open-loop/quick-paste-merge-later 
 
 ```sql
 declare @tablename nvarchar(128) = N'dbo.Commands';

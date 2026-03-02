@@ -164,7 +164,7 @@ If you're writing in VS Code, install **"Emoji"** extension:
 
 
 
-#quick-paste-merge-later 
+#open-loop/quick-paste-merge-later 
 Yes — **AutoHotkey is the best overall solution** if you want a **fast, global shortcut** for 💯 and you can’t rely on Alt codes. That said, there are **three solid options**, and the best one depends on how often you type it and _where_ (SQL Server, Excel, Teams, Power BI, etc.).
 
 Below is a **clear, opinionated breakdown** so you can choose confidently.

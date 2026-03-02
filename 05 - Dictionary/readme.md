@@ -28,7 +28,7 @@ Apps
 
 
 ### Learning App
-#quick-paste-merge-later 
+#open-loop/refine-later
 ```
 isp --> [router.ext.ip](http://router.ext.ip/) (gateway) --> nat --> lan
 

@@ -20,7 +20,7 @@ freq
   trigger from event. 
 ```
 
-#quick-paste-merge-later 
+#open-loop/refine-later: 
   
   ```
   SlideSMS (the application)

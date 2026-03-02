@@ -27,19 +27,3 @@
 [[Types - Appointments]]
 [[Types - Dates]]
 
-# Output - Orchestrators
-[[Call-Work-Queue]]
-[[Form-builder]]
-- [[Intake-Form]]
-# Output - Accelerators
-[[Automator]]
-- [[slideSMS]]
-- [[web-scraper]]
-- [[sql-scraper]]
-[[Doc-scraper]]
-- [[PRJ - Tax Doc-Scraper]]
-
-# Output - Visibility
-[[Types - Dashboards]]
-
-

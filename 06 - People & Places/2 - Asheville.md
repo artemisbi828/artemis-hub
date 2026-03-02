@@ -1,5 +1,6 @@
 # Zouk Contacts
 Lauren
+Laura Cate
 Michael Jordan
 -
 John Michael, Rachel
@@ -10,7 +11,6 @@ Tasha, Kevin
 Katie
 Arturo
 Danielle
-Laura Cate
 Victoria
 
 # Places

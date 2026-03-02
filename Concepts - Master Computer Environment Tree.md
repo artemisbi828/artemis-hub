@@ -1,5 +1,3 @@
-#quick-paste-merge-later 
-
 Your Computer
 ├── Operating System (Windows)
 │   └── PowerShell (shell - the environment)
@@ -19,6 +17,8 @@ Your Computer
 │       ├── docker (tool - containers)
 │       ├── ngrok (tool - tunneling)
 │       ├── node (tool)
+
+
 
 ### VM DESIGN
 ```

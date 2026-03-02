@@ -1,39 +1,40 @@
-[[PRJ - Internal Accelerant - SQL Scraper]]
-# Big Rocks
 [[PRJ - Umbrella Arc]]
-[[PRJ - Headless DEV]]
-[[PRJ - Idle Computers]]
-[[PRJ - Website - artemis-bi.com]]
-[[PRJ - Website - Text Scrape of Elements from HiHello.com]]
-[[PRJ - Website - Data Talking Points]]
+[[PRJ - Homestasis]]
+[[PRJ - Personal Finance]]
+[[PRJ - Control Costs]]
+[[PRJ - Housing]]
 
-[[PRJ - Sublime SQL Accelerator]]
-[[PRJ - PBI Data Dictionary]]
-[[PRJ - Logging Tool]]
-[[PRJ - SlideSMS]]
-[[PRJ - Bitly App]]
-[[PRJ - Headless DEV Agent]]
+# Social Projects
+[[Zouk and Bachata]]
+[[Social Flow]]
 
-# Cash Projects
-Probably should merge this into Big Rocks
-[[PRJ - Enverus LOA POC]]
+# Business Projects
+[[Daily Logs]]
 [[PRJ - Tax Firm Support]]
 [[PRJ - Asheville Leads Ideas]]
 [[PRJ - Job Search]]
 [[PRJ - Tax Doc-Scraper]]
-# Rewards
-[[PRJ - Shopping List]]
 
-# PBI Projects
-[[PRJ - Enhance PBI.PSNL w Spending Week2Week]][[PRJ - Enhance PBI.PSNL w Spending Week2Week]]
-[[PRJ - PBI JSON Blocks]]
-[[PRJ - PBI Profile Picture Thumbnails]]
+# Build Projects
+[[PRJ - Bitly App]]
+[[PRJ - SlideSMS]]
 
-# Friend Projects
+# Client Projects
 [[Mary Townsend - Publicis - Web Scraper]]
+[[PRJ - Hevelyn - Trusted Sitters]]
+[[PRJ - Enverus LOA POC]]
 [[Angela Richter]]
 [[Family - Iceland Pictures]]
 
-# Dance Projects
-[[Zouk]]
-[[PRJ - Social Arc]]
+# Rewards
+[[PRJ - Shopping List]]
+
+# Scrub
+[[PRJ - Headless DEV Agent]]
+[[PRJ - Headless DEV]]
+[[PRJ - Sublime SQL Accelerator]]
+[[PRJ - Internal Accelerant - SQL Scraper]]
+
+
+
+

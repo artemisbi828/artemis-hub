@@ -2,7 +2,7 @@
 aliases:
   - non-ASCII characters
 ---
-#quick-paste-merge-later 
+#open-loop/quick-paste-merge-later 
 
 That message in **SSMS 22 (SQL Server Management Studio 2022)** is an **encoding warning**, not an error. Here’s what it means and what you should do in practical terms.
 

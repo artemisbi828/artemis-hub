@@ -12,6 +12,7 @@
 [[Concepts - Historical Change]]
 [[Concepts - Atomicity]]
 [[Concepts - Understanding]]
+
 # Methodology
 [[Concepts - Solid + Dry + Fast]]
 [[Concepts - Modulo]]
@@ -29,12 +30,14 @@
 
 # How It Works
 [[Concepts - Master Computer Environment Tree]]
+- [[Concepts - Runtime Tree]]
+- [[Concepts - Node vs C]]
 [[Concepts - Environment vs Kernel]]
+
 [[Concepts - Local Dev Server]]
 [[Concepts - Staging Environment]]
 [[Concepts - 💻 Shells vs Runtimes]]
 [[Concepts - Virtual Environments]]
-[[Concepts - Node vs C]]
 [[Concepts - 🔑 API Keys]]
 [[Concepts - 🔌 Ports]]
 - [[Concepts - 🌐 Cross-Origin Requests]]

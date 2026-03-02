@@ -1,1 +1,0 @@
-New Laptop: 2-in-1, snapdragon for fast load; pretty, easy to type and work in airport. Big enough to develop locally but heavy lifting and large datasets go to cloud compute. `Shadow PC` for Win11 @ $30/%50/month. 

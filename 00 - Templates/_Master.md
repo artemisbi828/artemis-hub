@@ -67,16 +67,3 @@ Dictionary
 
 AI 
 - infer and fill empty domains
-
-# Tags
-#status/active:  status in progress
-#status/todo: have to init; setup in queue
-#status/todo-deprecate: clean these notes up usually related to
-- #quick-paste-merge-later: low anima paste  → to-do → have to digest → reduce → merge
-#open-loop/refine
-#open-loop/merge-deprecate
-#open-loop/to-schedule
-#bigrock/1
-#bigrock/2
-#bigrock/3
-insert_to_sql

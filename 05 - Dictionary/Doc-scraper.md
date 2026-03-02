@@ -1,1 +1,0 @@
-take digital asset (xls, pdf, doc), scrape key elements, output as csv or xlsx, process in batches

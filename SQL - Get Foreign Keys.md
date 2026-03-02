@@ -1,4 +1,4 @@
-#quick-paste-merge-later 
+#open-loop/quick-paste-merge-later 
 
 ```sql
 -- only works for fkeys

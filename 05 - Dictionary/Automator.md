@@ -1,1 +1,0 @@
-auto-categorizing apps, office scripts to automate doc processing

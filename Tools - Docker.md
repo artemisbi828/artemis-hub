@@ -18,8 +18,7 @@ Access permissions
 Read, Write, Delete
 ```
 
-[How freelancer uses Docker Effectively](https://www.xda-developers.com/these-docker-containers-manage-my-freelancing-business/)
-#status/read-later
+[How freelancer uses Docker Effectively](https://www.xda-developers.com/these-docker-containers-manage-my-freelancing-business/) #open-loop/read-later
 
 # 1. What Docker is
 
@@ -74,7 +73,7 @@ Want me to:
 
 ---
 
-#quick-paste-merge-later 
+#open-loop/quick-paste-merge-later 
 ## Future Docker Optimization Suggestions
 
 To containerize these projects while maintaining the shared library structure, consider the following approaches:

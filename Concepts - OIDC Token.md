@@ -1,7 +1,7 @@
 ---
 related_to: "[[Tools - Terminal Linux]]"
 ---
-#quick-paste-merge-later 
+#open-loop/quick-paste-merge-later 
 
 An **OIDC token** is a security token used in the **OpenID Connect (OIDC)** protocol, which is an identity layer built on top of the OAuth 2.0 framework.1
 

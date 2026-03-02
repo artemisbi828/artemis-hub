@@ -1,6 +1,16 @@
+
+2026-03-02 08:14 AM - researching Powershell
+
+#open-loop/quick-paste-merge-later 
+
+
 > [!abstract] TLDR
 > 
 > Connecting VS Code to Fabric establishes a remote session where the Runtime serves as a pre-configured environment (the "Workshop") and the Kernel acts as the persistent execution process (the "Foreman"). This architecture separates the local UI from cloud-based Spark compute and state management.
+
+
+
+
 
 ---
 

@@ -1,4 +1,4 @@
-#quick-paste-merge-later → full join w isnull as a coalesce tqn
+#open-loop/quick-paste-merge-later → full join w isnull as a coalesce tqn
 ```sql
 select
     *,

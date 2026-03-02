@@ -34,7 +34,7 @@ exec sp_rename @proc, @newName
 
 
 # Try this TSQL
-#quick-paste-merge-later 
+#open-loop/quick-paste-merge-later 
 ```sql
 
 DECLARE @schema      sysname = N'dbo';

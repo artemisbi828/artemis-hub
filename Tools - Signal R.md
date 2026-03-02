@@ -1,7 +1,4 @@
 ---
-tags:
-  - lexicon
-  - term
 definition: library for **ASP.NET developers** that makes it incredibly simple to add real-time web functionality to applications.
 parent: "[[HTML]], [[Web Development]]"
 ---

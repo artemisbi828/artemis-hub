@@ -167,7 +167,7 @@ class JsonToExcelTableCommand(sublime_plugin.TextCommand):
 
 
 ---
-#quick-paste-merge-later 
+#open-loop/quick-paste-merge-later 
 In Sublime Text, the inconsistency you’re seeing between two tabs—even if they seem identical—usually comes down to a feature called **"Indentation Detection."**
 
 When you open a tab or a file, Sublime looks at the content and makes a "guess" about how that specific tab should handle tabs and spaces. This creates a **View-Specific Setting** that overrides your global preferences.

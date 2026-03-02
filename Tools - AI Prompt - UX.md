@@ -15,7 +15,7 @@
 
 
 ---
-#quick-paste-merge-later 
+#open-loop/quick-paste-merge-later 
 **Project:** Brand Identity Package for "slideSMS"
 **Base Asset:** Selected top-left gradient logo (abstract 'S' ribbon forming a speech bubble).
 

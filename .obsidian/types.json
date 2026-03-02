@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "company_type": "multitext",
-    "related_to": "multitext"
+    "related_to": "multitext",
+    "email": "multitext"
   }
 }

@@ -1,6 +1,6 @@
 Target Salary: $125K
 
-#quick-paste-merge-later 
+#open-loop/quick-paste-merge-later 
 
 
 
@@ -51,7 +51,7 @@ Sparq: Rural Sourcing? Software Development, Atlanta, GA
 
 **linkedin.com/in/jonaspascua**
 
-#status/todo 
+#open-loop/to-do
 - connect with Robert Half; get a BI position at $120K while I continue work on the side
 	- Python Backend
 	- Node.Js

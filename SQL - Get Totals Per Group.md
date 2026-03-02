@@ -1,7 +1,7 @@
 > [!Warning]
 > - agg() over (partition) -->  don't input "order by" (otherwise you're just getting an RN)
 
-#quick-paste-merge-later → translate this semanticly
+#open-loop/quick-paste-merge-later → translate this semanticly
 1. get count per group (every row)
 2. to make dupes disappear → add RN partition by group order by qty
 3. wrap it w/ case when RN = 1 then show, else null end 

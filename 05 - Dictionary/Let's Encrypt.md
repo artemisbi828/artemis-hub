@@ -6,7 +6,7 @@ Free security certificate provider
 - Auto-renews every 90 days
 
 ---
-#quick-paste-merge-later 
+#open-loop/refine-later
 **Simple Explanation: Let's Encrypt + Nginx for HTTPS**
 
 **The Problem:**  

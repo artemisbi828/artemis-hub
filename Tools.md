@@ -1,3 +1,14 @@
+# New Tools
+
+| Tool                                | Comment                                                     |
+| ----------------------------------- | ----------------------------------------------------------- |
+| [[PS - Get Paths or PathsAndFiles]] | Search for files with prefix, suffix, contains (2026-03-01) |
+| Gemini Gem - Define a Concept       | Use for creating `Concept-` Blocks                          |
+|                                     |                                                             |
+
+
+
+
 [[Tools - Short Typing]]
 [[Tools - Key Bindings]]
 [[Tools - Sublime]]
@@ -9,7 +20,7 @@
 [[Tools - File Naming]]
 # Setup
 
-[[Tools - 🗃️ Terminal PS]]
+[[Tools - Powershell]]
 [[Tools - Terminal Linux]]
 [[Tools - Parquet Files vs CSV]]
 [[Tools - Chrome]]
@@ -54,7 +65,6 @@
 [[Tools - Ticketing System]]
 ## Back-End
 [[Tools - Data Grip]]
-
 [[Tools - Drivers]]
 
 [[Tools - Primary Keys (uuid vs int)]]

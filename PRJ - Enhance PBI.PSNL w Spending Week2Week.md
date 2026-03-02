@@ -1,1 +1,0 @@
-Financials: On Monday → I want to see spending for last week and compare it from last week and YOY same week

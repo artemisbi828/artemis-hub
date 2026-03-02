@@ -1,4 +1,4 @@
-#quick-paste-merge-later 
+#open-loop/quick-paste-merge-later 
 ```sql
  T-SQL Global Variable
  
