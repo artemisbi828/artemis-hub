@@ -21,7 +21,7 @@ PulseUAT.App
 
 
 # Older Notes
-Use [[GIT - Targeted Sync]] to load specific PROD004
+Use [[GIT - Targeted Sync and Overwrite]] to load specific PROD004
 
 
 Check that filters are set to ideal Default Open 

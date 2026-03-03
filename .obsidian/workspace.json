@@ -4,38 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "4e97676294c6845a",
+        "id": "5dd70ff9255f46cd",
         "type": "tabs",
         "children": [
           {
-            "id": "df4db3912f7e7363",
+            "id": "fba6fea9aea749a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools.md",
+                "file": "Concepts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tools"
+              "title": "Concepts"
             }
           },
           {
-            "id": "978b69b77c143349",
+            "id": "613f9a6b4937a3f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10 - Artemis-BI.Com/03 - service-menu.md",
+                "file": "02 - Daily/📅 2026-03-02 (Mon).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 - service-menu"
+              "title": "📅 2026-03-02 (Mon)"
+            }
+          },
+          {
+            "id": "7535175c92906115",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PS - Get Paths or PathsAndFiles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PS - Get Paths or PathsAndFiles"
+            }
+          },
+          {
+            "id": "e53890cba6420d2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PS - Get Files and SubFiles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PS - Get Files and SubFiles"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools.md",
+                "file": "02 - Daily/📅 2026-03-02 (Mon).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Tools"
+              "title": "Backlinks for 📅 2026-03-02 (Mon)"
             }
           },
           {
@@ -196,10 +225,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "df4db3912f7e7363",
+  "active": "613f9a6b4937a3f0",
   "lastOpenFiles": [
-    "Concepts - 🌐 Cross-Origin Requests.md",
+    "GIT - Targeted Sync and Overwrite.md",
+    "02 - Daily/📅 2026-03-02 (Mon).md",
+    "Tools - Powershell.md",
+    "PS - Get Paths or PathsAndFiles.md",
+    "PS - Get Files and SubFiles.md",
+    "Tools - AI Prompt - General.md",
+    "Concepts - Orthogonal vs Hierarchal.md",
+    "Concepts.md",
+    "Git.md",
+    "FIT - switch vs checkout.md",
     "10 - Artemis-BI.Com/03 - service-menu.md",
+    "GIT - Hard Overwrite.md",
+    "Tools.md",
+    "Concepts - 🌐 Cross-Origin Requests.md",
     "Psychology or Logic.md",
     "Psychology or Logic - Simpson's Paradox.md",
     "DAX - KEEPFILTERS, CROSSFILTER.md",
@@ -212,19 +253,7 @@
     "02 - Daily/Archive/📅 2026-01-09 (Fri).md",
     "05 - Dictionary/Let's Encrypt.md",
     "PRJ - Job Search.md",
-    "PRJ - PBI Data Dictionary.md",
-    "PBI.md",
-    "Obsidian.md",
-    "PRJ - SlideSMS.md",
-    "Languages - Spanish.md",
-    "00 - Templates/Daily Logs.md",
-    "05 - Dictionary/PATH.md",
     "10 - Artemis-BI.Com/service-visualization.canvas",
-    "02 - Daily/📅 2026-03-02 (Mon).md",
-    "10 - Artemis-BI.Com/business_plan.md",
-    "10 - Artemis-BI.Com/website_plan.md",
-    "00 - Templates/Project Template.md",
-    "Concepts - Environment vs Kernel.md",
     "00 - Templates/z - Old Files To Scrub.base",
     "99 - Attachments/Pasted image 20260225131148.png",
     "99 - Attachments/Pasted image 20260216123247.png",

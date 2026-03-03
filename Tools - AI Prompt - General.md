@@ -1,4 +1,4 @@
-Create a reusable idempotent prompt with higgh-fidelity reruns:
+Create a reusable idempotent prompt with high-fidelity reruns:
 
 ---
 **Role:** Technical Prompt Engineer specializing in high-fidelity requirement extraction.

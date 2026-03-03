@@ -3,6 +3,16 @@ aliases:
   - PS
   - Powershell
 ---
+# How to Run
+always write in snakecase, although Pascal Case is convention
+5.1 project_template_guide.md = snake_case (documentation/data file convention)
+5.2 New-ProjectTemplate.ps1 = PascalCase (PowerShell approved verb-noun cmdlet convention)
+
+```
+.\new_project_template.ps1 
+```
+
+
 Bash is a scripting language - Bash
 [[Tools - Powershell|Powershell]] is an Object Oriented Language - built on .NET runtime, everything is an object, even a string. Piping data → not like "text" like in Linux. Passing live structured "string" object with properties and methods. [[Bash]] is not, it is a scripting languagge.
 

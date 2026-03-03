@@ -10,8 +10,8 @@ related_to:
 [[GIT - Squash]]
 [[GIT - Fix Local Branch A vs Prod]]
 [[GIT - Head]]
-[[GIT - Targeted Sync]]
-[[GIT - Hard Overwrite]]
+[[FIT - switch vs checkout]]
+[[GIT - Targeted Sync and Overwrite]]
 # Error Handling
 [[GIT - Error Handling - Stuck in VS Termainl]]
 [[GIT - Error Handling - Remote Not Found]]

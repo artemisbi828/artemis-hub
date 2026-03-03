@@ -7,3 +7,8 @@ Orthonogal vs Hierarchal: different dimensions vs parent-child subsets (drill-do
 
 Umbrella Term = {Parent, Superset}
 Intercalation: Inserting an interlayer (between 2 existing layers)
+
+# 1 Degree of Separation
+1-deg of separation, d1_from_DavidNolan
+Direct Report
+lvl1
