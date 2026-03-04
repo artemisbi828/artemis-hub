@@ -10,6 +10,10 @@ jonas.pascua@artemis-bi.com, +12484575312
 128 Florence St Unit 401
 Asheville, NC 28801
 
+artemisbi.com
+NS	chris.ns.cloudflare.com
+NS	lisa.ns.cloudflare.com
+
 ## Day 1 — Content & Assets
 - Review and edit:
   - business plan → [business_plan.md](business_plan.md)
