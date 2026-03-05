@@ -113,9 +113,11 @@
 [[SQL - Union vs Union All]]
 [[SQL - PostGres vs SqlServer]]
 [[SQL - PostGRESql + Supabase]]
-[[SQL - MSSQL to Snowflake Syntax]]
 [[SQL - Buffer Pool]]
 
+# Snowflake
+[[SQL - MSSQL to Snowflake Syntax]]
+[[SQL - Snowflake - Permissions]]
 # Debug
 [[SQL - Results to Text Truncated Issue]]
 [[SQL - Fabric Collation Error]]
