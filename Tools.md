@@ -37,6 +37,7 @@
 [[Tools - 🧜‍♀️Mermaid]]
 
 # AI Prompt Engineering
+[[Tools - AI Prompt - Definitions]]
 [[Tools - AI Prompt - General]]
 [[Tools - AI Prompt - Scripts]]
 [[Tools - AI Prompt - UX]]

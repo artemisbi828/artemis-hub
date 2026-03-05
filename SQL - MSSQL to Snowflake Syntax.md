@@ -13,6 +13,9 @@ DATE_TRUNC('MONTH', TRY_TO_DATE(D_DATE_KEY::VARCHAR, 'YYYYMMDD')) AS month_star
 
 -- # reverse for WHERE statement
 TO_NUMBER(TO_CHAR(CURRENT_DATE(), 'YYYYMMDD')
+
+-- # regrain
+cast(cast(date as char(16)) as date) → DATE_TRUNC('MONTH', date as char(16)))
 ```
 
 # MSSQL
@@ -93,3 +96,190 @@ Can't parse '0' as date with format 'YYYYMMDD'
 ```sql
 TO_DATE() → TRY_TO_DATE()
 ```
+
+
+---
+#open-loop/quick-paste-merge-later 
+Snowflake isn’t **T‑SQL** (SQL Server’s dialect), so the variable syntax is a bit different depending on **where** you’re writing code:
+
+*   **Snowflake Scripting** (stored procedures / anonymous blocks): supports local variables with `DECLARE …` and assignment with `LET` (or `:=`).
+*   **Session variables** (works in worksheets/scripts): use `SET` and reference with `$var`.
+*   **SQL variables inside a single SELECT**: use CTEs/`VALUES` or `QUALIFY` patterns instead of variables.
+
+Below are the common Snowflake patterns with examples.
+
+***
+
+## 1) Session variables (most common in ad-hoc SQL)
+
+### Declare / assign
+
+```sql
+SET start_date = '2026-01-01'::DATE;
+SET min_amount = 1000;
+SET region = 'SOUTH';
+```
+
+### Use (reference with `$`)
+
+```sql
+SELECT *
+FROM sales
+WHERE sale_date >= $start_date
+  AND amount >= $min_amount
+  AND region = $region;
+```
+
+### Reassign
+
+```sql
+SET min_amount = 2500;
+```
+
+### Show what’s set (handy for debugging)
+
+```sql
+SHOW VARIABLES;
+```
+
+**Notes**
+
+*   Session variables live for your **session** (connection/worksheet tab).
+*   They are substituted before execution, so types can matter—cast if needed (`::DATE`, `::NUMBER`, etc.).
+
+***
+
+## 2) Snowflake Scripting variables (procedural code)
+
+Use this for multi-statement logic, loops, IF/ELSE, exception handling, etc.
+
+### Anonymous block example
+
+```sql
+BEGIN
+  DECLARE v_start_date DATE DEFAULT '2026-01-01';
+  DECLARE v_total NUMBER(38,2);
+  DECLARE v_region STRING DEFAULT 'SOUTH';
+
+  LET v_total := (
+    SELECT COALESCE(SUM(amount), 0)
+    FROM sales
+    WHERE sale_date >= v_start_date
+      AND region = v_region
+  );
+
+  RETURN v_total;
+END;
+```
+
+### Key syntax points
+
+*   **Declare:** `DECLARE var_name TYPE [DEFAULT expr];`
+*   **Assign:** `LET var_name := expr;` (you’ll also see `var_name := expr;` in some contexts)
+*   **Use:** reference by name directly inside the block (`v_start_date`), **not** with `$`.
+
+### IF / loop example
+
+```sql
+BEGIN
+  DECLARE v_i INT DEFAULT 1;
+  DECLARE v_max INT DEFAULT 5;
+
+  WHILE (v_i <= v_max) DO
+    INSERT INTO log_table(msg) VALUES ('Iteration ' || v_i);
+    LET v_i := v_i + 1;
+  END WHILE;
+
+  RETURN 'done';
+END;
+```
+
+***
+
+## 3) Using variables in dynamic SQL (EXECUTE IMMEDIATE)
+
+Sometimes you need variables to build object names, optional filters, etc.
+
+### With session variables
+
+```sql
+SET tgt_table = 'SALES_2026';
+
+EXECUTE IMMEDIATE
+  'SELECT COUNT(*) FROM ' || $tgt_table;
+```
+
+### With scripting variables (inside BEGIN…END)
+
+```sql
+BEGIN
+  DECLARE v_table STRING DEFAULT 'SALES_2026';
+  DECLARE v_sql   STRING;
+
+  LET v_sql := 'SELECT COUNT(*) FROM ' || v_table;
+
+  EXECUTE IMMEDIATE v_sql;
+END;
+```
+
+> Tip: For values (not identifiers), prefer **bind variables** in `EXECUTE IMMEDIATE` when possible, to avoid quoting issues and improve safety.
+
+***
+
+## 4) “Variable-like” patterns inside a single query (CTE/VALUES)
+
+If you only need a constant once and don’t want session variables:
+
+```sql
+WITH params AS (
+  SELECT
+    '2026-01-01'::DATE AS start_date,
+    1000::NUMBER      AS min_amount
+)
+SELECT s.*
+FROM sales s
+CROSS JOIN params p
+WHERE s.sale_date >= p.start_date
+  AND s.amount >= p.min_amount;
+```
+
+***
+
+## 5) Quick mapping from SQL Server T‑SQL → Snowflake
+
+### T‑SQL
+
+```sql
+DECLARE @x INT = 5;
+SELECT @x + 1;
+```
+
+### Snowflake (session variable)
+
+```sql
+SET x = 5;
+SELECT $x + 1;
+```
+
+### Snowflake (scripting)
+
+```sql
+BEGIN
+  DECLARE x INT DEFAULT 5;
+  RETURN x + 1;
+END;
+```
+
+***
+
+## Common gotchas
+
+*   **`$var` is for session variables only.** Inside scripting blocks, use the variable name directly.
+*   **Object names** (schema/table/column) can’t be parameterized in normal SQL—use `EXECUTE IMMEDIATE` to build identifiers.
+*   If you see errors like “invalid identifier `$var`”, you’re likely mixing scripting variables and session variables.
+
+***
+
+## What are you trying to do?
+
+If you tell me your specific scenario (e.g., *dynamic table name*, *date range parameters*, *stored procedure*, *multi-step ETL script*), I can show the cleanest Snowflake pattern for it and help convert your existing T‑SQL snippet.
