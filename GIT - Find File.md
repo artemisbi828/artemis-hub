@@ -1,0 +1,1 @@
+git ls-files | Select-String -Pattern "workspace.json" 

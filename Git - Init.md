@@ -17,3 +17,17 @@ git checkout main # (optional) -- switch to main
 git remote -v  ## what is remote?
 git remote add origin https://github.com/artemisBI/shared-utils     
 ```
+
+## Setup Git; Pull Remote
+
+```shell
+# go to path
+cd path/to/your/repo
+
+# optional to remove local changes (untracked)
+git clean -fd
+
+# force merge
+git pull origin main
+git fetch -p #prune deleted remote branches (keeps local list clean)
+```

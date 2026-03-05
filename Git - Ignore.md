@@ -511,6 +511,91 @@ Should I commit this file?
 
 *Last Updated: December 6, 2025*
 
+---
+
+## 🧩 Case Study: Why `.obsidian/workspace.json` Keeps Coming Back
+
+If this file keeps reappearing after pull/sync, it's usually one of these:
+
+1. You added the rule to `.gitignore`, **but the file was already tracked**.
+2. The file still exists in `main`, so merge/pull keeps bringing it back.
+3. There is an active merge conflict (`DU` / delete-vs-update) and Git needs an explicit resolution.
+
+### ✅ Correct Ignore Rule
+
+```gitignore
+.obsidian/workspace.json
+```
+
+> Note: it must be `.gitignore` (not `.ignore`).
+
+### 🔍 Verify Ignore Is Working
+
+Run:
+
+```bash
+git check-ignore -v --no-index .obsidian/workspace.json
+```
+
+Expected output should reference `.gitignore` and the matching rule.
+
+### 🧼 Stop Tracking It (One-Time)
+
+If already tracked, ignore won't apply until you untrack it:
+
+```bash
+git rm --cached -- .obsidian/workspace.json
+git add .gitignore
+git commit -m "Stop tracking Obsidian workspace file"
+```
+
+This removes it from Git history going forward but keeps your local file on disk.
+
+### ⚔️ If It Appears During Merge/Sync (Delete vs Update)
+
+If `git status --short` shows:
+
+```bash
+DU .obsidian/workspace.json
+```
+
+That means one side deleted it and the other side modified it.
+
+**VS Code UI resolution (no manual merge edits):**
+- Source Control → Merge Changes → click `.obsidian/workspace.json`
+- Choose **Keep Deleted** (or the equivalent option that keeps the file removed)
+- Stage changes and complete merge/sync
+
+CLI equivalent:
+
+```bash
+git rm -- .obsidian/workspace.json
+git add -A
+git commit   # or: git merge --continue
+```
+
+### 🧪 Quick Test Checklist
+
+```bash
+git status --short
+git ls-files -- .obsidian/workspace.json
+git check-ignore -v --no-index .obsidian/workspace.json
+```
+
+Interpretation:
+- `git ls-files` returns nothing → file is not tracked ✅
+- `git check-ignore` shows `.gitignore` rule → ignore is active ✅
+- `git status` does not show `.obsidian/workspace.json` → success ✅
+
+### 🧠 Team-Level Permanent Fix
+
+If `main` still tracks the file, it can reappear on every sync. The lasting fix is a commit to `main` that:
+
+1. Removes `.obsidian/workspace.json` from tracking
+2. Keeps `.obsidian/workspace.json` in `.gitignore`
+
+After that, everyone stops seeing this churn.
+
 
 ---
 

@@ -2,8 +2,7 @@
 related_to:
   - "[[Continuous Integration Continuous Delivery or Deployment|CI/CD]]"
 ---
-
-
+[[GIT - Find File]]
 [[GIT - Check Config Globals]]
 [[GIT - Init]]
 [[GIT - Rename master → main]]
@@ -18,7 +17,18 @@ related_to:
 [[GIT - Error Handling - Table Compatibility Issue]]
 
 
-Up to date but 1 branch ahead means ...
+# Basics
+1. Untracked Files: New from local (red)
+2. Staged: Ready for snapshot --> Insert
+3. Tracked: Previously committed or staged 
+	- Unmodified: No Change
+	- Modified: Changed | Updated
+
+.gitignore -- untrack, ignore
+
+## 1 Branch Ahead
+Meaning: Your local is ahead vs remote (main / origin)
+
 ```
 Your Local:     A -- B -- C -- D (your new commit)
 GitHub Remote:  A -- B -- C
@@ -29,26 +39,6 @@ You need to stage commit (if haven't already) then
 ```git
 git push origin main
 git push -u origin main               # if getting an error about upstream
-```
-
-
-
-# Basics
-
-## Setup Git; Pull Remote
-
-```shell
-# go to path
-cd path/to/your/repo
-
-
-
-# optional to remove local changes
-git clean -fd
-
-# force merge
-git pull origin main
-git fetch -p #prune deleted remote branches (keeps local list clean)
 ```
 
 ## Sync Local to Remote
