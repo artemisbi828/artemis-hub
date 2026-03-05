@@ -1,4 +1,4 @@
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 
 Excel actually has **two different annotation systems** now — **Notes** (the old yellow sticky‑note style) and **Comments** (the modern threaded chat‑style). They serve different purposes, and choosing the right one makes your workbook cleaner and more maintainable.
 

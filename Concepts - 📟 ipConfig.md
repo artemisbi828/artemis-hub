@@ -1,4 +1,4 @@
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 # 1. The Physical & Virtual Hardware Layer
 
 Your computer has multiple "Network Interface Cards" (NICs). Some are real physical chips, others are virtual software emulations.

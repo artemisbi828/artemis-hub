@@ -41,7 +41,7 @@ exec std.usp_ResetTableIdentity
 
 
 
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 
 ```sql
 declare @tablename nvarchar(128) = N'dbo.Commands';

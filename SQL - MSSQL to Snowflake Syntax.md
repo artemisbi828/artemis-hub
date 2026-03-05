@@ -99,7 +99,7 @@ TO_DATE() → TRY_TO_DATE()
 
 
 ---
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 Snowflake isn’t **T‑SQL** (SQL Server’s dialect), so the variable syntax is a bit different depending on **where** you’re writing code:
 
 *   **Snowflake Scripting** (stored procedures / anonymous blocks): supports local variables with `DECLARE …` and assignment with `LET` (or `:=`).

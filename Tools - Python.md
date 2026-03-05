@@ -12,7 +12,7 @@ This is a multi-line block
 [[PYT - VENV]]
 
 
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 ```
 sqlpolyglot
 sql-parse

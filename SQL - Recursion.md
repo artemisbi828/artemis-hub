@@ -54,7 +54,7 @@ select * from seq order by seq.recurseLevel;
 
 
 
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 
 ```sql
 declare @startdate date = '2025-02-17';

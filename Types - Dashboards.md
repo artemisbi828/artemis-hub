@@ -59,7 +59,7 @@ apply json package -- alt design
 
 privacy -- agg or anonymize. letters. w random numcode? computer to generate a new set monthly. 
 
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 ```
 - number of net new clients.
 - number of marginal staff. vs fixed. fixed limit?
@@ -69,7 +69,7 @@ privacy -- agg or anonymize. letters. w random numcode? computer to generate a n
 ```
 
 # Facing Types
-#open-loop/quick-paste-merge-later → merge with top and create a table
+#status/deferred/quick-paste-merge-later → merge with top and create a table
 1. Leadership Facing  -- looking to future; trendlines + long term strategy
 2. Operational Facing -- short term goals; KPIs (hindsight, foresight, action)
 

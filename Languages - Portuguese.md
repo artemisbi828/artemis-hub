@@ -1,4 +1,4 @@
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 
 BRL (reais) = USDx4.5
 TimeZone = 8 AM CST = 10 AM CST (+2)

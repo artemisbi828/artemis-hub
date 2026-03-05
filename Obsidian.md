@@ -59,7 +59,7 @@ Ctrl + drag-drop into doc: create a link instantly
 |                        | `![](image.png)`             | Embed an image                                                                                                                                                                    |
 |                        |                              |                                                                                                                                                                                   |
 
-https://www.youtube.com/watch?v=d8fXEhWy_rY (From Sergio) #open-loop/to-do
+https://www.youtube.com/watch?v=d8fXEhWy_rY (From Sergio) #status/open-loop/new
 
 ---
 # Why Single Brackets
@@ -110,7 +110,7 @@ Would you like me to show you how to use CSS snippets to make those single-brack
 
 
 ---
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 
 **Modular/Atomic** note-taking structure, "Gold Standard" for Obsidian power users.
 

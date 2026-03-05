@@ -1,5 +1,5 @@
 PS Azure Authentication
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 
 Install-Module -Name Az.Accounts -Scope CurrentUser -Force -AllowClobber
 

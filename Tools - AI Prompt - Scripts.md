@@ -87,7 +87,7 @@ Create a change log prompt
 2025-12-06 14:23:45 | INFO | Validation complete in 45.2ms
 ```
 
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 ### 📊 Validation Mode Comparison Table
 
 | Feature | Development | CI/CD | Production | Disabled |

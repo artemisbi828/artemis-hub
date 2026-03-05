@@ -20,7 +20,7 @@ freq
   trigger from event. 
 ```
 
-#open-loop/refine-later: 
+#status/deferred/schedule-later: 
   
   ```
   SlideSMS (the application)

@@ -28,7 +28,7 @@ Apps
 
 
 ### Learning App
-#open-loop/refine-later
+#status/deferred/schedule-later
 ```
 isp --> [router.ext.ip](http://router.ext.ip/) (gateway) --> nat --> lan
 

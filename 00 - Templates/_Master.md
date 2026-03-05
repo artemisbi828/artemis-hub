@@ -4,6 +4,53 @@
 [[Types]] -- Something in drop down? Something that drills down? 
 [[SQL]]
 
+
+# Daily Tags
+Related to SD-WORK\Master
+#status/open-loop/new -- new request that needs to be on my radar
+#status/open-loop/in-progress-p1 -- high anxiety, important or deadline
+#status/open-loop/in-progress-p2 -- relaxed
+#status/open-loop/delegated-or-assigned -- someone else has the ball
+#status/deferred/quick-paste-merge-later -- read later when I have free time
+#status/deferred/schedule-later -- 
+
+#status/pending/requester
+#status/pending/vendor
+#status/pending/someone-approval
+#status/pending/future-date
+
+#status/closed-loop/completed
+#status/closed-loop/cancelled
+#status/closed-loop/rejected
+#status/closed-loop/no-response
+
+#status/closed-loop/learned -- learned something
+#status/closed-loop/installed-global -- installed something global
+#status/closed-loop/installed-venv -- installed venv
+
+#status/closed-loop/social-call
+
+## Other Verbs
+completed
+added
+removed
+answered
+repushed
+routed
+met-with
+noted
+recorded
+budgeted
+planned
+would-adjust
+would-refactor
+would-validate-earlier
+would-standardize
+would-elevate
+
+---
+
+
 # Knowledge Type
 
 Knowledge

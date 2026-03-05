@@ -1,4 +1,4 @@
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 
 ```sql
 BULK INSERT ld.Daily

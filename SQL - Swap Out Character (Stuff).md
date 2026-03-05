@@ -12,7 +12,7 @@ set @sql = (select stuff(@sql, 1,1, ''))
 ```
 
 ---
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 
 FIND AND REPLACE 
 select stuff(@string, start, length, @char_to_insert into length

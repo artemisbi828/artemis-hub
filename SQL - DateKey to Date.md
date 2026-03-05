@@ -4,7 +4,7 @@ convert(nvarchar(16), D_DATE_KEY) % 10000 / 100,
 convert(nvarchar(16), D_DATE_KEY) % 100) as date) as DateKey,
 ```
 
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 ```sql
 create function help.ConvertDateInt_To_Date (@dateint int)
 returns date

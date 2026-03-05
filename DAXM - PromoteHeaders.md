@@ -1,4 +1,4 @@
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 
 That line is telling Power Query to **take the first row of your table and turn it into column headers**, with one extra option turned on.
 

@@ -1,7 +1,7 @@
 
 2026-03-02 08:14 AM - researching Powershell
 
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 
 
 > [!abstract] TLDR

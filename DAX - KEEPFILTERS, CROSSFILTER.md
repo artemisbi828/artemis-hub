@@ -1,4 +1,4 @@
-#open-loop/quick-paste-merge-later → research this more
+#status/deferred/quick-paste-merge-later → research this more
 
 use `KEEPFILTERS` and `CROSSFILTER` to force the logic to move in only one direction.
 

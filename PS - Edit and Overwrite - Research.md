@@ -1,4 +1,4 @@
-#open-loop/quick-paste-merge-later -- I think this is what it's doing but not 100 sure
+#status/deferred/quick-paste-merge-later -- I think this is what it's doing but not 100 sure
 
 ```powershell
 PS C:\vsWorkspace\jpascua313\site\docs> cd C:\vsWorkspace\jpascua313\site\docs; @"     

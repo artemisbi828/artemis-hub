@@ -33,7 +33,7 @@ You were able to run `gcloud init` successfully because the **installer took a c
 
         The installer typically modifies your User PATH to include the AppData location.
 
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 ## 🛑 Why Local Relative Paths Work (And Why They're Risky)
 
 When you reference files between two local repositories, Git is not involved at all—this is purely a **file system operation**.

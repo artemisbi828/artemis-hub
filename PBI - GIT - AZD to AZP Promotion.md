@@ -23,7 +23,7 @@ git checkout origin/UAT003 -- C:\Users\jonas-adam.pascua\Source\Repos\Pulse\SMEX
 
 
 ---
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 You’re on the right track using `git checkout <branch> -- <path>` for a “take theirs” operation — **but the key problem is that it does *not* remove files that exist in PROD004 but *don’t* exist in UAT003**. Those “leftover” files are exactly how you end up with duplicate TMDL objects / lineage collisions.
 
 To make it a **true full overwrite**, you need two things:

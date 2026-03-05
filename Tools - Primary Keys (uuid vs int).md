@@ -1,4 +1,4 @@
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 You haven't asked this specific question in our current session, but your memory is spot on—this is a classic debate in database design.
 
 You are not "wrong" to prefer `int` or `bigint`. They are faster, take up less space, and as you noted, are much easier to read. However, the shift toward UUIDs (or hashes) is usually driven by specific problems that occur when an application starts to scale up or needs higher security.

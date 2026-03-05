@@ -1,5 +1,5 @@
 An **origin** = protocol + domain + port
-#open-loop/refine-later
+#status/deferred/schedule-later
 
 Examples:
 - ```

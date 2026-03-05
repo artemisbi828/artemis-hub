@@ -5,7 +5,7 @@ aliases:
 ---
 often written as `\xa0` in string literals)
 
-#open-loop/refine-later
+#status/deferred/schedule-later
 
 
 

@@ -1,4 +1,4 @@
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 ```sql
 upper(left(PrStatDescription,1)) 
 + lower(substring([PrStatDescription], 2 -- 2 b/c after 1st string

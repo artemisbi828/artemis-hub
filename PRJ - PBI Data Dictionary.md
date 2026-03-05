@@ -1,4 +1,4 @@
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 The modern robust approach to data dictionaries in Power BI has moved away from manual text boxes toward **Metadata-as-Code**. By treating your definitions as data (SQL or Markdown), you ensure that when a calculation changes in your code, it updates on the dashboard automatically.
 
 Here are the best strategies for both SQL and Markdown approaches.

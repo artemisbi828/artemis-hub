@@ -623,7 +623,7 @@ Perfect! Now the cache files are marked for deletion from git (they'll remain on
 ```
 
 ---
-#open-loop/quick-paste-merge-later 
+#status/deferred/quick-paste-merge-later 
 # Understanding .gitignore: What to Exclude and Why
 
 A comprehensive guide to gitignore patterns and the software engineering principles behind them.
