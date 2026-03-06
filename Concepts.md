@@ -12,7 +12,7 @@
 [[Concepts - Historical Change]]
 [[Concepts - Atomicity]]
 [[Concepts - Understanding]]
-
+[[Concepts - Data Logistics]]
 # Methodology
 [[Concepts - Solid + Dry + Fast]]
 [[Concepts - Modulo]]

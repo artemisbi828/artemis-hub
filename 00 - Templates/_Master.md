@@ -29,7 +29,7 @@ Related to SD-WORK\Master
 #status/closed-loop/installed-venv -- installed venv
 
 #status/closed-loop/social-call
-
+#pending/delete-if-mastered
 ## Other Verbs
 completed
 added
@@ -47,6 +47,8 @@ would-refactor
 would-validate-earlier
 would-standardize
 would-elevate
+
+
 
 ---
 

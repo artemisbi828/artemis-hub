@@ -1,3 +1,9 @@
+---
+aliases:
+  - Python
+---
+
+
 [[Package Manager]] is [[Pip]]
 
 ```

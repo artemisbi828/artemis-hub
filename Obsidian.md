@@ -23,6 +23,8 @@ knowledge_type: Tools
 [[Obsidian - Styling]]
 [[Obsidian - Searching]]
 
+# Learning
+[[Obsidian - BlockIDs and Unmarked Blocks]]
 # Currently Mastering Callouts + Dataview
 [[Obsidian - Dataview]]
 [[Obsidian - Callouts]]

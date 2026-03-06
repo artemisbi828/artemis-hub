@@ -1,4 +1,4 @@
-[[PRJ - Umbrella Arc]]
+[[_Umbrella]]
 [[PRJ - Homestasis]]
 [[PRJ - Personal Finance]]
 [[PRJ - Control Costs]]
@@ -8,12 +8,17 @@
 [[Zouk and Bachata]]
 [[Social Flow]]
 
-# Business Projects
-[[Daily Logs]]
+# Business Project - Platform
+[[1 - Accelerators - CRM App]]
+
+# Business Project - Output
+
+
 [[PRJ - Tax Firm Support]]
 [[PRJ - Asheville Leads Ideas]]
 [[PRJ - Job Search]]
 [[PRJ - Tax Doc-Scraper]]
+
 
 # Build Projects
 [[PRJ - Bitly App]]
@@ -25,9 +30,6 @@
 [[PRJ - Enverus LOA POC]]
 [[Angela Richter]]
 [[Family - Iceland Pictures]]
-
-# Rewards
-[[PRJ - Shopping List]]
 
 # Scrub
 [[PRJ - Headless DEV Agent]]
