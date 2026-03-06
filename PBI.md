@@ -20,7 +20,8 @@ Related To: [[DAX]], [[DAXM]], [[DAXQ]], [[TMDL]]
 
 [[PBI - Embed Report]]
 
-
+# Debug
+[[PBI - Error - Compatibility Level]]
 # Future Projects
 [[PRJ - PBI Data Dictionary]]
 [[PRJ - PBI Profile Picture Thumbnails]]

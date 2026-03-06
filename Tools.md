@@ -7,8 +7,6 @@
 |                                     |                                                             |
 
 
-
-
 [[Tools - Short Typing]]
 [[Tools - Key Bindings]]
 [[Tools - Sublime]]

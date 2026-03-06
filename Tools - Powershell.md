@@ -16,6 +16,7 @@ always write in snakecase, although Pascal Case is convention
 Bash is a scripting language - Bash
 [[Tools - Powershell|Powershell]] is an Object Oriented Language - built on .NET runtime, everything is an object, even a string. Piping data → not like "text" like in Linux. Passing live structured "string" object with properties and methods. [[Bash]] is not, it is a scripting languagge.
 
+
 # Basic Commands
 [[PS - Trigger PS Script]]
 [[PS - Trigger PY Script]]
@@ -23,7 +24,8 @@ Bash is a scripting language - Bash
 [[PS - Clear Host]]
 [[PS - Clear Variables, Set Variables]]
 [[PS - Pipes]]
-
+[[CMD - Task Kill]]
+[[CMD - Start Tasks]]
 # Basic Tools
 [[PS - Get PnP for Sharepoint]]
 

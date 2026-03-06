@@ -1,5 +1,8 @@
 Lookup: [[Concepts#Words]]
 
+Primary Goal vs Stretch Ggoal
+Measure Twice Cut Once
+
 "Sniff Test" --> "Sanity Check" {Validation Check, }
 
 Idempotent: run the same thing, get the same thing every time 
