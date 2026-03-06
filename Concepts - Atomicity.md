@@ -1,2 +1,0 @@
-single responsibility principle
-singularity of purpose

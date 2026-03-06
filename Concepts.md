@@ -7,12 +7,11 @@
 
 # Words
 [[Concepts - Source-Driven Deterministic Semantic Definition]]
-[[Concepts - Snowflaking]]
-[[Concepts - Orthogonal vs Hierarchal]]
-[[Concepts - Historical Change]]
-[[Concepts - Atomicity]]
-[[Concepts - Understanding]]
-[[Concepts - Data Logistics]]
+[[Concepts - Heuristics and Snowflaking]]
+[[Concepts - Architecture Design, Nodes, Edges (Static)]]
+[[Concepts - Data Transfer + Orchestration (Dynamic)]]
+
+
 # Methodology
 [[Concepts - Solid + Dry + Fast]]
 [[Concepts - Modulo]]

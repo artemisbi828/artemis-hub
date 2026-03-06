@@ -195,8 +195,8 @@ const rows = goals.map(g => {
 
 dv.header(3, `Goal Completion Grid (${startDate.toISODate()} to ${endDate.toISODate()})`);
 dv.paragraph(`Daily notes found: ${dailyPages.length} in folder "${dailyFolder}"`);
-dv.table(["Daily Note", "Parsed Date"], debugRows);
-dv.table(["Daily Note", "Date Key", "Milestone Counts"], perNoteCounts);
+//dv.table(["Daily Note", "Parsed Date"], debugRows);
+//dv.table(["Daily Note", "Date Key", "Milestone Counts"], perNoteCounts);
 dv.table(headers, rows);
 
 // Optional quick weekly summary

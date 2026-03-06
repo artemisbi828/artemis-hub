@@ -1,11 +1,3 @@
-# New Tools
-
-| Tool                                | Comment                                                     |
-| ----------------------------------- | ----------------------------------------------------------- |
-| [[PS - Get Paths or PathsAndFiles]] | Search for files with prefix, suffix, contains (2026-03-01) |
-| Gemini Gem - Define a Concept       | Use for creating `Concept-` Blocks                          |
-|                                     |                                                             |
-
 
 [[Tools - Short Typing]]
 [[Tools - Key Bindings]]
@@ -17,7 +9,6 @@
 [[Tools - PC Assignments]]
 [[Tools - File Naming]]
 # Setup
-
 [[Tools - Powershell]]
 [[Tools - Terminal Linux]]
 [[Tools - Parquet Files vs CSV]]
@@ -45,7 +36,7 @@
 
 # Data Modeling
 [[Tools - Causal Attribution Models]]
-
+[[Tools - Product Validation]]
 # Builds
 [[Tools - Front vs BackEnd]]
 [[Tools - NodeJS]]
@@ -95,6 +86,7 @@
 [[Tools - Team Work Talk]]
 [[Tools - Finance Talk]]
 [[Tools - Statistics Talk]]
+[[Tools - Jonas Talk]]
 [[Tools - Email]]
 [[Tools - Marketing Assessment]]
 [[Tools - Resume Words]]

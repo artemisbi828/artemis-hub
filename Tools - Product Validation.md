@@ -1,0 +1,1 @@
+ 2026-03-06 12:04 PM : 3 panels {NPE Added, NPE Dismissed, Case Starts}. 3rd panel didn't have dashboard start date filter on fact.

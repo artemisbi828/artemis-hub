@@ -1,3 +1,5 @@
+
+# Snowflaking
 > [!info] "I am a special snowflake"
 Opposite of Semantic Logic (true meaning/essence of logic; non-technical)
 
@@ -11,3 +13,12 @@ IMPETUS: Creates
 - Cognitive Dissonance --> Creates "Are these the same thing?" meetings
 - Data Model Misalignment
 - Vocabulary Drift
+
+# 
+# UX 
+Users are **cognitively economical** (cynical and extreme: lazy)
+* low-friction oriented
+* mental-model driven - inconsisteency forces relearning
+Users like reading gravity
+- American: `Top Left` -> `Bottom Right`
+- {Japanese, Chinese}: `Top Right` -> `Bottom Left`

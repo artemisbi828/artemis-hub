@@ -71,6 +71,7 @@
 [[SQL - Remove RowCount, Null Warnings]]
 [[SQL - Clear Buffers]]
 [[SQL - Bulk Insert]]
+[[SQL - Where 1=2]]
 # Get Objects
 [[SQL - Get Tables]]
 [[SQL - Get Tables and Columns]]
