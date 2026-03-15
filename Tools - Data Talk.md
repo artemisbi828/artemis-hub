@@ -53,10 +53,40 @@ Brownfield -- Reused site; remdiation (cleanup) of soil to remove chemicals or w
 Greyfield -- paved site (dead mall, empty parking lot) -- prime for modern mixed-use developments; 
 Evergreen -- Mature Site
 
-Jenni Doyle
-• perfect is the enemy of good
-• trust but verify
-• measure twice cut once 
+
+# Log Verbs
+```
+completed
+added
+removed
+answered
+repushed
+routed
+met-with
+noted
+recorded
+budgeted
+planned
+would-adjust
+would-refactor
+would-validate-earlier
+would-standardize
+
+Planned
+Queued
+Deferred
+Proposed
+Outlined
+Recommended
+Standardized
+Hardened
+Simplified
+Normalized
+Generalized
+Parameterized
+```
+
+
 
 In finance, when you're expecting revenue in the next period, a few common terms might apply depending on the context:
 	1. Accrued Revenue – Revenue that has been earned but not yet received in cash or recorded. This is often used in accrual accounting.

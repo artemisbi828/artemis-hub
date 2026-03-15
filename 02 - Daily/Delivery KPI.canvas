@@ -2,7 +2,5 @@
 	"nodes":[
 		{"id":"7b18e70f20261263","type":"file","file":"02 - Daily/Test.md","x":-281,"y":-144,"width":1121,"height":824}
 	],
-	"edges":[
-		{"id":"a6bf64a206fef01f","fromNode":"7b18e70f20261263","fromSide":"bottom","toNode":"385458d7c03c0f20","toSide":"top"}
-	]
+	"edges":[]
 }

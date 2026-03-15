@@ -7,6 +7,7 @@ related_to:
 [[XLS - Insert 1000 Limit GO for SQL]]
 [[XLS - XLOOKUP]]
 
+[[XLS - Add Index or InputKey Per Row]]
 [[XLS - Date Diff Minutes or Days]]
 [[XLS - EOMONTH, BOMONTH + 1]]
 [[XLS - Contains Text]]

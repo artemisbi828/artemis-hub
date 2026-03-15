@@ -86,12 +86,12 @@
 [[Tools - Team Work Talk]]
 [[Tools - Finance Talk]]
 [[Tools - Statistics Talk]]
-[[Tools - Jonas Talk]]
+[[Tools - Data Architect Talk]]
 [[Tools - Email]]
 [[Tools - Marketing Assessment]]
 [[Tools - Resume Words]]
 [[Tools - Dictation]]
 [[Tools - Interview Questions to Ask]]
-
+[[Tools - Address History]]
 # Facebook, IG DLs
 [[Tools - Facebook Reels]]

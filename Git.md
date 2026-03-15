@@ -7,6 +7,7 @@ related_to:
 [[GIT - Init]]
 [[GIT - Rename master → main]]
 [[GIT - Squash]]
+[[GIT - Amend]]
 [[GIT - Fix Local Branch A vs Prod]]
 [[GIT - Head]]
 [[FIT - switch vs checkout]]

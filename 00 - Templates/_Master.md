@@ -86,7 +86,7 @@ Knowledge
 
 
 knowledge_type
-	[[domains]] -- Umbrella business area → Business Area / Department
+	[[Business Domains]] -- Umbrella business area → Business Area / Department
 	people -- 
 	vendor -- 
 	[[entities]] -- Tables

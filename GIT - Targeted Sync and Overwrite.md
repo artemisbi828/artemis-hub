@@ -18,9 +18,9 @@ git status
 git reset --hard 
 git clean -fd  
 
-git restore --source MFRV2 -- \
-	MarketingFieldReporting.Report \
-	MarketingFieldReporting.SemanticModel \
+git restore --source PROD004 -- `
+	MarketingFieldReporting.Report `
+	MarketingFieldReporting.SemanticModel `
 	MarketingFieldReporting.pbip
 ```
 

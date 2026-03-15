@@ -1,4 +1,9 @@
-• Consensus; 
+- Not punitive (BCG) 2026-03-13 01:45 PM
+- • Consensus; 
+
+Eat your own dog-food (Nachi)
+
+a delivery bottleneck when no formal change-management process exists.
 
 **How heroes when they're the problem?** 
 "Don't give an arsonist a medal for picking up a fire house."

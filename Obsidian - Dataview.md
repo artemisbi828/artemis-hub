@@ -1,3 +1,11 @@
+- [[#Show backlinks referencing this note|Show backlinks referencing this note]]
+- [[#Show all files in the same folder|Show all files in the same folder]]
+- [[#Missing YAML tag w specific tag|Missing YAML tag w specific tag]]
+- [[#Show all files where YAML tag is null|Show all files where YAML tag is null]]
+	- [[#Show all files where YAML tag is null#Pro Tips|Pro Tips]]
+- [[#Show Backlinks To This File|Show Backlinks To This File]]
+
+
 ```
 
 ```dataview
@@ -105,3 +113,10 @@ SORT file.name DESC
 TABLE file.name AS "Note", length(filter(file.lists.text, (t) => contains(t, "Completed:"))) AS "Count" WHERE contains(file.name, "📅") SORT file.name DESC
 ```
 
+# Show Backlinks To This File
+```shell
+dataview
+LIST
+FROM [[#]]
+WHERE file.name != this.file.name
+```
