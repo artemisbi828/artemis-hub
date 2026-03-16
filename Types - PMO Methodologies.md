@@ -1,3 +1,19 @@
+
+
+```
+pay wall
+behind pay product
+pre-sell cohort. batches. 
+content planning: 
+  subtle frustrations 
+  story. case study. education 
+  leads as popcorn
+split tested. a vs b vs c. 
+  ai intro. direct to camera. 8 sec. talking head. 
+```
+
+
+
 Clean, high‑signal breakdown that cuts through the jargon and gives you the diagnostic clarity you’re looking for. I’ll keep it concise but vivid, with a short story for each so you can _feel_ the difference in how the work actually flows.
 
 Smile Doctors is Kanban; but really Ad-hoc

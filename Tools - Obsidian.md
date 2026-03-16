@@ -1,7 +1,9 @@
 ---
 knowledge_type: Tools
 ---
-
+# Paste-Picture
+- **Standard:** `![[image.png]]`
+- **Resized (Width in pixels):** `![[image.png|300]]`
 
 > [!Tip]
 > Alt + Shift + R.Click → multi-cursor

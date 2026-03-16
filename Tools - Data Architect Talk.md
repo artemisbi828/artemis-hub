@@ -6,6 +6,36 @@ INR where RN = 1
 	
 	Validation queries are there to ensure integrity. Warnings are prioritized (P1,P2,P3)
 	
-2. Sanitization on Silver Layer -- String values should be normalized on ingest: Trim() = Leading and trailing spaces should be removed 
 
 3. Config tables should be `business-facing` and `business-governed`. Should have start and end dates of what dates they should affect.
+
+# Silver Layer Medallion Normalization
+Business Definitions
+- Floor Date: Portfolio vs Per Location Conversion Date
+String Values should be normalized on ingest (trim) - leading and trailing spaces should be removed
+Money values should be decimal(18,4)
+
+# Data Refresh Considerations
+Aggregate tables for speed (by-month or by-day)
+Incremental ModifiedDate for refresh
+
+# UAT Considerations
+Do as much as you can using SQL-VIEWS
+Use small samples for speed for semantic-models
+
+# UX Considerations
+3-30-300 Layout
+Standard Formatting
+Standard Elements
+- Basics
+	- as-of-date 
+- Header Bar
+- Slicers
+- Panels | Trendlines (shielded from slicers?)
+Advanced Elements
+- Data Dictionary 
+- SSS Calc-Group
+- WDE Calc-Group
+
+# Validation Considerations
+Test on locations and check if trendlines don't have any unexpected **fall-offs** or **spikes**

@@ -1,62 +1,72 @@
+# People-Ware
+[[Tools - Summary Talk]]
+[[Tools - Gap Analysis Quadrant]]
+[[Tools - Production XLS Template]]
+[[Tools - Data Talk]]
+[[Tools - Team Work Talk]]
+[[Tools - Finance Talk]]
+[[Tools - Statistics Talk]]
+[[Tools - Data Architect Talk]]
+[[Tools - Email]]
+[[Tools - Marketing Assessment]]
+[[Tools - Resume Talk]]
+[[Tools - Interview Talk (To Ask)]]
 
-[[Tools - Short Typing]]
+# Design + Planning
+[[Tools - AI Prompt - General]]
+[[Tools - AI Prompt - Scripts]]
+[[Tools - AI Prompt - UX]]
+[[Tools - AI Prompt - SQL Refactor]]
+[[Tools - AI Prompt - Documentation]]
+[[Tools - Causal Attribution Models]]
+# Core
+[[Tools - Quick Typing, File Naming]]
 [[Tools - Key Bindings]]
-[[Tools - Sublime]]
+- [[Tools - Obsidian]]
+- [[Tools - Sublime]]
+- [[Tools - VS Code]]
+[[Tools - Chrome]]
+[[Git]]
+[[Tools - Powershell]]
+[[Tools - Python]]
 [[Tools - AutoHotKey]]
 [[Tools - Windows]]
-[[Obsidian]]
-[[Tools - VS Code]]
-[[Tools - PC Assignments]]
-[[Tools - File Naming]]
-# Setup
-[[Tools - Powershell]]
+
+# Extended
 [[Tools - Terminal Linux]]
 [[Tools - Parquet Files vs CSV]]
-[[Tools - Chrome]]
-- [[Tools - Obsidian - Clipboard Paste Image]]
-[[Git]]
-[[Tools - Python]]
 
-# Basics
 [[Tools - WIN Alt Codes]]
 [[Tools - 🌟 Emojis]]
 [[REGEX]]
 [[Tools - TOML]]
 [[Tools - INI]]
 [[Tools - 🧜‍♀️Mermaid]]
-
-# AI Prompt Engineering
-[[Tools - AI Prompt - Definitions]]
-[[Tools - AI Prompt - General]]
-[[Tools - AI Prompt - Scripts]]
-[[Tools - AI Prompt - UX]]
-[[Tools - AI Prompt - SQL Refactor]]
-[[Tools - AI Prompt - Documentation]]
-[[Tools - Transform Text to Tables]]
-
-# Data Modeling
-[[Tools - Causal Attribution Models]]
-[[Tools - Product Validation]]
 # Builds
-[[Tools - Front vs BackEnd]]
-[[Tools - NodeJS]]
 [[Tools - Google Cloud SDK]]
 [[Tools - Google Drive]]
-[[Tools - Postman]]
 [[Tools - Docker]]
 [[Tools - Immich Photo]]
 [[Tools - Signal R]]
-[[Tools - Redis]]
+
 ## Front-End
+[[Tools - React App]]: Front of the house environment
+[[Tools - Fast API Server]]
 [[Flask]]
 [[Clipboard API (Uppy)]]
-[[Tools - NGROK]]
-[[Tools - Particle System]]
-[[Tools - Ticketing System]]
-## Back-End
-[[Tools - Data Grip]]
-[[Tools - Drivers]]
 
+[[Tools - Particle System]]
+## Back-End
+
+## Databases
+[[Firebase]]
+[[Firestore]]
+[[Tools - Data Grip]]
+
+
+[[Tools - Redis]]
+[[Tools - Drivers]]
+Cook - RQ? 
 [[Tools - Primary Keys (uuid vs int)]]
 [[Azure Blob Storage with SAS]]
 [[Azure DevOps REST API]]
@@ -76,22 +86,7 @@
 	[[Entra ID (OIDC) via MSAL]]
 [[Redit]]
 [[Twilio]]
-[[Firebase]]
-[[Firestore]]
+[[Tools - NGROK]]: Hosting
 
-# People-Ware
-[[Tools - Gap Analysis Quadrant]]
-[[Tools - Production XLS Template]]
-[[Tools - Data Talk]]
-[[Tools - Team Work Talk]]
-[[Tools - Finance Talk]]
-[[Tools - Statistics Talk]]
-[[Tools - Data Architect Talk]]
-[[Tools - Email]]
-[[Tools - Marketing Assessment]]
-[[Tools - Resume Words]]
-[[Tools - Dictation]]
-[[Tools - Interview Questions to Ask]]
-[[Tools - Address History]]
-# Facebook, IG DLs
+# Processors
 [[Tools - Facebook Reels]]

@@ -2,6 +2,17 @@ Create a reusable idempotent prompt with high-fidelity reruns:
 I want to see recursive traversal, hierarchal recursion
 Last conceptual fork before execution and delivery of target-output
 
+I am trying to understand these different concepts: edge vs relationship vs cardinality.
+
+Please provide 
+1. core differentiators between concepts
+2. synonyms, misnomers, pitfalls. 
+3. ASCII Trees especially when outlining hierarchal vs orthogonal relationships
+
+FIRST: Explain ideas and concepts
+SECOND: Create tight definitions and utilization plan. Prompt me w challenges where trade-offs matter and outline the trade-offs.
+
+Let me know when we are at the last conceptual fork and decisions are locked before executive and delivery of target-output.
 
 ---
 **Role:** Technical Prompt Engineer specializing in high-fidelity requirement extraction.

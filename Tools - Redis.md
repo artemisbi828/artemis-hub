@@ -2,7 +2,7 @@
 definition: is an open-source, in-memory data store. It is famous for being incredibly fast.
 related_to: "[[SignalR]]"
 ---
-
+Order Queue
 
 - **The Problem it Solves:** Traditional databases (like SQL) are stored on hard drives (disk). Reading from disk is slow.
 - **The Solution:** Redis stores data in **RAM** (memory). This makes read/write operations microsecond-fast.

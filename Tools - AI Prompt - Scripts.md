@@ -1,4 +1,19 @@
+```
+**Concise High‑Fidelity Prompt**
+**“Flatten this hierarchical list by prefixing each child with its full parent path. Use `|` as the separator. Each indented item becomes: `Parent | Child`. Preserve ordering.”**
 
+**“For every indented line, prepend all parent labels (from nearest non‑indented ancestor) separated by `|`. Output one flattened line per leaf.”**
+
+**Example Included (optional)**
+BEFORE: 
+NPS / Swell 
+  NPS Responses 
+  NPS Score
+
+AFTER:
+NPS / Swell | NPS Responses 
+NPS / Swell | NPS Score
+```
 
 SAVEPOINT
 - update prompt so that we include change log + when new imports detected, update the project map
@@ -24,6 +39,7 @@ SAVEPOINT
 | **Legacy**     | `.append()` (Pandas)                                | **Modern**: `pd.concat([])`.                                 |
 | **IO**         | `df.to_csv(sep='\t')` to `.csv` file                | **Format Match**: Save tab-delimited as `.txt` or `.tsv`.    |
 | **Flow**       | `func()` return value ignored                       | **Capture**: `result = func()`.                              |
+
 
 # Testing-Artifcats
 save scripts for diagnostic and testing all in a root.subdir == "testing-artifacts"

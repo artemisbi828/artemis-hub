@@ -13,6 +13,18 @@ Arturo
 Danielle
 Victoria
 
+
+|           |     |
+| --------- | --- |
+| Monday    |     |
+| Tuesday   |     |
+| Wednesday |     |
+| Thursday  |     |
+| Friday    |     |
+| Saturday  |     |
+| Sunday    |     |
+
+
 # Places
 Cozy: Burial Beer Co - Forestry Camp, Farewell Coffee, Rowan Coffee, Dobra Tea
 Fav1: Nine Mile, Tall Johns, Zambra, Soprano, Flat Iron Bar, Rooftop at the Radical (RAD)

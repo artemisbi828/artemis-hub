@@ -1,101 +1,45 @@
+# De Novo
+Spinning Up Storefront
+Setting up accounting structures
 
-Explicits vs Implicits -- don't mask implicit as an explicit
+# Young Businesses
+## Increasing Leads (Quantity)
+1. widen reach
+2. ads launch and management
+3. recycle closed leads -- outreach
 
-| **Pain Point**                 | **Orthodontics Opportunity**                                       | **Tax Accounting Opportunity**                                                |
-| ------------------------------ | ------------------------------------------------------------------ | ----------------------------------------------------------------------------- |
-| **High No-Show Rate**          | **[SlideSMS]** 24-hour and 2-hour reminders.                       | **[Intake-form]** Ensure docs are uploaded _before_ the meeting.              |
-| **Labor Intensive Data Entry** | **[Doc-scraper]** for insurance card/ID processing.                | **[Doc-scraper]** for W2, 1099, and K-1 digitization.                         |
-| **Price Resistance**           | **[Analysis]** to show ROI of "Smile Investment" or "Tax Savings." | **[Dashboards]** showing multi-year tax liability trends.                     |
-| **Slow Follow-up**             | **[Call-work-queue]** for "leads who didn't book on the website."  | **[Web-scraper]** to pull latest IRS tax code updates for client newsletters. |
+## Increasing Close Rates (Prices)
+1. Price-Discounting (Raise then lower)
+2. DHV Techniques
 
----
-# I need better visibility -or- compliance
-### Added Branch: "I need better visibility/compliance" (Risk)
+## Reducing Overhead (Costs)
+- Increasing Show-Up Rate → [[slideSMS]]
+- Reduce knowledge gap or lag
+	- Data pipelines and delivery ([[Types - Dashboards]]
+- Reduce Operational Friction
+	- Reduce output-failures
+	- Reduce input-failures
+	- Reduce churn/turn-over 
+- Reduce Processing Costs
+	- Reduce Communication Costs (automations)
+	- Reduce manual-entry [[Doc-scraper]]
+- Reduce Collection Overhead for AR
+	- Autopay Setup Incentives
+	- Fees
+- Hold Less Inventory
 
-- **Data Security/Audit Trail:**
-    - _Pain:_ Afraid of a data breach or IRS audit.
-    - _Solution:_ **[Doc-scraper]** + **Secure Cloud Storage** to ensure a digital paper trail.
-        
-- **Missed Deadlines:**
-    - _Pain:_ Ortho follow-ups missed or Tax extensions forgotten.
-    - _Solution:_ **[Call-work-queue]** with automated "Drip-Alarms" for staff.
+# Mature Businesses
+## Avoid Compliance-Costs
+- Tax Audit
+- Hack
+- Data Breach
+## Getting Creative
+1. Changing Pricing / Offer / Segmentation
+	1. Compare to competitors
+	2. Margins too low --> raise prices, add-on packages
+2. Reducing Overhead
+3. Increase Cash-On-Hand
+	- Extend AP; Negotiate Vendors
+4. Strategic Leadership Coaching
+	- Decision making bottlenecks (owner only)
 
----
-# I need better Data-Quality
-bad-handwriting
-imprecise-entry
-incomplete-entry 
-
----
-# I need more clients
-more opportunities in market? 
-	reach more prospects
-	increase conversion of MQL → SQL
-
-reduce consult-miss-rate (net-new)
-	[[slideSMS]] >> apptm reminders to reduce miss rate
-
-increase conversion rate from net-new consults
-	[[Call-Work-Queue]] >> recover non-close clients
-	[[slideSMS]] >> use sms as an extra tool for follow-ups
-
----
-# I need to make more per client
-I need to improve customer UX
-- **Time-to-Value:**
-    
-    - _Pain:_ "It takes too long to get my taxes done."
-    - _Solution:_ **[Intake-form]** + **[Doc-scraper]** to provide an instant "Preliminary Summary."
-        
-- **Communication Gaps:**
-    
-    - _Pain:_ "I don't know the status of my braces/case."
-    - _Solution:_ **[SlideSMS]** triggered by CRM stage changes (e.g., "Your aligners have arrived!").
-
-increase marginal revenue per client
-		raise prices 
-			[analysis] >> 
-		offer add-on packages for upsell
-	reduce marginal cost per client
-		reduce acquisition cost
-			>> [intake-form] -- prevents rework from `poor-data-entry` 
-		reduce processing cost
-
-		reduce error cost
-			documents → office-scripts
-
-# I need to manage my cash better
-Cash / AR Management -- "strong collections with AR holding flat"; offsetting downside / upside
-• AutoPay Enlistment / AutoPay Candidate
-
-Expense / AP Management
-Dispersion of Payables -- spreading out payables over time, negotiating terms;
-FPA & Budgeting
-- Favorable vs Unfavorable Timing by Period (Recognition of Sale)
-- Qualifying Financial Events
-- Speculative Timing of Sale
-Merges & Acquisition
-- High Growth? Hold flat & maintain?
-- Value mining / Opportunity mining -- stimulus checks, cash allotment of float into financial vehicles
-# I need to reduce my overhead costs
-Inventory
-
----
-# I need to reduce Operational Friction
-**Employee Burnout/Churn:** * _Pain:_ High turnover in front-desk (Ortho) or junior associates (Tax).
-    
-    - _Solution:_ **[Automator]** to handle the "boring" repetitive data entry.
-        
-**Bottlenecked Decision Making:**
-    
-    - _Pain:_ The owner has to approve everything.
-    - _Solution:_ **[Dashboards]** showing "Red/Green" status for all active files.
-        
-**Knowledge Silos:**
-    
-    - _Pain:_ Only one person knows how to process a specific form.
-    - _Solution:_ **[Doc-scraper]** to standardize data extraction regardless of who handles it.
-# I need to stop losing money
-
-	[dashboard] >> map AP (accounts payable) vendors, invoices, due-dates to schedule last possible payment times or ways to negotiate terms
-	[automator] >> create automations to communicate w vendors

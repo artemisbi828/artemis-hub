@@ -1,4 +1,5 @@
 [[Household - RX]]
+[[Household - History]]
 
 [[Household - Knots - Earphones]]
 [[Household - Knots - Backpack]]
@@ -6,3 +7,4 @@
 [[Household - Books]]
 [[Household - Movies]]
 [[Household - Plants]]
+[[Household - Credit Score]]

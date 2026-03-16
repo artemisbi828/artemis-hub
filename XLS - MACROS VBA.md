@@ -1,9 +1,11 @@
 
+
+
 > [!steps]
 > 1. **Enable Developer Tab** (if not visible):
 >     
 >     - Right-click on any ribbon tab → `Customize the Ribbon`
->     - Check the box for `Developer` on the right side
+>     - Check the box for `Main Tabs: Developer` on the right side
 >     - Click `OK`
 > 2. **Record Macro:**
 >     
@@ -19,7 +21,7 @@
 > 6. Paste the VBA code
 > 7. Press `ALT + F8` to assign CTRL+T
 > 
-> Now assign it to CTRL+T:
+> Now assign it to CTRL+Shift+T:
 > 
 > 8. Press `ALT + F8`
 > 9. Select `CreateTableWithNullCleanup`
@@ -28,7 +30,7 @@
 > 12. Click `OK`
 
 ---
-# Create Table
+# Create Table With Null Cleanup
 Need macro for local key binding.
 
 ## Adapted

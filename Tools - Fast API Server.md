@@ -1,0 +1,1 @@
+Cashier takes the order
