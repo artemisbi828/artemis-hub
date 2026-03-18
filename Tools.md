@@ -3,16 +3,19 @@
 [[Tools - Gap Analysis Quadrant]]
 [[Tools - Production XLS Template]]
 [[Tools - Data Talk]]
+[[Tools - Data Architect Talk]]
+[[Tools - Business Architect Talk]]
 [[Tools - Team Work Talk]]
 [[Tools - Finance Talk]]
 [[Tools - Statistics Talk]]
-[[Tools - Data Architect Talk]]
 [[Tools - Email]]
 [[Tools - Marketing Assessment]]
 [[Tools - Resume Talk]]
 [[Tools - Interview Talk (To Ask)]]
 
 # Design + Planning
+[[Tools - AI Prompt - Refine Prompt]]
+[[Tools - AI Prompt - Refine Communication or Documentation]]
 [[Tools - AI Prompt - General]]
 [[Tools - AI Prompt - Scripts]]
 [[Tools - AI Prompt - UX]]
@@ -32,16 +35,16 @@
 [[Tools - AutoHotKey]]
 [[Tools - Windows]]
 
-# Extended
+[[Tools - 🧜‍♀️Mermaid]]
+[[REGEX]]
 [[Tools - Terminal Linux]]
 [[Tools - Parquet Files vs CSV]]
 
 [[Tools - WIN Alt Codes]]
 [[Tools - 🌟 Emojis]]
-[[REGEX]]
 [[Tools - TOML]]
 [[Tools - INI]]
-[[Tools - 🧜‍♀️Mermaid]]
+
 # Builds
 [[Tools - Google Cloud SDK]]
 [[Tools - Google Drive]]
@@ -51,6 +54,8 @@
 
 ## Front-End
 [[Tools - React App]]: Front of the house environment
+Javascript / Typescript
+
 [[Tools - Fast API Server]]
 [[Flask]]
 [[Clipboard API (Uppy)]]

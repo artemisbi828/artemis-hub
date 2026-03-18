@@ -3,6 +3,10 @@ Currency of Revenue
 Are you querying "wide open"
 dragnet; fallback
 
+Greenfield -- New Site (no demolition); usually needs new infrastructure (roads, sewers, powerlines).
+Brownfield -- Reused site; remdiation (cleanup) of soil to remove chemicals or waste, unpredictable, expensive, time consuming.
+Greyfield -- paved site (dead mall, empty parking lot) -- prime for modern mixed-use developments; 
+Evergreen -- Mature Site
 
 Cash / AR Management -- "strong collections with AR holding flat"; offsetting downside / upside
 Expense / AP Management
@@ -14,3 +18,4 @@ FPA & Budgeting
 Merges & Acquisition
 - High Growth? Hold flat & maintain?
 - Value mining / Opportunity mining -- stimulus checks, cash allotment of float into financial vehicles
+

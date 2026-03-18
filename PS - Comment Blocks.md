@@ -4,6 +4,7 @@ Since you’re planning to use **PowerShell** for your data cross-checking later
 
 ### 1. Single-Line Comments
 
+
 The `#` symbol tells PowerShell to ignore everything to its right on that specific line.
 
 PowerShell

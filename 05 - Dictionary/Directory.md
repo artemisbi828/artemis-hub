@@ -1,5 +1,0 @@
----
-aliases:
-  - dir
-  - Folders
----

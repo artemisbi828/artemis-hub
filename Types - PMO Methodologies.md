@@ -1,17 +1,24 @@
+ADO STRUCTURE
+- 1.1.0.0 - Epics: 3-6 months
+- 1.1.1.0 - Feature: 1-3 months
+- 1.1.1.1 - Story: 1/2 month
+- Task: 2-3 days
 
+AUDIENCE
+- Data Architect
+- Data Product Owner {Steward, }
+- Data Consumer
 
-```
-pay wall
-behind pay product
-pre-sell cohort. batches. 
-content planning: 
-  subtle frustrations 
-  story. case study. education 
-  leads as popcorn
-split tested. a vs b vs c. 
-  ai intro. direct to camera. 8 sec. talking head. 
-```
-
+STANDUP
+- *Round-robin* 
+- What did you complete yesterday?
+- What will you complete today? 
+- Do you have any blockers? 
+# Spike
+target-outcome: Documented recommendation or decision
+part of User Stories
+time-boxed (typically 1-3 days)
+learning vs building
 
 
 Clean, high‑signal breakdown that cuts through the jargon and gives you the diagnostic clarity you’re looking for. I’ll keep it concise but vivid, with a short story for each so you can _feel_ the difference in how the work actually flows.

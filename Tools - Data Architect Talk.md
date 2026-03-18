@@ -1,4 +1,24 @@
+SQL ENGINES: Snowflake. SQL Server, Databricks, BigQuery
+SEMANTIC LAYER: Power BI / Looker / MetricFlow
+TABLE-NAMING: use **snake_case**, tables are plural
+- normalized tables -- customers | patients, appointments, contracts | orders
+- dim_customer -- singular, 
+- fact_sales - plural
+- stg_
+AVOID: date, user, group, order, rank, value (often reserved or confusing)
+COLUMN-NAMING
+- date_value | order_date
+- user_id, customer_id, 
+- sort_order | sequence_num, rank_num
+- is_active, has_opted_in
+- group_name
+- sales_amount
+- conversion_pct
+- metric_value
+- description | comment
 
+
+---
 1. Daily Pipelines should never break. Things that are decided to be distinct should have dedup-filter + prioritization rules. 
 ```
 INR where RN = 1

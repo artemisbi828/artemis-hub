@@ -1,3 +1,46 @@
+> **Stop narrating how the data came to be.  
+> Start defining what this thing _is_, why it exists, and how it should be used.**
+
+Your originals weren’t _wrong_ — they were **human explanations**.  
+I reformulated them into **system definitions**.
+
+### 🔍 **Troubleshooting Preview**
+
+If you see: `ModuleNotFoundError: No module named 'docling'`  
+→ Ensure venv activated: [Activate.ps1](vscode-file://vscode-app/c:/Users/jonas-adam.pascua/AppData/Local/Programs/Microsoft%20VS%20Code/ce099c1ed2/resources/app/out/vs/code/electron-browser/workbench/workbench.html)
+
+If you see: `ImportError: DLL load failed` (Windows)  
+→ Install [Visual C++ Redistributable]
+
+# Explaining A Tool
+
+## **Why Docling Failed**
+
+**Root Cause:** Windows symlink permissions error (`OSError: [WinError 1314]`)
+
+**Details:**
+
+- Docling uses HuggingFace Hub to download ML models (~200 MB)
+- HuggingFace cache defaults to creating **symlinks** for efficient storage
+- Windows requires **Administrator privileges** to create symlinks
+- Your user account lacks these rights → installation/execution failed
+
+**Why We Switched to PyMuPDF:**
+
+- ✅ No symlinks/admin rights needed
+- ✅ Lighter weight (~70 MB vs ~200 MB)
+- ✅ No ML model downloads
+- ❌ Less intelligent structure detection (but we're now parsing raw text)
+
+---
+
+- **The Problem it Solves:** traditionally, web pages only update when you refresh them (HTTP requests). If you want a live chat, you don't want to hit "refresh" every second to see new messages.
+    
+- **The Solution:** SignalR creates a persistent connection between the client (browser) and the server. This allows the server to **push** content to clients instantly as it happens.
+    
+- **How it works:** It uses "WebSockets" under the hood (the gold standard for real-time), but if WebSockets aren't available (e.g., on an old browser), it automatically falls back to older techniques like "Long Polling" so the app still works.
+
+---
 # Debugging
 ```
 Symptom: You installed Streamlit (pip install streamlit), but typing streamlit run resulted in command not found.

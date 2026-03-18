@@ -20,6 +20,7 @@ Bash is a scripting language - Bash
 # Basic Commands
 [[PS - Trigger PS Script]]
 [[PS - Trigger PY Script]]
+[[PS - Create New Subdir]]
 [[PS - Find And Replace Rename Folders]]
 [[PS - Get Help]]
 [[PS - Clear Host]]

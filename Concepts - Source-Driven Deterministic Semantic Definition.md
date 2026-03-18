@@ -12,8 +12,6 @@ BAD EXAMPLE -- explicitly defining emails for RLS. But failing to account for:
 - turnover (leave of absence, terminations, new-hires) 
 - promotions and demotions in org-chart hierarchy
 
-
-[[Canonical]]
 [[Cascading]]
 
 

@@ -1,6 +1,65 @@
 Lookup: [[Concepts#Words]]
+- prefixing standards
+- linting standards
+- common library; standard library; 
+- layer transformation boilerplate & guidance
 
-Primary Goal vs Stretch Ggoal
+platform as a server vs an individual server and machine 
+just to clarify-language
+zero copy clone
+
+
+1. quality gate
+2. **mutating** → new objects
+3. guard-rails
+4. credit-burn-rates
+5. merge --> coalesce with his
+6. creep of the calculations
+7. per visualization, ada compliant color blindness
+
+
+2026-03-16 10:49 AM - BCG + Project Ascend
+- Integration Patterns
+- Ingestion Patterns, Ingestion Methods, Ingestion Patterns
+	- Data Sources & Connectors
+		- databases (CDC)
+		- APIs (REST/GraphQL) → SaaS application data can be efficiently ingested 
+			- REST APPI authentication
+			- OAuth 2.0 API key bearer token
+			- Rate limiting and throttling
+			- Pagination (cursor-based and offset-based)
+			- Config-driven API setting (opinionated framework, 1st class citizen)
+		- files (CSV/Parquet) → S3 Azure Blob GCS → Snowpipe
+		- streaming (Kafka)
+	- Schema Drift detection and handling → Tiered-Graceful-Handling 
+	- Rollbacks
+	- Connectivity Settings
+		- Secrets Management
+		- System-User
+- Ingestion Monitoring
+	- **Quality Gate**
+	- load time thresholds = 20%
+	- Drill-down to error details and logs
+- Staging Patterns
+	- **mutating** new objects → landing zone
+- Silver-Layer Blockages
+	- Harness in place at the door -- sourcesystem at face value
+- Data Integrity Engine
+- CI/CD; Version-Control Strategy
+	- Major-Minor-Hotfix{Patch}
+	- Scheduled vs Unscheduled
+	- Code Refactoring → SQL/Code Linting → SQLFluff Library
+- Access Provisioning
+	- Service accounts must be in the correct timezone (eg)
+- Registry
+- One-time obfuscation:  means you scramble something in a way that is safe _only because it is used once. If it’s reused, the protection breaks down.
+
+- Should we `Bubble Up` 
+
+
+
+---
+Primary Goal vs Stretch Goal
 Measure Twice Cut Once
 
 "Sniff Test" --> "Sanity Check" {Validation Check, }
@@ -9,9 +68,8 @@ Idempotent: run the same thing, get the same thing every time
 - or different due to changes in mapping 
 - **get the same expected logic outputs every time**
 
-
+---
 REVOPS: 
-
 Quantum Leap
 Retro-Disruptive. 
 DataVisualizing
@@ -48,10 +106,7 @@ esoteric -- the professor's lecture was quite esoteric -- specialized niche know
 elan -- jonas told the story with such elan -- like panache
 CMS -- Customer Management System
 UI -- User Interface
-Greenfield -- New Site (no demolition); usually needs new infrastructure (roads, sewers, powerlines).
-Brownfield -- Reused site; remdiation (cleanup) of soil to remove chemicals or waste, unpredictable, expensive, time consuming.
-Greyfield -- paved site (dead mall, empty parking lot) -- prime for modern mixed-use developments; 
-Evergreen -- Mature Site
+
 
 
 # Log Verbs

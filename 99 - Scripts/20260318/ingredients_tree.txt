@@ -1,0 +1,150 @@
+================================================================================
+PDF TABLE SCRAPER - DEPENDENCY HIERARCHY TREE
+================================================================================
+Purpose: Visual learning aid showing how libraries interconnect
+Legend:  📦 = pip package | 🐍 = Python stdlib | 🎯 = your script
+================================================================================
+
+🎯 pdf_table_scraper.py
+│
+├─── 📦 docling (v2.x) ...................... PDF → Markdown converter
+│    │                                       [The "MUSCLE": handles multi-line]
+│    │
+│    ├─── 📦 docling-core .................. Document object model & primitives
+│    │    └─── pydantic .................... Data validation (transitive dep)
+│    │
+│    ├─── 📦 docling-parsing ............... PDF parsing engine
+│    │    ├─── pypdfium2 ................... Low-level PDF rendering
+│    │    └─── lxml ........................ XML/HTML parsing
+│    │
+│    └─── 📦 transformers (optional) ....... ML models for layout detection
+│         └─── torch/onnxruntime .......... (Only if using AI-based parsing)
+│
+├─── 📦 pandas (v2.2.x) ..................... Tabular data wrangling
+│    │                                       [The "BRAIN": validates schema]
+│    │
+│    ├─── numpy ............................ Numerical arrays (core)
+│    ├─── python-dateutil .................. Date parsing utilities
+│    └─── pytz ............................. Timezone support
+│
+├─── 🐍 re .................................. Regular expressions (stdlib)
+│                                            [The "SPINE": ID marker detection]
+│                                            Pattern: ^\d+\s*\|?\s*(.*)$
+│
+├─── 🐍 pathlib ............................. Modern filesystem ops (stdlib)
+│                                            Used for: output path generation
+│
+├─── 🐍 datetime ............................ Timestamp generation (stdlib)
+│                                            Format: YYYYMMDD_iteration_NN.tsv
+│
+└─── 🐍 sys ................................. Exit codes & stderr (stdlib)
+                                             Used for: fail-fast validation
+
+================================================================================
+ARCHITECTURE FLOW
+================================================================================
+
+Input PDF (152 rows, pages 3-17)
+    ↓
+┌───────────────────────────────────────┐
+│ 1. EXTRACTION (The "MUSCLE")         │
+│    Tool: Docling                      │
+│    Output: Markdown text              │
+└───────────────────────────────────────┘
+    ↓
+┌───────────────────────────────────────┐
+│ 2. ANCHORING (The "SPINE")           │
+│    Tool: re (regex)                   │
+│    Strategy: ID markers 1-152         │
+│    Pattern: ^\d+ at line start        │
+└───────────────────────────────────────┘
+    ↓
+┌───────────────────────────────────────┐
+│ 3. CHUNKING (Text grouping)          │
+│    Logic: Group lines between IDs     │
+│    Output: List[Dict] (records)       │
+└───────────────────────────────────────┘
+    ↓
+┌───────────────────────────────────────┐
+│ 4. SANITIZATION (Multi-line → 1-line)│
+│    Tool: re.sub()                     │
+│    Rules: \n → space, trim whitespace │
+└───────────────────────────────────────┘
+    ↓
+┌───────────────────────────────────────┐
+│ 5. VALIDATION (The "BRAIN")          │
+│    Tool: Pandas                       │
+│    Checks:                            │
+│      - Schema order (7 columns)       │
+│      - Row count = 152 (fail-soft)    │
+└───────────────────────────────────────┘
+    ↓
+Output TSV (outputs/YYYYMMDD_iteration_NN.tsv)
+
+================================================================================
+DESIGN PATTERNS APPLIED
+================================================================================
+
+1. SOLID Principles:
+   ✓ Single Responsibility: Each method has one clear purpose
+   ✓ Open/Closed: PDFProcessor extensible (e.g., add new extractors)
+   ✓ Dependency Inversion: Uses abstract Path objects vs hardcoded strings
+
+2. DRY (Don't Repeat Yourself):
+   ✓ sanitize_text() reused across all fields
+   ✓ SCHEMA constant enforces single source of truth
+
+3. Fail-Fast with Safety Net:
+   ✓ ValidationError raised on row count mismatch
+   ✓ Partial output STILL written (outputs/) for debugging
+   ✓ Exit codes: 0=success, 1=validation, 2=unexpected
+
+4. Pragmatic Modernism:
+   ✓ pathlib over os.path (idiomatic Python 3.11+)
+   ✓ Type hints on all methods (Future: enable mypy)
+   ✓ Docstrings follow numpy/sphinx style
+
+================================================================================
+INSTALLATION WEIGHT (Approximate)
+================================================================================
+
+docling         ~150 MB  (includes ML models for layout detection)
+pandas          ~50 MB   (includes numpy as transitive dependency)
+stdlib          0 MB     (built into Python)
+─────────────────────────
+Total           ~200 MB  (first install may take 2-5 minutes)
+
+Note: If docling auto-installs torch/transformers, size may reach ~2 GB
+      (only needed for advanced AI-based parsing; our use case may not trigger)
+
+================================================================================
+TROUBLESHOOTING GUIDE
+================================================================================
+
+Issue: "ModuleNotFoundError: No module named 'docling'"
+Fix:   Ensure venv activated: .venv\Scripts\activate
+       Then: pip install -r requirements.txt
+
+Issue: "ImportError: DLL load failed" (Windows)
+Fix:   Install Visual C++ Redistributable (required by pypdfium2)
+       Download: https://aka.ms/vs/17/release/vc_redist.x64.exe
+
+Issue: Row count ≠ 152 but output exists
+Status: Expected! Partial output written for debugging analysis
+Action: Check outputs/*.tsv → verify which rows missing/duplicated
+
+Issue: Blank fields showing as empty string instead of "null"
+Fix:   Check sanitize_text() → ensure it returns "null" not ""
+
+================================================================================
+FUTURE ENHANCEMENTS (Post-MVP)
+================================================================================
+
+[ ] Add pytest unit tests for sanitize_text() edge cases
+[ ] Support multiple page range configs (e.g., pages 3-10 + 15-17)
+[ ] Implement alternate fallback: Marker library if Docling fails
+[ ] Add CSV export option alongside TSV
+[ ] Create Jupyter notebook for exploratory data analysis
+[ ] Add --dry-run flag for pre-flight validation without writing
+
+================================================================================

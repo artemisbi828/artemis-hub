@@ -1,4 +1,4 @@
-﻿---
+---
 type: people
 email:
   - Imadcoaching@gmail.com
@@ -14,14 +14,33 @@ US
 
 # Notes
 
+imad wants to learn. 
+we decide together. 
+  arguments he wins.
+  net split. 
+  overhead. 
+  legal suit or non fulfillment 
+
+proposal automation
+crm cwq w planner like simplicity. 
+   ai lead load. 
+sms text. va + ai. 
+
+setup my ein. review contracts myself. look for tech. find vendors. call, network. 
+
+find cbocs. 
+
 Shared Space: Floors 12 and 43
 pwd: d4ds77y8
+
 ----
 RELATIONSHIPS
 vanessa? â†’ monica â†’ marina â†’ alex â†’ jamila? â†’ sam 
+
 ---
 FRIENDS
 Arman, Kayla; Tim, Sparsh
+
 ----
 ADDRESSES
 1: 303 W 5th St, Apt 3502, Austin TX

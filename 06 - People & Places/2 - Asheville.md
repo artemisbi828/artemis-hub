@@ -12,6 +12,7 @@ Katie
 Arturo
 Danielle
 Victoria
+Kosuke
 
 
 |           |     |

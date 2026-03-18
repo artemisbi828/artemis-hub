@@ -1,6 +1,6 @@
 ---
 definition: is an open-source, in-memory data store. It is famous for being incredibly fast.
-related_to: "[[SignalR]]"
+related_to:
 ---
 Order Queue
 

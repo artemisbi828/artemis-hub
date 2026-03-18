@@ -13,7 +13,7 @@ This is a multi-line block
 ```
 
 [[PYT - Data Types]]
-[[PYT - Arrays]]
+[[Python - Data Structures]]
 [[PYT - Try, If, Except]]
 [[PYT - VENV]]
 

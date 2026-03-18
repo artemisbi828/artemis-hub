@@ -1,31 +1,164 @@
-```
 **Concise High‑Fidelity Prompt**
-**“Flatten this hierarchical list by prefixing each child with its full parent path. Use `|` as the separator. Each indented item becomes: `Parent | Child`. Preserve ordering.”**
+- disambiguous → deterministic
 
-**“For every indented line, prepend all parent labels (from nearest non‑indented ancestor) separated by `|`. Output one flattened line per leaf.”**
+1. put high level instructions and prompt for tech stack, description and tradeoffs
+2. generate standard files and folders
+	- `<root>\ingredients.txt`
+	- `<root>\changelog.txt`
+	- `<root>\test-scripts`
+	- `<root>\outputs
+3. dev-iteratively
+	- small sample from population
+	- edge cases noted
+4. pause project and wait for next use-case
+	- decide if next use-case uses same script or new script (usually new script)
 
-**Example Included (optional)**
-BEFORE: 
-NPS / Swell 
-  NPS Responses 
-  NPS Score
 
-AFTER:
-NPS / Swell | NPS Responses 
-NPS / Swell | NPS Score
 ```
+As a:: Data Architect and Python Automation Expert
+	I want:: to build a `pdf extract-table tool`
+	so that:: I can efficiently extract table objects out of pdf files.
 
-SAVEPOINT
-- update prompt so that we include change log + when new imports detected, update the project map
-- DAX = minimal footprint
+new-script: 
+- filename: pdf_table_scraper
+- filetype: undetermined
 
-## Philosophy
+input-parameters: 
+- in-filepath: `C:\vsWorkspace_SD\4 - builds\extract_pdf\20260312_Metric list DRAFT 151.pdf`
+- out-filetype: `csv`
+- out-filepath: `<root>\outputs`
+
+out-filepath-name:
+- format: YYYYMMDD_iteration_NN.tsv
+- YYYYMMDD = execution date (local system date at script start)
+- NN = zero-padded, monotonically increasing run index for that date,
+       auto-incremented based on existing files in the output directory
+
+expected-output (validation target - script must fail if unmet):
+
+---
+**GENERATE STANDARD OUTPUTS:** 
+- `<root>\ingredients.txt`: ascii tree of tools w versions and concise description of what the tools is doing w strict fail-fast validation
+- `<root>\ingredients.toml`: actual ingredients list for project use.
+- `<root>\changelog.txt`
+- `<root>\outputs
+  
+**SCRIPT GENERATION PHILOSOPHY:** 
 - abide by SOLID/DRY, FAST (don't repeat yourself, eliminate duplicate info)
 - abide by Pragmatic Modernism, Modern Robustness, Sustainable Design; High-Integrity Architecture
 - go for core features and quickest time-to-value; 
-    - if there is any ambiguity -- prompt user (eg to identify which is core for MVP (minimum-viable-product))
+- if there is any ambiguity -- prompt user (eg to identify which is core for MVP (minimum-viable-product))
+- use venv whenever possible.
+- add concise comment block at the top of the script as a quickstart w simple concrete steps on `how-to-use` and including initialization of venv from vsCode.
 
+**SCRIPT REFINEMENT STANDARDS**
+For every iteration and error 
+- → log to `changelog.txt` :: timestamp | error | current-value
+- after resolving error → log to log to `changelog.txt` :: timestamp | fix (technique applied) | `before-value` → `after-value` | `code-before` → `code-after` (include line numbers)
+  
+---
+**INSTRUCTIONS:**
+1. **Clarify:** Address conflicts and/or ambiguities via a numbered list before providing solutions. 
+2. generate standard outputs
+3. generate script w standards
+4. run a small sample as a fast test-iteration 
+	   → generate output 
+	   → generate changelog.txt entries as errors occur and are fixed. 
+5. refine and prompt me for feedback or any clarification
+```
+
+# Table Extraction
+Refined
+```
+### Refined VS Code Prompt (Vision-to-Reasoning Hybrid)
+
+As a:: Data Architect and Python Automation Expert
+	I want:: to build a `pdf extract-table tool`
+	so that:: I can efficiently extract table objects out of pdf files.
+
+new-script: 
+- filename: pdf_table_scraper
+- filetype: undetermined
+
+input-parameters: 
+- in-filepath: `C:\vsWorkspace_SD\4 - builds\extract_pdf\20260312_Metric list DRAFT 151.pdf`
+- out-filetype: `csv`
+- out-filepath: `<root>\outputs`
+
+out-filepath-name:
+- format: YYYYMMDD_iteration_NN.tsv
+- YYYYMMDD = execution date (local system date at script start)
+- NN = zero-padded, monotonically increasing run index for that date,
+       auto-incremented based on existing files in the output directory
+
+expected-output (validation target - script must fail if unmet):
+- normalize columns to exact schema (order enforced)
+- convert column headers to lower_snake_case `Metric/measure → metric_measure`, 'BCG refined → bcg_refined'
+  
+id | metric_measure | bcg_refined_definition | refined_calculation | owner | bcg_sorting |
+| --- | ---| ---| --- | --- | ---| --- |
+| 1 | 1 | NPE added | New patient exam appointment created for the first time | Unique NPE added for a unique patient within a time period | Jon (CMSO) | 1: Senior Leadership |
+| 24 | 24 | Cost to collect | Cost associated with billing, payment processing, financial counseling, follow-up, and dispute resolution | Collections Operations Cost ÷ Cash Collected | David (COO) | 1: Senior Leadership |
+| 150 |  | Initial investment amount |  |  |  |  |
+| 151 |  | Non-PIF down payment percentage | Percentage of the non-PIF (Paid in Full) contract  values at the time of contract signing  | Non-PIF down payments/non-PIF contract payments  | David (COO)  | : Delivery |
+| 152 |  | Initial investment amount  | Total investment amount can additionally be defined as total dollars collected at the start for all contract starts  | Total initial investment amount (Down payment) including those who have paid in full for all contract starts  | David (COO) | 2: Management |
+
+additional-validation-guidance
+- expected-row-count: 152 (exclude header)
+- extraction-start-page: 3
+- extraction-end-page: 17
+  
+sanitization: 
+	- normalize punctuation
+	- split into lines
+	- trim leading/trailing spaces on each line
+	- remove blank lines (lines that become empty after trim)
+	- join remaining lines with a single space or newline? use single space to keep single-line cells
+	- final trim
+
+ failure handling: if read/parse throws → skip row
+	- if notes is empty after sanitization → skip row
+
+```
+
+
+
+```
+**The Strategy: Hybrid "Spine & Muscle" Extraction**
+1. **The Spine:** Use `PyMuPDF` (fitz) to identify "ID" markers (1 through 150+) to act as row anchors.
+2. **The Muscle:** Use `Docling` or `Marker` to convert the PDF to Markdown, then use a regex-based "Chunker" to group all text between ID markers into single records.
+3. **The Brain:** Implement a cleaning pipeline that joins multi-line strings with a single space to maintain valid TSV formatting.
+
+**Technical Specifications:**
+* **Runtime:** Python 3.11+
+* **Core Libraries:** `docling` (for high-fidelity MD conversion), `pandas` (for schema enforcement), `pathlib`, `re`.
+* **Inputs:** `C:\vsWorkspace_SD\4 - builds\extract_pdf\20260312_Metric list DRAFT 151.pdf`
+* **Outputs:** `<root>\outputs\YYYYMMDD_iteration_NN.tsv`
+* **Schema (Lower Snake Case):** `id`, `metric_measure`, `bcg_refined_definition`, `refined_calculation`, `owner`, `bcg_sorting`.
+
+**Instructions:**
+1.  Structure the code into a `PDFProcessor` class.
+2.  Use `pathlib` for all file operations.
+3.  Implement a `check_schema()` method that enforces column order and naming.
+```
+
+
+
+---
 **CRITICAL**: Verify these points before generating or committing code.
+Every executable script (`.py`, `.ps1`) **MUST** generally strictly follow this template structure:
+
+```python
+"""
+[Script Name]: One-line summary.
+USAGE: python script.py --arg value
+OUTPUT: Generates 'file_clean.csv'
+"""
+
+print("[1/3] Init...") 
+# ... logic ...
+print("[3/3] Done. (0.4s)")
+```
 
 | Category       | ❌ Anti-Pattern (Reject)                             | ✅ Best Practice (Adopt)                                      |
 | :------------- | :-------------------------------------------------- | :----------------------------------------------------------- |
@@ -39,6 +172,123 @@ SAVEPOINT
 | **Legacy**     | `.append()` (Pandas)                                | **Modern**: `pd.concat([])`.                                 |
 | **IO**         | `df.to_csv(sep='\t')` to `.csv` file                | **Format Match**: Save tab-delimited as `.txt` or `.tsv`.    |
 | **Flow**       | `func()` return value ignored                       | **Capture**: `result = func()`.                              |
+
+
+
+# Previous Iterations
+
+```
+As a:: Data Architect and Full Stack Developer
+	I want:: to build a power shell script
+	so that:: I can efficiently extract obsidian keyword-definition sets out of markdown filename-content files.
+
+output-script: extract_obsidian_definitions.ps1
+
+input-parameters: 
+- in-filepath: `C:\obsidian\Artemis-Hub`
+- out-filepath: `C:\vsWorkspace_SD\2 - ps_dir_accelerators\ps-scripts\outputs`
+- output-filetype: `tsv`
+
+
+file-loop-selection:
+- select-only-files: matching `*.md`
+- filepath-or-file\recurse: `undefined → no → only top-level folder`
+- filepath-or-file\hidden: `undefined → no → skip hidden files and filepaths`
+
+
+standard-script-guidance:
+- add comment block at top of script: quickstart on `how-to-use`
+- sanitization: split into lines; trim leading/trailing spaces on each line; remove blank lines (lines that become empty after trim); join remaining lines with a single space or newline? use single space to keep single-line cells; final trim;
+- failure handling: if read/parse throws → skip row; if notes is empty after sanitization → skip row;
+
+
+---
+# TEST CASE 1
+input-test-case: 
+- in-filepath: `C:\obsidian\Artemis-Hub`
+- out-filepath: `C:\vsWorkspace_SD\2 - ps_dir_accelerators\ps-scripts\outputs`
+
+output-expected:
+- `file_name`::  `Entra ID (OIDC) via MSAL`
+- `notes`::  `Microsoft Entra ID provides OpenID Connect authentication. MSAL handles sign‑in, tokens, refresh, SSO, and calling Microsoft APIs securely from your app.`
+
+additional-validation-rules:
+- exceptions: remove yaml blocks defined as: 
+	- start delimiter line: 
+	- end delimiter line: 
+	- remove all such blocks (not just front matter), where delimiters must be on their own line
+```
+
+---
+
+# Example 2
+
+**Task:** Build a PowerShell `.ps1` script to extract a 2-column TSV (`file_name`, `notes`) from Markdown files in a specified folder.
+
+### Inputs
+
+*   `-RootPath` (mandatory): full folder path (example: `C:\obsidian\Artemis-Hub`)
+*   `-Recurse` (optional switch): subfolders = `do not include`
+*   `-OutFile` (optional): TSV output path; default to `<RootPath>\extracted_notes.tsv`
+
+### File selection
+
+*   Process only files matching `*.md`
+*   If `-Recurse` is set, scan recursively; otherwise only the top-level folder
+*   Skip hidden/system directories (optional but recommended)
+
+### Parsing / transformations per file
+
+1.  Read entire file as text.
+2.  Remove YAML blocks defined as:
+    *   Start delimiter line: `^\s*---\s*$`
+    *   End delimiter line: `^\s*---\s*$`
+    *   Remove **all** such blocks (not just front matter), where delimiters must be on their own line.
+3.  Convert remaining content to **plain text**:
+    *   Remove/convert Markdown syntax to readable text:
+        *   Strip emphasis markers (`*`, `_`), inline code backticks
+        *   Convert links `url` → `text`
+        *   Drop images `url` → `alt` (or empty if no alt)
+        *   Remove heading markers (`#`), blockquotes (`>`), list markers (`-`, `*`, `1.`) while keeping text
+        *   Remove horizontal rules that are delimiter lines already handled
+4.  Sanitize notes:
+    *   Split into lines
+    *   Trim leading/trailing spaces on each line
+    *   Remove blank lines (lines that become empty after trim)
+    *   Join remaining lines with a single space **or** newline? **Use single space** to keep TSV single-line cells.
+    *   Final trim
+5.  Set:
+    *   `file_name` = file name without extension
+    *   `notes` = sanitized plain text
+6.  Failure rules:
+    *   If read/parse throws, skip row
+    *   If `notes` is empty after sanitization, skip row
+
+### Output (TSV)
+
+*   Write header row: `file_name<TAB>notes`
+*   Each subsequent row is tab-delimited
+*   Escape tabs/newlines in fields by replacing:
+    *   `\t` → single space
+    *   `\r\n`, `\n`, `\r` → single space (after line-join this should already be satisfied)
+*   Use UTF-8 encoding
+
+### Validation case (must pass)
+
+Folder: `C:\obsidian\Artemis-Hub`  
+File: `Entra ID (OIDC) via MSAL.md`  
+Expected TSV row:
+
+*   `file_name`: `Entra ID (OIDC) via MSAL`
+*   `notes`: `Microsoft Entra ID provides OpenID Connect authentication. MSAL handles sign‑in, tokens, refresh, SSO, and calling Microsoft APIs securely from your app.`
+
+
+---
+
+SAVEPOINT
+- update prompt so that we include change log + when new imports detected, update the project map
+- DAX = minimal footprint
+
 
 
 # Testing-Artifcats
@@ -73,7 +323,8 @@ USAGE:
 """
 ```
 
-**Example for PowerShell:**
+**Example for PowerShell:
+**
 ```powershell
 <#
 .SYNOPSIS
