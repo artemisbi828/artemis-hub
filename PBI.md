@@ -11,6 +11,9 @@ Related To: [[DAX]], [[DAXM]], [[DAXQ]], [[TMDL]]
 [[DAX- Refresh Box]]
 [[DAX - Same Store Sales (SSS)]]
 [[DAX - Work Day Equivalent (WDE)]]
+
+# Access
+[[PBI - Semantic Model Access]]
 # INIT 
 [[DAX - New Builds]]
 [[DAX - Checkbox]]

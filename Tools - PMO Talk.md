@@ -4,11 +4,6 @@ ADO STRUCTURE
 - 1.1.1.1 - Story: 1/2 month
 - Task: 2-3 days
 
-AUDIENCE
-- Data Architect
-- Data Product Owner {Steward, }
-- Data Consumer
-
 STANDUP
 - *Round-robin* 
 - What did you complete yesterday?
@@ -132,3 +127,22 @@ Ask yourself:
 Given what you’ve described in past conversations—interrupt-driven work, shifting priorities, and lack of protected sprint scope—your team likely _says_ Scrum but _operates_ as a hybrid of **Kanban + Ad Hoc**, with occasional Waterfall tendencies when leadership wants “full requirements.”
 
 If you want, I can help you map your actual workflow to these models and show where the friction comes from.
+
+# PMO AUDIENCE AND ROLES 
+As a ...
+## Data Engineering
+Data Movement; Robust Frameworks
+Applications; High-Volumne
+
+## Data Analyst
+Pre-Conformed Data; Mining for Insights
+Interpreting Data into 
+
+## DATA SCIENTIST
+Experimentation on Causality (Regressions)
+Correct Heuristics on Correlations
+Impact Analysis: Initiative + AB Testing (Before or After Snapshots)
+
+- Data Architect
+- Data Product Owner {Steward, }
+- Data Consumer

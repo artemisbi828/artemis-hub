@@ -16,6 +16,8 @@ zero copy clone
 5. merge --> coalesce with his
 6. creep of the calculations
 7. per visualization, ada compliant color blindness
+8. | trade-offs | split testing | option B we forego x |
+9. yeah ... I was just about to chime-up
 
 
 2026-03-16 10:49 AM - BCG + Project Ascend

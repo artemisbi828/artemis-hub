@@ -1,21 +1,24 @@
 # People-Ware
 [[Tools - Summary Talk]]
-[[Tools - Gap Analysis Quadrant]]
-[[Tools - Production XLS Template]]
 [[Tools - Data Talk]]
 [[Tools - Data Architect Talk]]
 [[Tools - Business Architect Talk]]
+- [[Tools - Sales & Marketing Stages]]
+- [[Tools - Finance Talk]]
+- [[Tools - Statistics Talk]]
+
+[[Tools - PMO Talk]]
 [[Tools - Team Work Talk]]
-[[Tools - Finance Talk]]
-[[Tools - Statistics Talk]]
-[[Tools - Email]]
-[[Tools - Marketing Assessment]]
+
 [[Tools - Resume Talk]]
 [[Tools - Interview Talk (To Ask)]]
 
+
+### Writing
+[[Tools - Email]]
+[[Tools - Documentation]]
 # Design + Planning
 [[Tools - AI Prompt - Refine Prompt]]
-[[Tools - AI Prompt - Refine Communication or Documentation]]
 [[Tools - AI Prompt - General]]
 [[Tools - AI Prompt - Scripts]]
 [[Tools - AI Prompt - UX]]

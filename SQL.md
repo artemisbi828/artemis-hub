@@ -37,7 +37,7 @@
 [[SQL - Date Explosion for Facts]]
 # Math & Other
 [[SQL - Rolling Total]]
-[[SQL - Round Down (Floor)]]
+[[SQL - Rounding]]
 [[SQL - Normalize Precision 0.67 → 0.667]]
 [[SQL - Get Mode (Math)]]
 [[SQL - Resort Table]]

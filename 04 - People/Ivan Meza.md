@@ -1,4 +1,4 @@
-﻿---
+---
 type: people
 email:
   - ivan@group868inc.com
