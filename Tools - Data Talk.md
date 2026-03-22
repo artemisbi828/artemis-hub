@@ -4,6 +4,8 @@ Lookup: [[Concepts#Words]]
 - common library; standard library; 
 - layer transformation boilerplate & guidance
 
+- suboptimal, non-optimal
+
 platform as a server vs an individual server and machine 
 just to clarify-language
 zero copy clone
