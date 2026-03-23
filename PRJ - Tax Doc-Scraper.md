@@ -1,18 +1,24 @@
 child of [[Doc-scraper]]
 
+Form 1099-DIV -- Dividends are your share of a company's profits
+Form 1099-B -- sell any stocks, bonds, mutual fund shares, or other investments? We're looking for gains or losses from selling these things
+
 
 | **Form Type** | **Priority** | **Complexity** | **Key Challenge**                                                    |
 | ------------- | ------------ | -------------- | -------------------------------------------------------------------- |
 | **W-2**       | High         | Low            | Layout variations; OCR must detect "Box 1" regardless of position.   |
+| **1040**      | High         | Low            | US Individual Income Tax Return                                      |
+| **8889**      | Med          | Low            | Health Savings Accounts (HSAs)                                       |
 | **1099-NEC**  | High         | Low            | Differentiating between Payer and Recipient TINs.                    |
 | **1099-B**    | Med          | High           | Identifying row delimiters in multi-page brokerage statements.       |
 | **1099-R**    | Med          | Med            | Correctly reading the "Distribution Code" (often alphanumeric).      |
 | **K-1**       | Low          | High           | Dynamic rows in Part III; text descriptions often accompany numbers. |
 
 # Other Forms
-| **Form Type** | **Priority** | **Complexity** | **Key Challenge**                                 |
-| ------------- | ------------ | -------------- | ------------------------------------------------- |
-| **720**       | Low          |                | Excise Tax: air transportation, tires, gas        |
+| **Form Type** | **Priority** | **Complexity** | **Key Challenge**                                                                                                                                                             |
+| ------------- | ------------ | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **720**       | Low          |                | Excise Tax: air transportation, tires, gas                                                                                                                                    |
+| **1095-A**    | Low          | Low            | It's an important tax form that you'll need if you or a dependent on your tax return got health insurance through the Health Insurance Marketplace (like healthcare.gov).<br> |
 
 Source: Excise Tax for Form 720: Stripe Atlas attempt.
 

@@ -1,3 +1,9 @@
+
+[[Household - Finances]]
+[[Household - Driver's License]]
+[[Household - Taxes]]
+[[Household - Credit Score]]
+
 [[Household - RX]]
 [[Household - Health]]
 [[Household - History]]
@@ -8,4 +14,3 @@
 [[Household - Books]]
 [[Household - Movies]]
 [[Household - Plants]]
-[[Household - Credit Score]]
