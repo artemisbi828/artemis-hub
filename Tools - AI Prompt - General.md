@@ -1,3 +1,9 @@
+Perfect — here is a **concise, readable, and atomic plan** focused strictly on **what to add / adjust** in `concept_register` and `metric`, in **Markdown-first form**, with **explicit decisions called out only where required**.
+
+No prose bloat. No theory recap. Just clean structure.
+
+---
+
 Create a reusable idempotent prompt with high-fidelity reruns:
 I want to see recursive traversal, hierarchal recursion
 Last conceptual fork before execution and delivery of target-output

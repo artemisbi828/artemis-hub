@@ -1,16 +1,54 @@
 **Concise High‑Fidelity Prompt**
 - disambiguous → deterministic
 
-1. put high level instructions and prompt for tech stack, description and tradeoffs
-2. generate standard files and folders
+
+# Standardize Project Folder
+1. generate standard files and folders
+	- `<root>\ingredients.txt`
+	- `<root>\changelog.txt`
+	- `<root>\test-scripts`
+	- `<root>\inputs
+	- `<root>\outputs
+	- `<root>\documentation
+2. if not exists, create readme.txt that outlines:
+	- quickstart: how to use or call the script (including init of venv if necessary, skip if basic py script)
+	- expected mutation from input → output
+	- ingredients ascii tree for learning
+3. if not exists, generate changelog.txt to outline:
+	- changes we implemented in this session
+	- separate and log test-scripts into the test-scripts sub-dir
+4. run the script and create an output in the standard fileformat so I can verify the output
+```
+out-filepath-name:
+- format: YYYYMMDD_iteration_NN.tsv
+- YYYYMMDD = execution date (local system date at script start)
+- NN = zero-padded, monotonically increasing run index for that date,
+       auto-incremented based on existing files in the output directory
+```
+
+
+2026-03-23 09:26 PM
+```
+I found the workspace is minimal, so I’m going to make one structural improvement first: add a reusable pure-Python entry point in the formatter so it can be executed outside Sublime, then scaffold the standard folders/files around it.
+
+I’m implementing schema inference exactly as you described: infer each column datatype from the best representative row (first row with zero nulls, else row with fewest nulls), then format every row using that inferred type map with null fill/padding.
+
+I’ll make two concrete updates now: switch schema inference to start from row 2 (when present) so headers don’t drive type/width inference, and update the test output filename logic to the new from_input pattern; then I’ll run both back-tests and log everything in changelog.
+```
+
+--- 
+
+6. put high level instructions and prompt for tech stack, description and tradeoffs
+7. generate standard files and folders
 	- `<root>\ingredients.txt`
 	- `<root>\changelog.txt`
 	- `<root>\test-scripts`
 	- `<root>\outputs
-3. dev-iteratively
+	- `<root>\documentation
+8. dev-iteratively
 	- small sample from population
 	- edge cases noted
-4. pause project and wait for next use-case
+9. pause project and wait for next use-case
 	- decide if next use-case uses same script or new script (usually new script)
 
 

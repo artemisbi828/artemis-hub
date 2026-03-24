@@ -44,9 +44,3 @@ They favor:
 
 *   **Heuristic:** *Rule of thumb used when precision isn’t feasible.*
 *   **Canonical:** *The authoritative, standard version.*
-
-If you want, I can:
-
-*   Rewrite these for **executive docs**
-*   Provide **SQL / BI‑specific examples**
-*   Help decide when something should be *heuristic vs canonical* in a data model

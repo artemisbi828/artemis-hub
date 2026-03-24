@@ -1,6 +1,8 @@
-Works for sublime
+**legacy ANSI box‑drawing set**
 
-legacy ANSI box‑drawing set
+└─ Alt+192, Alt+196
+├─ Alt+195, Alt+196
+
 	Alt+195 (├) and Alt+196 (─), ├─
 	Alt+192 (├) and Alt+196 (─), └─
 
