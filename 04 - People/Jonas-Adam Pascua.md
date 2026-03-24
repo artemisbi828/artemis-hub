@@ -1,4 +1,4 @@
-﻿---
+---
 type: people
 email:
   - jpascua@gmail.com
