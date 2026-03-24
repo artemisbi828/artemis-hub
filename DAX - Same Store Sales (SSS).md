@@ -8,12 +8,14 @@ aliases:
 > 	-- If 1 location started in 2025+FEB (11 months of data, instead of 12) 
 > 	-- exclude from dataset b/c unfair comparison
 
+# Create SSS
+### 1. Create Measure
 ```
 SSS Filter = 
 VAR MaxMonthDate =
     CALCULATE ( MAX ( D_Dates[DateKey] ), ALLSELECTED ( D_Dates ) )  -- already a Date
 VAR IsSSS =
-    SELECTEDVALUE ( SSS_Toggle[SSS_Toggle], "View All") = "Same Store"
+    SELECTEDVALUE ( Toggles[Toggle], "View All") = "Same Store"
 VAR SameStoreCutoff =
     IF ( IsSSS, EDATE ( MaxMonthDate, -12 ), BLANK() )
 VAR DashboardStartDate = SELECTEDVALUE ( D_Locations[DashboardStartDate] )
@@ -26,6 +28,12 @@ IF (
 )
 ```
 
+### 2. Create Calculation Group
+```
+SSS = CALCULATE(SELECTEDMEASURE(), KEEPFILTERS(FILTER(D_Locations, [SSS Filter] = 1)))
+```
+
+### 3. Apply Filter to All Pages
 
 1. create the measure: dynamic date
 2. create the measure: {1,0}
