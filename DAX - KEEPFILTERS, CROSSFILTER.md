@@ -1,3 +1,46 @@
+### `KEEPFILTERS`
+
+**Input forms**
+
+```DAX
+KEEPFILTERS( TableExpression )
+KEEPFILTERS( BooleanExpressionReferencingOneColumn )
+```
+
+**What it does (plain English)**
+
+*   Forces filters you pass to **intersect with** existing filters, instead of replacing them.
+*   Think “tighten” rather than “override”.
+
+**Most common use**
+
+```DAX
+CALCULATE (
+  [Measure],
+  KEEPFILTERS( D_Dates[DayOfMonth] <= 15 )
+)
+```
+
+**When to use**
+
+*   You’re adding a filter inside `CALCULATE` and you want to guarantee you’re not broadening or overriding existing user selections.
+*   Especially useful when using `ALL()` / `REMOVEFILTERS()` elsewhere and you want to re-apply a “narrowing” constraint.
+
+**Gotchas (the one you hit)**
+
+*   `KEEPFILTERS()` must be a **top-level filter argument** of `CALCULATE` / `CALCULATETABLE`.  
+    ✅ Valid:
+    ```DAX
+    CALCULATE( [M], KEEPFILTERS( D[Col] = 1 ) )
+    ```
+    ❌ Invalid:
+    ```DAX
+    CALCULATE( [M], IF( cond, KEEPFILTERS(...), TRUE() ) )
+    ```
+*   If you need conditional behavior, branch at a higher level (two `CALCULATE` calls) or avoid `KEEPFILTERS` and use a conditional boolean filter.
+
+---
+
 #status/deferred/quick-paste-merge-later → research this more
 
 use `KEEPFILTERS` and `CROSSFILTER` to force the logic to move in only one direction.

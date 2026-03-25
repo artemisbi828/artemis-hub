@@ -36,6 +36,7 @@
 [[SQL - DateTime Format]]
 [[SQL - Date Explosion for Facts]]
 # Math & Other
+[[SQL - SubTotals - XLS Friendly]]
 [[SQL - Rolling Total]]
 [[SQL - Rounding]]
 [[SQL - Normalize Precision 0.67 → 0.667]]

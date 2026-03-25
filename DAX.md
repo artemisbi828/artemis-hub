@@ -19,11 +19,15 @@ Related to: [[DAXM]], [[PBI]], [[DAXQ]], [[TMDL]]
 
 # CREATE TABLES
 [[DAX - Create Tables]]
+[[DAX - CALCULATETABLE]]
+[[DAX - CALCULATE]]
 # NEW Techniques
+[[DAX - New Learning]]
 [[DAX - TREATAS]]
 [[DAX - ISINSCOPE, SELECTEDVALUE - Exclude Category or Dim]]
 [[DAX - Calculation Groups]]
 [[DAX - Calculation Groups - Shield]]
+[[DAX - REMOVEFILTERS]]
 [[DAX - KEEPFILTERS, CROSSFILTER]]
 [[DAX - Create DAX Format for Obsidian]]
 
