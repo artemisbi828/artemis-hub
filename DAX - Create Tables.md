@@ -34,3 +34,6 @@ DATATABLE(
 )
 
 ```
+
+# After Copy
+Fix visual by redoing filter

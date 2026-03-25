@@ -30,6 +30,12 @@ values
 );
 ```
 
+
+|           |                |
+| --------- | -------------- |
+| hyperlink | NVARCHAR(2048) |
+
+
 # Expanded
 ```sql
 declare @loaddatetimeutc datetime2 = sysutcdatetime();

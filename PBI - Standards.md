@@ -1,3 +1,10 @@
+1. Create SQL VWs + cte_dim_cross_join (ensure clean dimensions)
+2. Create Table → `_M_Report`, Delete Cell → Add Measures
+3. Standardize Formatting: Model View → Folder 
+	1. Whole Number, Thousands Separator
+4. Create SSS Calculation Group
+
+
 
 Font: [Segoe UI, Size: 10]
 

@@ -9,7 +9,7 @@ File Check Default Save
 Workspace: ensure all business users are in ADGroup --> `POWER BI QA`
 Audience Group: AD Group
 ## Dataset Layer
-[[Row Level Security]]
+[Row Level Security]
 5. Datasource Gateways | VNET
 6. Different Dataset: Security → 
 ```
