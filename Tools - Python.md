@@ -12,10 +12,12 @@ This is a multi-line block
 """
 ```
 
-[[PYT - Data Types]]
+[[Python - Multi-Line Block]]
 [[Python - Data Structures]]
-[[PYT - Try, If, Except]]
-[[PYT - VENV]]
+[[Python - Try, If, Except]]
+[[Python - VENV]]
+
+
 
 
 #status/deferred/quick-paste-merge-later 

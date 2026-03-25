@@ -32,6 +32,7 @@ Clamwin --> Tower Anti-Virus
 
 
 # Cash Projects
+[[Resume - Job Hunt]]
 $500 watch -- run w music no watch. 
   ai learning. quizzing. 
   txt reply. call. 

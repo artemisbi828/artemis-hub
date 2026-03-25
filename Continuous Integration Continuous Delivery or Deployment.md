@@ -3,7 +3,7 @@ aliases:
   - CI/CD
 definition: It's a set of practices used in modern software development to automate and streamline how code gets built, tested, and released.
 related_to:
-  - "[[Git]]"
+  - "[[GIT]]"
 ---
 🚧 CI — Continuous Integration
 Goal: Automatically build and test code every time someone pushes changes to a shared Git repository.

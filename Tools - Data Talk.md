@@ -211,4 +211,8 @@ DATASPECIFIC
 
 
 
+ETL:: Extract, Transform, Load -- transform using staging server before loading
+- better data privacy, lower storage costs
+ELT:: Extract, Load, Transform -- cloud 
+- faster ingestion, high scalability, supports unstructured data, retains raw data for future needs
 

@@ -1,4 +1,4 @@
-﻿---
+---
 type: people
 email:
   - rgude54@gmail.com
@@ -39,3 +39,11 @@ M Singer -- Astonded by the flow of life's events
 
 Steve + Mona
 3111 40th Pl, Des Moines, IA 50310
+
+Before I take you to the garden and violate your honor
+Licentious. Profligate.
+Paramour. Inamorata. 
+
+Fallopia.  Town I created as a child.
+Duluxe
+TeeRific Typwriters

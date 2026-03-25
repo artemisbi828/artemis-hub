@@ -32,7 +32,7 @@
 - [[Tools - Sublime]]
 - [[Tools - VS Code]]
 [[Tools - Chrome]]
-[[Git]]
+[[GIT]]
 [[Tools - Powershell]]
 [[Tools - Python]]
 [[Tools - AutoHotKey]]

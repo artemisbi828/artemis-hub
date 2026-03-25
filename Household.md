@@ -7,6 +7,7 @@
 [[Household - RX]]
 [[Household - Health]]
 [[Household - History]]
+[[Household - Fashion]]
 
 [[Household - Knots - Earphones]]
 [[Household - Knots - Backpack]]

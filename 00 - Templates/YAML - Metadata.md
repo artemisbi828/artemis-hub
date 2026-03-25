@@ -4,19 +4,6 @@
 [[Lake.sd.WorkAssignments]] via 'EmployeeCode = EmployeeCode'
 
 
-# In Dev
-dependencies:
-impacts:
-- Measure1
-- Measure2
-row_count: 2500000
-last_refreshed: 2026-01-05
-owner_technical:
-owner_semantic:
-related_concepts:
-tags:
-
-
 # Templater Plugin
 ---
 entity_name: <% tp.file.title.split('.').pop() %>

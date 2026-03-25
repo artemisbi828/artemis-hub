@@ -10,12 +10,16 @@ related_to:
 [[GIT - Amend]]
 [[GIT - Fix Local Branch A vs Prod]]
 [[GIT - Head]]
-[[FIT - switch vs checkout]]
+[[GIT - switch vs checkout]]
 [[GIT - Targeted Sync and Overwrite]]
+
+[[GIT - Installing]]
+
 # Error Handling
 [[GIT - Error Handling - Stuck in VS Termainl]]
 [[GIT - Error Handling - Remote Not Found]]
 [[GIT - Error Handling - Table Compatibility Issue]]
+
 
 
 # Basics

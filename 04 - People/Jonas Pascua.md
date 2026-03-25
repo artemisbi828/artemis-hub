@@ -2,12 +2,13 @@
 type: people
 email:
   - jpascua@gmail.com
-  - jonas.pascua@artemis-bi.com
-job_title: Executive Director
-parent:
-phone:
-date_of_birth:
+  - jonas.pascua@artemisbi.com
+phone: +1 248-457-5312
+date_of_birth: 1997-05-12
 ---
+[[Household - History]]
+[[Resume - Job Hunt]]
+Hilton Honors -- 1055768483
 
 Vision
 > [!info]
@@ -21,40 +22,64 @@ Vision
 > - Exposed loyalty and order data in cloud environment advancing ML/AI analytics
 > - Implemented both batch and real time data integrations
 > 
-> Data Architecture - Data Analysis - Data Modeling - Team Managgement - Databases - Data Engineering
+> Data Architecture - Data Analysis - Data Modeling - Team Management - Databases - Data Engineering
 
 ---
-# Resume
+# Summary
 
-# JONAS PASCUA
+**Short Tag:** 
+I speak Tech & Exec. Data Engineer (Python, SQL, Azure, Fabric) with an FP&A pedigree. 
+
+**Medium Tag:**
+I'm a Data Engineer (Python, SQL, Azure, Pyspark) with an FP&A pedigree. I enjoy architecting and optimizing ETL/ELT data pipelines and have a Snowflake / Microsoft Tech Stack. Working remote is a must and although my focus is contract or part-time work for now I am open to a compelling fulltime offer.
+
+**Long Tag (Linked In):**
+Most technical problems are actually communication problems in disguise. My approach is simple: disentangle the semantic drift and ambiguity by architecting clean ontological data structures and ETL pipelines to help get us from the current to the ideal state rapidly with the shortest time to value. Then working iteratively to refine and improve while balancing the focus on the bottm-line.
+
+As a Data Engineer (Python, SQL, Azure) with an FP&A pedigree, I specialize in:
+
+- Bottom Line -- Follow the money and show actionable data with trendlines and forecasts operators need to move the needle.
+- Lean Engineering -- Building fast, accurate, and scalable apps that solve real-world bottlenecks.
+- Executive Alignment -- Speaking the language of both the codebase and the boardroom.
+
+Let’s connect if you’re looking to tackle complex problems with creative, data-driven solutions. Always open to a chat, a coffee, or a trail run.
+
+
+
+# Resume
+- artemisbi.com
+- wellfound
+- linkedin
+- robert-half
+
+## JONAS PASCUA
 **BI Developer & Data Engineer**
 (248) 457-5312 | [jpascua@gmail.com](mailto:jpascua@gmail.com) | Asheville, NC
 [LinkedIn](https://linkedin.com/in/jonaspascua)
 
 ---
-
 ## Core Competencies
 
-| Data Engineering | BI & Analytics | Databases |
-| :--- | :--- | :--- |
+| Data Engineering           | BI & Analytics      | Databases                    |
+| :------------------------- | :------------------ | :--------------------------- |
 | Azure Data Factory, Fabric | Power BI (DAX, RLS) | SQL Server (T-SQL), PostGres |
-| PySpark, Python | Paginated Reports | Snowflake, IBM DB2 |
-| Azure DevOps, Git | Financial Modeling | Redgate Toolbelt |
+| PySpark, Python            | Paginated Reports   | Snowflake, IBM DB2           |
+| Azure DevOps, Git          | Financial Modeling  | Redgate Toolbelt             |
 
 ---
 
 ## Professional Experience
 
 ### SMILE DOCTORS | Austin, TX
-*Business Intelligence Developer | Oct 2021 â€“ Present*
+*Data Engineer, BI Developer | Oct 2021 â€“ Present*
 
-* **Led Power BI Deployment:** Orchestrated dashboards for 550+ locations, influencing KPI benchmarks for 5000+ employees and maximizing data quality for executive-level actionable insights.
+* **Led Pipeline & Dashboard Deployment:** Orchestrated Azure & Fabric ETL pipelines for a $85M/month Orthodontic Support Organization (OSO) with 550+ locations growing at 130% per annum. Guiding KPI benchmarks for 5000+ employees and maximizing data quality for executive-level actionable insights.
 
-* **Engineered Fabric Pipelines:** Built automated API pipelines via **PySpark** for Equifax credit scoring.
+* **Engineered Fabric Pipelines:** Built automated API pipelines via **PySpark** for Equifax credit scoring model.
 
 * **AI Readiness:** Documented metadata architecture for **AI Model Context Protocol (MCP)** for Co-Pilot integration.
 
-* Oversight on 5 capital expenditure (CAPEX) projects via Azure Devops, including consolidation of multiple Patient Management Systems (Cloud9, OrthoFi) into a unified data lake with row level security to comply with HIPPAA audit requirements.
+* Oversight on 5 capital expenditure (CAPEX) projects via Azure Devops, including consolidation of multiple Patient Management Systems (Cloud9, OrthoFi) into a unified data lake with row-level-security in compliance with HIPPAA audit requirements.
 
 * Specialized in high-availability SQL Server environments (DEV/TEST/PROD) using Redgate (SQL Compare, Test, Source Control) for seamless deployments and zero-downtime database maintenance; responsible for replication debugging, indexing, query tuning and load balancing.
 
@@ -85,15 +110,13 @@ Vision
 ### TITAN INTERNATIONAL, INC | Des Moines, IA
 *Business Analyst | Sept 2017 â€“ Dec 2019*
 
-- Reduced legacy processing time by 85% for month-end close tasks (journal entries, reconciliation, accruals) by applying custom Excel MACROs.
+- **Excel Macro Automation:** Reduced legacy processing time by 85% for month-end close tasks (journal entries, reconciliation, accruals).
    
 - Led the initiative to digitize AP workflow ($400M annual disbursements) in preparation for an ORACLE ERP transition, utilizing linear regression and Kaizen to reduce aging unvouchered receipts by 70%.
    
 - Reallocated 83% of AP clerk workflow by reverse engineering IBM AS400 queries to automate the 3-Point Match process for intercompany invoicing.
 
 - Developed real-time Power BI dashboards from a cloned ERP sister database (3NF/ODBC), bridging an information gap between Accounting, Receiving, and Purchasing; efforts led to a promotion and expanded territory oversight.
-
-* **Excel Macro Automation:** Reduced legacy processing time by 85% for month-end close tasks.
 
 ---
 

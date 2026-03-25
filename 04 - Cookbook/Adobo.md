@@ -15,3 +15,4 @@ add vinegar, 20% of top
 simmer and reduce uncovered 7-10 minutes
 
 taste -- add rice wine : stock: sugar as necessary
+
