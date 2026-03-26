@@ -33,12 +33,18 @@ Meanings shift over time while labels remain stable.
 Meaning is lost because the words got shorter, not because people disagree.
 
 Core characteristic
-
-The speaker believes the meaning is still intact
-The listener fills in missing parts themselves
-Different listeners fill in different gaps
+- The speaker believes the meaning is still intact
+- The listener fills in missing parts themselves
+- Different listeners fill in different gaps
 
 Institutionalized Ellipsis: The organization relies on shared shorthand instead of shared definitions.
+
+It is **not** laziness. It is unacknowledged omission.
+- the author assumes shared context,
+- the author is optimizing for brevity,
+- or the author no longer remembers which details were critical.
+
+It is a documentation failure not a moral failure.
 
 ## Example: Exam Outcome
 
@@ -81,7 +87,6 @@ The ellipsis hid time window + locking semantics, so people tried to encode mean
 > Meaning shifts because **the center of gravity moves**, not because words are missing.
 
 ### Core characteristic
-
 - The word remains complete
 - The **reference frame changes** (time, purpose, user)
 - Each perspective is internally coherent

@@ -1,5 +1,6 @@
 # People-Ware
 [[Tools - Summary Talk]]
+[[Tools - Ontology Talk]]
 [[Tools - Data Talk]]
 [[Tools - Data Architect Talk]]
 [[Tools - Business Architect Talk]]
@@ -12,7 +13,6 @@
 
 [[Tools - Resume Talk]]
 [[Tools - Interview Talk (To Ask)]]
-
 
 ### Writing
 [[Tools - Email]]

@@ -122,5 +122,6 @@
 [[SQL - MSSQL to Snowflake Syntax]]
 [[SQL - Snowflake - Permissions]]
 # Debug
+[[SQL - SQL Server Versions]]
 [[SQL - Results to Text Truncated Issue]]
 [[SQL - Fabric Collation Error]]

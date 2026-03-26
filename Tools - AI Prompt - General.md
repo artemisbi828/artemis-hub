@@ -1,8 +1,12 @@
+
+
 **high-fidelity request template**; include a section with **learning-oriented comments**. 
 
 Perfect — here is a **concise, readable, and atomic plan** focused strictly on **what to add / adjust** in `concept_register` and `metric`, in **Markdown-first form**, with **explicit decisions called out only where required**.
 
 No prose bloat. No theory recap. Just clean structure.
+
+**tightened, executive‑ready rewrite** 
 
 ---
 

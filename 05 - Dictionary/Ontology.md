@@ -1,5 +1,98 @@
+    author: Jonas Pascua
+    created: 2026-03-25 03:54 PM
+    modified: 2026-03-25 03:54 PM
+
+ 
+
+Framing the Problem: Why Our Metrics Feel Less Stable Than Our Data
+-------------------------------------------------------------------
+
+As a company growing at ~30% year over year, our greatest constraint is no longer data availability—it is **semantic stability**.
+We have invested heavily in data precision, pipelines, and platforms. Yet our reporting and governance practices have not matured at the same pace. 
+
+This has created a **metric maturity gap**: the organization increasingly relies on numbers whose meanings are assumed rather than explicitly defined, stable, and shared.
+The result is not bad data—but **fragile meaning**.
+At the root of this problem is a reinforcing sequence:
+
+> **Heuristics → Ellipsis → Perspective Drift**
+
+Each step is rational on its own. Together, they quietly erode trust, consistency, and scalability.
+
+* * *
+
+Heuristics: Speed Wins—Until It Doesn’t
+---------------------------------------
+
+**Heuristics** are practical rules of thumb—experience‑based shortcuts used when exact methods are impractical, unknown, or too costly.
+They favor:
+*   speed over precision
+*   “good enough” over optimal
+*   judgment over formal proof
+**Key idea:** heuristics are helpful, but **they are not guarantees**.
+In a fast‑moving organization, heuristics are essential. But as the organization scales, heuristics begin to hard‑code assumptions that no longer hold uniformly across teams, time horizons, or systems.
+
+* * *
+
+Ellipsis: Meaning Lost Through Compression
+------------------------------------------
+
+As heuristics spread, **ellipsis** follows.
+**Ellipsis** is the silent compression of meaning—when critical qualifiers are omitted, assumed, or dropped without being named. Words remain, but parts of their meaning disappear.
+What happens:
+*   The author assumes shared context
+*   The listener fills in the gaps
+*   Different listeners fill in _different_ gaps
+This is **not laziness**.  
+It is **unacknowledged omission**.
+Ellipsis is a _documentation failure_, not a moral one. But it is dangerous because it creates the illusion of agreement where none exists.
+
+* * *
+
+Perspective Drift: When Everyone Is Right—and Still Misaligned
+--------------------------------------------------------------
+
+Once ellipsis takes hold, **perspective drift** becomes inevitable.
+**Perspective drift** occurs when different groups anchor the _same term_ to _different reference frames_, while still believing they are talking about the same thing.
+Here’s the critical distinction:
+*   The word is complete
+*   But the **frame of reference shifts** (time, purpose, user)
+*   Each perspective is internally coherent
+
+### Example: “Appointment” — One Word, Three Anchors
+
+*   **Scheduling:** a future time slot
+*   **Operations:** utilization and capacity
+*   **Analytics:** a historical event
+
+All are valid. All use the same word.
+Now add reality:
+*   Ops introduces `is_historical`
+*   Scheduling already thinks in future/past terms
+*   Analytics needs immutability
+*   The PMS allows retroactive edits
+The result:
+*   “Appointment” starts to feel unstable
+*   Teams attempt to “clean” it by cloning concepts
+*   Outcomes get attached directly to mutable entities
+
+📌 **Perspective drift makes stable entities feel unreliable, which tempts teams to create simplified versions instead of modeling constraints explicitly.**
+
+* * *
+
+Why This Matters Now
+--------------------
+
+This pattern scales quietly—until it doesn’t.
+As we grow:
+*   Metrics diverge without anyone intending them to
+*   Definitions require tribal knowledge to interpret
+*   Trust shifts from systems to individuals
+The organization becomes fast, but brittle.
+
+---
+
+
 [[Taxonomy]] organizes meaning; ontology asserts reality; derivation interprets facts.
-[[Ontology Blur]]: shortcomings
 
 ontological								
 ├─ entity								# employees, vendors, patient
@@ -36,11 +129,6 @@ referral-group is a taxonomy (or taxonomy-group) → higher-level controlled voc
 - organizational semantic grouping for governance, reporting, and navigation
 - referral-type is taxonomy that contains the leaf value
 
-Your notes are now consistent with:
-- accounting‑grade event modeling
-- ontology discipline
-- analytics safety
-- future auditability
 
 
 ---

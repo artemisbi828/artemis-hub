@@ -3,7 +3,7 @@ Lookup: [[Concepts#Words]]
 - linting standards
 - common library; standard library; 
 - layer transformation boilerplate & guidance
-
+- synthesize the ideas
 - suboptimal, non-optimal
 
 platform as a server vs an individual server and machine 
