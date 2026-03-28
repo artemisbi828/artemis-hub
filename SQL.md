@@ -51,6 +51,7 @@
 [[SQL - Personal Improvements]]
 
 # Techniques
+[[SQL - Batch Process 5 Minutes]]
 [[SQL - Data Precedent Check]]
 [[SQL - Data Dictionary w Power BI Formatting Preserved]]
 [[SQL - RowNumber() - See Top 3 Changes in AuditHistory]]
@@ -74,6 +75,7 @@
 [[SQL - Clear Buffers]]
 [[SQL - Bulk Insert]]
 [[SQL - Where 1=2]]
+[[SQL - Where @Is - Parameter Flag]]
 # Get Objects
 [[SQL - Get Tables]]
 [[SQL - Get Tables and Columns]]

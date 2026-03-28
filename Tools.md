@@ -58,7 +58,7 @@
 ## Front-End
 [[Tools - React App]]: Front of the house environment
 Javascript / Typescript
-
+[[Tools - DEVOPS Wiki]]
 [[Tools - Fast API Server]]
 [[Flask]]
 [[Clipboard API (Uppy)]]
