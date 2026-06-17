@@ -2,99 +2,61 @@
 related_to:
   - "[[Continuous Integration Continuous Delivery or Deployment|CI/CD]]"
 ---
+# Current Commands
+
+```
+# most common
+git checkout <br-name>
+git pull
+<make changes>
+git add .
+git commit -m "removed comments"
+
+git status
+git remote --v
+git branch -r
+
+# discard changes
+git reset --hard                        
+```
+
+# Git Setup + Basics
+[[GIT - status]]
+[[GIT - init or clone]]
+[[Git - Discard Changes]]
+[[GIT - checkout vs switch]]
+[[GIT - commit msg - amend]]
+[[GIT - Stage + Commit]]
+[[GIT - Amend Commit]]
+
+
+[[GIT - Origin vs Main vs Master]]
+[[GIT - Get Origin URL + Branches]]
+[[GIT - Pull + Merge]]
+[[GIT - Oops - Reset + Merge Branch]]
+[[GIT - Add New Column + Merge + Targeted Sync]]
+
 [[GIT - Find File]]
 [[GIT - Check Config Globals]]
-[[GIT - Init]]
 [[GIT - Rename master → main]]
 [[GIT - Squash]]
 [[GIT - Amend]]
 [[GIT - Fix Local Branch A vs Prod]]
 [[GIT - Head]]
-[[GIT - switch vs checkout]]
 [[GIT - Targeted Sync and Overwrite]]
 
-[[GIT - Installing]]
-
+Look for .msi → windows 
+[[GPG - Commit Signing - Setup Guide]]
 # Error Handling
 [[GIT - Error Handling - Stuck in VS Termainl]]
 [[GIT - Error Handling - Remote Not Found]]
 [[GIT - Error Handling - Table Compatibility Issue]]
 
+# Advanced
+[[Git - GitHub Actions]]
 
 
-# Basics
-1. Untracked Files: New from local (red)
-2. Staged: Ready for snapshot --> Insert
-3. Tracked: Previously committed or staged 
-	- Unmodified: No Change
-	- Modified: Changed | Updated
 
-.gitignore -- untrack, ignore
-
-## 1 Branch Ahead
-Meaning: Your local is ahead vs remote (main / origin)
-
-```
-Your Local:     A -- B -- C -- D (your new commit)
-GitHub Remote:  A -- B -- C
-```
-
-You need to stage commit (if haven't already) then 
-
-```git
-git push origin main
-git push -u origin main               # if getting an error about upstream
-```
-
-## Sync Local to Remote
-Renamed master to main
-```bash
-#rename from master → main
-git branch -m master main
-
-# Refresh your local list of remote branches
-git fetch origin
-
-# Link your local 'main' to the remote 'origin/main'
-git branch -u origin/main main
-
-git pull
-
-# if you get this error from running git fetch origin
-# git: 'credential-manager-core' is not a git command. See 'git --help'.
-# run this
-git config --global credential.helper manager
-```
-
-## Oops Commands
-```shell
-
-#discard all local changes (DANGER)
-git reset --hard HEAD 
-
-# messed up file and want to revert to last commit
-git checkout -- filename.js
-
-# undo last commit (but keep changes in file)
-git reset --soft HEAD~l
-
-```
-
-```shell
-
-git fetch origin
-git reset --hard origin/deploy/vercel  #force sync to remote (cloned local); 
-# alias → git reset --hard HEAD
-
-git stash push -u -m "feat: add custom message"  ## -- u = untracked, m = msg
-
-# save work temporarility to switch branches, get work back, drop it
-git stash 
-git stash pop
-git stash drop
-
-
-```
 ## Git UI Changes
 1. setup as private
 2. Settings >> Rename default branch >> main

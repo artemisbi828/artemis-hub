@@ -1,0 +1,1 @@
+[What to install on any new linux machine](https://www.howtogeek.com/i-install-these-python-tools-on-every-new-machine/?utm_source=HTG-NL&utm_medium=newsletter&utm_campaign=HTG-202511280645&user=anBhc2N1YUBnbWFpbC5jb20&lctg=a25eafaba7a6e7f3bf9078cf89bf688b45097f319c6c54dace6793a3c31570ec)

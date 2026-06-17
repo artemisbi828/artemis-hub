@@ -1,7 +1,10 @@
-- Not punitive (BCG) 2026-03-13 01:45 PM
-- • Consensus; 
+- thanks xyz, well-said, great addition
+- moving on ...
+- not punitive 
+- do we have quorum, consensus
+- open the floor, get everyone's take
 
-Eat your own dog-food (Nachi)
+- "Eat your own dog-food" - Nachi
 
 a delivery bottleneck when no formal change-management process exists.
 

@@ -11,6 +11,41 @@ Plenty of dances, memories
 - [[Social Flow]]
 
 # Accelerate + Self-Development
+[[Sublime - Date TFM]]
+
+```
+# mobile-work
+- groom contacts and crm
+- groom notes 
+- refine scripts 
+
+comfortable home
+plenty of dancing. memories. 
+earning to travel and get more memories 
+-- mental map: simple
+-- minimal docm w clear maps
+-- kpis clear + self-cleaning: dailys vs projects. 
+-- create self-refining method
+-- create quiz app
+
+# INCOME TYPES
+  main.alpha "Smile Doctors"
+     - docm structures. 
+     - defn extract + refactor 
+     - 
+  beta
+     - interviews
+     - 
+  support
+      - basic-website: $300 static-setup-form. $30/month 
+      - standard-app: sms, cwq -- $25 or $75/month
+      - custom: $125/hr consult. 
+savings
+house rental
+move to spain
+
+```
+
 Shift easier to personal mode -- why passionate? 
 Consume AI resources while they're at a discount
 CRM track better
@@ -29,7 +64,7 @@ Clamwin --> Tower Anti-Virus
 # Client Projects
 [[Mary Townsend - Publicis - Web Scraper]]
 [[PRJ - Hevelyn - Blackie-Carrot]]
-
+[[PRJ - Ideas]]
 
 # Cash Projects
 [[Resume - Job Hunt]]

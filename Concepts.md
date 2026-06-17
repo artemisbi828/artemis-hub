@@ -1,15 +1,9 @@
 # Business
-[[Concepts - Project Planning]]
-[[Concepts - Prompt Engineering (AI)]]
 [[Concepts - Vision, Mission]]
 [[Concepts - Business Function Tree]]
-[[Concepts - BI Frameworks]]
 
 # Words
-[[Concepts - Source-Driven Deterministic Semantic Definition]]
-[[Concepts - Heuristics and Snowflaking]]
-[[Concepts - Architecture Design, Nodes, Edges (Static)]]
-[[Concepts - Data Transfer + Orchestration (Dynamic)]]
+[[Mechanism - Heuristics and Snowflaking]]
 
 
 # Methodology

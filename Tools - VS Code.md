@@ -1,4 +1,5 @@
-[[Tools - Key Bindings]]
+[[Tools - Global Key Bindings]]
+[[vsCode - PATH Setup]]
 
 | Keys           | Command                          |
 | -------------- | -------------------------------- |

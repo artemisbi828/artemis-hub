@@ -1,3 +1,7 @@
+[[Zouk x Bachata - Gentle Giants Training]]
+[[Bachata - Canonical Moves]]
+
+
 | Day of Week | Comments                          |
 | ----------- | --------------------------------- |
 | Monday      | 0600 PM - Zouk: Lauren            |
@@ -16,7 +20,10 @@ Elena
 [[Zouk - Teaching - Sayings]]
 
 
+
 # Contacts
 danydancemx
 jerry
 people.tisa
+
+

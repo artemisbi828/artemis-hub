@@ -1,4 +1,6 @@
-    author: Jonas Pascua
+related-to: [[Ontology]]
+	
+	author: Jonas Pascua
     created: 2026-03-25 03:54 PM
     modified: 2026-03-25 03:54 PM
 
@@ -20,16 +22,6 @@ Each step is rational on its own. Together, they quietly erode trust, consistenc
 
 * * *
 
-Heuristics: Speed Wins—Until It Doesn’t
----------------------------------------
-
-**Heuristics** are practical rules of thumb—experience‑based shortcuts used when exact methods are impractical, unknown, or too costly.
-They favor:
-*   speed over precision
-*   “good enough” over optimal
-*   judgment over formal proof
-**Key idea:** heuristics are helpful, but **they are not guarantees**.
-In a fast‑moving organization, heuristics are essential. But as the organization scales, heuristics begin to hard‑code assumptions that no longer hold uniformly across teams, time horizons, or systems.
 
 * * *
 

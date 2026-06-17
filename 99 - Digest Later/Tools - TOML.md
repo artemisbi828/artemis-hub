@@ -41,6 +41,39 @@ email = "jane@example.com"
 
 In code, this results in: `config.server.host` and `config.user.name`.
 
+```
+[[metric]]
+metric_id = 4
+metric_name = "Exam Conversion Rate"
+definition = "The total number of contract starts within a period (excluding all add-on and removal only contracts) expressed as a percentage of the total number of NPE dismissed within the same period."
+
+  [[metric.component]]
+  role = "denominator"
+  concept_id = 28
+  concept_name = "appointment-npe_dismissed"
+  concept_class = "classification-value"
+  concept_role = "predicate"
+  ontological_status = "derived"
+  parent_concept = "appointment"
+  notes = """
+  IsNPE = true
+  AND appointment-status-dismissed
+  AND appointment-net_added
+  AND appointment-past-v-future (location timezone)
+  AND appointments-not-deleted
+  AND fact-post_location_dw_start
+  """
+
+  [[metric.component]]
+  role = "numerator"
+  concept_id = 61
+  concept_name = "contracts-case_starts"
+  concept_class = "classification-value"
+  concept_role = "predicate"
+  ontological_status = "derived"
+  parent_concept = "contract"
+```
+
 ### 3. Nested Tables
 
 Use a dot (`.`) to create nested structures without needing multiple bracket lines.

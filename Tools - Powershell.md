@@ -3,6 +3,9 @@ aliases:
   - PS
   - Powershell
 ---
+1. go to `dir` that has the .ps1 file (make sure it has that extension)
+2. call with `.\ps-filename.ps1`
+
 # How to Run
 always write in snakecase, although Pascal Case is convention
 5.1 project_template_guide.md = snake_case (documentation/data file convention)
@@ -18,6 +21,8 @@ Bash is a scripting language - Bash
 
 
 # Basic Commands
+[[PS - Get Running Apps]]
+[[PS - Get Distinct Terminal Commands Passed]]
 [[PS - Trigger PS Script]]
 [[PS - Trigger PY Script]]
 [[PS - Create New Subdir]]
@@ -26,16 +31,21 @@ Bash is a scripting language - Bash
 [[PS - Clear Host]]
 [[PS - Clear Variables, Set Variables]]
 [[PS - Pipes]]
+[[Tools - Comment Blocks]]
+[[PS - Installation + Versions]]
+[[PS - Run as Administrator]]
+[[PS - Restart Powershell]]
+[[PS - Activate Virtual Environment]]
+# Command Tools
 [[CMD - Task Kill]]
 [[CMD - Start Tasks]]
-[[PS - Comment Blocks]]
 # Basic Tools
 [[PS - Get PnP for Sharepoint]]
 
 # Basic Scripts
 [[PS - Generate New GUID]]
 [[PS - Get Paths or PathsAndFiles]]
-[[PS - Get Files and SubFiles]]
+[[PS - Navigate + Get - Filepaths, Files]]
 [[PS - Delete Item]]
 [[PS - Delete all files that string_pattern]]
 [[PS - Move all files into subdir that start_with]]
@@ -139,37 +149,6 @@ pip freeze | Select-String "pandas"
 ```
 
 
-## Install
-
-```powershell
-# install
-winget search Microsoft.Powershell
-winget install --id Microsoft.Powershell --source winget
-```
-
-### Backtick vs `>>`
-- backtick = next line
-- `>>` ps auto line continuation prompt (NOT something I type)
-
-```powershell
-
-Get-ChildItem `
-	-Path C:\ `
-	-Recurse
-```
-
-### Powershell Versions
-
-```
-Windows Powershell (native) 5.1.x
-Powershell 7 (Core) → 7.x.x
-```
-
-
----
-
-
-----
 
 # Get Processes, Kill Processes
 
@@ -194,13 +173,4 @@ if (-not (Test-Path $d)) { New-Item -Path $d -ItemType Directory | Out-Null }
 $sub = Join-Path $PWD 'SlideSMS'; if (-not (Test-Path $sub)) { New-Item $sub -ItemType Directory | Out-Null; "Created $sub" } else { "Already exists: $sub" }
 
 ```
-
-
-# VENV
-```shell
-
-# to exit
-deactivate
-```
-
 

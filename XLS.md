@@ -3,9 +3,14 @@ related_to:
   - "[[DAX]]"
   - "[[DAXM]]"
 ---
+[[XLS - Sort by Group (Partition)]]
 [[XLS - Shortcuts]]
+[[XLS - UNIQUE - Distinct Values]]
 [[XLS - Insert 1000 Limit GO for SQL]]
 [[XLS - XLOOKUP]]
+
+[[XLS - If Col.A Contains X → Y]]
+[[XLS - Error Flag]]
 
 [[XLS - Add Index or InputKey Per Row]]
 [[XLS - Date Diff Minutes or Days]]

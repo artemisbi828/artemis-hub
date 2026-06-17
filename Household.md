@@ -1,5 +1,8 @@
+[[Cookbook]]
+[[Household - BDay 2026 Party]]
+[[Household - Onteora Moving 2026]]
 
-[[Household - Finances]]
+[[Household - CC Info]]
 [[Household - Driver's License]]
 [[Household - Taxes]]
 [[Household - Credit Score]]
@@ -15,3 +18,19 @@
 [[Household - Books]]
 [[Household - Movies]]
 [[Household - Plants]]
+
+[[Household - Mom's Cancer]]
+
+[[Household - Choosing a Charger]]
+
+[[Household - Assets - Pixel Devices]]
+[[Household - Assets - Canon Selphy]]
+[Household - Kitchen Sink - Spray vs Stream Mode]
+
+
+[[Household - Inspo - Interion Design]]
+	[[Household - Inspo - Bathroom]]
+[[Household - Inspo - Outdoor Design]]
+
+
+

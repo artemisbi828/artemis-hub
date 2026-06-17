@@ -1,3 +1,11 @@
+
+Lag(5) -- from current row = 0, go 5 rows up
+Lead(5) -- from current row = 0, go 5 rows down --> landing = value
+Partition By -- same as where statement (dbl check by writing where statement for 1 case and review)
+Order By -- how to determine the rows
+
+
+
 > [!Example]
 > Looking at rolling month forward, if there's more than a 1.5x spike → LAG. The numbers are lagging and we need to "pull" them forward. Vs we're looking at a future month forecast, and we need to pull that back. 
 
@@ -14,14 +22,6 @@ Think of your data as a car you are driving through time:
 * **LEAD is your Windshield:** You are looking **forward** at the road ahead. Use this when you want to "pull" a future value (like next month's sales) into your current row.
 * **LAG is your Rearview Mirror:** You are looking **back** at the road you already traveled. Use this when you want to "pull" a past value (like last month's sales) into your current row.
 
----
-
-### 2. The Alphabet Trick
-
-This is the "no-brainer" method if you just need a quick logic check while typing:
-
-* **L**ag = **L**ast (Previous)
-* **L**ead = **L**ater (Future)
 
 ---
 

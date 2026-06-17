@@ -1,3 +1,4 @@
+
 ```sql
 DECLARE @SchemaName NVARCHAR(128) = 'sd';
 DECLARE @TableName  NVARCHAR(128) = 'ContractKeys';

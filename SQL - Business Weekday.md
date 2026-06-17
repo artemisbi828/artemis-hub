@@ -2,6 +2,13 @@ Default Settings on Servers/Computers
 - 1 = Sunday
 - 2 = Monday
 
+
+
+```sql
+format([dt], 'dddd') DayOfWeek
+```
+
+
 ```sql
 select
     d.DateKey,

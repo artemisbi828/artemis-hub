@@ -9,6 +9,21 @@ STANDUP
 - What did you complete yesterday?
 - What will you complete today? 
 - Do you have any blockers? 
+
+ARTIFACTS
+- definition of success
+- definition of done
+### RETRO
+Vary it to prevent boredom. Keep it fun!
+
+| Music per Week                                                      | Dimensions                                     |
+| ------------------------------------------------------------------- | ---------------------------------------------- |
+| 01 - Lofi                                                           | - Keep<br>- Add<br>- Less<br>- More            |
+| 02 - EDM                                                            | - What did you love? <br>- What did you hate?  |
+| 03 - House [Saxophone](https://www.youtube.com/watch?v=50pTCcO4GvY) | - Mad<br>- Sad<br>- Glad                       |
+| 04 - Black + Yellow                                                 | - Good<br>- Improve<br>- Ideas<br>- Thanks<br> |
+
+
 # Spike
 target-outcome: Documented recommendation or decision
 part of User Stories

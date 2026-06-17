@@ -1,0 +1,4 @@
+- semantic governance
+- metric contracts
+- exec communication
+- data trust discussions

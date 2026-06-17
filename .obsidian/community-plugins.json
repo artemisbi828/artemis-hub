@@ -1,6 +1,10 @@
 [
   "obsidian-linter",
   "dataview",
-  "obsidian-plugin-toc",
-  "tag-wrangler"
+  "tag-wrangler",
+  "obsidian-pandoc",
+  "obsidian-pandoc-reference-list",
+  "automatic-table-of-contents",
+  "table-editor-obsidian",
+  "advanced-cursors"
 ]

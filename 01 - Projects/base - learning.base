@@ -1,0 +1,16 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - "!definition.isEmpty()"
+    order:
+      - file.name
+      - definition
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: file.ctime
+        direction: DESC
+    columnSize:
+      file.name: 564

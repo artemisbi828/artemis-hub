@@ -1,3 +1,10 @@
+---
+definition: the authoritative, standard, or “single source of truth” version of something.
+---
+It answers the question:
+
+> “Which version is the one we trust?”
+
 > [!info] Single Source of Truth
 
 > “We used heuristics to map source fields, then aligned them to the canonical model.”> 
@@ -10,15 +17,6 @@ Related to [[Heuristics]]
 | **Heuristic** | A helpful shortcut    | Informal, probabilistic |
 | **Canonical** | The official standard | Formal, authoritative   |
 
-
-## **Canonical**
-
-**Definition:**  
-**Canonical** means *the authoritative, standard, or “single source of truth” version* of something.
-
-It answers the question:
-
-> “Which version is the one we trust?”
 
 ### Examples
 

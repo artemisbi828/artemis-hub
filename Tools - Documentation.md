@@ -1,3 +1,6 @@
+Editorial Refactoring
+Content Polishing / Content Cleanup
+
 # Sample Documentation
 Your strategy mentions "Docling or Marker" for MD conversion
 Should I: (a) Use only Docling, (b) Use only Marker, or (c) Implement both with fallback logic?

@@ -1,4 +1,4 @@
-Child of [[Ontology]]
+Child of [[05 - Dictionary/Ontology]]
 
 When it is a subtype (a type of event based on the parent-ontological event) then it is a first-class event
 

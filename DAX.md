@@ -1,12 +1,13 @@
 Related to: [[DAXM]], [[PBI]], [[DAXQ]], [[TMDL]]
 
-# FREQ
+# Freq
 [[DAX - Ratios -- DIVIDE, YOY%]]
 [[DAX - Dates Previous Year (PY or LY)]]
+[[DAX - Force FORMAT()]]
 [[DAX - FORMAT()]]
 [[DAX - Rounding]]
 
-# DATES
+# Dates
 [[DAX - AsOfDate]]
 [[DAX - DateValue]]
 [[DAX - Create Measure between 2 Dates]]
@@ -17,10 +18,13 @@ Related to: [[DAXM]], [[PBI]], [[DAXQ]], [[TMDL]]
 [[DAX - Convert YEAR to TEXT]]
 [[DAX - Dynamic Date Filter]]
 
-# CREATE TABLES
+# Create Tables
 [[DAX - Create Tables]]
 [[DAX - CALCULATETABLE]]
 [[DAX - CALCULATE]]
+
+# Add Columns
+[[DAX - Add Column]]
 # NEW Techniques
 [[DAX - New Learning]]
 [[DAX - TREATAS]]

@@ -1,6 +1,9 @@
 ```
 [^A-Za-z]       # select all numeric chars
 ^[0-9]+$        # get numeric, one or more digits `[0-9]+` $ → end of line 
+
+s$              # get all objects that end with `s` and the end of the line
+^\s+            # get all leading spaces at start of line, `\s` non-white space `+` 1+ instance
 ```
 
 | ^           | beginning of line      |
@@ -11,6 +14,7 @@
 | `[^A-Za-z]` | non-alphaB             |
 
 ---
+[[REGEX - get A45 or TC45]]
 [[REGEX - From DblQuote to DblQuote]]
 [[REGEX - Remove Pound, Asterisk, Dash, Double Spaces]]
 
@@ -34,7 +38,7 @@ Regular expressions are patterns used to match character combinations in strings
 | **Metacharacters (Special Sequences)** |                                                                       |                                               |
 | `\d`                                   | Matches a **digit** (0-9).                                            | `5` in `v5`                                   |
 | `\w`                                   | Matches a **word character** (a-z, A-Z, 0-9, and underscore `_`).     | `f` in `file`                                 |
-| `\s`                                   | Matches a **whitespace character** (space, tab, newline).             | Space in `hi there`                           |
+| `\s`                                   | Matches a **whitespace character** (space, tab, newline).             | `sp` or `tab` in `hi there`                   |
 | `\D`                                   | Matches a **non-digit**. (Opposite of `\d`).                          | `v` in `v5`                                   |
 | `\W`                                   | Matches a **non-word character**. (Opposite of `\w`).                 | `!` in `hello!`                               |
 | `\S`                                   | Matches a **non-whitespace character**. (Opposite of `\s`).           | `h` in `hi there`                             |

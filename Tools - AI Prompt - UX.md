@@ -1,3 +1,7 @@
+- dropdown forms should be fuzzy search on strings
+- draw.io
+
+
 ### The Design Brief
 
 ### 1. Core Principles

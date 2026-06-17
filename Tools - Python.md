@@ -4,7 +4,7 @@ aliases:
 ---
 
 
-[[Package Manager]] is [[Pip]]
+[[Package Manager]] is [[Pip]] vs [[uv]]
 
 ```
 """
@@ -12,7 +12,7 @@ This is a multi-line block
 """
 ```
 
-[[Python - Multi-Line Block]]
+[[Tools - Comment Blocks]]
 [[Python - Data Structures]]
 [[Python - Try, If, Except]]
 [[Python - VENV]]

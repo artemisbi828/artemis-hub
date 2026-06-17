@@ -1,3 +1,8 @@
+ADO Markdown
+```
+[[_TOC_]]
+```
+
 1. Original Markdown (2004 - John Gruber)
    │  "The Ur-Text." created for simple web-writing.
    │
@@ -17,7 +22,7 @@
    │             │
    │             └──> 6. The "PKM" Era (Obsidian, Logseq, etc.)
    │                    ↳ WHY: Personal Knowledge Management.
-   │                    ↳ Adds: [[WikiLinks]], block references, formatting highlights ().
+   │                    ↳ Adds: Wikilinks, block references, formatting highlights ().
    │
    └──> 7. Pandoc (2006 - John MacFarlane)
           ↳ WHY: Academic & Universal conversion.

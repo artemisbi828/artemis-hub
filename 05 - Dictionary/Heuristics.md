@@ -1,8 +1,9 @@
-Related to [[Canonical]]
-## **Heuristics**
+---
+definition: practical rules of thumb or experience‑based shortcuts used to make decisions or solve problems when an exact method is impractical, unknown, or too costly.
+---
+Related to:  [[Canonical]], [[Fractal Thinking]]
+Opposite to: Exact method
 
-**Definition:**  
-**Heuristics** are *practical rules of thumb* or *experience‑based shortcuts* used to make decisions or solve problems **when an exact method is impractical, unknown, or too costly**.
 
 They favor:
 
@@ -44,3 +45,14 @@ They favor:
 
 *   **Heuristic:** *Rule of thumb used when precision isn’t feasible.*
 *   **Canonical:** *The authoritative, standard version.*
+
+Heuristics: Speed Wins—Until It Doesn’t
+---------------------------------------
+
+**Heuristics** are practical rules of thumb—experience‑based shortcuts used when exact methods are impractical, unknown, or too costly.
+They favor:
+*   speed over precision
+*   “good enough” over optimal
+*   judgment over formal proof
+**Key idea:** heuristics are helpful, but **they are not guarantees**.
+In a fast‑moving organization, heuristics are essential. But as the organization scales, heuristics begin to hard‑code assumptions that no longer hold uniformly across teams, time horizons, or systems.

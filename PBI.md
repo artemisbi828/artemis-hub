@@ -13,7 +13,7 @@ Related To: [[DAX]], [[DAXM]], [[DAXQ]], [[TMDL]]
 [[DAX - Work Day Equivalent (WDE)]]
 
 # Access
-[[PBI - Semantic Model Access]]
+[[PBI - Access Model]]
 # INIT 
 [[DAX - New Builds]]
 [[DAX - Checkbox]]

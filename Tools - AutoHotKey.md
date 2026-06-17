@@ -1,7 +1,10 @@
+::!!::⚠️
+
 ```bash
 shell:startup --> %AppData%\Microsoft\Windows\Start Menu\Programs\Startup
 ```
 
+[[Tools - AutoHotKey Syntax]]
 
 |       |                     |                                                                                                                   |
 | ----- | ------------------- | ----------------------------------------------------------------------------------------------------------------- |

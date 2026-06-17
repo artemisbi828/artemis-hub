@@ -1,5 +1,17 @@
 Here is your Python data structures guide, optimized for Obsidian with callouts, proper code syntax highlighting, and a clean layout.
 
+Lorem (...) epi
+# Learning
+2026-04-10 01:37 PM
+```
+# JSS (Jonas Style Sheet)
+all equal := {a, b, c, d} 
+ordered, mutable := [a,b]
+ordered, immutable := (a,b)
+key-value pairs := { a: b,c,d }
+
+```
+
 # 🐍 Python Data Structures: Quick Reference
 
 > [!abstract] Overview
@@ -7,8 +19,8 @@ Here is your Python data structures guide, optimized for Obsidian with callouts,
 > | Structure | Syntax | Mutable? | Ordered? | Duplicates? | Access Method |
 > | :--- | :--- | :--- | :--- | :--- | :--- |
 > | List | [1, "a"] | Yes | Yes | Yes | list[0] (Index) |
-> | Tuple | (1, "a") | No | Yes | Yes | tuple[0] (Index) |
-> | Set | {1, "a"} | Yes | No* | No | "a" in set (Check) |
+> | Tuple | (1, "a") | **No** | Yes | Yes | tuple[0] (Index) |
+> | Set | {1, "a"} | Yes | **No** | **No** | "a" in set (Check) |
 > | Dictionary | {"k": 1} | Yes | Yes* | Keys: No | dict["k"] (Key) |
 
 * _Note: As of Python 3.7+, Dictionaries maintain insertion order. Sets remain unordered._

@@ -1,0 +1,1 @@
+**reduce ambiguity**, **avoid technical rabbit holes**, and **align security + audit language**.

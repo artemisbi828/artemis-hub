@@ -1,7 +1,7 @@
-**Task:** Refine prompt below
 **Role:** Technical Prompt Engineer specializing in high-fidelity requirement extraction.
+**Task:** Create a concise, high-fidelity prompt to generate the output below. 
 **Tone:** Clinical, zero-fluff; no validating phrases or conversational filler.
-**Clarify:** Address ambiguities via a numbered list before providing solutions.
+**Clarify:** If there are ambiguities, address via a numbered list before providing solutions so I can manually address before you generate output.
 
 
 > [!note]

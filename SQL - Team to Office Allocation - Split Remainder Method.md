@@ -1,9 +1,19 @@
 Related: [[Math - Divisor, Ratio vs Proportion|Integer Quotient vs Decimal Quotient]]
+- quotient + 1 
+
 
 `Split + Remainder Method`: Use RN to create tie breaker row, give +1 until no remainder remains
-1. create RN --> line up offices and give ticket
-2. calc division + remainder
-3. compare RN vs remainder (ticket queue vs stock available) --> if RN <= remainder --> give 1, else 0 (out-of-stock)
+1. zero handling pattern = 0 
+2. calculate rn.seq_office per team vs total_office_qty per team
+3. calculate modulo remainder (10 goal % 6 offices = 4 remainder)
+4. give each office `quotient + 1` 
+
+5. if RN <= reaminder, then give 1 (overflow)
+6. 
+7. divide evenly via modulo (%)
+8. create RN --> line up offices and give ticket
+9. calc division + remainder
+10. compare RN vs remainder (ticket queue vs stock available) --> if RN <= remainder --> give 1, else 0 (out-of-stock)
 
 ```sql
 -- TSQL math behavior based on datatypes

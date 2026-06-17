@@ -5,3 +5,5 @@ Cannot resolve the collation conflict between "Latin1_General_100_CI_AS_KS_WS_SC
 -- USE THIS IN JOINS
 COLLATE Latin1_General_100_CI_AS_KS_WS_SC_UTF8
 ```
+
+

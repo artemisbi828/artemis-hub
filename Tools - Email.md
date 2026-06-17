@@ -12,3 +12,55 @@ Please keep an eye out for calendar invites for your 1:1s. Thank you for your co
 
 Best regards,
 Praveen
+
+```
+Hello SD IT Team,
+
+Adding an additional request regarding Snowflake access provisioning for a new Data Platform engineer.
+
+---
+
+## Request:
+
+### Snowflake Access Provisioning
+
+Please provision Snowflake access for the following user:
+
+- Raghu Magapu (`raghu.magapu@smiledoctors.com`)
+
+---
+
+## Context:
+
+Raghu has joined the Data Platform engineering team and requires access to Snowflake for development and platform engineering activities.
+
+At this time, it appears the Snowflake application tile is not yet available within MyApps, and the user has not yet been added to the appropriate ENTRA ID group used for Snowflake role assignment.
+
+---
+
+## Action Requested:
+
+- Assign the Snowflake application to the user so the Snowflake tile is available within MyApps
+- Add the user to the appropriate Data Platform Snowflake Data Engineer group
+- Verify the user can successfully access Snowflake through the configured SSO integration
+
+---
+
+## Notes:
+
+User:
+
+- Raghu Magapu
+- `raghu.magapu@smiledoctors.com`
+
+Requested Access:
+
+- Snowflake
+- Data Platform Engineering access via the appropriate ENTRA ID group mapping
+
+This follows the same onboarding pattern used for other Data Platform engineers.
+
+Please advise if any additional information is required.
+
+Thanks!
+```

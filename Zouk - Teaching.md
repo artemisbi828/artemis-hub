@@ -1,8 +1,7 @@
-- [[#Teaching|Teaching]]
-	- [[#Teaching#Proximity Levels|Proximity Levels]]
-	- [[#Teaching#Weight Shifts|Weight Shifts]]
-	- [[#Teaching#Vectors|Vectors]]
-- [[#Dynamics|Dynamics]]
+[[Zouk - Teaching - One World]]
+[[Zouk - Teaching - Privates]]
+
+> ⚠️ add moving the popcorn butter
 
 I teach dance sense -- not Zouk or Bachata. Common sense between both.
 - balanced

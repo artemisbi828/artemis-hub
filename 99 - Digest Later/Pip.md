@@ -1,4 +1,5 @@
 [[Package Manager]] for [[Tools - Python|Python]]
+Related to [[uv]]
 
 
 

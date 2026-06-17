@@ -13,13 +13,34 @@ list
 from #quick-paste-merge-later 
 ```
 
+# Notes Created Modified Today
+```
+# wrap below with ```dataview ```
 
-# Show backlinks referencing this note
-```dataview
+# Notes Created Today 
+LIST
+WHERE dateformat(file.ctime, "yyyy-MM-dd") = this.file.name
+SORT file.ctime DESC
+
+
+# Notes Modified Today
+LIST
+WHERE dateformat(file.mtime, "yyyy-MM-dd") = this.file.name
+SORT file.mtime DESC
+
+# Table Version
+TABLE file.folder AS Folder
+WHERE dateformat(file.mtime, "yyyy-MM-dd") = this.file.name
+SORT file.folder, file.mtime DESC
+```
+
+
+# Show Backlinks To This File
+```shell
+dataview
 LIST
 FROM [[#]]
 WHERE file.name != this.file.name
-
 ```
 
 
@@ -113,10 +134,3 @@ SORT file.name DESC
 TABLE file.name AS "Note", length(filter(file.lists.text, (t) => contains(t, "Completed:"))) AS "Count" WHERE contains(file.name, "📅") SORT file.name DESC
 ```
 
-# Show Backlinks To This File
-```shell
-dataview
-LIST
-FROM [[#]]
-WHERE file.name != this.file.name
-```

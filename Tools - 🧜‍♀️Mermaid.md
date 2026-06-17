@@ -1,3 +1,45 @@
+- flowchart TB | flowchart LR
+- alias`["Display Name"]
+- `%%` for comment lines
+- subgraph | end | tab center block
+
+```mermaid
+flowchart TB
+
+%% === 
+%% Commment Header
+%% ===
+
+subgraph ext["External Data Sources"]
+	cl9["Cloud9"]
+	ofi["OrthoFi"]
+	dyf["Dayforce"]
+	exp["Expensya"]
+end
+
+subgraph ap_ar_pay["AR AP Payment"]
+	sup["Suppliers - Invoice, Accrual, Payment"]
+	csh["Cash Receipts Journal"]
+end
+
+%% flows
+cl9 --> |CollectionsByPatient| Workday
+ofi --> Workday
+dyf --> |Labor_Hours| Workday
+exp --> Workday
+sup --> Workday
+csh --> Workday
+```
+
+```mermaid
+
+flowchart TD
+    A["Re = ρ v L / μ"]
+
+```
+
+```
+
 
 ```shell
 

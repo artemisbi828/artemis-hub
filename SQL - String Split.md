@@ -1,6 +1,8 @@
 ---
-definition: table-valued function turning a string into a set of rows from 1) string 2) delimiter → explosion
+definition:
 ---
+table-valued function turning a string into a set of rows from 1) string 2) delimiter → explosion
+
 Spawned from first last name partner addressing middle name issue like "Jon B Rutherford"
 
 # Basic

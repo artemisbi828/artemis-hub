@@ -1,7 +1,5 @@
----
-definition: is an open-source, in-memory data store. It is famous for being incredibly fast.
-related_to:
----
+is an open-source, in-memory data store. It is famous for being incredibly fast.
+
 Order Queue
 
 - **The Problem it Solves:** Traditional databases (like SQL) are stored on hard drives (disk). Reading from disk is slow.

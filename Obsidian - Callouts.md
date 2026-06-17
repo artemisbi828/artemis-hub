@@ -1,7 +1,53 @@
-In Obsidian, these are called **Callouts**. They are based on the Microsoft Documentation syntax and are incredibly useful for visually organizing your notes.
+# Advanced Combos
+> [!info]
+> test1
+> test2
 
-Here is a complete list of the default supported callout types. You can use any of these by replacing the `TYPE` in `> [!TYPE]`.
+> [!info]+ Info : Expanded by Default, Custom Title
+> custom title → add to right of `>[!<callout>]`
+> test1
+> test2
 
+> [!info]- Info: Collapsed By Default, Custom Title
+> test1
+> test2
+
+
+> [!info]
+> test1
+>> [!warning] Nested Warning
+>> use by `>>` vs `>` on l.margin
+
+---
+# Basic Callouts
+
+> [!note]
+
+> [!abstract]
+
+> [!todo]
+
+> [!tip]
+
+> [!success]
+
+> [!warning]
+
+> [!attention]
+
+> [!failure]
+
+> [!danger]
+
+> [!bug]
+
+> [!example]
+
+> [!quote]
+
+> [!question]
+
+---
 ### 1. Information & Status
 
 |**Type**|**Icon Description**|**Usage**|
@@ -17,7 +63,6 @@ Here is a complete list of the default supported callout types. You can use any 
 | ------------ | -------------------- | ------------------------------------------------------------------- |
 | `[!tip]`     | Green lightbulb      | Helpful hints, shortcuts, or advice. (Aliases: `hint`, `important`) |
 | `[!success]` | Green checkmark      | Completed goals, positive results. (Aliases: `check`, `done`)       |
-
 ### 3. Warnings & Errors
 
 |**Type**|**Icon Description**|**Usage**|
