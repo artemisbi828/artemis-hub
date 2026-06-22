@@ -55,6 +55,8 @@ Look for .msi → windows
 # Advanced
 [[Git - GitHub Actions]]
 
+# Accounts
+[[GIT - Account]]
 
 
 ## Git UI Changes
