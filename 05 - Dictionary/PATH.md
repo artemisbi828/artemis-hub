@@ -2,6 +2,70 @@
 knowledge_type:
 aliases:
 definition: speed dial to programs for commands (eg code or python)
+related_to:
+  - "[[bin]]"
+---
+```table-of-contents
+```
+
+# **EIL5 TL;DR**
+
+* Your computer has a list called **PATH** = “places to look for programs”
+* When you type a command, it **checks those places in order**
+* If your program lives in a folder called `bin`, but that folder isn’t in PATH → **computer can’t find it**
+
+✅ So you:
+
+* **Add the `bin` folder to PATH** → “Hey computer, also check here”
+* **Restart** → because apps only read PATH when they start
+
+***
+
+### One-liner mental model
+
+> PATH = “search folders” for commands  
+> Adding `bin` = “make this tool globally usable”  
+> Restart = “reload the search list”
+
+***
+
+### Concrete example
+
+Without PATH:
+
+```bash
+C:\tools\myapp\bin\myapp.exe   ✅ works
+myapp                          ❌ not found
+```
+
+After adding `C:\tools\myapp\bin` to PATH:
+
+```bash
+myapp                          ✅ works anywhere
+```
+
+***
+
+### Why “bin” specifically?
+
+* Convention: `bin` = **compiled executables**
+* So adding `bin` = exposing all tools in that folder
+
+***
+
+### Why restart?
+
+* Terminals/apps **cache PATH at startup**
+* No restart = still using old list
+
+***
+
+### If you want it ultra-compressed:
+
+> Add `bin` to PATH = run commands from anywhere  
+> Restart = make it take effect
+
+
 ---
 ```
 # adding git bash to path
@@ -203,3 +267,111 @@ phone = clean_phone_number(data)
 **Note on Syncing:** When you pull changes to `shared-utils` on your personal laptop, those changes are immediately available in `slidesms_v1` because the dependency is just a dynamic link to the local folder. You don't need to reinstall anything.
 
 
+# Restarting Path
+Yes — **you do NOT need to restart the whole OS** ✅  
+You only need to restart the **process that reads PATH**.
+
+---
+
+## ✅ Deterministic rule
+
+> PATH is loaded **once at process startup**
+
+So:
+
+- Any app already running → ❌ still using old PATH
+- Any app started after change → ✅ sees new PATH
+
+---
+
+## What you actually need to restart
+
+### 1. Command line (most common case)
+
+If you're using:
+
+- Command Prompt (`cmd`)
+- PowerShell
+- VS Code terminal
+- Git Bash
+
+👉 **Close and reopen the terminal**
+
+That’s it.
+
+---
+
+### 2. GUI apps (sometimes needed)
+
+Some apps also cache PATH on launch:
+
+- VS Code
+- IntelliJ
+- Python environments
+- Build tools
+
+👉 Restart the app if it needs to find the new executable
+
+---
+
+### 3. No need to restart Windows
+
+Full OS restart is:
+
+- ✅ Safe
+- ❌ Usually unnecessary
+
+---
+
+## Concrete example
+
+You install Git and add:
+
+```
+C:\Program Files\Git\bin
+```
+
+Then:
+
+❌ Existing terminal:
+
+```
+git
+# 'git' not recognized
+```
+
+✅ New terminal:
+
+```
+git
+# works
+```
+
+---
+
+## Edge cases (where people think restart is required)
+
+|Scenario|Reality|
+|---|---|
+|PATH updated but terminal still fails|Terminal not restarted|
+|VS Code terminal fails|Restart VS Code|
+|Script still fails|Process inherited old PATH|
+|System service|May need service restart|
+
+---
+
+## Ultra-TLDR
+
+> Restart the **app using PATH**, not the OS  
+> (usually just reopen your terminal)
+
+---
+
+## One-line mental model
+
+> PATH change = update config  
+> Restart app = reload config
+
+---
+
+If you want, I can give you a quick **PowerShell check to verify your PATH is actually updated correctly** (useful for debugging when it _still_ doesn’t work).
