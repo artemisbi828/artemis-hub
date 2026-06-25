@@ -18,6 +18,9 @@
 [[Household - Books]]
 [[Household - Movies]]
 [[Household - Plants]]
+[[Household - Compost]]
+[[Household - DIY]]
+[[Household - Troy]]
 
 [[Household - Mom's Cancer]]
 

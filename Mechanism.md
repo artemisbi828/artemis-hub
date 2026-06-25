@@ -35,6 +35,7 @@ You can make this much easier to scan by tagging on 3 axes at once:
 
 
 #intent/roadmap
+[[Mechanism - Physical or Mechanical vs Technical]]
 [[Mechanism - Data Roles]]
 [[Mechanism - Lifecycle Modeling, Pathways, Smoke Testing]]
 [[Mechanism - Planning w Situational Clarity, Ideation, Indexing, Scoping, Avoid Hasty Abstractions]]

@@ -2,6 +2,8 @@ Work -- SD
 Laptop -- Artemis_M (mobile) -- video
 Tower -- Artemis_T -- front end, video, 
 
+[[Tools - Windows - Path]]
+
 Tasks
 - cleanup tower dbs files
 

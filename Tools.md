@@ -61,6 +61,7 @@
 [[Tools - Emoticons or Emojis]]
 [[Tools - TOML]]
 [[Tools - INI]]
+[[Tools - DuckDB]]
 
 # Builds
 [[Tools - Comment Blocks]]

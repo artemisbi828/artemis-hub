@@ -34,3 +34,4 @@ While alcohol works for mealybugs, spider mites are often too numerous for spot-
 - **Better Alternative:** Use a dedicated **Insecticidal Soap** or a **Horticultural Oil**. These are safer for the plant's cuticle than high-strength rubbing alcohol but just as deadly to the mites.
     
 - **For stubborn cases:** Look for products containing **Spinosad** or **Abamectin**. These are the "heavy hitters" that function similarly to how bromide treatments work for larger pests.
+

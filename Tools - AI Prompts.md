@@ -6,6 +6,7 @@ I’m going to quickly review the current script and docs to align conventions, 
 I finished reviewing the docs and extracted the key conventions. Next I’ll inspect the existing tests so the new mapper script matches your current parsing expectations and edge cases.
 ```
 
+[[Tools - AI Prompt - Video Instructions]]
 [[Tools - AI Prompt - Find a Word or Phrase]]
 [[Tools - AI Prompt - Define a Concept]]
 [[Tools - AI Prompt - Define Tools]]

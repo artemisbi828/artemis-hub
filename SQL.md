@@ -53,6 +53,7 @@
 [[SQL - Pick MIN or MAX of 2+ Values]]
 
 # Standards
+[[SQL - Standard Architecture]]
 [[SQL - Create @t]]
 [[SQL - Create Table]]
 [[SQL - Create DOCMX Tables]]
