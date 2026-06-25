@@ -1,4 +1,9 @@
-Login via google: jpascua@gmail.com
+related-to: [[Git]]
+```
+jpascua@gmail.com --> slidesms.com
+jonas.pascua@artemis-bi.com (via google-account\jonas.pascua@artemisbi.com) --> artemisbi.com
+```
+
 
 - **Domain Ownership (Registrar):** Continue buying domains through a registrar (like Cloudflare, Namecheap, or Google). It is best practice to keep your domain registrar separate from your cloud infrastructure provider to prevent "vendor lock-in."
     

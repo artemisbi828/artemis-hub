@@ -5,6 +5,7 @@ email:
   - tesspascua02@aol.com
 phone: +1 248-761-5714
 date_of_birth: 1957-12-02
+date_of_death: 2026-06-18
 ---
 
 # Addresses
