@@ -7,6 +7,21 @@ phone: +1 248-761-5714
 date_of_birth: 1957-12-02
 date_of_death: 2026-06-18
 ---
+### Obituary for Leticia Pascua
+
+Celebrating the Life of Leticia "Tess" Pascua (1957-12-02 – 2026-06-18)  
+  
+Leticia Pascua, age 68, passed away on June 18, 2026 surrounded by her loving family.  
+  
+She is survived by her loving husband, Jon of 43 years, her adoring children Jonas, Jezelle (Perry Goldberg), and Lorraine, and her cherished grandson Rowan. She is also survived by many siblings, nieces, nephews, cousins, and extended family.  
+  
+Tess lived life with an open heart and an unmatched, adventurous spirit. Her love of family, friends, travel, gardening, singing, and community service were well known and she brought a vitality to everything she did. She had a strong determination to succeed in everything she did, becoming the first in her family to graduate college and become a CPA. Together with her husband Jon, they worked hard to build a life in America for their family.  
+  
+A talented accountant and an even better wife, mother, grandmother, and leader, she left an indelible mark on everyone fortunate enough to cross her path. Her deep faith and natural leadership shone brightly through her devotion to the Sto. Niño and her pivotal role as a leader in the KKPM Catholic Filipino youth choir, where she mentored and inspired countless youths.  
+  
+Tess’ unconditional love, compassion, and energy was boundless. She held a fierce and profound love for her immediate and extended family back in the Philippines. She was a constant pillar of support in the community, quietly and selflessly ensuring that those facing hardship were always cared for and welcomed. She truly taught us the value of living life to the fullest and showing unwavering love for each other. She was a light in the lives of everyone who had the privilege of knowing her.  
+  
+In lieu of flowers, donations may be made to the EGFR Resisters group at [https://form-renderer-app.donorperfect.io/give/egfr-resisters/general-donations](https://form-renderer-app.donorperfect.io/give/egfr-resisters/general-donations "Click to open in a new window or tab")
 
 # Addresses
 
