@@ -28,3 +28,5 @@ my fitness pal.
 Greek and Italian. 
 Family -- Vicki + Dale, Sam (sister), Jacob (bro in law)
 Omaha -- Jordan. Jared.
+![[a4c79269-4b0b-4260-8718-87b65f948b71.jpg]]
+![[ad6c71f4-f43f-49d6-9379-453d4aca9bf5.jpg]]

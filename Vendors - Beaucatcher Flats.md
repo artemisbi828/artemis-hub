@@ -4,3 +4,6 @@ Asheville, NC 28801
 
 http://www.beaucatcherflats.com/
 Monthly: $2352 (2026-02-23 01:58 PM)
+
+Network: Beaucatcher Flats Lobby/Fitness
+Password: welcomehome

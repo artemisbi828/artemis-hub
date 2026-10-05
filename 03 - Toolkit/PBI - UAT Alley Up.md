@@ -1,0 +1,22 @@
+- [[GIT - Power BI - PROD → UAT]]
+- [[GIT - Error Handling - Table Compatibility Issue]] 
+	- SemanticModel\definition\database.tmdl
+- Create UAT Objects via SQL
+	- Base Tables
+	- Insert Only Business Tables
+	- Rewire Views
+- PBI Desktop Default Settings --> File Save w Filter contex 
+	- Month --> Current
+	- Sort Alphabetical
+- GIT Source Control
+	- Commit Changes
+	- Push (Sync) Changes
+- PBI Service --> Updates --> Update All
+	- Update App
+	- Add Content
+	- Check Audience
+- PBI Dataset
+	- Refresh Dataset
+	- Take Over Dataset --> Check Gateways --> Use VNET
+- PBI Refresh Schedule
+	- Check TimeZone EST 6:00 AM

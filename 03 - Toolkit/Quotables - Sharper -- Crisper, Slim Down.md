@@ -1,0 +1,5 @@
+---
+aliases:
+  - crisper
+  - slim-down
+---

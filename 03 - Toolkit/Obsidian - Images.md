@@ -1,0 +1,2 @@
+- **Standard:** `![image.png]`
+- **Resized (Width in pixels):** `![300]`

@@ -9,7 +9,6 @@
 # Methodology
 [[Concepts - Solid + Dry + Fast]]
 [[Concepts - Modulo]]
-[[Concepts - Naming]]
 [[Concepts - Sanitize Name Logic]]
 [[Concepts - Data Quality Management]]
 [[Concepts - 364 Date Shift]]

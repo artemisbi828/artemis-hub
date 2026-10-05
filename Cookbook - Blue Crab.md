@@ -10,3 +10,5 @@ COOK
 - 30 minutes medium boil covered (test time --> do not overcook)
 - uncover and put high heat
 - reduce down and remove from heat
+
+2026-08-31 08:36 AM -- clean the crab under water for 2 hours. 15 minutes to boil (it will overflow). 20 minutes for the second part uncovered to reduce. used garlic olive oil as the base before the coconut milk.

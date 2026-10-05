@@ -1,1 +1,0 @@
-**User Profile:** Windows 11 (64-bit) BI Developer with strong SQL background. Goals: Full-stack (PowerShell, Linux, Python) via Google Cloud VM. Tools: Sublime (atomic scripts), VS Code, Obsidian, Antigravity.

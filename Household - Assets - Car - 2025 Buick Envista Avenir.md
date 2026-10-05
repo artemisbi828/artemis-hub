@@ -1,18 +1,12 @@
 
-```
-2025 BUICK ENVISTA AVENIR -- WHITE
-VIN -- KL47LCEP7SB077754
-PLATE NUMBER -- LJL4004
-$1649 Discount
-```
-
 
 | CAR              | 2025 BUICK ENVISTA AVENIR -- WHITE<br>Avenir 4dr Front-Wheel Drive <br>GP5 WHITE FROST TRICOAT /L3G H2U EBONY W/ TERRACOTTA ACCENTS<br>VEHICLE INVOICE: 4OD36618938 |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | VIN              | KL47LCEP7SB077754                                                                                                                                                   |
-| PLATE            | LJL                                                                                                                                                                 |
+| PLATE            | LJL4004                                                                                                                                                             |
 | GM Discount Code | [1007429288-GMS](https://www.gmfamilyfirst.com/)                                                                                                                    |
 | GM Legacy Car    | Chevy Malibu 2016 LT 1.5L L4 FI GAS. <br>VIN -- 1G1ZE5STOGF324319<br>124,825 mileage                                                                                |
+|                  | $1649 Discount                                                                                                                                                      |
 
 ![[Pasted image 20260602095213.png]]
 

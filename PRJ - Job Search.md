@@ -1,6 +1,67 @@
+[[PRJ - Job Search - Staffing Agencies]] -- left off with [[PRJ - Job Search - Staffing Agencies#^save-point]]
+[[PRJ - Job Search - Potential Job Roles]]
+[[PRJ - Job Search - Resume BI DBA]]
+[[PRJ - Job Search - Logs]]
+
 Target Salary: $125K
 
+Jonas Pascua
+jpascua@gmail.com
+
+
 #status/deferred/quick-paste-merge-later 
+
+
+> [!Note] TODO: 
+> - Review legacy notes on interviewing (assemble stories)
+> - do AI interview for practice
+> - get some Python / REGEX certifications
+> - Reach out to previous consultants
+> - Use [CLOCK] to see timezones
+> - practice PostGres + DataGrips
+
+
+# Websites
+## Wellfound
+https://wellfound.com/jobs
+
+
+
+---
+Vision
+> [!info]
+> Jonas Pascua - Director, Data Engineering and Analytics
+> - Led 100+ Employees who developed novel data integrations in our GCP cloud
+> - Managed $100M+ Budget
+> - Increased 65M loyalty program
+> - Migrated cloud-based infrastructure - modernizing reporting capabilities while maintaing accuracy
+> - managged modernization of data warehouse into cloud based data lake
+> - Improved operational run time of reports by 90%+
+> - Exposed loyalty and order data in cloud environment advancing ML/AI analytics
+> - Implemented both batch and real time data integrations
+> 
+> Data Architecture - Data Analysis - Data Modeling - Team Management - Databases - Data Engineering
+
+---
+# Summary
+
+**Short Tag:** 
+I speak Tech & Exec. Data Engineer (Python, SQL, Azure, Fabric) with an FP&A pedigree. 
+
+**Medium Tag:**
+I'm a Data Engineer (Python, SQL, Azure, Pyspark) with an FP&A pedigree. I enjoy architecting and optimizing ETL/ELT data pipelines and have a Snowflake / Microsoft Tech Stack. Working remote is a must and although my focus is contract or part-time work for now I am open to a compelling fulltime offer.
+
+**Long Tag (Linked In):**
+Most technical problems are actually communication problems in disguise. My approach is simple: disentangle the semantic drift and ambiguity by architecting clean ontological data structures and ETL pipelines to help get us from the current to the ideal state rapidly with the shortest time to value. Then working iteratively to refine and improve while balancing the focus on the bottm-line.
+
+As a Data Engineer (Python, SQL, Azure) with an FP&A pedigree, I specialize in:
+
+- Bottom Line -- Follow the money and show actionable data with trendlines and forecasts operators need to move the needle.
+- Lean Engineering -- Building fast, accurate, and scalable apps that solve real-world bottlenecks.
+- Executive Alignment -- Speaking the language of both the codebase and the boardroom.
+
+Let’s connect if you’re looking to tackle complex problems with creative, data-driven solutions. Always open to a chat, a coffee, or a trail run.
+
 
 
 

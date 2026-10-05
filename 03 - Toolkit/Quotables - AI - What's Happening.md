@@ -1,0 +1,3 @@
+```
+The README describes a transactional full run: plan first, ZIP backup before any mutation, move only recursively forward-linked notes, overlay the target while retaining target-only files, and restore automatically on failure. I’ve verified the vault workflow and the toolkit contract; next I’m checking the configured source/target paths, latest run notes, and repository status so the run won’t overwrite uncommitted work.
+```

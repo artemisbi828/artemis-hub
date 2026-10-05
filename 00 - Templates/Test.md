@@ -1,4 +1,8 @@
 +2026-03-05 09:26 PM
+
+```table-of-contents
+```
+
 ```dataviewjs
 const startDate = dv.date("2026-03-04");
 const endDate = dv.date("2026-03-06");

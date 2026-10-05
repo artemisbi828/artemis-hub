@@ -1,0 +1,1 @@
+=DATE(YEAR(A1),MONTH(A1),1)
