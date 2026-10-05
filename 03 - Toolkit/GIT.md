@@ -53,6 +53,7 @@ Look for .msi → windows
 [[GIT - Error Handling - Stuck in VS Termainl]]
 [[GIT - Error Handling - Remote Not Found]]
 [[GIT - Error Handling - Table Compatibility Issue]]
+[[GIT - Error Handling - 403 Wrong Account + Fork Prompt]]
 
 # Advanced
 [[GIT - GitHub Actions]]
