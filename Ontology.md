@@ -13,11 +13,12 @@ Semantics: Context and Bridges
 | [Ontology - Measures]                  | aggregates rows; counts answers; is_numeric<br>- answers "how much / how many" over a set of records<br>- COUNT, SUM, AVG, ratio<br>- depends on predicates (not vice-versa) |
 | [[Ontology - Metrics]                  | composes measures                                                                                                                                                            |
 | [[Ontology - Attribute vs Predicates]] | descriptive property of an entity. does **not** answer anything. <br>- column.<br>- can be used by predicates.<br>- **cannot** be used by measures                           |
-| [[Ontology - Metric vs Measure]]       |                                                                                                                                                                              |
+
 [[Ontology - Grain]]
 [[Ontology - Cohort]]
 [[Ontology - Human Error]]
 [[Ontology - Taxonomy]]
+
 
 [Ontology - Predicate vs Derived]
 

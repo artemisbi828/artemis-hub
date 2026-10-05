@@ -67,7 +67,7 @@ Clamwin --> Tower Anti-Virus
 [[PRJ - Ideas]]
 
 # Cash Projects
-[[Resume - Job Hunt]]
+[[PRJ - Job Search - Resume BI DBA]]
 $500 watch -- run w music no watch. 
   ai learning. quizzing. 
   txt reply. call. 

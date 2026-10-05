@@ -11,8 +11,8 @@ Here is how to bring it together in one skillet.
  * **1 cup** Chicken broth
  * **½ cup** Heavy cream
  * **1** Large lime (you'll use the juice and about ½ tsp of the zest)
- * **½ cup** Fresh cilantro, finely chopped
-## The Method
+ * **½ cup** Fresh cilantro, finely chipped r sweet at r to see s initial rd
+## The Met we we Drs stadium ds![[2026-08-19 1]]![[99 - Attachments/2026-08-19]]hod
 **Sear the chicken**
 *8-10 min*
 Season chicken generously with salt and pepper. Heat 1 tbsp olive oil and 1 tbsp butter in a large skillet over medium-high heat. Sear chicken until golden brown and cooked through (internal temp 165°F), about 4–5 minutes per side. Remove chicken and set aside on a plate.**Sauté the mushrooms**

@@ -1,4 +1,4 @@
-related-to: [[Git]]
+related-to: [[GIT]]
 ```
 jpascua@gmail.com --> slidesms.com
 jonas.pascua@artemis-bi.com (via google-account\jonas.pascua@artemisbi.com) --> artemisbi.com

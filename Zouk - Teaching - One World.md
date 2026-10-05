@@ -13,7 +13,7 @@ partner up! brazilian style - you're not sheep, you're human beings. I'm not goi
 START: mid-range or far-range
 BREATHE (slowest wins)
 mid-range -- slowest wins
-SWITCH: get used to swpitching. it's okay if you don't find someone, try later.
+SWITCH: get used to switching. it's okay if you don't find someone, try later.
 
 TOPIC OF THE CLASS: right and wrong?
 no true right and wrong. this is what's right and wrong to me.

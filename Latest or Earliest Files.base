@@ -1,0 +1,17 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - "!definition.isEmpty()"
+    order:
+      - definition
+      - file.path
+      - file.ctime
+    sort:
+      - property: file.ctime
+        direction: DESC
+      - property: file.path
+        direction: ASC
+      - property: definition
+        direction: ASC

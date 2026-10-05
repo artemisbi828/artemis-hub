@@ -1,0 +1,4 @@
+- authentication: keypair, okta sso, microsoft entra id, basic
+- username, encrypted private key, 
+- private key password
+- role, warehouse

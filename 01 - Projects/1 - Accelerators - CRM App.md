@@ -5,7 +5,7 @@ GOALS:
 	3. lineage tracing is faster -- less OneNote (retire old notes when solving problems)
 2. accelerate more with Obsidian
 	1. BlockID + Ctrl+Mouseover to see commonly used items --> identify examples
-3. accelerate more with [[Tools - Python|Python]] + [[Tools - Powershell|Powershell]] + [[Tools - AI Prompt - General]]
+3. accelerate more with [[Tools - Python|Python]] + [[Tools - Powershell|Powershell]] + [[AI Prompt - General]]
 	1. Powershell: [[PS - Navigate + Get - Filepaths, Files]]
 	2. [LLM - Gem]: Define a Concept, 
 
