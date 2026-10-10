@@ -31,3 +31,10 @@ COOK: T-1 hr
 - lemon juice at the end to reduce (taste)
 
 # Logs
+2026-10-08 03:02 PM -- 1/5 
+- **chicken -- overcooked, under-salted.** 
+	- brine didn't work, put in 4 l-spoon of salt but maybe need 8. also didn't let it sit in dry seasoning for an hour (only 20 min). 
+	- not enough olive oil. cooked in wok for 2 batches.
+- broth -- too thick. way too much flour.
+	- better on retry. just chicken broth w marsala slightly reduced. don't forget to taste test. don't bother doing prep-2 just apply and test. 
+- pasta -- overcooked (rubbery). cooked too early.

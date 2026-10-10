@@ -23,5 +23,6 @@
 # Special Food
 [[Cookbook - Seafood Boil]]
 
-
-sweet potato fries nutmeg cinnamon
+#### To-Do
+- shrimp. sherry broth. arbol chili
+- sweet potato fries nutmeg cinnamon

@@ -30,7 +30,7 @@ Work notes for Smile Doctors EDW / Project Ascend: concepts, metrics, SQL, dashb
 | `02 - Logs/` | Vault changelog (human + AI changes) |
 | `03 - Toolkit/` | Reusable how-tos: SQL, DAX, Git, PowerShell, mechanisms |
 | `Archive/` | Daily notes older than 10 days |
-| `Master Documents/` | Tag registry seed ([[_Master Object]]) and core definitions |
+| `Master Documents/` | Tag registry seed ([[_MOC - Metadata - Semantic - Domain Objects]]) and core definitions |
 | `WIP/` | Drafts and decision checklists (`tmp--` prefix) awaiting approval |
 | `98/99 - Attachments/` | Images and files |
 

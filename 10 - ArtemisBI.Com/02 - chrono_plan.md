@@ -9,7 +9,7 @@
 LLC - Start
 S-Corp: elect to upgrade status once expanded employees
 
-1. Linkedin.com → Reach out [[PRJ - Ideas|Dewayne Frazier (Nigeria)]] 
+1. Linkedin.com → Reach out [[PRJ - Business Ideas|Dewayne Frazier (Nigeria)]] 
 	1. → check out website → bitly, score traffic, registered hit 
 
 

@@ -64,7 +64,7 @@ Clamwin --> Tower Anti-Virus
 # Client Projects
 [[Mary Townsend - Publicis - Web Scraper]]
 [[PRJ - Hevelyn - Blackie-Carrot]]
-[[PRJ - Ideas]]
+[[PRJ - Business Ideas]]
 
 # Cash Projects
 [[PRJ - Job Search - Resume BI DBA]]

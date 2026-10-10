@@ -1,4 +1,29 @@
-
+> [!note] 2026-10-07 02:40 PM
+> cognitive load scoring model
+> hack into their system 
+> show them their map in a deck. 
+>   omg you know me
+>   recent thing for 2-3 levels below ceo
+> spotlight top.3 gaps 
+>   opportunity cost
+>   impact to p+l
+>   projection next year 
+> my fee
+> thesis: show semantic not code 
+>   whatever your team counters
+>     do it again and prove it 
+>    .show how calcs take industry but true cohort selection 
+>   define requirements.
+>     pass contradiction test. 
+>     past semantic collision test
+>     pass false equivalence test. 
+>   change the config. see output-diff 
+> biggest 3 issues 
+> next steps to engage. (mic drop)
+> 
+> users are weighted. (1 or factored (LT1 GT1).
+>   leadership (degree from mono-leader)
+>   participation points -- attendance, voting, volunteer + attendance. 
 
 List of ideas
 - salesperson or application for lavu POS (cheaper)

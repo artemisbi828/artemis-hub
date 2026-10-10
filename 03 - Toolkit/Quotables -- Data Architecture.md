@@ -10,7 +10,7 @@ control points
 ... the idea is ...
 
 [[Quotables - Materialized vs Propagated vs Hydrated]]
-
+[[Mechanism - High Level Data Architectural Flows]]
 
 ## Dangling
 Opposite of orphan. Unreferenced by facts.

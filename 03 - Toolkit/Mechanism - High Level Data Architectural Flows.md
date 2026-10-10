@@ -1,5 +1,76 @@
 related-to: [Ontology], [Ontology - Analytical Ontology]
 
+```
+## LOADS (by-source, by-object (API))
+full-load
+incremental: by watermark; by bkey + stamp
+data-freshness-assertions
+
+## DATA OPS
+### Sanitization
+### Dimension 
+dimension-seed; 
+dimension-tracking; (inserts vs changes)
+change-tracking-traceability; governance-approval-workflow; overrides
+completenes
+  orphan -- lost parent
+  vilomah / unbound / dangling -- lost child
+
+### Definitions + Calcs (Logic)
+stages -- population-input --> apply-framework-factor --> output
+measure-calcs -- procs-or-query to create attributes + flags
+  single-responsibility-principle (1:1 || attribute:process)
+attribution-model
+  waterfall :: remainder method
+  best-fit
+recognition-model
+  white-list -- inclusion-factor
+  black-list -- exclusion-factor
+  nulls -- silent-failure
+fan-in -- n:1
+fan-out -- 1:n
+cohort; grain-or-aggregate
+predictive-model (+t)
+  back-tested (-t)
+
+### Objects
+business-keys
+axis (l-w-h attributes) -- rows, columns, rank
+
+### Error Grain
+red -- guardrail
+yellow -- advisory
+
+### Gates
+history-gates (freeze / block late arriving data)
+history-override
+history-enrichment --> goal-enrichment
+
+## ASSERTIONS
+bands -- outlier-detection, constraints-factor
+relative-rank: first, last, top3 / limit
+date-allowance
+grains + cohort
+  aggregates -- numerator vs denominator
+
+### CONSUMPTION 
+  filter-layer. by page. by area.
+  shields. by measure. by area.
+  
+### PROCESS-ADMIN
+  ad-hoc-trigger: log
+  batch task
+  listen --> worker wakes up
+  process batch + log start time
+  send
+  echo-receipt
+  
+```
+
+
+
+
+
 Canonical Layer is everything after `Normalization` --> `Metrics & KPIs`
 
 ```

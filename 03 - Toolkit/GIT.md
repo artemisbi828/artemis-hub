@@ -3,6 +3,7 @@ related_to:
   - "[CI/CD]"
 ---
 # Current Commands
+[[GIT - Cheat Sheet]]
 
 ```
 # most common
@@ -19,7 +20,12 @@ git branch -r
                      
 ```
 
+[[GIT - Config for SD + Artemis ]]
+[[GIT - Authorship]]
 # Git Setup + Basics
+[[GIT - Pull + Merge]]
+[[GIT - See + Delete Local Branches]]
+
 [[GIT - High Level Overview]]
 [[GIT - Ignore vs Exclude]]
 [[GIT - Cancel or Undo]]
@@ -32,9 +38,10 @@ git branch -r
 [[GIT - Amend Commit]]
 
 
+
 [[GIT - Origin vs Main vs Master]]
 [[GIT - Get Origin URL + Branches]]
-[[GIT - Pull + Merge]]
+
 [[GIT - Oops - Reset + Merge Branch]]
 [[GIT - Add New Column + Merge + Targeted Sync]]
 
@@ -53,7 +60,6 @@ Look for .msi → windows
 [[GIT - Error Handling - Stuck in VS Termainl]]
 [[GIT - Error Handling - Remote Not Found]]
 [[GIT - Error Handling - Table Compatibility Issue]]
-[[GIT - Error Handling - 403 Wrong Account + Fork Prompt]]
 
 # Advanced
 [[GIT - GitHub Actions]]

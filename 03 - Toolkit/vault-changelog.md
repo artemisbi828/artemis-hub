@@ -32,3 +32,11 @@ Append-only, oldest first. One row per change set. `Actor` = human | ai. `Commit
 |---|---|---|---|---|
 | -- | ai | Created `2026-10-05.md` with Git checkpoint guidance and the `DNE` definition | Preserve today's decision and shorthand for later reference | |
 | -- | ai | Added PR 1355 payment-plan flag review summary and local SQLMesh file paths to `2026-10-05.md` | Preserve the silent-failure example and what Adrien's regression tests prove | |
+
+## 2026-10-07
+
+| Time | Actor | Change | Why | Commit |
+|---|---|---|---|---|
+| -- | ai | Created WIP draft `tmp--20261007--sqlmesh-model-pr/SKILL.md` and PR description asset | Capture the SQLMesh PR workflow, minimal #1388 style, naming rules, and recurring test/CI pitfalls for review | |
+| -- | ai | Created `2026-10-07.md` and `2026-10-07 - Parking Lot - Governed TX Plan Views.md` | Link today's ACV PR to the parked governed-only contract classification follow-up | |
+| -- | ai | Added explicit venv/pre-commit gate to the WIP SQLMesh PR skill; created `Manual EOD Session Journal Runbook.md`; linked it from `2026-10-07.md` | Prevent repeat hook PATH failure and document manual Copilot transcript close-out | |

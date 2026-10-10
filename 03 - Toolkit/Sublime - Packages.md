@@ -44,3 +44,6 @@ class TSqlFormatterCommand(sublime_plugin.TextCommand):
 "command": "t_sql_formatter"
 ```
 
+![[Pasted image 20261006130825.png]]
+
+![[Pasted image 20261006130859.png]]

@@ -1,3 +1,16 @@
+# Main Commands
+```git
+# 
+git switch main
+git reset --hard origin/main
+git status -sb
+
+# if switch main doesn't exist locally
+git switch --track -c main origin/main
+git status-sb
+```
+
+
 
 Merge `PROD004` → `UAT003` and bias to `PROD004`
 
